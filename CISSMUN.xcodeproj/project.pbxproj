@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		9A9FC04C1ED5D165006E95A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FC04B1ED5D165006E95A1 /* AppDelegate.swift */; };
 		9A9FC04E1ED5D165006E95A1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FC04D1ED5D165006E95A1 /* FirstViewController.swift */; };
-		9A9FC0501ED5D165006E95A1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FC04F1ED5D165006E95A1 /* SecondViewController.swift */; };
+		9A9FC0501ED5D165006E95A1 /* MUNHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FC04F1ED5D165006E95A1 /* MUNHomeViewController.swift */; };
 		9A9FC0531ED5D165006E95A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9FC0511ED5D165006E95A1 /* Main.storyboard */; };
 		9A9FC0551ED5D165006E95A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9FC0541ED5D165006E95A1 /* Assets.xcassets */; };
 		9A9FC0581ED5D165006E95A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9FC0561ED5D165006E95A1 /* LaunchScreen.storyboard */; };
+		9AC54D2E1EE84B3700E87B88 /* MUNMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC54D2D1EE84B3700E87B88 /* MUNMapViewController.swift */; };
+		9AC54D321EE84BB900E87B88 /* GINHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC54D311EE84BB900E87B88 /* GINHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A9FC0481ED5D165006E95A1 /* CISSMUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CISSMUN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9FC04B1ED5D165006E95A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A9FC04D1ED5D165006E95A1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9A9FC04F1ED5D165006E95A1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9A9FC04F1ED5D165006E95A1 /* MUNHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUNHomeViewController.swift; sourceTree = "<group>"; };
 		9A9FC0521ED5D165006E95A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A9FC0541ED5D165006E95A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A9FC0571ED5D165006E95A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A9FC0591ED5D165006E95A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC54D2D1EE84B3700E87B88 /* MUNMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUNMapViewController.swift; sourceTree = "<group>"; };
+		9AC54D311EE84BB900E87B88 /* GINHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,10 @@
 		9A9FC04A1ED5D165006E95A1 /* CISSMUN */ = {
 			isa = PBXGroup;
 			children = (
+				9AC54D301EE84B7E00E87B88 /* GIN */,
+				9AC54D2F1EE84B7000E87B88 /* MUN */,
 				9A9FC04B1ED5D165006E95A1 /* AppDelegate.swift */,
 				9A9FC04D1ED5D165006E95A1 /* FirstViewController.swift */,
-				9A9FC04F1ED5D165006E95A1 /* SecondViewController.swift */,
 				9A9FC0511ED5D165006E95A1 /* Main.storyboard */,
 				9A9FC0541ED5D165006E95A1 /* Assets.xcassets */,
 				9A9FC0561ED5D165006E95A1 /* LaunchScreen.storyboard */,
@@ -66,6 +71,23 @@
 			);
 			name = CISSMUN;
 			path = GIN;
+			sourceTree = "<group>";
+		};
+		9AC54D2F1EE84B7000E87B88 /* MUN */ = {
+			isa = PBXGroup;
+			children = (
+				9A9FC04F1ED5D165006E95A1 /* MUNHomeViewController.swift */,
+				9AC54D2D1EE84B3700E87B88 /* MUNMapViewController.swift */,
+			);
+			name = MUN;
+			sourceTree = "<group>";
+		};
+		9AC54D301EE84B7E00E87B88 /* GIN */ = {
+			isa = PBXGroup;
+			children = (
+				9AC54D311EE84BB900E87B88 /* GINHomeViewController.swift */,
+			);
+			name = GIN;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9FC0501ED5D165006E95A1 /* SecondViewController.swift in Sources */,
+				9A9FC0501ED5D165006E95A1 /* MUNHomeViewController.swift in Sources */,
 				9A9FC04C1ED5D165006E95A1 /* AppDelegate.swift in Sources */,
+				9AC54D2E1EE84B3700E87B88 /* MUNMapViewController.swift in Sources */,
 				9A9FC04E1ED5D165006E95A1 /* FirstViewController.swift in Sources */,
+				9AC54D321EE84BB900E87B88 /* GINHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

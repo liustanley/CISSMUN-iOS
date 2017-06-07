@@ -60,12 +60,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1688.8" y="-320.68965517241384"/>
+            <point key="canvasLocation" x="1652" y="-785"/>
         </scene>
-        <!--Second-->
+        <!--Home-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="MUNHomeViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -96,11 +96,49 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="second" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="750" y="-9"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="wC7-SQ-z6n">
+            <objects>
+                <viewController id="yFK-AK-Xcg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ib1-It-le7"/>
+                        <viewControllerLayoutGuide type="bottom" id="m75-dv-Ovc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="15R-3M-WIW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="gVM-6P-Yq5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aPL-dz-USw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-526" y="759"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Z8r-MY-f6S">
+            <objects>
+                <viewController id="qtl-lD-hPh" customClass="MUNMapViewController" customModule="CISSMUN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3mG-bv-JqH"/>
+                        <viewControllerLayoutGuide type="bottom" id="f0c-41-mFQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2zI-H3-Oo9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="q5n-UJ-BXQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="759"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dXl-3i-UcF">
@@ -166,7 +204,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YLb-Gd-vMn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-988" y="-9.4452773613193415"/>
+            <point key="canvasLocation" x="-1764" y="-9"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -180,18 +218,40 @@
                     </tabBar>
                     <connections>
                         <segue destination="iyI-bE-L9U" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="qtl-lD-hPh" kind="relationship" relationship="viewControllers" id="1hK-Jf-ZA3"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="xUa-EH-L2e" kind="relationship" relationship="viewControllers" id="h9u-kJ-rdt"/>
+                        <segue destination="yFK-AK-Xcg" kind="relationship" relationship="viewControllers" id="32e-Mn-bbZ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-546" y="-9"/>
         </scene>
-        <!--First-->
+        <!--Item-->
+        <scene sceneID="EQd-y2-bFG">
+            <objects>
+                <viewController id="xUa-EH-L2e" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="84h-mK-oYj"/>
+                        <viewControllerLayoutGuide type="bottom" id="lIr-kQ-eUK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l6i-Kl-45O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="2IG-33-VrK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyJ-vG-mIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-526" y="-784"/>
+        </scene>
+        <!--Navigation Controller-->
         <scene sceneID="1ns-25-Est">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iyI-bE-L9U" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="h1P-gX-Tmh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -204,12 +264,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W8i-EP-Y3U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+            <point key="canvasLocation" x="750" y="-785"/>
         </scene>
     </scenes>
     <resources>
         <image name="ConcordiaLogo" width="662" height="568"/>
-        <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
