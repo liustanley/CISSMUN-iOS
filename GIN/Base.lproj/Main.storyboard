@@ -21,8 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="109" y="313" width="158" height="42"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="ur mom" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                                <rect key="frame" x="127" y="313" width="122.5" height="42"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -41,6 +41,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nwe-7l-9JW">
+                                <rect key="frame" x="148" y="518" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -60,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1652" y="-785"/>
+            <point key="canvasLocation" x="1652" y="-785.75712143928047"/>
         </scene>
         <!--Home-->
         <scene sceneID="wg7-f3-ORb">
@@ -102,7 +107,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="-9"/>
         </scene>
-        <!--Item-->
+        <!--Shanghai-->
         <scene sceneID="wC7-SQ-z6n">
             <objects>
                 <viewController id="yFK-AK-Xcg" sceneMemberID="viewController">
@@ -115,13 +120,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="gVM-6P-Yq5"/>
+                    <tabBarItem key="tabBarItem" title="Shanghai" id="gVM-6P-Yq5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aPL-dz-USw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-526" y="759"/>
         </scene>
-        <!--Item-->
+        <!--Map-->
         <scene sceneID="Z8r-MY-f6S">
             <objects>
                 <viewController id="qtl-lD-hPh" customClass="MUNMapViewController" customModule="CISSMUN" sceneMemberID="viewController">
@@ -134,7 +139,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="q5n-UJ-BXQ"/>
+                    <tabBarItem key="tabBarItem" title="Map" id="q5n-UJ-BXQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -217,10 +222,10 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="iyI-bE-L9U" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="qtl-lD-hPh" kind="relationship" relationship="viewControllers" id="1hK-Jf-ZA3"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="xUa-EH-L2e" kind="relationship" relationship="viewControllers" id="h9u-kJ-rdt"/>
+                        <segue destination="iyI-bE-L9U" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="qtl-lD-hPh" kind="relationship" relationship="viewControllers" id="1hK-Jf-ZA3"/>
                         <segue destination="yFK-AK-Xcg" kind="relationship" relationship="viewControllers" id="32e-Mn-bbZ"/>
                     </connections>
                 </tabBarController>
@@ -228,7 +233,7 @@
             </objects>
             <point key="canvasLocation" x="-546" y="-9"/>
         </scene>
-        <!--Item-->
+        <!--Procedure-->
         <scene sceneID="EQd-y2-bFG">
             <objects>
                 <viewController id="xUa-EH-L2e" sceneMemberID="viewController">
@@ -241,17 +246,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="2IG-33-VrK"/>
+                    <tabBarItem key="tabBarItem" title="Procedure" id="2IG-33-VrK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xyJ-vG-mIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-526" y="-784"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Schedule-->
         <scene sceneID="1ns-25-Est">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iyI-bE-L9U" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="featured" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Schedule" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="h1P-gX-Tmh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
