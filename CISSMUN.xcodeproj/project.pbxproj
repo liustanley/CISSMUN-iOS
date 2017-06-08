@@ -15,6 +15,7 @@
 		9A9FC0581ED5D165006E95A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9FC0561ED5D165006E95A1 /* LaunchScreen.storyboard */; };
 		9AC54D2E1EE84B3700E87B88 /* MUNMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC54D2D1EE84B3700E87B88 /* MUNMapViewController.swift */; };
 		9AC54D321EE84BB900E87B88 /* GINHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC54D311EE84BB900E87B88 /* GINHomeViewController.swift */; };
+		F345E84A1EE9189E009ABAFC /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345E8491EE9189E009ABAFC /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9A9FC0591ED5D165006E95A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AC54D2D1EE84B3700E87B88 /* MUNMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUNMapViewController.swift; sourceTree = "<group>"; };
 		9AC54D311EE84BB900E87B88 /* GINHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINHomeViewController.swift; sourceTree = "<group>"; };
+		F345E8491EE9189E009ABAFC /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				9A9FC0541ED5D165006E95A1 /* Assets.xcassets */,
 				9A9FC0561ED5D165006E95A1 /* LaunchScreen.storyboard */,
 				9A9FC0591ED5D165006E95A1 /* Info.plist */,
+				F345E8491EE9189E009ABAFC /* Test.swift */,
 			);
 			name = CISSMUN;
 			path = GIN;
@@ -168,6 +171,7 @@
 				9AC54D2E1EE84B3700E87B88 /* MUNMapViewController.swift in Sources */,
 				9A9FC04E1ED5D165006E95A1 /* FirstViewController.swift in Sources */,
 				9AC54D321EE84BB900E87B88 /* GINHomeViewController.swift in Sources */,
+				F345E84A1EE9189E009ABAFC /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
