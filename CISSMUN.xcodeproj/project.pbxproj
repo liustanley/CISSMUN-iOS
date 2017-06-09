@@ -15,6 +15,7 @@
 		9A9FC0581ED5D165006E95A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9FC0561ED5D165006E95A1 /* LaunchScreen.storyboard */; };
 		9AC54D2E1EE84B3700E87B88 /* MUNMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC54D2D1EE84B3700E87B88 /* MUNMapViewController.swift */; };
 		9AC54D321EE84BB900E87B88 /* GINHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC54D311EE84BB900E87B88 /* GINHomeViewController.swift */; };
+		9AD5687A1EEAB911001D1584 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD568791EEAB911001D1584 /* WelcomeViewController.swift */; };
 		9AE0A3291EE92AAC0078144B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE0A3281EE92AAC0078144B /* SettingsTableViewController.swift */; };
 		9AFA21511EE9264C006E677E /* GINKeynoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA21501EE9264C006E677E /* GINKeynoteViewController.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		9A9FC0591ED5D165006E95A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AC54D2D1EE84B3700E87B88 /* MUNMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUNMapViewController.swift; sourceTree = "<group>"; };
 		9AC54D311EE84BB900E87B88 /* GINHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINHomeViewController.swift; sourceTree = "<group>"; };
+		9AD568791EEAB911001D1584 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		9AE0A3281EE92AAC0078144B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		9AFA21501EE9264C006E677E /* GINKeynoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINKeynoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 				9A9FC0561ED5D165006E95A1 /* LaunchScreen.storyboard */,
 				9A9FC0591ED5D165006E95A1 /* Info.plist */,
 				9AE0A3281EE92AAC0078144B /* SettingsTableViewController.swift */,
+				9AD568791EEAB911001D1584 /* WelcomeViewController.swift */,
 			);
 			name = CISSMUN;
 			path = GIN;
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A9FC0501ED5D165006E95A1 /* MUNHomeViewController.swift in Sources */,
+				9AD5687A1EEAB911001D1584 /* WelcomeViewController.swift in Sources */,
 				9A9FC04C1ED5D165006E95A1 /* AppDelegate.swift in Sources */,
 				9AC54D2E1EE84B3700E87B88 /* MUNMapViewController.swift in Sources */,
 				9A9FC04E1ED5D165006E95A1 /* MUNScheduleViewController.swift in Sources */,
