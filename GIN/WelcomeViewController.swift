@@ -14,13 +14,14 @@ class WelcomeViewController: UIViewController {
     @IBOutlet weak var GINASIA: UIButton!
     
     override func viewDidLoad() {
+        CISSMUN.titleLabel?.numberOfLines = 1
+        CISSMUN.titleLabel?.adjustsFontSizeToFitWidth = true
+        GINASIA.titleLabel?.numberOfLines = 1
+        GINASIA.titleLabel?.adjustsFontSizeToFitWidth = true
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        CISSMUN.titleLabel?.numberOfLines = 0
-        CISSMUN.titleLabel?.adjustsFontSizeToFitWidth = true
-        GINASIA.titleLabel?.numberOfLines = 0
-        GINASIA.titleLabel?.adjustsFontSizeToFitWidth = true
+        
     }
 
     override func didReceiveMemoryWarning() {
