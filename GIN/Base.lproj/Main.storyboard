@@ -190,7 +190,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2861" y="2658"/>
+            <point key="canvasLocation" x="-234" y="1644"/>
         </scene>
         <!--Shanghai-->
         <scene sceneID="wC7-SQ-z6n">
@@ -684,8 +684,8 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="TPW-Dx-ix0"/>
         <segue reference="32e-Mn-bbZ"/>
+        <segue reference="FkZ-E9-sKT"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
