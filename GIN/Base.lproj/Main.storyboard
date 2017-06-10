@@ -5,7 +5,7 @@
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -280,9 +280,8 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="qDZ-FV-2H5" userLabel="Lavender Text">
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="qDZ-FV-2H5" userLabel="Lavender Text">
                                 <rect key="frame" x="16" y="20" width="209" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="LeeAnne Lavender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXS-NH-d68">
                                         <rect key="frame" x="0.0" y="0.0" width="209" height="34.5"/>
@@ -297,12 +296,15 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="sXS-NH-d68" firstAttribute="centerY" secondItem="qDZ-FV-2H5" secondAttribute="centerY" constant="-9.75" id="NlL-qs-Tkm"/>
+                                    <constraint firstItem="sXS-NH-d68" firstAttribute="centerX" secondItem="qDZ-FV-2H5" secondAttribute="centerX" id="dZt-aW-Ai6"/>
+                                </constraints>
                             </stackView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clG-sc-HoU">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clG-sc-HoU">
                                 <rect key="frame" x="13" y="96" width="159" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -314,12 +316,17 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lavender_leeanne" translatesAutoresizingMaskIntoConstraints="NO" id="zgt-5c-N7x">
-                                <rect key="frame" x="183" y="45" width="121" height="121"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lavender_leeanne" translatesAutoresizingMaskIntoConstraints="NO" id="zgt-5c-N7x">
+                                <rect key="frame" x="183" y="51" width="121" height="121"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zgt-5c-N7x" firstAttribute="centerX" secondItem="Wip-Cn-KLX" secondAttribute="centerX" constant="83.5" id="2S5-l7-GwE"/>
+                            <constraint firstItem="clG-sc-HoU" firstAttribute="centerX" secondItem="Wip-Cn-KLX" secondAttribute="centerX" constant="-67.5" id="KWZ-WV-D4G"/>
+                            <constraint firstItem="zgt-5c-N7x" firstAttribute="centerY" secondItem="Wip-Cn-KLX" secondAttribute="centerY" constant="-140.5" id="LsD-ms-9Ln"/>
+                            <constraint firstItem="clG-sc-HoU" firstAttribute="centerY" secondItem="Wip-Cn-KLX" secondAttribute="centerY" constant="-112.5" id="i1V-j5-e8t"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="GINASIA" id="K2Y-Vx-vaD">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="gqj-RY-xME">
