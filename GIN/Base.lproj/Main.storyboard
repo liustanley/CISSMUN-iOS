@@ -119,7 +119,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LzR-nJ-m0u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1764" y="2415.7421289355325"/>
+            <point key="canvasLocation" x="-1641" y="2763"/>
         </scene>
         <!--CISSMUN IX-->
         <scene sceneID="wg7-f3-ORb">
@@ -190,7 +190,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-234" y="1644"/>
+            <point key="canvasLocation" x="570" y="1585"/>
         </scene>
         <!--Shanghai-->
         <scene sceneID="wC7-SQ-z6n">
@@ -666,15 +666,7 @@
                     <color key="tintColor" red="1" green="1" blue="1" alpha="0.30110231160000001" colorSpace="calibratedRGB"/>
                 </imageView>
             </objects>
-            <point key="canvasLocation" x="-1764" y="1584.5577211394304"/>
-        </scene>
-        <!--AV Player View Controller-->
-        <scene sceneID="zbA-L1-vXQ">
-            <objects>
-                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="gEV-ae-vMc" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6bV-EO-HmT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-4328" y="1532"/>
+            <point key="canvasLocation" x="-1539" y="1928"/>
         </scene>
     </scenes>
     <resources>
