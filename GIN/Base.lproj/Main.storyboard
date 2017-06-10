@@ -298,21 +298,20 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="sXS-NH-d68" firstAttribute="centerY" secondItem="qDZ-FV-2H5" secondAttribute="centerY" constant="-9.75" id="NlL-qs-Tkm"/>
+                                    <constraint firstItem="QXk-yG-XtN" firstAttribute="centerY" secondItem="qDZ-FV-2H5" secondAttribute="centerY" constant="17.25" id="Qwu-Ta-XXL"/>
+                                    <constraint firstItem="QXk-yG-XtN" firstAttribute="centerX" secondItem="qDZ-FV-2H5" secondAttribute="centerX" constant="-64.75" id="X1Q-pM-bsq"/>
                                     <constraint firstItem="sXS-NH-d68" firstAttribute="centerX" secondItem="qDZ-FV-2H5" secondAttribute="centerX" id="dZt-aW-Ai6"/>
                                 </constraints>
                             </stackView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clG-sc-HoU">
-                                <rect key="frame" x="13" y="96" width="159" height="87"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="some more placeholder text" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clG-sc-HoU">
+                                <rect key="frame" x="12" y="123.5" width="161" height="32.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ksn-AG-5BB">
-                                <rect key="frame" x="13" y="164" width="291" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="place holder text" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ksn-AG-5BB">
+                                <rect key="frame" x="108" y="191" width="101" height="32.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -322,10 +321,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Ksn-AG-5BB" firstAttribute="centerX" secondItem="Wip-Cn-KLX" secondAttribute="centerX" constant="-1.5" id="0Zf-lf-kzS"/>
                             <constraint firstItem="zgt-5c-N7x" firstAttribute="centerX" secondItem="Wip-Cn-KLX" secondAttribute="centerX" constant="83.5" id="2S5-l7-GwE"/>
-                            <constraint firstItem="clG-sc-HoU" firstAttribute="centerX" secondItem="Wip-Cn-KLX" secondAttribute="centerX" constant="-67.5" id="KWZ-WV-D4G"/>
+                            <constraint firstItem="Ksn-AG-5BB" firstAttribute="centerY" secondItem="Wip-Cn-KLX" secondAttribute="centerY" constant="-44.75" id="Bal-NQ-q81"/>
                             <constraint firstItem="zgt-5c-N7x" firstAttribute="centerY" secondItem="Wip-Cn-KLX" secondAttribute="centerY" constant="-140.5" id="LsD-ms-9Ln"/>
-                            <constraint firstItem="clG-sc-HoU" firstAttribute="centerY" secondItem="Wip-Cn-KLX" secondAttribute="centerY" constant="-112.5" id="i1V-j5-e8t"/>
+                            <constraint firstItem="clG-sc-HoU" firstAttribute="centerX" secondItem="Wip-Cn-KLX" secondAttribute="centerX" constant="-67.5" id="VRh-lg-dxC"/>
+                            <constraint firstItem="clG-sc-HoU" firstAttribute="centerY" secondItem="Wip-Cn-KLX" secondAttribute="centerY" constant="-112.5" id="wnU-G8-BXI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="GINASIA" id="K2Y-Vx-vaD">
@@ -609,14 +610,6 @@
                 </imageView>
             </objects>
             <point key="canvasLocation" x="-1764" y="1584.5577211394304"/>
-        </scene>
-        <!--AV Player View Controller-->
-        <scene sceneID="zbA-L1-vXQ">
-            <objects>
-                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="gEV-ae-vMc" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6bV-EO-HmT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-4328" y="1532"/>
         </scene>
     </scenes>
     <resources>
