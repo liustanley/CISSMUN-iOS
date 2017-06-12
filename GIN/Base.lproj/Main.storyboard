@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="o2G-re-336">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="o2G-re-336">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -133,187 +133,197 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="x8G-dD-H8N" userLabel="Main Stack View">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="x8G-dD-H8N" userLabel="Main Stack View">
                                 <rect key="frame" x="20" y="20" width="280" height="415"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4Fu-P9-PrT" userLabel="Paulson Top">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="x1e-tE-eGn" userLabel="Paulson Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="207.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rm3-Ys-KVe">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4Fu-P9-PrT" userLabel="Paulson Top">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMp-t4-stK">
-                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="60.5"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rm3-Ys-KVe">
+                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Erik Paulson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="f2w-JS-bgV">
-                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="44"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="32"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CISSMUN Director" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="GXJ-PD-far">
-                                                                <rect key="frame" x="0.0" y="35" width="116" height="19.5"/>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMp-t4-stK">
+                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="60.5"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Erik Paulson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="f2w-JS-bgV">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="44"/>
+                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="32"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CISSMUN Director" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="GXJ-PD-far">
+                                                                        <rect key="frame" x="0.0" y="35" width="116" height="19.5"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="trailing" secondItem="f2w-JS-bgV" secondAttribute="trailing" id="Cf3-nh-PzZ"/>
+                                                                    <constraint firstItem="f2w-JS-bgV" firstAttribute="leading" secondItem="EMp-t4-stK" secondAttribute="leading" id="WT5-HJ-B0C"/>
+                                                                    <constraint firstItem="f2w-JS-bgV" firstAttribute="top" secondItem="EMp-t4-stK" secondAttribute="top" id="ybD-q8-y5Y"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RLo-7X-LFe">
+                                                                <rect key="frame" x="0.0" y="72.5" width="135" height="63.5"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Umo-d6-num">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="63.5"/>
+                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="Umo-d6-num" firstAttribute="leading" secondItem="RLo-7X-LFe" secondAttribute="leading" id="4rz-mz-riB"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="Umo-d6-num" secondAttribute="trailing" id="Sic-Jl-2kc"/>
+                                                                    <constraint firstItem="Umo-d6-num" firstAttribute="top" secondItem="RLo-7X-LFe" secondAttribute="top" id="XQN-42-agV"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="Umo-d6-num" secondAttribute="bottom" id="atC-JN-jcm"/>
+                                                                </constraints>
+                                                            </view>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="EMp-t4-stK" firstAttribute="top" secondItem="rm3-Ys-KVe" secondAttribute="top" id="IMD-Sx-0co"/>
+                                                            <constraint firstItem="EMp-t4-stK" firstAttribute="leading" secondItem="rm3-Ys-KVe" secondAttribute="leading" id="aB5-W7-YPq"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Sg-KR-Y1u">
+                                                        <rect key="frame" x="145" y="0.0" width="135" height="136"/>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paulson_erik" translatesAutoresizingMaskIntoConstraints="NO" id="taz-dK-0qg">
+                                                                <rect key="frame" x="7" y="7" width="121" height="121"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
+                                                            </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="f2w-JS-bgV" secondAttribute="trailing" id="Cf3-nh-PzZ"/>
-                                                            <constraint firstItem="f2w-JS-bgV" firstAttribute="leading" secondItem="EMp-t4-stK" secondAttribute="leading" id="WT5-HJ-B0C"/>
-                                                            <constraint firstItem="f2w-JS-bgV" firstAttribute="top" secondItem="EMp-t4-stK" secondAttribute="top" id="ybD-q8-y5Y"/>
-                                                        </constraints>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RLo-7X-LFe">
-                                                        <rect key="frame" x="0.0" y="72.5" width="135" height="63.5"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Umo-d6-num">
-                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63.5"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <constraints>
-                                                            <constraint firstItem="Umo-d6-num" firstAttribute="leading" secondItem="RLo-7X-LFe" secondAttribute="leading" id="4rz-mz-riB"/>
-                                                            <constraint firstAttribute="trailing" secondItem="Umo-d6-num" secondAttribute="trailing" id="Sic-Jl-2kc"/>
-                                                            <constraint firstItem="Umo-d6-num" firstAttribute="top" secondItem="RLo-7X-LFe" secondAttribute="top" id="XQN-42-agV"/>
-                                                            <constraint firstAttribute="bottom" secondItem="Umo-d6-num" secondAttribute="bottom" id="atC-JN-jcm"/>
+                                                            <constraint firstAttribute="width" constant="135" id="8DN-fn-wV7"/>
+                                                            <constraint firstAttribute="height" constant="136" id="YSH-so-A29"/>
                                                         </constraints>
                                                     </view>
                                                 </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="EMp-t4-stK" firstAttribute="top" secondItem="rm3-Ys-KVe" secondAttribute="top" id="IMD-Sx-0co"/>
-                                                    <constraint firstItem="EMp-t4-stK" firstAttribute="leading" secondItem="rm3-Ys-KVe" secondAttribute="leading" id="aB5-W7-YPq"/>
-                                                </constraints>
                                             </stackView>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Sg-KR-Y1u">
-                                                <rect key="frame" x="145" y="0.0" width="135" height="136"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lPb-GD-m3Y" userLabel="Paulson Bottom">
+                                                <rect key="frame" x="0.0" y="136" width="280" height="71.5"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paulson_erik" translatesAutoresizingMaskIntoConstraints="NO" id="taz-dK-0qg">
-                                                        <rect key="frame" x="7" y="7" width="121" height="121"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="LjA-7B-CIs">
+                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="71.5"/>
+                                                        <string key="text">stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend</string>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="135" id="8DN-fn-wV7"/>
-                                                    <constraint firstAttribute="height" constant="136" id="YSH-so-A29"/>
+                                                    <constraint firstItem="LjA-7B-CIs" firstAttribute="top" secondItem="lPb-GD-m3Y" secondAttribute="top" id="EOY-Q8-PMe"/>
+                                                    <constraint firstItem="LjA-7B-CIs" firstAttribute="leading" secondItem="lPb-GD-m3Y" secondAttribute="leading" id="e4M-CA-6ih"/>
+                                                    <constraint firstAttribute="trailing" secondItem="LjA-7B-CIs" secondAttribute="trailing" id="iRT-VQ-T7p"/>
+                                                    <constraint firstAttribute="bottom" secondItem="LjA-7B-CIs" secondAttribute="bottom" id="jid-My-enY"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                     </stackView>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lPb-GD-m3Y" userLabel="Paulson Bottom">
-                                        <rect key="frame" x="0.0" y="136" width="280" height="60"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wg7-dN-ESS" userLabel="Katherine Stack View">
+                                        <rect key="frame" x="0.0" y="207.5" width="280" height="207.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="LjA-7B-CIs">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="60"/>
-                                                <string key="text">stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend</string>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstItem="LjA-7B-CIs" firstAttribute="top" secondItem="lPb-GD-m3Y" secondAttribute="top" id="EOY-Q8-PMe"/>
-                                            <constraint firstItem="LjA-7B-CIs" firstAttribute="leading" secondItem="lPb-GD-m3Y" secondAttribute="leading" id="e4M-CA-6ih"/>
-                                            <constraint firstAttribute="trailing" secondItem="LjA-7B-CIs" secondAttribute="trailing" id="iRT-VQ-T7p"/>
-                                            <constraint firstAttribute="bottom" secondItem="LjA-7B-CIs" secondAttribute="bottom" id="jid-My-enY"/>
-                                        </constraints>
-                                    </view>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NCW-SO-VLv" userLabel="Katherine Top">
-                                        <rect key="frame" x="0.0" y="196" width="280" height="136"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Qo2-ta-m6D">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NCW-SO-VLv" userLabel="Katherine Top">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fyl-ad-38i">
-                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="60.5"/>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ZT-3z-lKa">
+                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Katherine Hou" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="YbD-ZS-gO8">
-                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="44"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="32"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Secretary General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Pye-uw-Zeq">
-                                                                <rect key="frame" x="0.0" y="35" width="116" height="19.5"/>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paulson_erik" translatesAutoresizingMaskIntoConstraints="NO" id="EM8-fF-t1f">
+                                                                <rect key="frame" x="-8" y="7" width="121" height="121"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
+                                                            </imageView>
                                                         </subviews>
-                                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         <constraints>
-                                                            <constraint firstItem="YbD-ZS-gO8" firstAttribute="leading" secondItem="Fyl-ad-38i" secondAttribute="leading" id="eUP-XI-uMy"/>
-                                                            <constraint firstAttribute="trailing" secondItem="YbD-ZS-gO8" secondAttribute="trailing" id="hvM-by-FFv"/>
-                                                            <constraint firstItem="YbD-ZS-gO8" firstAttribute="top" secondItem="Fyl-ad-38i" secondAttribute="top" id="yco-Xk-GFS"/>
+                                                            <constraint firstAttribute="width" constant="135" id="QlB-2d-vBp"/>
+                                                            <constraint firstAttribute="height" constant="136" id="zgE-Av-VTg"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IuY-Q2-cg4">
-                                                        <rect key="frame" x="0.0" y="72.5" width="135" height="63.5"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Qo2-ta-m6D">
+                                                        <rect key="frame" x="145" y="0.0" width="135" height="136"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="vLy-3W-xsE">
-                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63.5"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fyl-ad-38i">
+                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="60.5"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Katherine Hou" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="YbD-ZS-gO8">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="44"/>
+                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="32"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Secretary General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Pye-uw-Zeq">
+                                                                        <rect key="frame" x="0.0" y="35" width="116" height="19.5"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="YbD-ZS-gO8" firstAttribute="leading" secondItem="Fyl-ad-38i" secondAttribute="leading" id="eUP-XI-uMy"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="YbD-ZS-gO8" secondAttribute="trailing" id="hvM-by-FFv"/>
+                                                                    <constraint firstItem="YbD-ZS-gO8" firstAttribute="top" secondItem="Fyl-ad-38i" secondAttribute="top" id="yco-Xk-GFS"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IuY-Q2-cg4">
+                                                                <rect key="frame" x="0.0" y="72.5" width="135" height="63.5"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="vLy-3W-xsE">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="63.5"/>
+                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="trailing" secondItem="vLy-3W-xsE" secondAttribute="trailing" id="hRs-G6-Fn4"/>
+                                                                    <constraint firstItem="vLy-3W-xsE" firstAttribute="top" secondItem="IuY-Q2-cg4" secondAttribute="top" id="qpQ-cz-p4f"/>
+                                                                    <constraint firstItem="vLy-3W-xsE" firstAttribute="leading" secondItem="IuY-Q2-cg4" secondAttribute="leading" id="tGJ-DV-dtJ"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="vLy-3W-xsE" secondAttribute="bottom" id="zUr-ct-FFT"/>
+                                                                </constraints>
+                                                            </view>
                                                         </subviews>
-                                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="vLy-3W-xsE" secondAttribute="trailing" id="hRs-G6-Fn4"/>
-                                                            <constraint firstItem="vLy-3W-xsE" firstAttribute="top" secondItem="IuY-Q2-cg4" secondAttribute="top" id="qpQ-cz-p4f"/>
-                                                            <constraint firstItem="vLy-3W-xsE" firstAttribute="leading" secondItem="IuY-Q2-cg4" secondAttribute="leading" id="tGJ-DV-dtJ"/>
-                                                            <constraint firstAttribute="bottom" secondItem="vLy-3W-xsE" secondAttribute="bottom" id="zUr-ct-FFT"/>
+                                                            <constraint firstItem="Fyl-ad-38i" firstAttribute="leading" secondItem="Qo2-ta-m6D" secondAttribute="leading" id="DrP-iy-dDD"/>
+                                                            <constraint firstItem="Fyl-ad-38i" firstAttribute="top" secondItem="Qo2-ta-m6D" secondAttribute="top" id="gom-v7-Yg5"/>
                                                         </constraints>
-                                                    </view>
+                                                    </stackView>
                                                 </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="Fyl-ad-38i" firstAttribute="leading" secondItem="Qo2-ta-m6D" secondAttribute="leading" id="DrP-iy-dDD"/>
-                                                    <constraint firstItem="Fyl-ad-38i" firstAttribute="top" secondItem="Qo2-ta-m6D" secondAttribute="top" id="gom-v7-Yg5"/>
-                                                </constraints>
                                             </stackView>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ZT-3z-lKa">
-                                                <rect key="frame" x="145" y="0.0" width="135" height="136"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vmy-NZ-jgd" userLabel="Katherine Bottom">
+                                                <rect key="frame" x="0.0" y="136" width="280" height="71.5"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paulson_erik" translatesAutoresizingMaskIntoConstraints="NO" id="EM8-fF-t1f">
-                                                        <rect key="frame" x="7" y="7" width="121" height="121"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="EL6-vF-N4r">
+                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="71.5"/>
+                                                        <string key="text">stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend</string>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="135" id="QlB-2d-vBp"/>
-                                                    <constraint firstAttribute="height" constant="136" id="zgE-Av-VTg"/>
+                                                    <constraint firstAttribute="trailing" secondItem="EL6-vF-N4r" secondAttribute="trailing" id="6Yn-eT-b4h"/>
+                                                    <constraint firstItem="EL6-vF-N4r" firstAttribute="top" secondItem="Vmy-NZ-jgd" secondAttribute="top" id="jZW-km-Abc"/>
+                                                    <constraint firstItem="EL6-vF-N4r" firstAttribute="leading" secondItem="Vmy-NZ-jgd" secondAttribute="leading" id="u3K-fm-UQd"/>
+                                                    <constraint firstAttribute="bottom" secondItem="EL6-vF-N4r" secondAttribute="bottom" id="waC-sD-EEy"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                     </stackView>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vmy-NZ-jgd" userLabel="Katherine Bottom">
-                                        <rect key="frame" x="0.0" y="332" width="280" height="83"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="EL6-vF-N4r">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="60"/>
-                                                <string key="text">stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend</string>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="EL6-vF-N4r" secondAttribute="trailing" id="6Yn-eT-b4h"/>
-                                            <constraint firstItem="EL6-vF-N4r" firstAttribute="top" secondItem="Vmy-NZ-jgd" secondAttribute="top" id="jZW-km-Abc"/>
-                                            <constraint firstItem="EL6-vF-N4r" firstAttribute="leading" secondItem="Vmy-NZ-jgd" secondAttribute="leading" id="u3K-fm-UQd"/>
-                                            <constraint firstAttribute="bottom" secondItem="EL6-vF-N4r" secondAttribute="bottom" id="waC-sD-EEy"/>
-                                        </constraints>
-                                    </view>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -429,187 +439,197 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="z6V-cG-JG3" userLabel="Main Stack View">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="z6V-cG-JG3" userLabel="Main Stack View">
                                 <rect key="frame" x="16" y="20" width="288" height="415"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mKs-Oi-L24" userLabel="Lavender Top">
-                                        <rect key="frame" x="0.0" y="0.0" width="288" height="136"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0TN-ro-2ox" userLabel="Lavender Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="207.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8ve-IK-ufH">
-                                                <rect key="frame" x="0.0" y="0.0" width="145" height="136"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mKs-Oi-L24" userLabel="Lavender Top">
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="136"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDt-UE-P5U">
-                                                        <rect key="frame" x="0.0" y="0.0" width="145" height="66"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8ve-IK-ufH">
+                                                        <rect key="frame" x="0.0" y="0.0" width="145" height="136"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LeeAnne Lavender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="sXS-NH-d68">
-                                                                <rect key="frame" x="0.0" y="0.0" width="144.5" height="44"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="32"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GIN Director" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXk-yG-XtN">
-                                                                <rect key="frame" x="0.0" y="39" width="79.5" height="19.5"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDt-UE-P5U">
+                                                                <rect key="frame" x="0.0" y="0.0" width="145" height="66"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LeeAnne Lavender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="sXS-NH-d68">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="144.5" height="44"/>
+                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="32"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GIN Director" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXk-yG-XtN">
+                                                                        <rect key="frame" x="0.0" y="39" width="79.5" height="19.5"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="trailing" secondItem="sXS-NH-d68" secondAttribute="trailing" id="4uQ-kW-m8T"/>
+                                                                    <constraint firstItem="sXS-NH-d68" firstAttribute="leading" secondItem="aDt-UE-P5U" secondAttribute="leading" id="gRY-5W-Iam"/>
+                                                                    <constraint firstItem="sXS-NH-d68" firstAttribute="top" secondItem="aDt-UE-P5U" secondAttribute="top" id="pQ5-K8-0C6"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yK6-sw-l1X">
+                                                                <rect key="frame" x="0.0" y="66" width="145" height="70"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls dsjfsklfjas " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="m5J-84-PYo">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="145" height="70"/>
+                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="m5J-84-PYo" firstAttribute="leading" secondItem="yK6-sw-l1X" secondAttribute="leading" id="Q55-d1-qEN"/>
+                                                                    <constraint firstItem="m5J-84-PYo" firstAttribute="top" secondItem="yK6-sw-l1X" secondAttribute="top" id="kPP-7a-7nS"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="m5J-84-PYo" secondAttribute="trailing" id="nzH-8b-WFh"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="m5J-84-PYo" secondAttribute="bottom" id="vQB-QN-VTQ"/>
+                                                                </constraints>
+                                                            </view>
                                                         </subviews>
-                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="sXS-NH-d68" secondAttribute="trailing" id="4uQ-kW-m8T"/>
-                                                            <constraint firstItem="sXS-NH-d68" firstAttribute="leading" secondItem="aDt-UE-P5U" secondAttribute="leading" id="gRY-5W-Iam"/>
-                                                            <constraint firstItem="sXS-NH-d68" firstAttribute="top" secondItem="aDt-UE-P5U" secondAttribute="top" id="pQ5-K8-0C6"/>
+                                                            <constraint firstItem="aDt-UE-P5U" firstAttribute="leading" secondItem="8ve-IK-ufH" secondAttribute="leading" id="08M-Qg-kFL"/>
+                                                            <constraint firstItem="aDt-UE-P5U" firstAttribute="top" secondItem="8ve-IK-ufH" secondAttribute="top" id="KWo-rF-YwN"/>
                                                         </constraints>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yK6-sw-l1X">
-                                                        <rect key="frame" x="0.0" y="66" width="145" height="70"/>
+                                                    </stackView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v8R-8u-Tfv">
+                                                        <rect key="frame" x="153" y="0.0" width="135" height="136"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls dsjfsklfjas " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="m5J-84-PYo">
-                                                                <rect key="frame" x="0.0" y="0.0" width="145" height="70"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lavender_leeanne" translatesAutoresizingMaskIntoConstraints="NO" id="zgt-5c-N7x">
+                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            </imageView>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         <constraints>
-                                                            <constraint firstItem="m5J-84-PYo" firstAttribute="leading" secondItem="yK6-sw-l1X" secondAttribute="leading" id="Q55-d1-qEN"/>
-                                                            <constraint firstItem="m5J-84-PYo" firstAttribute="top" secondItem="yK6-sw-l1X" secondAttribute="top" id="kPP-7a-7nS"/>
-                                                            <constraint firstAttribute="trailing" secondItem="m5J-84-PYo" secondAttribute="trailing" id="nzH-8b-WFh"/>
-                                                            <constraint firstAttribute="bottom" secondItem="m5J-84-PYo" secondAttribute="bottom" id="vQB-QN-VTQ"/>
+                                                            <constraint firstAttribute="width" constant="135" id="CjA-Uc-YIG"/>
+                                                            <constraint firstAttribute="height" constant="136" id="fTQ-8L-CWg"/>
                                                         </constraints>
                                                     </view>
                                                 </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="aDt-UE-P5U" firstAttribute="leading" secondItem="8ve-IK-ufH" secondAttribute="leading" id="08M-Qg-kFL"/>
-                                                    <constraint firstItem="aDt-UE-P5U" firstAttribute="top" secondItem="8ve-IK-ufH" secondAttribute="top" id="KWo-rF-YwN"/>
-                                                </constraints>
                                             </stackView>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v8R-8u-Tfv">
-                                                <rect key="frame" x="153" y="0.0" width="135" height="136"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="azj-W7-Kn4" userLabel="Lavender Bottom">
+                                                <rect key="frame" x="0.0" y="136" width="288" height="71.5"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lavender_leeanne" translatesAutoresizingMaskIntoConstraints="NO" id="zgt-5c-N7x">
-                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="XTC-SC-fac">
+                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="71.5"/>
+                                                        <string key="text">stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend</string>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="135" id="CjA-Uc-YIG"/>
-                                                    <constraint firstAttribute="height" constant="136" id="fTQ-8L-CWg"/>
+                                                    <constraint firstItem="XTC-SC-fac" firstAttribute="top" secondItem="azj-W7-Kn4" secondAttribute="top" id="Ca0-uV-Is6"/>
+                                                    <constraint firstItem="XTC-SC-fac" firstAttribute="leading" secondItem="azj-W7-Kn4" secondAttribute="leading" id="HNA-yb-3q6"/>
+                                                    <constraint firstAttribute="trailing" secondItem="XTC-SC-fac" secondAttribute="trailing" id="YqU-5l-gyQ"/>
+                                                    <constraint firstAttribute="bottom" secondItem="XTC-SC-fac" secondAttribute="bottom" id="fGh-Ok-3dE"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                     </stackView>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="azj-W7-Kn4" userLabel="Lavender Bottom">
-                                        <rect key="frame" x="0.0" y="136" width="288" height="60"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="raB-XN-mp5" userLabel="Karen Stack View">
+                                        <rect key="frame" x="0.0" y="207.5" width="288" height="207.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="XTC-SC-fac">
-                                                <rect key="frame" x="0.0" y="0.0" width="288" height="60"/>
-                                                <string key="text">stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend</string>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="XTC-SC-fac" firstAttribute="top" secondItem="azj-W7-Kn4" secondAttribute="top" id="Ca0-uV-Is6"/>
-                                            <constraint firstItem="XTC-SC-fac" firstAttribute="leading" secondItem="azj-W7-Kn4" secondAttribute="leading" id="HNA-yb-3q6"/>
-                                            <constraint firstAttribute="trailing" secondItem="XTC-SC-fac" secondAttribute="trailing" id="YqU-5l-gyQ"/>
-                                            <constraint firstAttribute="bottom" secondItem="XTC-SC-fac" secondAttribute="bottom" id="fGh-Ok-3dE"/>
-                                        </constraints>
-                                    </view>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Pd4-3b-Zv4" userLabel="Karen Top">
-                                        <rect key="frame" x="0.0" y="196" width="288" height="136"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HGN-cz-KBd">
-                                                <rect key="frame" x="0.0" y="0.0" width="145" height="136"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Pd4-3b-Zv4" userLabel="Karen Top">
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="136"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YJ6-JZ-66l">
-                                                        <rect key="frame" x="0.0" y="0.0" width="145" height="66"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GIN Student Head" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3l-hg-AIt">
-                                                                <rect key="frame" x="0.0" y="39" width="116" height="20"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Karen Ma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Wml-eT-j75" userLabel="Karen Ma">
-                                                                <rect key="frame" x="0.0" y="14" width="144.5" height="27.5"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="Wml-eT-j75" secondAttribute="trailing" id="EZy-Xv-F70"/>
-                                                            <constraint firstItem="Wml-eT-j75" firstAttribute="leading" secondItem="YJ6-JZ-66l" secondAttribute="leading" id="Uup-zP-qLc"/>
-                                                            <constraint firstItem="Wml-eT-j75" firstAttribute="top" secondItem="YJ6-JZ-66l" secondAttribute="top" id="ggl-S0-H3q"/>
-                                                        </constraints>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5N5-UQ-5NJ">
-                                                        <rect key="frame" x="0.0" y="66" width="145" height="70"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls dsjfsklfjas " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="ygg-fJ-8mW">
-                                                                <rect key="frame" x="0.0" y="0.0" width="145" height="70"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="ygg-fJ-8mW" secondAttribute="trailing" id="5qQ-Tn-Wtz"/>
-                                                            <constraint firstItem="ygg-fJ-8mW" firstAttribute="leading" secondItem="5N5-UQ-5NJ" secondAttribute="leading" id="V0S-sx-EMh"/>
-                                                            <constraint firstItem="ygg-fJ-8mW" firstAttribute="top" secondItem="5N5-UQ-5NJ" secondAttribute="top" id="fw3-Pi-4Pn"/>
-                                                            <constraint firstAttribute="bottom" secondItem="ygg-fJ-8mW" secondAttribute="bottom" id="nMI-yb-BIs"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="YJ6-JZ-66l" firstAttribute="top" secondItem="HGN-cz-KBd" secondAttribute="top" id="9hh-vI-LUp"/>
-                                                    <constraint firstItem="YJ6-JZ-66l" firstAttribute="leading" secondItem="HGN-cz-KBd" secondAttribute="leading" id="oaa-Kq-aUv"/>
-                                                </constraints>
-                                            </stackView>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q20-ev-q55">
-                                                <rect key="frame" x="153" y="0.0" width="135" height="136"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="karen_ma" translatesAutoresizingMaskIntoConstraints="NO" id="PAP-ql-YCA">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q20-ev-q55">
                                                         <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lavender_leeanne" translatesAutoresizingMaskIntoConstraints="NO" id="PAP-ql-YCA">
+                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="135" id="3Nx-wH-qoe"/>
+                                                            <constraint firstAttribute="height" constant="136" id="Nsj-Ov-mUE"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HGN-cz-KBd">
+                                                        <rect key="frame" x="143" y="0.0" width="145" height="136"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YJ6-JZ-66l">
+                                                                <rect key="frame" x="0.0" y="0.0" width="145" height="66"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GIN Student Head" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3l-hg-AIt">
+                                                                        <rect key="frame" x="0.0" y="39" width="116" height="20"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Karen Ma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Wml-eT-j75" userLabel="Karen Ma">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="144.5" height="26"/>
+                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="trailing" secondItem="Wml-eT-j75" secondAttribute="trailing" id="EZy-Xv-F70"/>
+                                                                    <constraint firstItem="Wml-eT-j75" firstAttribute="leading" secondItem="YJ6-JZ-66l" secondAttribute="leading" id="Uup-zP-qLc"/>
+                                                                    <constraint firstItem="Wml-eT-j75" firstAttribute="top" secondItem="YJ6-JZ-66l" secondAttribute="top" id="ggl-S0-H3q"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5N5-UQ-5NJ">
+                                                                <rect key="frame" x="0.0" y="66" width="145" height="70"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls dsjfsklfjas " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="ygg-fJ-8mW">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="145" height="70"/>
+                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="trailing" secondItem="ygg-fJ-8mW" secondAttribute="trailing" id="5qQ-Tn-Wtz"/>
+                                                                    <constraint firstItem="ygg-fJ-8mW" firstAttribute="leading" secondItem="5N5-UQ-5NJ" secondAttribute="leading" id="V0S-sx-EMh"/>
+                                                                    <constraint firstItem="ygg-fJ-8mW" firstAttribute="top" secondItem="5N5-UQ-5NJ" secondAttribute="top" id="fw3-Pi-4Pn"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="ygg-fJ-8mW" secondAttribute="bottom" id="nMI-yb-BIs"/>
+                                                                </constraints>
+                                                            </view>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="YJ6-JZ-66l" firstAttribute="top" secondItem="HGN-cz-KBd" secondAttribute="top" id="9hh-vI-LUp"/>
+                                                            <constraint firstItem="YJ6-JZ-66l" firstAttribute="leading" secondItem="HGN-cz-KBd" secondAttribute="leading" id="oaa-Kq-aUv"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9EV-5l-Rt3" userLabel="Karen Bottom">
+                                                <rect key="frame" x="0.0" y="136" width="288" height="71.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="OBC-fA-den">
+                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="71.5"/>
+                                                        <string key="text">stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend</string>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="135" id="3Nx-wH-qoe"/>
-                                                    <constraint firstAttribute="height" constant="136" id="Nsj-Ov-mUE"/>
+                                                    <constraint firstItem="OBC-fA-den" firstAttribute="top" secondItem="9EV-5l-Rt3" secondAttribute="top" id="8wo-1V-CYj"/>
+                                                    <constraint firstAttribute="trailing" secondItem="OBC-fA-den" secondAttribute="trailing" id="Ert-lT-SeL"/>
+                                                    <constraint firstItem="OBC-fA-den" firstAttribute="leading" secondItem="9EV-5l-Rt3" secondAttribute="leading" id="cgn-Xu-9i6"/>
+                                                    <constraint firstAttribute="bottom" secondItem="OBC-fA-den" secondAttribute="bottom" id="ygJ-BT-gv3"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                     </stackView>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9EV-5l-Rt3" userLabel="Karen Bottom">
-                                        <rect key="frame" x="0.0" y="332" width="288" height="83"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="OBC-fA-den">
-                                                <rect key="frame" x="0.0" y="0.0" width="288" height="60"/>
-                                                <string key="text">stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend</string>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="OBC-fA-den" firstAttribute="top" secondItem="9EV-5l-Rt3" secondAttribute="top" id="8wo-1V-CYj"/>
-                                            <constraint firstAttribute="trailing" secondItem="OBC-fA-den" secondAttribute="trailing" id="Ert-lT-SeL"/>
-                                            <constraint firstItem="OBC-fA-den" firstAttribute="leading" secondItem="9EV-5l-Rt3" secondAttribute="leading" id="cgn-Xu-9i6"/>
-                                            <constraint firstAttribute="bottom" secondItem="OBC-fA-den" secondAttribute="bottom" id="ygJ-BT-gv3"/>
-                                        </constraints>
-                                    </view>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -906,7 +926,6 @@
     </scenes>
     <resources>
         <image name="ConcordiaLogo" width="458" height="456"/>
-        <image name="karen_ma" width="150" height="150"/>
         <image name="lavender_leeanne" width="121" height="121"/>
         <image name="paulson_erik" width="121" height="121"/>
         <image name="second" width="30" height="30"/>
