@@ -419,7 +419,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" id="q5n-UJ-BXQ"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="crown" id="q5n-UJ-BXQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -834,6 +834,8 @@
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.1044194593" green="0.11844497499999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.083061817489999995" green="0.1021017207" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
@@ -865,7 +867,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Procedure" id="2IG-33-VrK"/>
+                    <tabBarItem key="tabBarItem" title="Procedure" image="clock" id="2IG-33-VrK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xyJ-vG-mIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -963,13 +965,15 @@
     </scenes>
     <resources>
         <image name="ConcordiaLogo" width="458" height="456"/>
+        <image name="clock" width="24" height="24"/>
+        <image name="crown" width="24" height="24"/>
         <image name="lavender_leeanne" width="121" height="121"/>
         <image name="paulson_erik" width="121" height="121"/>
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="FkZ-E9-sKT"/>
-        <segue reference="odf-s5-5yz"/>
+        <segue reference="32e-Mn-bbZ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
