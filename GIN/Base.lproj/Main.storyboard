@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="o2G-re-336">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="o2G-re-336">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -89,8 +89,8 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change conference" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljI-Sz-jkj">
-                                                    <rect key="frame" x="8" y="8" width="221" height="27.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="13" y="8" width="216" height="27.5"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -98,7 +98,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="trailingMargin" secondItem="ljI-Sz-jkj" secondAttribute="trailing" constant="50" id="Anf-wo-TVs"/>
                                                 <constraint firstItem="ljI-Sz-jkj" firstAttribute="top" secondItem="eEG-hs-7LO" secondAttribute="topMargin" id="FKa-ME-ApA"/>
-                                                <constraint firstItem="ljI-Sz-jkj" firstAttribute="leading" secondItem="eEG-hs-7LO" secondAttribute="leadingMargin" id="hnD-ez-cxd"/>
+                                                <constraint firstItem="ljI-Sz-jkj" firstAttribute="leading" secondItem="eEG-hs-7LO" secondAttribute="leadingMargin" constant="5" id="hnD-ez-cxd"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="ljI-Sz-jkj" secondAttribute="bottom" id="tZ1-q5-9dE"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -120,15 +120,15 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPu-HC-4QL">
-                                                    <rect key="frame" x="8" y="8" width="221" height="27.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="13" y="8" width="216" height="27.5"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="MPu-HC-4QL" secondAttribute="bottom" id="4qy-sJ-LJH"/>
-                                                <constraint firstItem="MPu-HC-4QL" firstAttribute="leading" secondItem="hMi-3H-IjG" secondAttribute="leadingMargin" id="DAT-rB-bTh"/>
+                                                <constraint firstItem="MPu-HC-4QL" firstAttribute="leading" secondItem="hMi-3H-IjG" secondAttribute="leadingMargin" constant="5" id="DAT-rB-bTh"/>
                                                 <constraint firstItem="MPu-HC-4QL" firstAttribute="top" secondItem="hMi-3H-IjG" secondAttribute="topMargin" id="G0D-4I-jWm"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="MPu-HC-4QL" secondAttribute="trailing" constant="50" id="gbS-at-4zI"/>
                                             </constraints>
@@ -209,7 +209,7 @@
                                                                 <rect key="frame" x="0.0" y="72.5" width="135" height="63.5"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Umo-d6-num">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="66"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="63.5"/>
                                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -623,7 +623,7 @@
                                                                 <rect key="frame" x="0.0" y="66" width="145" height="70"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls dsjfsklfjas " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="ygg-fJ-8mW">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="145" height="66"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="145" height="70"/>
                                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
