@@ -547,7 +547,7 @@
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="KwE-JQ-2nu">
                                                                                 <rect key="frame" x="0.0" y="-8" width="280" height="134"/>
-                                                                                <mutableString key="text">His memoir has been published in over 40 languages and was nominated for a Quill Award in the Best Debut Author category for 2007. Time Magazine named the book as one of the Top 10 Nonfiction books of 2007. His work has appeared in the New York Times, New York Times Magazine, Time magazine, International Herald Tribune, Globe &amp; Mail, Rutgers University Press, Vespertine Press, LIT, The Guardian, Parabola magazines and numerous academic journals. Mr. Beah’s keynote will focus on his experiences and his reflections on conflict, war, and healing for our world.   </mutableString>
+                                                                                <string key="text">His memoir has been published in over 40 languages and was nominated for a Quill Award in the Best Debut Author category for 2007. Time Magazine named the book as one of the Top 10 Nonfiction books of 2007. His work has appeared in the New York Times, New York Times Magazine, Time magazine, International Herald Tribune, Globe &amp; Mail, Rutgers University Press, Vespertine Press, LIT, The Guardian, Parabola magazines and numerous academic journals. Mr. Beah’s keynote will focus on his experiences and his reflections on conflict, war, and healing for our world.   </string>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -844,7 +844,7 @@
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="eCs-qH-FPt">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="134"/>
-                                                                                <mutableString key="text">Justin has a strong passion for community development and educational innovation, and he is recognized for his commitment to youth programs around the world.  Justin has filled his life with adventure guiding, organizational consulting, leadership facilitation, community development, and time playing in the wilderness. He is a co-founder of the JUMP! Foundation and has been a key driving force behind JUMP’s growth and development since 2006. Justin’s keynote address will be an interactive experience. Get ready to be active during this session!</mutableString>
+                                                                                <string key="text">Justin has a strong passion for community development and educational innovation, and he is recognized for his commitment to youth programs around the world.  Justin has filled his life with adventure guiding, organizational consulting, leadership facilitation, community development, and time playing in the wilderness. He is a co-founder of the JUMP! Foundation and has been a key driving force behind JUMP’s growth and development since 2006. Justin’s keynote address will be an interactive experience. Get ready to be active during this session!</string>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1004,7 +1004,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jnS-gm-Gcd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3753.75" y="-2872.1830985915494"/>
+            <point key="canvasLocation" x="-3908" y="-2033"/>
         </scene>
         <!--GINASIA-->
         <scene sceneID="nJi-k9-dgd">
