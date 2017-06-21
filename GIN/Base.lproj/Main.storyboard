@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="o2G-re-336">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="o2G-re-336">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -423,7 +423,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-9"/>
+            <point key="canvasLocation" x="1747.5" y="-9.5070422535211261"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="ubp-xV-69C">
@@ -444,7 +444,7 @@
             </objects>
             <point key="canvasLocation" x="-3967" y="-824"/>
         </scene>
-        <!--Keynote-->
+        <!--Speakers and Panels-->
         <scene sceneID="b8l-GQ-VdQ">
             <objects>
                 <viewController id="AoP-T2-5O8" customClass="GINKeynoteViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
@@ -453,15 +453,558 @@
                         <viewControllerLayoutGuide type="bottom" id="O4T-RG-3e3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="i4h-WN-PIC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="1436"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dXb-wt-Pbu" userLabel="Main Stack View">
+                                <rect key="frame" x="20" y="20" width="280" height="1347"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H3z-f3-wjZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="1347"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xG4-8D-9s7">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="1347"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ixp-wX-3Jp" userLabel="Main">
+                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="1347"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Nti-UP-YTl" userLabel="Beah Stack View">
+                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="270"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QBE-Qd-qAH" userLabel="Beah Top">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
+                                                                        <subviews>
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="McF-4Z-eMq">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
+                                                                                <subviews>
+                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CA4-96-Jd8">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="60.5"/>
+                                                                                        <subviews>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Human Rights Activist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="DCw-7j-oyr">
+                                                                                                <rect key="frame" x="0.0" y="35" width="136" height="20"/>
+                                                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ishmael Beah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="0Qp-NK-HTu">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="27.5"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                        </subviews>
+                                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstItem="0Qp-NK-HTu" firstAttribute="leading" secondItem="CA4-96-Jd8" secondAttribute="leading" id="1Nl-27-mBe"/>
+                                                                                            <constraint firstAttribute="trailing" secondItem="0Qp-NK-HTu" secondAttribute="trailing" id="dta-2J-1x9"/>
+                                                                                            <constraint firstItem="0Qp-NK-HTu" firstAttribute="top" secondItem="CA4-96-Jd8" secondAttribute="top" id="wk8-lC-UeF"/>
+                                                                                        </constraints>
+                                                                                    </view>
+                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="94c-fa-0ha">
+                                                                                        <rect key="frame" x="0.0" y="72.5" width="135" height="63.5"/>
+                                                                                        <subviews>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="P96-lM-1nW">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63.5"/>
+                                                                                                <string key="text">Ishmael Beah, born in Sierra Leone, West Africa, is the New York Times bestselling author of A Long Way Gone, Memoirs of a Boy Soldier and Radiance of Tomorrow, A Novel both published by Farrar Straus &amp; Giroux.</string>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                        </subviews>
+                                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstItem="P96-lM-1nW" firstAttribute="top" secondItem="94c-fa-0ha" secondAttribute="top" id="644-aJ-cbr"/>
+                                                                                            <constraint firstAttribute="trailing" secondItem="P96-lM-1nW" secondAttribute="trailing" id="7Hp-Dq-uKY"/>
+                                                                                            <constraint firstAttribute="bottom" secondItem="P96-lM-1nW" secondAttribute="bottom" id="aWq-pd-ySy"/>
+                                                                                            <constraint firstItem="P96-lM-1nW" firstAttribute="leading" secondItem="94c-fa-0ha" secondAttribute="leading" id="j37-ar-Tlc"/>
+                                                                                        </constraints>
+                                                                                    </view>
+                                                                                </subviews>
+                                                                                <constraints>
+                                                                                    <constraint firstItem="CA4-96-Jd8" firstAttribute="top" secondItem="McF-4Z-eMq" secondAttribute="top" id="PRC-J3-8qs"/>
+                                                                                    <constraint firstItem="CA4-96-Jd8" firstAttribute="leading" secondItem="McF-4Z-eMq" secondAttribute="leading" id="SDq-ow-WI5"/>
+                                                                                </constraints>
+                                                                            </stackView>
+                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lpj-n4-Sec">
+                                                                                <rect key="frame" x="145" y="0.0" width="135" height="136"/>
+                                                                                <subviews>
+                                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Beah" translatesAutoresizingMaskIntoConstraints="NO" id="3uP-cm-RuB">
+                                                                                        <rect key="frame" x="7" y="7" width="121" height="121"/>
+                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                    </imageView>
+                                                                                </subviews>
+                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" constant="136" id="M6d-z7-YvN"/>
+                                                                                    <constraint firstAttribute="width" constant="135" id="aB5-17-baQ"/>
+                                                                                </constraints>
+                                                                            </view>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pwa-pZ-Jic" userLabel="Beah Bottom">
+                                                                        <rect key="frame" x="0.0" y="136" width="280" height="134"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="KwE-JQ-2nu">
+                                                                                <rect key="frame" x="0.0" y="-8" width="280" height="134"/>
+                                                                                <mutableString key="text">His memoir has been published in over 40 languages and was nominated for a Quill Award in the Best Debut Author category for 2007. Time Magazine named the book as one of the Top 10 Nonfiction books of 2007. His work has appeared in the New York Times, New York Times Magazine, Time magazine, International Herald Tribune, Globe &amp; Mail, Rutgers University Press, Vespertine Press, LIT, The Guardian, Parabola magazines and numerous academic journals. Mr. Beah’s keynote will focus on his experiences and his reflections on conflict, war, and healing for our world.   </mutableString>
+                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                        <constraints>
+                                                                            <constraint firstItem="KwE-JQ-2nu" firstAttribute="leading" secondItem="pwa-pZ-Jic" secondAttribute="leading" id="3qA-RO-fN6"/>
+                                                                            <constraint firstAttribute="bottom" secondItem="KwE-JQ-2nu" secondAttribute="bottom" id="QlA-OD-Ksa"/>
+                                                                            <constraint firstItem="KwE-JQ-2nu" firstAttribute="top" secondItem="pwa-pZ-Jic" secondAttribute="top" id="vmE-gt-56B"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="KwE-JQ-2nu" secondAttribute="trailing" id="wPZ-gM-1Ev"/>
+                                                                        </constraints>
+                                                                    </view>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="270" id="zO1-C2-86p"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eXx-jQ-RvO" userLabel="Dalglish Stack View">
+                                                                <rect key="frame" x="0.0" y="270" width="280" height="270"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8uY-Ei-hiD" userLabel="Dalglish Top">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
+                                                                        <subviews>
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Lw0-Yf-8co">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
+                                                                                <subviews>
+                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DfX-jq-CA2">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="60.5"/>
+                                                                                        <subviews>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Humanitarian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="w7R-0f-oa1">
+                                                                                                <rect key="frame" x="0.0" y="35" width="84" height="20"/>
+                                                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peter Dalglish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="kvi-TC-QFO">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="27.5"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                        </subviews>
+                                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstItem="kvi-TC-QFO" firstAttribute="top" secondItem="DfX-jq-CA2" secondAttribute="top" id="BVa-oL-jhU"/>
+                                                                                            <constraint firstAttribute="trailing" secondItem="kvi-TC-QFO" secondAttribute="trailing" id="O2W-fb-8lM"/>
+                                                                                            <constraint firstItem="kvi-TC-QFO" firstAttribute="leading" secondItem="DfX-jq-CA2" secondAttribute="leading" id="WTT-Z2-UIM"/>
+                                                                                        </constraints>
+                                                                                    </view>
+                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Pg-Bd-BYG">
+                                                                                        <rect key="frame" x="0.0" y="72.5" width="135" height="63.5"/>
+                                                                                        <subviews>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="DlH-KB-Rcu">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63.5"/>
+                                                                                                <string key="text">Peter Dalglish is the senior advisor for UN-Habitat Afghanistan and has served as the chief technical advisor for the United Nations.</string>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                        </subviews>
+                                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstAttribute="trailing" secondItem="DlH-KB-Rcu" secondAttribute="trailing" id="9Hh-Dl-Rok"/>
+                                                                                            <constraint firstItem="DlH-KB-Rcu" firstAttribute="top" secondItem="7Pg-Bd-BYG" secondAttribute="top" id="HzK-ns-GYY"/>
+                                                                                            <constraint firstItem="DlH-KB-Rcu" firstAttribute="leading" secondItem="7Pg-Bd-BYG" secondAttribute="leading" id="cVB-5p-d4X"/>
+                                                                                            <constraint firstAttribute="bottom" secondItem="DlH-KB-Rcu" secondAttribute="bottom" id="mQ4-tO-age"/>
+                                                                                        </constraints>
+                                                                                    </view>
+                                                                                </subviews>
+                                                                                <constraints>
+                                                                                    <constraint firstItem="DfX-jq-CA2" firstAttribute="top" secondItem="Lw0-Yf-8co" secondAttribute="top" id="4Yz-yQ-NCJ"/>
+                                                                                    <constraint firstItem="DfX-jq-CA2" firstAttribute="leading" secondItem="Lw0-Yf-8co" secondAttribute="leading" id="aJx-mj-hFB"/>
+                                                                                </constraints>
+                                                                            </stackView>
+                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6k0-DF-498">
+                                                                                <rect key="frame" x="145" y="0.0" width="135" height="136"/>
+                                                                                <subviews>
+                                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dalglish" translatesAutoresizingMaskIntoConstraints="NO" id="czl-Cl-XjO">
+                                                                                        <rect key="frame" x="7" y="7" width="121" height="121"/>
+                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                    </imageView>
+                                                                                </subviews>
+                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" constant="136" id="4Sb-ov-unf"/>
+                                                                                    <constraint firstAttribute="width" constant="135" id="lfI-EB-PPf"/>
+                                                                                </constraints>
+                                                                            </view>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0sL-gK-UJL" userLabel="Dalglish Bottom">
+                                                                        <rect key="frame" x="0.0" y="136" width="280" height="134"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="bhd-Qn-Pah">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="134"/>
+                                                                                <string key="text">He is the founder of Street Kids International, co-founder of Schools Without Borders and a founding board member of Ashoka Canada. He is a member of the Order of Canada. Mr. Dalglish is a passionate believer in how each person can make a difference in our world and his keynote will help all delegates reflect on how they can truly engage with an issue in a way that makes our world a better place. </string>
+                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                        <constraints>
+                                                                            <constraint firstItem="bhd-Qn-Pah" firstAttribute="top" secondItem="0sL-gK-UJL" secondAttribute="top" id="L1Z-jW-5T0"/>
+                                                                            <constraint firstAttribute="bottom" secondItem="bhd-Qn-Pah" secondAttribute="bottom" id="Nhl-Av-ggf"/>
+                                                                            <constraint firstItem="bhd-Qn-Pah" firstAttribute="leading" secondItem="0sL-gK-UJL" secondAttribute="leading" id="qJr-DU-I7g"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="bhd-Qn-Pah" secondAttribute="trailing" id="zM7-sB-uOj"/>
+                                                                        </constraints>
+                                                                    </view>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="270" id="cz3-J5-Nwt"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wNn-nY-92j" userLabel="Wijsen Stack View">
+                                                                <rect key="frame" x="0.0" y="540" width="280" height="270"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="y6C-Pp-0Ro" userLabel="Wijsen Top">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
+                                                                        <subviews>
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="kar-BD-85U">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
+                                                                                <subviews>
+                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0b-aD-zNb">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="60.5"/>
+                                                                                        <subviews>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teenagers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="hcy-3b-f4Y">
+                                                                                                <rect key="frame" x="0.0" y="42" width="65" height="20"/>
+                                                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Melati and Isabel Wijsen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="Uvn-Vz-CU6">
+                                                                                                <rect key="frame" x="1" y="-11" width="135" height="55"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                        </subviews>
+                                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstAttribute="trailing" secondItem="Uvn-Vz-CU6" secondAttribute="trailing" id="2oo-Oe-JcN"/>
+                                                                                            <constraint firstItem="Uvn-Vz-CU6" firstAttribute="top" secondItem="M0b-aD-zNb" secondAttribute="top" id="Rz1-6i-1gw"/>
+                                                                                            <constraint firstItem="Uvn-Vz-CU6" firstAttribute="leading" secondItem="M0b-aD-zNb" secondAttribute="leading" id="eQX-WT-a04"/>
+                                                                                        </constraints>
+                                                                                    </view>
+                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fYj-NC-FYH">
+                                                                                        <rect key="frame" x="0.0" y="72.5" width="135" height="63.5"/>
+                                                                                        <subviews>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="ebR-TD-WF9">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63.5"/>
+                                                                                                <string key="text">Two teenage sisters have taken a stand against pollution in Bali – and they’ve convinced the government to ban plastic bags by the year 2018. </string>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                        </subviews>
+                                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstItem="ebR-TD-WF9" firstAttribute="top" secondItem="fYj-NC-FYH" secondAttribute="top" id="77V-8o-ify"/>
+                                                                                            <constraint firstItem="ebR-TD-WF9" firstAttribute="leading" secondItem="fYj-NC-FYH" secondAttribute="leading" id="DgT-Aq-bkj"/>
+                                                                                            <constraint firstAttribute="bottom" secondItem="ebR-TD-WF9" secondAttribute="bottom" id="lA5-JQ-RTn"/>
+                                                                                            <constraint firstAttribute="trailing" secondItem="ebR-TD-WF9" secondAttribute="trailing" id="rum-NL-QF4"/>
+                                                                                        </constraints>
+                                                                                    </view>
+                                                                                </subviews>
+                                                                                <constraints>
+                                                                                    <constraint firstItem="M0b-aD-zNb" firstAttribute="leading" secondItem="kar-BD-85U" secondAttribute="leading" id="7Oa-3W-4Dh"/>
+                                                                                    <constraint firstItem="M0b-aD-zNb" firstAttribute="top" secondItem="kar-BD-85U" secondAttribute="top" id="uP9-Uy-iGQ"/>
+                                                                                </constraints>
+                                                                            </stackView>
+                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZD1-Ya-ZmR">
+                                                                                <rect key="frame" x="145" y="0.0" width="135" height="136"/>
+                                                                                <subviews>
+                                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Melati 2" translatesAutoresizingMaskIntoConstraints="NO" id="GVI-Cb-7Qr">
+                                                                                        <rect key="frame" x="39" y="48" width="88" height="88"/>
+                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                    </imageView>
+                                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Melati 1" translatesAutoresizingMaskIntoConstraints="NO" id="1Xe-j9-t70">
+                                                                                        <rect key="frame" x="-9" y="0.0" width="88" height="88"/>
+                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                    </imageView>
+                                                                                </subviews>
+                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" constant="135" id="2Le-Ta-sLT"/>
+                                                                                    <constraint firstAttribute="height" constant="136" id="cAD-ZC-teG"/>
+                                                                                </constraints>
+                                                                            </view>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tvP-D7-xj6" userLabel="Wijsen Bottom">
+                                                                        <rect key="frame" x="0.0" y="136" width="280" height="134"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="cKo-aA-eaF">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="134"/>
+                                                                                <string key="text">The island suffers from a crushing plastic pollution problem, so Isabel and Melati Wijsen decided to take action and start Bye Bye Plastic Bags to mobilize other kids and adults to work toward a cleaner Bali. To achieve the goal, the girls have organized beach clean-ups, put on a fashion show, given a TED talk, gone on a hunger strike, and met with the UN Secretary General. Their keynote will focus on what they’ve done so far and on why they believe so passionately in their cause.</string>
+                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="bottom" secondItem="cKo-aA-eaF" secondAttribute="bottom" id="8Km-vN-Ufh"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="cKo-aA-eaF" secondAttribute="trailing" id="bcM-6O-BXn"/>
+                                                                            <constraint firstItem="cKo-aA-eaF" firstAttribute="top" secondItem="tvP-D7-xj6" secondAttribute="top" id="cU4-Q2-6br"/>
+                                                                            <constraint firstItem="cKo-aA-eaF" firstAttribute="leading" secondItem="tvP-D7-xj6" secondAttribute="leading" id="dWl-1Q-YZn"/>
+                                                                        </constraints>
+                                                                    </view>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="270" id="NKD-sA-x5Q"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jqj-mQ-0Hg" userLabel="Bedard Stack View">
+                                                                <rect key="frame" x="0.0" y="810" width="280" height="270"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Q26-fF-5pa" userLabel="Bedard Top">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
+                                                                        <subviews>
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="sTC-fW-3Cg">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
+                                                                                <subviews>
+                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IpY-9L-Tne">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="60.5"/>
+                                                                                        <subviews>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Executive Director of JUMP!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="IaU-yE-9t3">
+                                                                                                <rect key="frame" x="0.0" y="35" width="176" height="20"/>
+                                                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Justin Bedard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="Rfy-f3-SZQ">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="27.5"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                        </subviews>
+                                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstAttribute="trailing" secondItem="Rfy-f3-SZQ" secondAttribute="trailing" id="AGT-Hn-vKG"/>
+                                                                                            <constraint firstItem="Rfy-f3-SZQ" firstAttribute="top" secondItem="IpY-9L-Tne" secondAttribute="top" id="nt5-cw-qym"/>
+                                                                                            <constraint firstItem="Rfy-f3-SZQ" firstAttribute="leading" secondItem="IpY-9L-Tne" secondAttribute="leading" id="x6C-vM-T4w"/>
+                                                                                        </constraints>
+                                                                                    </view>
+                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4nR-4U-2yB">
+                                                                                        <rect key="frame" x="0.0" y="72.5" width="135" height="63.5"/>
+                                                                                        <subviews>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Justin is the executive director of the Jump! Foundation, a non-profit social enterprise focused on leadership development. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="L9a-RH-Br9">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63.5"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                        </subviews>
+                                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstItem="L9a-RH-Br9" firstAttribute="leading" secondItem="4nR-4U-2yB" secondAttribute="leading" id="0Lz-y3-7kf"/>
+                                                                                            <constraint firstAttribute="bottom" secondItem="L9a-RH-Br9" secondAttribute="bottom" id="6k4-b0-zoY"/>
+                                                                                            <constraint firstAttribute="trailing" secondItem="L9a-RH-Br9" secondAttribute="trailing" id="mOy-eK-SS8"/>
+                                                                                            <constraint firstItem="L9a-RH-Br9" firstAttribute="top" secondItem="4nR-4U-2yB" secondAttribute="top" id="xeP-B0-95B"/>
+                                                                                        </constraints>
+                                                                                    </view>
+                                                                                </subviews>
+                                                                                <constraints>
+                                                                                    <constraint firstItem="IpY-9L-Tne" firstAttribute="top" secondItem="sTC-fW-3Cg" secondAttribute="top" id="O8T-dN-a4O"/>
+                                                                                    <constraint firstItem="IpY-9L-Tne" firstAttribute="leading" secondItem="sTC-fW-3Cg" secondAttribute="leading" id="rhR-YV-OX7"/>
+                                                                                </constraints>
+                                                                            </stackView>
+                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fcu-a6-5Sl">
+                                                                                <rect key="frame" x="145" y="0.0" width="135" height="136"/>
+                                                                                <subviews>
+                                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bedard" translatesAutoresizingMaskIntoConstraints="NO" id="HtL-Ce-MHr">
+                                                                                        <rect key="frame" x="7" y="7" width="121" height="121"/>
+                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                    </imageView>
+                                                                                </subviews>
+                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" constant="136" id="3rA-ef-xSh"/>
+                                                                                    <constraint firstAttribute="width" constant="135" id="zIX-jD-rZb"/>
+                                                                                </constraints>
+                                                                            </view>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JKK-rl-nPw" userLabel="Bedard Bottom">
+                                                                        <rect key="frame" x="0.0" y="136" width="280" height="134"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="eCs-qH-FPt">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="134"/>
+                                                                                <mutableString key="text">Justin has a strong passion for community development and educational innovation, and he is recognized for his commitment to youth programs around the world.  Justin has filled his life with adventure guiding, organizational consulting, leadership facilitation, community development, and time playing in the wilderness. He is a co-founder of the JUMP! Foundation and has been a key driving force behind JUMP’s growth and development since 2006. Justin’s keynote address will be an interactive experience. Get ready to be active during this session!</mutableString>
+                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                        <constraints>
+                                                                            <constraint firstItem="eCs-qH-FPt" firstAttribute="leading" secondItem="JKK-rl-nPw" secondAttribute="leading" id="9Dk-r5-udC"/>
+                                                                            <constraint firstAttribute="bottom" secondItem="eCs-qH-FPt" secondAttribute="bottom" id="Jfh-WM-TKD"/>
+                                                                            <constraint firstItem="eCs-qH-FPt" firstAttribute="top" secondItem="JKK-rl-nPw" secondAttribute="top" id="hdp-de-Wbj"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="eCs-qH-FPt" secondAttribute="trailing" id="nHL-ec-tQ6"/>
+                                                                        </constraints>
+                                                                    </view>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="270" id="6u5-sg-FF6"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ihj-Sn-We3" userLabel="Phuc Stack View">
+                                                                <rect key="frame" x="0.0" y="1080" width="280" height="267"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ys0-4Y-GBO" userLabel="Phuc Top">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
+                                                                        <subviews>
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="NRt-r8-Ss8">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
+                                                                                <subviews>
+                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M70-Ve-s9M">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="60.5"/>
+                                                                                        <subviews>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kim Phuc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="nXn-LQ-C7W">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="27.5"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Photographer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="RRf-eI-Y0N">
+                                                                                                <rect key="frame" x="0.0" y="26" width="87" height="20"/>
+                                                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                        </subviews>
+                                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstAttribute="trailing" secondItem="nXn-LQ-C7W" secondAttribute="trailing" id="9iV-FK-oRI"/>
+                                                                                            <constraint firstItem="nXn-LQ-C7W" firstAttribute="leading" secondItem="M70-Ve-s9M" secondAttribute="leading" id="aaj-N8-A6B"/>
+                                                                                            <constraint firstItem="nXn-LQ-C7W" firstAttribute="top" secondItem="M70-Ve-s9M" secondAttribute="top" id="ghx-RH-XJd"/>
+                                                                                        </constraints>
+                                                                                    </view>
+                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KEm-6v-fY3">
+                                                                                        <rect key="frame" x="0.0" y="72.5" width="135" height="63.5"/>
+                                                                                        <subviews>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="sTq-d6-ibh">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63.5"/>
+                                                                                                <string key="text">For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred. </string>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                                <nil key="textColor"/>
+                                                                                                <nil key="highlightedColor"/>
+                                                                                            </label>
+                                                                                        </subviews>
+                                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstItem="sTq-d6-ibh" firstAttribute="leading" secondItem="KEm-6v-fY3" secondAttribute="leading" id="G31-sb-ggi"/>
+                                                                                            <constraint firstAttribute="bottom" secondItem="sTq-d6-ibh" secondAttribute="bottom" id="O90-Wg-Zia"/>
+                                                                                            <constraint firstItem="sTq-d6-ibh" firstAttribute="top" secondItem="KEm-6v-fY3" secondAttribute="top" id="OYb-zH-sTD"/>
+                                                                                            <constraint firstAttribute="trailing" secondItem="sTq-d6-ibh" secondAttribute="trailing" id="rtO-bC-V4s"/>
+                                                                                        </constraints>
+                                                                                    </view>
+                                                                                </subviews>
+                                                                                <constraints>
+                                                                                    <constraint firstItem="M70-Ve-s9M" firstAttribute="leading" secondItem="NRt-r8-Ss8" secondAttribute="leading" id="23f-ES-TsK"/>
+                                                                                    <constraint firstItem="M70-Ve-s9M" firstAttribute="top" secondItem="NRt-r8-Ss8" secondAttribute="top" id="3Zt-Sz-lMO"/>
+                                                                                </constraints>
+                                                                            </stackView>
+                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JVF-k8-9Gy">
+                                                                                <rect key="frame" x="145" y="0.0" width="135" height="136"/>
+                                                                                <subviews>
+                                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Phuc" translatesAutoresizingMaskIntoConstraints="NO" id="hxD-pH-blp">
+                                                                                        <rect key="frame" x="7" y="7" width="121" height="121"/>
+                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                    </imageView>
+                                                                                </subviews>
+                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" constant="135" id="a3f-ZP-wxP"/>
+                                                                                    <constraint firstAttribute="height" constant="136" id="dmP-2l-zjk"/>
+                                                                                </constraints>
+                                                                            </view>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eX3-ga-nVC" userLabel="Phuc Bottom">
+                                                                        <rect key="frame" x="0.0" y="136" width="280" height="131"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="pyc-t1-DfE">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="131"/>
+                                                                                <string key="text">The scars that covered 65 percent of her body were not only disfiguring – making her believe no one would ever love her – they hurt. A lot. For the past 20 years, Phuc has traveled the world telling her story of hope borne out of despair. Her passion for peaceful resolutions to conflict in our world is inspiring. Kim is the girl who was captured in a famous 1972 photograph that brought the world's attention to the horrors of the war in Vietnam. </string>
+                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="bottom" secondItem="pyc-t1-DfE" secondAttribute="bottom" id="A6k-I9-kqN"/>
+                                                                            <constraint firstItem="pyc-t1-DfE" firstAttribute="top" secondItem="eX3-ga-nVC" secondAttribute="top" id="aCW-eW-aDh"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="pyc-t1-DfE" secondAttribute="trailing" id="otD-WF-na1"/>
+                                                                            <constraint firstItem="pyc-t1-DfE" firstAttribute="leading" secondItem="eX3-ga-nVC" secondAttribute="leading" id="vZl-ZO-IQo"/>
+                                                                        </constraints>
+                                                                    </view>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="270" id="Wc3-e7-oJN"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="ixp-wX-3Jp" firstAttribute="top" secondItem="xG4-8D-9s7" secondAttribute="top" id="25r-n0-vMD"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ixp-wX-3Jp" secondAttribute="trailing" id="RiP-x0-q36"/>
+                                                    <constraint firstAttribute="height" constant="1347" id="gTR-Wa-Gwa"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ixp-wX-3Jp" secondAttribute="bottom" id="iem-VY-m9t"/>
+                                                    <constraint firstItem="ixp-wX-3Jp" firstAttribute="leading" secondItem="xG4-8D-9s7" secondAttribute="leading" id="vjT-C1-fiZ"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="xG4-8D-9s7" secondAttribute="trailing" id="5iW-OK-U7h"/>
+                                            <constraint firstAttribute="bottom" secondItem="xG4-8D-9s7" secondAttribute="bottom" id="KBl-NH-yem"/>
+                                            <constraint firstItem="xG4-8D-9s7" firstAttribute="top" secondItem="H3z-f3-wjZ" secondAttribute="top" id="cO7-Yu-adz"/>
+                                            <constraint firstItem="xG4-8D-9s7" firstAttribute="leading" secondItem="H3z-f3-wjZ" secondAttribute="leading" id="oCW-31-jxj"/>
+                                        </constraints>
+                                    </scrollView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="xG4-8D-9s7" firstAttribute="width" secondItem="dXb-wt-Pbu" secondAttribute="width" id="wyl-i0-fSS"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97280138729999999" green="0.96108514069999995" blue="0.94418889279999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dXb-wt-Pbu" firstAttribute="top" secondItem="JrH-R6-2uM" secondAttribute="bottom" constant="20" id="IBM-10-74x"/>
+                            <constraint firstItem="O4T-RG-3e3" firstAttribute="top" secondItem="dXb-wt-Pbu" secondAttribute="bottom" constant="20" id="IBx-Ae-rgg"/>
+                            <constraint firstItem="dXb-wt-Pbu" firstAttribute="leading" secondItem="i4h-WN-PIC" secondAttribute="leadingMargin" constant="20" id="LQh-62-SHX"/>
+                            <constraint firstItem="dXb-wt-Pbu" firstAttribute="top" secondItem="JrH-R6-2uM" secondAttribute="bottom" constant="20" id="MVw-va-QDg"/>
+                            <constraint firstAttribute="trailing" secondItem="dXb-wt-Pbu" secondAttribute="trailing" constant="20" id="fkx-5X-UWH"/>
+                            <constraint firstItem="O4T-RG-3e3" firstAttribute="top" secondItem="dXb-wt-Pbu" secondAttribute="bottom" constant="20" id="g0y-Ow-yty"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dXb-wt-Pbu" secondAttribute="trailing" constant="20" id="mgm-nh-nbA"/>
+                            <constraint firstItem="dXb-wt-Pbu" firstAttribute="leading" secondItem="i4h-WN-PIC" secondAttribute="leading" constant="20" id="xwM-Sn-Zxe"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Keynote" id="1rA-Me-rKh"/>
+                    <navigationItem key="navigationItem" title="Speakers and Panels" id="r47-hT-15J"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="1500"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jnS-gm-Gcd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2870.625" y="-825"/>
+            <point key="canvasLocation" x="-3753.75" y="-2872.1830985915494"/>
         </scene>
         <!--GINASIA-->
         <scene sceneID="nJi-k9-dgd">
@@ -709,13 +1252,13 @@
                         <segue destination="0lV-8o-kmm" kind="relationship" relationship="viewControllers" id="Djl-MR-BL0"/>
                         <segue destination="yFK-AK-Xcg" kind="relationship" relationship="viewControllers" id="odf-s5-5yz"/>
                         <segue destination="POU-UM-Tdg" kind="relationship" relationship="viewControllers" id="8Ql-nV-ewQ"/>
-                        <segue destination="AoP-T2-5O8" kind="relationship" relationship="viewControllers" id="7gZ-w2-fiQ"/>
+                        <segue destination="cEz-9t-1CH" kind="relationship" relationship="viewControllers" id="7gZ-w2-fiQ"/>
                         <segue destination="RcB-k8-NbF" kind="relationship" relationship="viewControllers" id="SD1-Ow-HcP"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pv9-tX-OoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2910" y="-27"/>
+            <point key="canvasLocation" x="-4056" y="100"/>
         </scene>
         <!--Item-->
         <scene sceneID="63F-Pv-tGE">
@@ -734,7 +1277,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hDl-tx-ZeE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3967" y="-9"/>
+            <point key="canvasLocation" x="-5769" y="40"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="dXl-3i-UcF">
@@ -852,7 +1395,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1288" y="41"/>
+            <point key="canvasLocation" x="-290.625" y="40.140845070422536"/>
         </scene>
         <!--Procedure-->
         <scene sceneID="EQd-y2-bFG">
@@ -960,11 +1503,37 @@
                     <color key="tintColor" red="1" green="1" blue="1" alpha="0.30110231160000001" colorSpace="calibratedRGB"/>
                 </imageView>
             </objects>
-            <point key="canvasLocation" x="-1539" y="1928"/>
+            <point key="canvasLocation" x="-1958" y="1780"/>
+        </scene>
+        <!--Keynote-->
+        <scene sceneID="4dG-mD-gqV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cEz-9t-1CH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Keynote" id="1rA-Me-rKh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="1NR-b7-TwS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.32549019610000002" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="AoP-T2-5O8" kind="relationship" relationship="rootViewController" id="kpZ-JV-1yN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AZh-BN-9HH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2681" y="-1008"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Beah" width="150" height="150"/>
+        <image name="Bedard" width="300" height="300"/>
         <image name="ConcordiaLogo" width="458" height="456"/>
+        <image name="Dalglish" width="300" height="300"/>
+        <image name="Melati 1" width="300" height="300"/>
+        <image name="Melati 2" width="300" height="300"/>
+        <image name="Phuc" width="300" height="300"/>
         <image name="clock" width="24" height="24"/>
         <image name="crown" width="24" height="24"/>
         <image name="lavender_leeanne" width="121" height="121"/>
@@ -973,7 +1542,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="TPW-Dx-ix0"/>
-        <segue reference="32e-Mn-bbZ"/>
+        <segue reference="odf-s5-5yz"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
