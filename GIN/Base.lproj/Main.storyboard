@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="o2G-re-336">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="o2G-re-336">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -591,8 +591,8 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0sL-gK-UJL" userLabel="Dalglish Bottom">
                                                                         <rect key="frame" x="0.0" y="136" width="280" height="133"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="bhd-Qn-Pah">
-                                                                                <rect key="frame" x="0.0" y="-8" width="280" height="133"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="bhd-Qn-Pah">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="133"/>
                                                                                 <string key="text">He is the founder of Street Kids International, co-founder of Schools Without Borders and a founding board member of Ashoka Canada. He is a member of the Order of Canada. Mr. Dalglish is a passionate believer in how each person can make a difference in our world and his keynote will help all delegates reflect on how they can truly engage with an issue in a way that makes our world a better place. </string>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
@@ -646,8 +646,8 @@
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fYj-NC-FYH">
                                                                                         <rect key="frame" x="0.0" y="73" width="135" height="63"/>
                                                                                         <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="ebR-TD-WF9">
-                                                                                                <rect key="frame" x="0.0" y="8" width="135" height="63"/>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="ebR-TD-WF9">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63"/>
                                                                                                 <string key="text">Two teenage sisters have taken a stand against pollution in Bali – and they’ve convinced the government to ban plastic bags by the year 2018. </string>
                                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
                                                                                                 <nil key="textColor"/>
@@ -849,8 +849,8 @@
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KEm-6v-fY3">
                                                                                         <rect key="frame" x="0.0" y="73" width="135" height="63"/>
                                                                                         <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="sTq-d6-ibh">
-                                                                                                <rect key="frame" x="0.0" y="-6" width="135" height="77"/>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="sTq-d6-ibh">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63"/>
                                                                                                 <string key="text">For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred. </string>
                                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
                                                                                                 <nil key="textColor"/>
@@ -891,8 +891,8 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eX3-ga-nVC" userLabel="Phuc Bottom">
                                                                         <rect key="frame" x="0.0" y="136" width="280" height="132"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="pyc-t1-DfE">
-                                                                                <rect key="frame" x="0.0" y="-8" width="280" height="132"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="pyc-t1-DfE">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="132"/>
                                                                                 <string key="text">The scars that covered 65 percent of her body were not only disfiguring – making her believe no one would ever love her – they hurt. A lot. For the past 20 years, Phuc has traveled the world telling her story of hope borne out of despair. Her passion for peaceful resolutions to conflict in our world is inspiring. Kim is the girl who was captured in a famous 1972 photograph that brought the world's attention to the horrors of the war in Vietnam. </string>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
