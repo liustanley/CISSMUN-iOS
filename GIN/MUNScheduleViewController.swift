@@ -20,9 +20,7 @@ class MUNScheduleViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func done(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
+    
 
 }
 
