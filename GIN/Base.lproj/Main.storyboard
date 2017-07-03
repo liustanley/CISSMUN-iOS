@@ -1477,7 +1477,6 @@
         <!--Procedure-->
         <scene sceneID="EQd-y2-bFG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xyJ-vG-mIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="xUa-EH-L2e" userLabel="Procedure" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="84h-mK-oYj"/>
@@ -1493,16 +1492,15 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cxF-13-2FY">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="2000"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="IMG_9390" translatesAutoresizingMaskIntoConstraints="NO" id="3zT-Ab-QRC">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_9390" translatesAutoresizingMaskIntoConstraints="NO" id="3zT-Ab-QRC">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="I1f-Ps-aLX"/>
                                                     <constraint firstAttribute="width" constant="320" id="vQm-DQ-MZb"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PROCEDURES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8Q-72-vJd">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROCEDURES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8Q-72-vJd">
                                                 <rect key="frame" x="79" y="84" width="163" height="33"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -1510,7 +1508,11 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.97280138729999999" green="0.96108514069999995" blue="0.94418889279999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="3zT-Ab-QRC" firstAttribute="leading" secondItem="cxF-13-2FY" secondAttribute="leading" id="LpE-fq-T75"/>
+                                            <constraint firstItem="3zT-Ab-QRC" firstAttribute="centerY" secondItem="D8Q-72-vJd" secondAttribute="centerY" id="NUJ-LJ-7NU"/>
+                                            <constraint firstItem="3zT-Ab-QRC" firstAttribute="centerX" secondItem="D8Q-72-vJd" secondAttribute="centerX" id="Ynr-L4-Sbc"/>
                                             <constraint firstAttribute="height" constant="2000" id="cek-3Y-ZEB"/>
+                                            <constraint firstItem="3zT-Ab-QRC" firstAttribute="top" secondItem="cxF-13-2FY" secondAttribute="top" id="vyF-qp-JmV"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1535,6 +1537,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="2000"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyJ-vG-mIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="892.5" y="-2033.4507042253522"/>
         </scene>
