@@ -1354,7 +1354,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pv9-tX-OoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3060" y="99.295774647887328"/>
+            <point key="canvasLocation" x="-2681" y="40"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="dXl-3i-UcF">
@@ -1463,7 +1463,7 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <segue destination="xUa-EH-L2e" kind="relationship" relationship="viewControllers" id="h9u-kJ-rdt"/>
+                        <segue destination="OyG-Y8-W1y" kind="relationship" relationship="viewControllers" id="h9u-kJ-rdt"/>
                         <segue destination="iyI-bE-L9U" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="vzY-AY-TnJ" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="qtl-lD-hPh" kind="relationship" relationship="viewControllers" id="1hK-Jf-ZA3"/>
@@ -1477,26 +1477,71 @@
         <!--Procedure-->
         <scene sceneID="EQd-y2-bFG">
             <objects>
-                <viewController id="xUa-EH-L2e" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyJ-vG-mIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="xUa-EH-L2e" userLabel="Procedure" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="84h-mK-oYj"/>
                         <viewControllerLayoutGuide type="bottom" id="lIr-kQ-eUK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="l6i-Kl-45O">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="1936"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="89v-e6-evG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1887"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cxF-13-2FY">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="IMG_9390" translatesAutoresizingMaskIntoConstraints="NO" id="3zT-Ab-QRC">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="I1f-Ps-aLX"/>
+                                                    <constraint firstAttribute="width" constant="320" id="vQm-DQ-MZb"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PROCEDURES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8Q-72-vJd">
+                                                <rect key="frame" x="79" y="84" width="163" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.97280138729999999" green="0.96108514069999995" blue="0.94418889279999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2000" id="cek-3Y-ZEB"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="cxF-13-2FY" secondAttribute="trailing" id="7Bi-Mg-plJ"/>
+                                    <constraint firstItem="cxF-13-2FY" firstAttribute="top" secondItem="89v-e6-evG" secondAttribute="top" id="VQq-JA-cj1"/>
+                                    <constraint firstAttribute="bottom" secondItem="cxF-13-2FY" secondAttribute="bottom" id="ufH-56-YjY"/>
+                                    <constraint firstItem="cxF-13-2FY" firstAttribute="leading" secondItem="89v-e6-evG" secondAttribute="leading" id="z4F-eJ-NBh"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="89v-e6-evG" secondAttribute="trailing" id="DPg-XT-Fse"/>
+                            <constraint firstItem="89v-e6-evG" firstAttribute="top" secondItem="84h-mK-oYj" secondAttribute="bottom" id="Jf2-3t-Oft"/>
+                            <constraint firstItem="cxF-13-2FY" firstAttribute="width" secondItem="l6i-Kl-45O" secondAttribute="width" id="VeQ-WH-EKY"/>
+                            <constraint firstItem="lIr-kQ-eUK" firstAttribute="top" secondItem="89v-e6-evG" secondAttribute="bottom" id="kyz-nE-Vaw"/>
+                            <constraint firstItem="89v-e6-evG" firstAttribute="leading" secondItem="l6i-Kl-45O" secondAttribute="leading" id="rNC-ww-VaU"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Procedure" image="clock" id="2IG-33-VrK"/>
+                    <navigationItem key="navigationItem" id="0Ja-Nx-cME"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="2000"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xyJ-vG-mIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-526" y="-784"/>
+            <point key="canvasLocation" x="892.5" y="-2033.4507042253522"/>
         </scene>
-        <!--Schedule-->
+        <!--Schedule Navigation-->
         <scene sceneID="1ns-25-Est">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iyI-bE-L9U" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iyI-bE-L9U" userLabel="Schedule Navigation" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Schedule" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="h1P-gX-Tmh">
@@ -1511,7 +1556,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W8i-EP-Y3U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-785"/>
+            <point key="canvasLocation" x="2649.375" y="-930.63380281690138"/>
         </scene>
         <!--Home-->
         <scene sceneID="kUv-85-mih">
@@ -1581,7 +1626,7 @@
                     <color key="tintColor" red="1" green="1" blue="1" alpha="0.30110231160000001" colorSpace="calibratedRGB"/>
                 </imageView>
             </objects>
-            <point key="canvasLocation" x="-1958" y="1780"/>
+            <point key="canvasLocation" x="-527" y="1880"/>
         </scene>
         <!--Keynote-->
         <scene sceneID="4dG-mD-gqV">
@@ -2920,7 +2965,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RVa-1a-XxS" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3585" y="-1275"/>
+            <point key="canvasLocation" x="1793" y="-1120"/>
         </scene>
         <!--Schedule-->
         <scene sceneID="7Bp-gT-Mw2">
@@ -3860,12 +3905,33 @@
             </objects>
             <point key="canvasLocation" x="-1288.125" y="836.61971830985919"/>
         </scene>
+        <!--Procedure Navigational-->
+        <scene sceneID="H2r-wY-e14">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OyG-Y8-W1y" userLabel="Procedure Navigational" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Procedure" image="clock" id="2IG-33-VrK"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="EFg-rn-wuw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.11764705882352941" green="0.12156862745098039" blue="0.11764705882352941" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xUa-EH-L2e" kind="relationship" relationship="rootViewController" id="fnl-6s-Jas"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HPf-ga-9ly" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-411" y="-1118"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Beah" width="150" height="150"/>
         <image name="Bedard" width="150" height="150"/>
         <image name="ConcordiaLogo" width="458" height="456"/>
         <image name="Dalglish" width="150" height="150"/>
+        <image name="IMG_9390" width="2592" height="1728"/>
         <image name="Melati 1" width="150" height="150"/>
         <image name="Melati 2" width="150" height="150"/>
         <image name="Phuc" width="150" height="150"/>
@@ -3880,7 +3946,7 @@
         <image name="welcome" width="1000" height="707"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="odf-s5-5yz"/>
+        <segue reference="32e-Mn-bbZ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
