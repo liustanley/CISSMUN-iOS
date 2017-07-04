@@ -1492,7 +1492,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cxF-13-2FY">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="2000"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_9390" translatesAutoresizingMaskIntoConstraints="NO" id="3zT-Ab-QRC">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="procedure" translatesAutoresizingMaskIntoConstraints="NO" id="3zT-Ab-QRC">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="I1f-Ps-aLX"/>
@@ -3934,7 +3934,6 @@
         <image name="Bedard" width="150" height="150"/>
         <image name="ConcordiaLogo" width="458" height="456"/>
         <image name="Dalglish" width="150" height="150"/>
-        <image name="IMG_9390" width="2592" height="1728"/>
         <image name="Melati 1" width="150" height="150"/>
         <image name="Melati 2" width="150" height="150"/>
         <image name="Phuc" width="150" height="150"/>
@@ -3944,6 +3943,7 @@
         <image name="gin" width="1000" height="665"/>
         <image name="lavender_leeanne" width="121" height="121"/>
         <image name="paulson_erik" width="121" height="121"/>
+        <image name="procedure" width="5184" height="3456"/>
         <image name="second" width="30" height="30"/>
         <image name="shanghai" width="1000" height="667"/>
         <image name="welcome" width="1000" height="707"/>
