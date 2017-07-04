@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Setting appearances/formatting for navigation bar
         let attrs = [
             NSForegroundColorAttributeName: UIColor.white,
-            NSFontAttributeName: UIFont(name: "Avenir-Heavy", size: 20)!
+            NSFontAttributeName: UIFont(name: "Avenir-Medium", size: 20)!
         ]
         UINavigationBar.appearance().titleTextAttributes = attrs
         
