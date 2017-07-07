@@ -31,7 +31,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UIBarButtonItem.appearance().setTitleTextAttributes([NSFontAttributeName : UIFont(name: "Avenir", size: 16.0)!], for: UIControlState.normal)
         
+        // Load user conference
+        loadConference()
+        
         return true
+    }
+    
+    func loadConference() {
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        var identifier = "GIN Home"
+        if let conf = UserDefaults.standard.object(forKey: "myConference") as? Bool {
+            if conf {
+                identifier = "CISSMUN Home"
+            }
+        } else {
+            identifier = "Welcome"
+        }
+        let exampleViewController: UIViewController = mainStoryboard.instantiateViewController(withIdentifier: identifier)
+        
+        self.window?.rootViewController = exampleViewController
+        
+        self.window?.makeKeyAndVisible()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
