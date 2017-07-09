@@ -1,7 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,10 +20,32 @@
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="Evb-Y5-CJY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="due-K8-Lpb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="84.5"/>
+                                <color key="backgroundColor" red="0.098039215690000001" green="0.20392156859999999" blue="0.32549019610000002" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="0.30110231160000001" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ConcordiaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Txc-6w-ri7">
+                                <rect key="frame" x="75" y="114.5" width="225" height="225"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Txc-6w-ri7" secondAttribute="height" multiplier="1:1" id="H5x-Da-QOs"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1137254902" green="0.23137254900000001" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Txc-6w-ri7" firstAttribute="top" secondItem="due-K8-Lpb" secondAttribute="bottom" constant="30" id="4u1-z9-uHZ"/>
+                            <constraint firstItem="due-K8-Lpb" firstAttribute="width" secondItem="Evb-Y5-CJY" secondAttribute="width" id="9ZR-S4-far"/>
+                            <constraint firstItem="due-K8-Lpb" firstAttribute="height" secondItem="Evb-Y5-CJY" secondAttribute="height" multiplier="0.127" id="Efm-J4-pnh"/>
+                            <constraint firstItem="due-K8-Lpb" firstAttribute="centerX" secondItem="Evb-Y5-CJY" secondAttribute="centerX" id="IRK-vb-k8j"/>
+                            <constraint firstItem="due-K8-Lpb" firstAttribute="top" secondItem="Evb-Y5-CJY" secondAttribute="topMargin" id="TNf-du-oba"/>
+                            <constraint firstItem="Txc-6w-ri7" firstAttribute="width" secondItem="Evb-Y5-CJY" secondAttribute="width" multiplier="0.6" id="Z7y-L7-ByS"/>
+                            <constraint firstItem="Txc-6w-ri7" firstAttribute="centerX" secondItem="Evb-Y5-CJY" secondAttribute="centerX" id="ZHk-hk-Zoo"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +53,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ConcordiaLogo" width="458" height="456"/>
+    </resources>
 </document>

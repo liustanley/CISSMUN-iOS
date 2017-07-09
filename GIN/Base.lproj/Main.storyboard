@@ -328,6 +328,7 @@
                             <constraint firstItem="YGp-82-ssm" firstAttribute="top" secondItem="cdf-to-F7v" secondAttribute="bottom" constant="90" id="854-EM-Glb"/>
                             <constraint firstItem="Wy1-zd-ecM" firstAttribute="centerX" secondItem="ycc-NT-T6J" secondAttribute="centerX" id="A0j-FN-m5J"/>
                             <constraint firstItem="YGp-82-ssm" firstAttribute="leading" secondItem="ycc-NT-T6J" secondAttribute="leadingMargin" constant="15" id="Bb1-Dw-l9D"/>
+                            <constraint firstItem="RxZ-ol-wvY" firstAttribute="top" secondItem="SIa-l9-j28" secondAttribute="bottom" constant="5" id="Cv9-Hc-kc5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Djh-L1-0Mr" secondAttribute="trailing" constant="15" id="NIO-0v-Mod"/>
                             <constraint firstItem="Djh-L1-0Mr" firstAttribute="top" secondItem="cdf-to-F7v" secondAttribute="bottom" constant="90" id="TRh-hi-fCH"/>
                             <constraint firstItem="RxZ-ol-wvY" firstAttribute="width" secondItem="ycc-NT-T6J" secondAttribute="width" multiplier="0.4" id="UQj-mL-y3i"/>
@@ -340,7 +341,6 @@
                             <constraint firstItem="YGp-82-ssm" firstAttribute="width" secondItem="ycc-NT-T6J" secondAttribute="width" multiplier="0.4" id="sXC-ez-51p"/>
                             <constraint firstItem="Djh-L1-0Mr" firstAttribute="width" secondItem="ycc-NT-T6J" secondAttribute="width" multiplier="0.36" id="tAe-5v-sBZ"/>
                             <constraint firstItem="RxZ-ol-wvY" firstAttribute="centerX" secondItem="ycc-NT-T6J" secondAttribute="centerX" constant="5" id="wm6-q0-ufn"/>
-                            <constraint firstItem="RxZ-ol-wvY" firstAttribute="top" secondItem="SIa-l9-j28" secondAttribute="bottom" constant="5" id="xgJ-Cl-2B9"/>
                             <constraint firstItem="RxZ-ol-wvY" firstAttribute="height" secondItem="ycc-NT-T6J" secondAttribute="height" multiplier="0.07" id="yQx-ql-37c"/>
                             <constraint firstItem="Wy1-zd-ecM" firstAttribute="height" secondItem="ycc-NT-T6J" secondAttribute="height" multiplier="0.127" id="zPB-a5-Us8"/>
                         </constraints>
