@@ -35,10 +35,20 @@ class WelcomeViewController: UIViewController {
     
     @IBAction func chooseMUN(_ sender: Any) {
         UserDefaults.standard.set(true, forKey: "myConference")
+        
+        let storyboard = UIStoryboard(name: "MUN", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "MUN") as UIViewController
+        
+        self.present(controller, animated: true, completion: nil)
     }
 
     @IBAction func chooseGIN(_ sender: Any) {
         UserDefaults.standard.set(false, forKey: "myConference")
+        
+        let storyboard = UIStoryboard(name: "GIN", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "GIN") as UIViewController
+        
+        self.present(controller, animated: true, completion: nil)
     }
     
     /*

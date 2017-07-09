@@ -8,11 +8,17 @@
 
 import UIKit
 
-class MUNMapViewController: UIViewController {
+class MapViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "Map") as UIViewController
+        addChildViewController(controller)
+        view.addSubview(controller.view)
+        controller.didMove(toParentViewController: self)
     }
     
     override func didReceiveMemoryWarning() {

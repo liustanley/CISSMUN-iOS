@@ -39,16 +39,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func loadConference() {
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         
-        var identifier = "GIN Home"
+        var identifier = "GIN"
         if let conf = UserDefaults.standard.object(forKey: "myConference") as? Bool {
             if conf {
-                identifier = "CISSMUN Home"
+                identifier = "MUN"
             }
         } else {
-            identifier = "Welcome"
+            identifier = "Main"
         }
+        
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: identifier, bundle: nil)
+
         let exampleViewController: UIViewController = mainStoryboard.instantiateViewController(withIdentifier: identifier)
         
         self.window?.rootViewController = exampleViewController
