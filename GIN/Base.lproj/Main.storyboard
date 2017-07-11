@@ -1064,7 +1064,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mCi-LB-rVa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3701.25" y="1202.6408450704225"/>
+            <point key="canvasLocation" x="2340" y="1514"/>
         </scene>
         <!--Map-->
         <scene sceneID="Z8r-MY-f6S">
@@ -1186,7 +1186,7 @@
         <!--Shanghai-->
         <scene sceneID="da4-lF-XUq">
             <objects>
-                <viewController id="IKP-uz-P1D" sceneMemberID="viewController">
+                <viewController id="IKP-uz-P1D" customClass="ShanghaiViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="llS-Ig-2b2"/>
                         <viewControllerLayoutGuide type="bottom" id="z9h-nm-4Vh"/>
@@ -1223,7 +1223,14 @@
                             <constraint firstAttribute="bottom" secondItem="3lV-Po-cGl" secondAttribute="bottom" id="mem-Ae-bdN"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Shanghai" id="LNQ-2K-rqa"/>
+                    <navigationItem key="navigationItem" title="Shanghai" id="LNQ-2K-rqa">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="fWA-xP-YLo">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="backButton:" destination="IKP-uz-P1D" id="m3Y-ph-CIW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1600"/>
                 </viewController>
@@ -1317,7 +1324,6 @@
         <!--Navigation Controller-->
         <scene sceneID="33y-tF-sjh">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="T1R-Jq-Lsi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a7u-In-lMd" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="OlU-1v-zYM">
@@ -1330,6 +1336,7 @@
                         <segue destination="DAn-Ly-meu" kind="relationship" relationship="rootViewController" id="1GK-4R-Zzk"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T1R-Jq-Lsi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2079.375" y="1962.6760563380283"/>
         </scene>
