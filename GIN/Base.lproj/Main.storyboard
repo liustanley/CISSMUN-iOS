@@ -238,7 +238,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="k9s-EW-z0j" kind="presentation" id="eni-ZY-fiw"/>
+                                                    <segue destination="bx2-Rp-SWn" kind="show" id="jjk-FU-Kl5"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1222,7 +1222,7 @@
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8p-dC-cUd">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8p-dC-cUd">
                                                 <rect key="frame" x="8" y="208" width="304" height="125"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -1300,6 +1300,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="eSy-yV-duS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.11764705882352941" green="0.12156862745098039" blue="0.11764705882352941" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1310,25 +1311,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="32i-sR-QEv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1344" y="467"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="d4Z-l6-rMc">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="k9s-EW-z0j" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="Xmq-r3-tPO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.11764705882352941" green="0.12156862745098039" blue="0.11764705882352941" alpha="0.70473030821917804" colorSpace="calibratedRGB"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="bx2-Rp-SWn" kind="relationship" relationship="rootViewController" id="bl0-fm-wRf"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="e4y-7G-jsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="606" y="2003"/>
         </scene>
     </scenes>
     <resources>
