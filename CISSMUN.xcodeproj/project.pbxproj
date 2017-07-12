@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2AEE2A6B1F144F090009CD56 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE2A6A1F144F090009CD56 /* AboutViewController.swift */; };
 		2AEE2A6D1F1450B60009CD56 /* ShanghaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE2A6C1F1450B60009CD56 /* ShanghaiViewController.swift */; };
+		2AEE2A6F1F1699370009CD56 /* JinqaioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE2A6E1F1699370009CD56 /* JinqaioViewController.swift */; };
 		449417966BF6BFBB7AB7690C /* Pods_CISSMUN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49887976BF57F2643E21A2ED /* Pods_CISSMUN.framework */; };
 		9A07ED461F126D3500BDA478 /* MUN.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A07ED451F126D3500BDA478 /* MUN.storyboard */; };
 		9A07ED481F126D7C00BDA478 /* GIN.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A07ED471F126D7C00BDA478 /* GIN.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		2AEE2A6A1F144F090009CD56 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		2AEE2A6C1F1450B60009CD56 /* ShanghaiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShanghaiViewController.swift; sourceTree = "<group>"; };
+		2AEE2A6E1F1699370009CD56 /* JinqaioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JinqaioViewController.swift; sourceTree = "<group>"; };
 		49887976BF57F2643E21A2ED /* Pods_CISSMUN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CISSMUN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A07ED451F126D3500BDA478 /* MUN.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MUN.storyboard; sourceTree = "<group>"; };
 		9A07ED471F126D7C00BDA478 /* GIN.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GIN.storyboard; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				9A07ED491F12765400BDA478 /* MoreViewController.swift */,
 				2AEE2A6A1F144F090009CD56 /* AboutViewController.swift */,
 				2AEE2A6C1F1450B60009CD56 /* ShanghaiViewController.swift */,
+				2AEE2A6E1F1699370009CD56 /* JinqaioViewController.swift */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				9A9FC0501ED5D165006E95A1 /* MUNHomeViewController.swift in Sources */,
 				9AD5687A1EEAB911001D1584 /* WelcomeViewController.swift in Sources */,
 				9A9FC04C1ED5D165006E95A1 /* AppDelegate.swift in Sources */,
+				2AEE2A6F1F1699370009CD56 /* JinqaioViewController.swift in Sources */,
 				9AC54D2E1EE84B3700E87B88 /* MapViewController.swift in Sources */,
 				9A9FC04E1ED5D165006E95A1 /* MUNScheduleViewController.swift in Sources */,
 				9AC54D321EE84BB900E87B88 /* GINHomeViewController.swift in Sources */,

@@ -222,6 +222,9 @@
                                                 <state key="normal" title="Jinqiao">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="IeG-wS-4za" kind="presentation" id="k4b-sx-jLX"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1236,7 +1239,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yIS-mG-NC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1851" y="-22"/>
+            <point key="canvasLocation" x="2848.125" y="-22.183098591549296"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ce6-1U-SP2">
@@ -1263,6 +1266,32 @@
             </objects>
             <point key="canvasLocation" x="958.125" y="1941.5492957746478"/>
         </scene>
+        <!--Jinqiao-->
+        <scene sceneID="MBy-Zq-7Ns">
+            <objects>
+                <viewController id="YUw-BG-RXk" customClass="JinqaioViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ISe-Oi-Q4Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="FgE-MK-ghf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PcH-fv-F9x">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Jinqiao" id="ten-s5-ByY">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="BBw-Lz-PCq">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="backButton:" destination="YUw-BG-RXk" id="bnz-Yo-56X"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="agm-Rz-Omb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61.875" y="422.53521126760563"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Bmk-Oa-LVR">
             <objects>
@@ -1281,7 +1310,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="32i-sR-QEv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-39" y="393"/>
+            <point key="canvasLocation" x="958.125" y="392.95774647887322"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="d4Z-l6-rMc">
@@ -1319,7 +1348,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6eP-fU-doN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="787.5" y="422.53521126760563"/>
+            <point key="canvasLocation" x="1785" y="422.53521126760563"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="33y-tF-sjh">
@@ -1339,6 +1368,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T1R-Jq-Lsi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2079.375" y="1962.6760563380283"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PJQ-a7-7KM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IeG-wS-4za" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="jI0-wU-U9k">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.11764705882352941" green="0.12156862745098039" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YUw-BG-RXk" kind="relationship" relationship="rootViewController" id="jJf-fY-mUP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XFL-t9-LWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-935.625" y="422.53521126760563"/>
         </scene>
     </scenes>
     <resources>
