@@ -36,9 +36,6 @@ class SettingsTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 1
     }
-    @IBAction func done(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
