@@ -30,10 +30,10 @@
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="1347"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="msV-04-NT3">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="1347"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="1350"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cQD-z6-yGv" userLabel="Main">
-                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="1347"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="1350"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CpU-EH-XEJ" userLabel="Beah Stack View">
                                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="270"/>
@@ -45,7 +45,7 @@
                                                                                 <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
                                                                                 <subviews>
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xZ5-Wg-Xay">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="43"/>
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="56"/>
                                                                                         <subviews>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Human Rights Activist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="ylk-Z5-Djq">
                                                                                                 <rect key="frame" x="0.0" y="35" width="136" height="20"/>
@@ -69,15 +69,15 @@
                                                                                         </constraints>
                                                                                     </view>
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bTz-Ga-I3t">
-                                                                                        <rect key="frame" x="0.0" y="55" width="135" height="81"/>
+                                                                                        <rect key="frame" x="0.0" y="68" width="135" height="68"/>
                                                                                         <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="blf-d8-H7p">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="81"/>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="blf-d8-H7p">
+                                                                                                <rect key="frame" x="0.0" y="-8" width="150" height="82"/>
                                                                                                 <constraints>
-                                                                                                    <constraint firstAttribute="height" constant="81" id="RS7-Ah-ASn"/>
+                                                                                                    <constraint firstAttribute="height" constant="82" id="RS7-Ah-ASn"/>
                                                                                                 </constraints>
                                                                                                 <string key="text">Ishmael Beah, born in Sierra Leone, West Africa, is the New York Times bestselling author of A Long Way Gone, Memoirs of a Boy Soldier and Radiance of Tomorrow, A Novel both published by Farrar Straus &amp; Giroux.</string>
-                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="11"/>
                                                                                                 <nil key="textColor"/>
                                                                                                 <nil key="highlightedColor"/>
                                                                                             </label>
@@ -85,9 +85,9 @@
                                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                         <constraints>
                                                                                             <constraint firstItem="blf-d8-H7p" firstAttribute="leading" secondItem="bTz-Ga-I3t" secondAttribute="leading" id="3GC-Rr-cbb"/>
-                                                                                            <constraint firstItem="blf-d8-H7p" firstAttribute="top" secondItem="bTz-Ga-I3t" secondAttribute="top" id="Hlz-Uh-DGD"/>
-                                                                                            <constraint firstAttribute="bottom" secondItem="blf-d8-H7p" secondAttribute="bottom" id="gaB-bO-vtL"/>
-                                                                                            <constraint firstAttribute="trailing" secondItem="blf-d8-H7p" secondAttribute="trailing" id="ipT-Ln-apY"/>
+                                                                                            <constraint firstItem="blf-d8-H7p" firstAttribute="top" secondItem="bTz-Ga-I3t" secondAttribute="top" constant="-8" id="Hlz-Uh-DGD"/>
+                                                                                            <constraint firstAttribute="bottom" secondItem="blf-d8-H7p" secondAttribute="bottom" constant="-6" id="gaB-bO-vtL"/>
+                                                                                            <constraint firstAttribute="trailing" secondItem="blf-d8-H7p" secondAttribute="trailing" constant="-15" id="ipT-Ln-apY"/>
                                                                                         </constraints>
                                                                                     </view>
                                                                                 </subviews>
@@ -116,7 +116,7 @@
                                                                         <rect key="frame" x="0.0" y="136" width="280" height="134"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="vnn-v3-yGo">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="134"/>
+                                                                                <rect key="frame" x="0.0" y="10" width="280" height="124"/>
                                                                                 <string key="text">His memoir has been published in over 40 languages and was nominated for a Quill Award in the Best Debut Author category for 2007. Time Magazine named the book as one of the Top 10 Nonfiction books of 2007. His work has appeared in the New York Times, New York Times Magazine, Time magazine, International Herald Tribune, Globe &amp; Mail, Rutgers University Press, Vespertine Press, LIT, The Guardian, Parabola magazines and numerous academic journals. Mr. Beah’s keynote will focus on his experiences and his reflections on conflict, war, and healing for our world.   </string>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
@@ -127,7 +127,7 @@
                                                                         <constraints>
                                                                             <constraint firstItem="vnn-v3-yGo" firstAttribute="leading" secondItem="faI-R9-CTS" secondAttribute="leading" id="HZK-tp-vik"/>
                                                                             <constraint firstAttribute="trailing" secondItem="vnn-v3-yGo" secondAttribute="trailing" id="QnK-Xv-dN4"/>
-                                                                            <constraint firstItem="vnn-v3-yGo" firstAttribute="top" secondItem="faI-R9-CTS" secondAttribute="top" id="asL-Nz-aGh"/>
+                                                                            <constraint firstItem="vnn-v3-yGo" firstAttribute="top" secondItem="faI-R9-CTS" secondAttribute="top" constant="10" id="asL-Nz-aGh"/>
                                                                             <constraint firstAttribute="bottom" secondItem="vnn-v3-yGo" secondAttribute="bottom" id="eGM-WN-z7l"/>
                                                                         </constraints>
                                                                     </view>
@@ -137,7 +137,7 @@
                                                                 </constraints>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="V56-sc-6oK" userLabel="Dalglish Stack View">
-                                                                <rect key="frame" x="0.0" y="270" width="280" height="269"/>
+                                                                <rect key="frame" x="0.0" y="270" width="280" height="270.5"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QRC-Xm-Qux" userLabel="Dalglish Top">
                                                                         <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
@@ -172,13 +172,13 @@
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FqL-vy-ifq">
                                                                                         <rect key="frame" x="0.0" y="72" width="135" height="64"/>
                                                                                         <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="jcV-xV-RPG">
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="jcV-xV-RPG">
                                                                                                 <rect key="frame" x="0.0" y="-8" width="135" height="78"/>
                                                                                                 <constraints>
                                                                                                     <constraint firstAttribute="height" constant="78" id="FwD-h6-tUh"/>
                                                                                                 </constraints>
                                                                                                 <string key="text">Peter Dalglish is the senior advisor for UN-Habitat Afghanistan and has served as the chief technical advisor for the United Nations.</string>
-                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="11"/>
                                                                                                 <nil key="textColor"/>
                                                                                                 <nil key="highlightedColor"/>
                                                                                             </label>
@@ -214,12 +214,12 @@
                                                                         </subviews>
                                                                     </stackView>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y9P-4w-WYq" userLabel="Dalglish Bottom">
-                                                                        <rect key="frame" x="0.0" y="136" width="280" height="133"/>
+                                                                        <rect key="frame" x="0.0" y="136" width="280" height="134.5"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="zSi-2p-YHu">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="133"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="zSi-2p-YHu">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="134.5"/>
                                                                                 <string key="text">He is the founder of Street Kids International, co-founder of Schools Without Borders and a founding board member of Ashoka Canada. He is a member of the Order of Canada. Mr. Dalglish is a passionate believer in how each person can make a difference in our world and his keynote will help all delegates reflect on how they can truly engage with an issue in a way that makes our world a better place. </string>
-                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="11"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -233,9 +233,12 @@
                                                                         </constraints>
                                                                     </view>
                                                                 </subviews>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="270" id="B5t-Iv-GNh"/>
+                                                                </constraints>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XbW-cm-IIK" userLabel="Wijsen Stack View">
-                                                                <rect key="frame" x="0.0" y="539" width="280" height="270"/>
+                                                                <rect key="frame" x="0.0" y="540.5" width="280" height="270"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Bsv-pv-npL" userLabel="Wijsen Top">
                                                                         <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
@@ -271,17 +274,17 @@
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Zi-gq-wpC">
                                                                                         <rect key="frame" x="0.0" y="73" width="135" height="63"/>
                                                                                         <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="tVe-Rp-bnZ">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63"/>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="tVe-Rp-bnZ">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="127" height="63"/>
                                                                                                 <string key="text">Two teenage sisters have taken a stand against pollution in Bali – and they’ve convinced the government to ban plastic bags by the year 2018. </string>
-                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                                                 <nil key="textColor"/>
                                                                                                 <nil key="highlightedColor"/>
                                                                                             </label>
                                                                                         </subviews>
                                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                         <constraints>
-                                                                                            <constraint firstAttribute="trailing" secondItem="tVe-Rp-bnZ" secondAttribute="trailing" id="7Df-g3-ke7"/>
+                                                                                            <constraint firstAttribute="trailing" secondItem="tVe-Rp-bnZ" secondAttribute="trailing" constant="8" id="7Df-g3-ke7"/>
                                                                                             <constraint firstAttribute="bottom" secondItem="tVe-Rp-bnZ" secondAttribute="bottom" id="Nat-uu-AO4"/>
                                                                                             <constraint firstItem="tVe-Rp-bnZ" firstAttribute="top" secondItem="4Zi-gq-wpC" secondAttribute="top" id="gcc-h8-VBX"/>
                                                                                             <constraint firstItem="tVe-Rp-bnZ" firstAttribute="leading" secondItem="4Zi-gq-wpC" secondAttribute="leading" id="xh6-ou-bv0"/>
@@ -317,7 +320,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KVp-bT-pMr" userLabel="Wijsen Bottom">
                                                                         <rect key="frame" x="0.0" y="136" width="280" height="134"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="deO-8z-zh4">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="deO-8z-zh4">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="134"/>
                                                                                 <string key="text">The island suffers from a crushing plastic pollution problem, so Isabel and Melati Wijsen decided to take action and start Bye Bye Plastic Bags to mobilize other kids and adults to work toward a cleaner Bali. To achieve the goal, the girls have organized beach clean-ups, put on a fashion show, given a TED talk, gone on a hunger strike, and met with the UN Secretary General. Their keynote will focus on what they’ve done so far and on why they believe so passionately in their cause.</string>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
@@ -339,7 +342,7 @@
                                                                 </constraints>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9XZ-W9-Hdv" userLabel="Bedard Stack View">
-                                                                <rect key="frame" x="0.0" y="809" width="280" height="270"/>
+                                                                <rect key="frame" x="0.0" y="810.5" width="280" height="270"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pBM-2V-BEX" userLabel="Bedard Top">
                                                                         <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
@@ -376,17 +379,17 @@
                                                                                         <rect key="frame" x="0.0" y="73" width="135" height="63"/>
                                                                                         <subviews>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Justin is the executive director of the Jump! Foundation, a non-profit social enterprise focused on leadership development. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="bne-1g-FJ2">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63"/>
-                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                                                                                                <rect key="frame" x="0.0" y="-8" width="127" height="63"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                                                 <nil key="textColor"/>
                                                                                                 <nil key="highlightedColor"/>
                                                                                             </label>
                                                                                         </subviews>
                                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                         <constraints>
-                                                                                            <constraint firstAttribute="trailing" secondItem="bne-1g-FJ2" secondAttribute="trailing" id="2ge-cR-GOW"/>
-                                                                                            <constraint firstItem="bne-1g-FJ2" firstAttribute="top" secondItem="BeA-KA-DOC" secondAttribute="top" id="Om2-vY-hWi"/>
-                                                                                            <constraint firstAttribute="bottom" secondItem="bne-1g-FJ2" secondAttribute="bottom" id="Pqo-Jx-3tO"/>
+                                                                                            <constraint firstAttribute="trailing" secondItem="bne-1g-FJ2" secondAttribute="trailing" constant="8" id="2ge-cR-GOW"/>
+                                                                                            <constraint firstItem="bne-1g-FJ2" firstAttribute="top" secondItem="BeA-KA-DOC" secondAttribute="top" constant="-8" id="Om2-vY-hWi"/>
+                                                                                            <constraint firstAttribute="bottom" secondItem="bne-1g-FJ2" secondAttribute="bottom" constant="8" id="Pqo-Jx-3tO"/>
                                                                                             <constraint firstItem="bne-1g-FJ2" firstAttribute="leading" secondItem="BeA-KA-DOC" secondAttribute="leading" id="jeq-jc-cDh"/>
                                                                                         </constraints>
                                                                                     </view>
@@ -438,7 +441,7 @@
                                                                 </constraints>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JKr-zt-OXe" userLabel="Phuc Stack View">
-                                                                <rect key="frame" x="0.0" y="1079" width="280" height="268"/>
+                                                                <rect key="frame" x="0.0" y="1080.5" width="280" height="269.5"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sdP-pZ-ksU" userLabel="Phuc Top">
                                                                         <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
@@ -474,10 +477,10 @@
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oX9-Tb-ONd">
                                                                                         <rect key="frame" x="0.0" y="73" width="135" height="63"/>
                                                                                         <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="AWL-qP-8zi">
-                                                                                                <rect key="frame" x="0.0" y="-22" width="127" height="108"/>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="AWL-qP-8zi">
+                                                                                                <rect key="frame" x="0.0" y="-22" width="140" height="108"/>
                                                                                                 <string key="text">For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred. </string>
-                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                                                 <nil key="textColor"/>
                                                                                                 <nil key="highlightedColor"/>
                                                                                             </label>
@@ -487,7 +490,7 @@
                                                                                             <constraint firstItem="AWL-qP-8zi" firstAttribute="top" secondItem="oX9-Tb-ONd" secondAttribute="top" constant="-22" id="IUh-Wh-y1T"/>
                                                                                             <constraint firstAttribute="bottom" secondItem="AWL-qP-8zi" secondAttribute="bottom" constant="-23" id="Shp-fD-Edc"/>
                                                                                             <constraint firstItem="AWL-qP-8zi" firstAttribute="leading" secondItem="oX9-Tb-ONd" secondAttribute="leading" id="cbW-zK-q39"/>
-                                                                                            <constraint firstAttribute="trailing" secondItem="AWL-qP-8zi" secondAttribute="trailing" constant="8" id="nRx-x7-1Mw"/>
+                                                                                            <constraint firstAttribute="trailing" secondItem="AWL-qP-8zi" secondAttribute="trailing" constant="-5" id="nRx-x7-1Mw"/>
                                                                                         </constraints>
                                                                                     </view>
                                                                                 </subviews>
@@ -514,10 +517,10 @@
                                                                         </subviews>
                                                                     </stackView>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pCz-Bu-q5D" userLabel="Phuc Bottom">
-                                                                        <rect key="frame" x="0.0" y="136" width="280" height="132"/>
+                                                                        <rect key="frame" x="0.0" y="136" width="280" height="133.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Ivh-IR-mYm">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="132"/>
+                                                                                <rect key="frame" x="0.0" y="10" width="280" height="123.5"/>
                                                                                 <string key="text">The scars that covered 65 percent of her body were not only disfiguring – making her believe no one would ever love her – they hurt. A lot. For the past 20 years, Phuc has traveled the world telling her story of hope borne out of despair. Her passion for peaceful resolutions to conflict in our world is inspiring. Kim is the girl who was captured in a famous 1972 photograph that brought the world's attention to the horrors of the war in Vietnam. </string>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
@@ -526,13 +529,16 @@
                                                                         </subviews>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
-                                                                            <constraint firstItem="Ivh-IR-mYm" firstAttribute="top" secondItem="pCz-Bu-q5D" secondAttribute="top" id="06S-tQ-7mv"/>
+                                                                            <constraint firstItem="Ivh-IR-mYm" firstAttribute="top" secondItem="pCz-Bu-q5D" secondAttribute="top" constant="10" id="06S-tQ-7mv"/>
                                                                             <constraint firstItem="Ivh-IR-mYm" firstAttribute="leading" secondItem="pCz-Bu-q5D" secondAttribute="leading" id="55s-8S-o5o"/>
                                                                             <constraint firstAttribute="trailing" secondItem="Ivh-IR-mYm" secondAttribute="trailing" id="A5S-bV-hek"/>
                                                                             <constraint firstAttribute="bottom" secondItem="Ivh-IR-mYm" secondAttribute="bottom" id="a4S-ZN-hHd"/>
                                                                         </constraints>
                                                                     </view>
                                                                 </subviews>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="270" id="reU-Ic-5ds"/>
+                                                                </constraints>
                                                             </stackView>
                                                         </subviews>
                                                         <constraints>
@@ -542,7 +548,7 @@
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstItem="cQD-z6-yGv" firstAttribute="top" secondItem="msV-04-NT3" secondAttribute="top" id="1XB-NZ-X3i"/>
-                                                    <constraint firstAttribute="height" constant="1347" id="TnE-td-GKd"/>
+                                                    <constraint firstAttribute="height" constant="1350" id="TnE-td-GKd"/>
                                                     <constraint firstAttribute="trailing" secondItem="cQD-z6-yGv" secondAttribute="trailing" id="mju-w3-1u5"/>
                                                     <constraint firstAttribute="bottom" secondItem="cQD-z6-yGv" secondAttribute="bottom" id="pfg-XB-3oC"/>
                                                     <constraint firstItem="cQD-z6-yGv" firstAttribute="leading" secondItem="msV-04-NT3" secondAttribute="leading" id="wxu-Yw-THb"/>
