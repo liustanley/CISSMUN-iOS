@@ -274,7 +274,7 @@
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Zi-gq-wpC">
                                                                                         <rect key="frame" x="0.0" y="73" width="135" height="63"/>
                                                                                         <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="tVe-Rp-bnZ">
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="tVe-Rp-bnZ">
                                                                                                 <rect key="frame" x="0.0" y="0.0" width="127" height="63"/>
                                                                                                 <string key="text">Two teenage sisters have taken a stand against pollution in Bali – and they’ve convinced the government to ban plastic bags by the year 2018. </string>
                                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
@@ -378,8 +378,8 @@
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BeA-KA-DOC">
                                                                                         <rect key="frame" x="0.0" y="73" width="135" height="63"/>
                                                                                         <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Justin is the executive director of the Jump! Foundation, a non-profit social enterprise focused on leadership development. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="bne-1g-FJ2">
-                                                                                                <rect key="frame" x="0.0" y="-8" width="127" height="63"/>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Justin is the executive director of the Jump! Foundation, a non-profit social enterprise focused on leadership development. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bne-1g-FJ2">
+                                                                                                <rect key="frame" x="0.0" y="-8" width="135" height="63"/>
                                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                                                 <nil key="textColor"/>
                                                                                                 <nil key="highlightedColor"/>
@@ -387,7 +387,7 @@
                                                                                         </subviews>
                                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                         <constraints>
-                                                                                            <constraint firstAttribute="trailing" secondItem="bne-1g-FJ2" secondAttribute="trailing" constant="8" id="2ge-cR-GOW"/>
+                                                                                            <constraint firstAttribute="trailing" secondItem="bne-1g-FJ2" secondAttribute="trailing" id="2ge-cR-GOW"/>
                                                                                             <constraint firstItem="bne-1g-FJ2" firstAttribute="top" secondItem="BeA-KA-DOC" secondAttribute="top" constant="-8" id="Om2-vY-hWi"/>
                                                                                             <constraint firstAttribute="bottom" secondItem="bne-1g-FJ2" secondAttribute="bottom" constant="8" id="Pqo-Jx-3tO"/>
                                                                                             <constraint firstItem="bne-1g-FJ2" firstAttribute="leading" secondItem="BeA-KA-DOC" secondAttribute="leading" id="jeq-jc-cDh"/>
@@ -460,6 +460,10 @@
                                                                                             </label>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photographer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="ub4-Wz-JP7">
                                                                                                 <rect key="frame" x="0.0" y="33.5" width="86.5" height="19.5"/>
+                                                                                                <constraints>
+                                                                                                    <constraint firstAttribute="height" constant="19" id="lyA-wr-Zp9"/>
+                                                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="xbJ-ec-j6g"/>
+                                                                                                </constraints>
                                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
                                                                                                 <nil key="textColor"/>
                                                                                                 <nil key="highlightedColor"/>
@@ -477,20 +481,23 @@
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oX9-Tb-ONd">
                                                                                         <rect key="frame" x="0.0" y="73" width="135" height="63"/>
                                                                                         <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="AWL-qP-8zi">
-                                                                                                <rect key="frame" x="0.0" y="-22" width="140" height="108"/>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="AWL-qP-8zi">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63"/>
+                                                                                                <constraints>
+                                                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="63" id="PpB-3g-lSG"/>
+                                                                                                </constraints>
                                                                                                 <string key="text">For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred. </string>
-                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                                                                 <nil key="textColor"/>
                                                                                                 <nil key="highlightedColor"/>
                                                                                             </label>
                                                                                         </subviews>
                                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                         <constraints>
-                                                                                            <constraint firstItem="AWL-qP-8zi" firstAttribute="top" secondItem="oX9-Tb-ONd" secondAttribute="top" constant="-22" id="IUh-Wh-y1T"/>
-                                                                                            <constraint firstAttribute="bottom" secondItem="AWL-qP-8zi" secondAttribute="bottom" constant="-23" id="Shp-fD-Edc"/>
+                                                                                            <constraint firstItem="AWL-qP-8zi" firstAttribute="top" secondItem="oX9-Tb-ONd" secondAttribute="top" id="IUh-Wh-y1T"/>
+                                                                                            <constraint firstAttribute="bottom" secondItem="AWL-qP-8zi" secondAttribute="bottom" id="Shp-fD-Edc"/>
                                                                                             <constraint firstItem="AWL-qP-8zi" firstAttribute="leading" secondItem="oX9-Tb-ONd" secondAttribute="leading" id="cbW-zK-q39"/>
-                                                                                            <constraint firstAttribute="trailing" secondItem="AWL-qP-8zi" secondAttribute="trailing" constant="-5" id="nRx-x7-1Mw"/>
+                                                                                            <constraint firstAttribute="trailing" secondItem="AWL-qP-8zi" secondAttribute="trailing" id="nRx-x7-1Mw"/>
                                                                                         </constraints>
                                                                                     </view>
                                                                                 </subviews>
@@ -520,7 +527,10 @@
                                                                         <rect key="frame" x="0.0" y="136" width="280" height="133.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Ivh-IR-mYm">
-                                                                                <rect key="frame" x="0.0" y="10" width="280" height="123.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="133.5"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" constant="134" id="Bto-ab-Pu5"/>
+                                                                                </constraints>
                                                                                 <string key="text">The scars that covered 65 percent of her body were not only disfiguring – making her believe no one would ever love her – they hurt. A lot. For the past 20 years, Phuc has traveled the world telling her story of hope borne out of despair. Her passion for peaceful resolutions to conflict in our world is inspiring. Kim is the girl who was captured in a famous 1972 photograph that brought the world's attention to the horrors of the war in Vietnam. </string>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
@@ -529,7 +539,7 @@
                                                                         </subviews>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
-                                                                            <constraint firstItem="Ivh-IR-mYm" firstAttribute="top" secondItem="pCz-Bu-q5D" secondAttribute="top" constant="10" id="06S-tQ-7mv"/>
+                                                                            <constraint firstItem="Ivh-IR-mYm" firstAttribute="top" secondItem="pCz-Bu-q5D" secondAttribute="top" id="06S-tQ-7mv"/>
                                                                             <constraint firstItem="Ivh-IR-mYm" firstAttribute="leading" secondItem="pCz-Bu-q5D" secondAttribute="leading" id="55s-8S-o5o"/>
                                                                             <constraint firstAttribute="trailing" secondItem="Ivh-IR-mYm" secondAttribute="trailing" id="A5S-bV-hek"/>
                                                                             <constraint firstAttribute="bottom" secondItem="Ivh-IR-mYm" secondAttribute="bottom" id="a4S-ZN-hHd"/>
