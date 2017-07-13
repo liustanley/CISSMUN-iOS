@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -372,10 +372,13 @@
                         <color key="barTintColor" red="0.1176470588" green="0.1215686275" blue="0.1176470588" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="a89-Wr-JiF" kind="relationship" relationship="rootViewController" id="8AW-oo-Y7E"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m6q-Lg-cts" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2340" y="-1339"/>
+            <point key="canvasLocation" x="-2389" y="-1455"/>
         </scene>
         <!--Schedule-->
         <scene sceneID="Ymy-Ch-c7s">
@@ -1304,14 +1307,14 @@
                         <viewControllerLayoutGuide type="bottom" id="7Bx-Tb-IVo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qN7-sP-HBb">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1500"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="1436"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qWy-2C-AU3" userLabel="Main Stack View">
-                                <rect key="frame" x="20" y="40" width="280" height="1440"/>
+                                <rect key="frame" x="20" y="20" width="280" height="1347"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W2I-iJ-xZx">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="1440"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="1347"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dmZ-Yf-UVR">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="1350"/>
