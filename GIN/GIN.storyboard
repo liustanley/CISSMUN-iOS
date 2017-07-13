@@ -137,7 +137,7 @@
                                                                 </constraints>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="V56-sc-6oK" userLabel="Dalglish Stack View">
-                                                                <rect key="frame" x="0.0" y="270" width="280" height="270.5"/>
+                                                                <rect key="frame" x="0.0" y="270" width="280" height="270"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QRC-Xm-Qux" userLabel="Dalglish Top">
                                                                         <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
@@ -214,10 +214,10 @@
                                                                         </subviews>
                                                                     </stackView>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y9P-4w-WYq" userLabel="Dalglish Bottom">
-                                                                        <rect key="frame" x="0.0" y="136" width="280" height="134.5"/>
+                                                                        <rect key="frame" x="0.0" y="136" width="280" height="134"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="zSi-2p-YHu">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="134.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="134"/>
                                                                                 <string key="text">He is the founder of Street Kids International, co-founder of Schools Without Borders and a founding board member of Ashoka Canada. He is a member of the Order of Canada. Mr. Dalglish is a passionate believer in how each person can make a difference in our world and his keynote will help all delegates reflect on how they can truly engage with an issue in a way that makes our world a better place. </string>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="11"/>
                                                                                 <nil key="textColor"/>
@@ -238,7 +238,7 @@
                                                                 </constraints>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XbW-cm-IIK" userLabel="Wijsen Stack View">
-                                                                <rect key="frame" x="0.0" y="540.5" width="280" height="270"/>
+                                                                <rect key="frame" x="0.0" y="540" width="280" height="270"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Bsv-pv-npL" userLabel="Wijsen Top">
                                                                         <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
@@ -342,7 +342,7 @@
                                                                 </constraints>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9XZ-W9-Hdv" userLabel="Bedard Stack View">
-                                                                <rect key="frame" x="0.0" y="810.5" width="280" height="270"/>
+                                                                <rect key="frame" x="0.0" y="810" width="280" height="270"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pBM-2V-BEX" userLabel="Bedard Top">
                                                                         <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
@@ -441,13 +441,13 @@
                                                                 </constraints>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JKr-zt-OXe" userLabel="Phuc Stack View">
-                                                                <rect key="frame" x="0.0" y="1080.5" width="280" height="269.5"/>
+                                                                <rect key="frame" x="0.0" y="1080" width="280" height="270"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sdP-pZ-ksU" userLabel="Phuc Top">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="150"/>
                                                                         <subviews>
                                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="FM5-ic-O0P">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="150"/>
                                                                                 <subviews>
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tnL-fD-7VG">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="135" height="61"/>
@@ -479,11 +479,12 @@
                                                                                         </constraints>
                                                                                     </view>
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oX9-Tb-ONd">
-                                                                                        <rect key="frame" x="0.0" y="73" width="135" height="63"/>
+                                                                                        <rect key="frame" x="0.0" y="73" width="135" height="77"/>
                                                                                         <subviews>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="AWL-qP-8zi">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63"/>
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="77"/>
                                                                                                 <constraints>
+                                                                                                    <constraint firstAttribute="width" constant="135" id="2Ch-Z2-3vE"/>
                                                                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="63" id="PpB-3g-lSG"/>
                                                                                                 </constraints>
                                                                                                 <string key="text">For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred. </string>
@@ -508,7 +509,7 @@
                                                                                 </constraints>
                                                                             </stackView>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F1N-JE-zq8">
-                                                                                <rect key="frame" x="145" y="0.0" width="135" height="136"/>
+                                                                                <rect key="frame" x="145" y="0.0" width="135" height="150"/>
                                                                                 <subviews>
                                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Phuc" translatesAutoresizingMaskIntoConstraints="NO" id="wmM-t2-BB4">
                                                                                         <rect key="frame" x="7" y="7" width="121" height="121"/>
@@ -517,19 +518,22 @@
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <constraints>
-                                                                                    <constraint firstAttribute="height" constant="136" id="6Lr-Kx-qSN"/>
+                                                                                    <constraint firstAttribute="height" constant="150" id="6Lr-Kx-qSN"/>
                                                                                     <constraint firstAttribute="width" constant="135" id="QjJ-gE-IVd"/>
                                                                                 </constraints>
                                                                             </view>
                                                                         </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="150" id="KxM-9c-Xym"/>
+                                                                        </constraints>
                                                                     </stackView>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pCz-Bu-q5D" userLabel="Phuc Bottom">
-                                                                        <rect key="frame" x="0.0" y="136" width="280" height="133.5"/>
+                                                                        <rect key="frame" x="0.0" y="150" width="280" height="120"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Ivh-IR-mYm">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="133.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="120"/>
                                                                                 <constraints>
-                                                                                    <constraint firstAttribute="height" constant="134" id="Bto-ab-Pu5"/>
+                                                                                    <constraint firstAttribute="height" constant="120" id="Bto-ab-Pu5"/>
                                                                                 </constraints>
                                                                                 <string key="text">The scars that covered 65 percent of her body were not only disfiguring – making her believe no one would ever love her – they hurt. A lot. For the past 20 years, Phuc has traveled the world telling her story of hope borne out of despair. Her passion for peaceful resolutions to conflict in our world is inspiring. Kim is the girl who was captured in a famous 1972 photograph that brought the world's attention to the horrors of the war in Vietnam. </string>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
