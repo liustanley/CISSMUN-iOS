@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -30,16 +30,6 @@
                                     <constraint firstAttribute="width" secondItem="Xa4-6J-1fa" secondAttribute="height" multiplier="1:1" id="SI1-sQ-VbK"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Put App Information Here" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKK-Uf-3Wp">
-                                <rect key="frame" x="60" y="150" width="200" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="Lri-jJ-7n5"/>
-                                    <constraint firstAttribute="width" constant="200" id="tzC-M4-dHh"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISSMUN 0.0.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Wi-F9-a7i">
                                 <rect key="frame" x="99" y="112" width="122" height="30"/>
                                 <constraints>
@@ -50,11 +40,30 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="31" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKK-Uf-3Wp">
+                                <rect key="frame" x="3" y="54" width="314" height="500"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="Lri-jJ-7n5"/>
+                                </constraints>
+                                <mutableString key="text">Since winter of 2017, we, the app development team for CISSMUN IX and GINAsia 2018, have been working to create a convenient little app to help out conference participants. We are a group of computer science and design enthusiasts consisting of ten seniors from Concordia International School Shanghai and Shenendehowa High School, located in New York. Just as how society keeps advancing by leaps and bounds, we’ve decided to help bring CISSMUN IX and GINAsia 2018 to greater heights than ever before with the help of this app.
+
+It all started in February, when the director of CISSMUN, Mr. Erik Paulson, expressed his dream of having an app for the 2018 conferences. Of course we had to make this idea become a reality. Things just took off from there— we got the help of resident computer science guru and teacher Mr. Joel Klammer to help us in our endeavors, found more talented and passionate individuals to join the team, and stepped into the realms of  Android Studio and Xcode to make our goal come to fruit.
+
+After eleven long months, we are proud to present you with the product of all our hard work: the one and only CISSMUN IX/GINAsia 2018 app. We hope that you enjoy the app and find it of great use throughout these three days of the conference. Have fun at these conferences and find a place to stand.
+
+Sincerely,
+The CISSMUN IX and GINAsia 2018 App Development Team</mutableString>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="9"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Xa4-6J-1fa" firstAttribute="width" secondItem="5Bu-UR-80R" secondAttribute="width" multiplier="0.3" id="6KZ-Fy-Bb8"/>
                             <constraint firstItem="2Wi-F9-a7i" firstAttribute="top" secondItem="Xa4-6J-1fa" secondAttribute="bottom" constant="8" id="75E-wG-Ed5"/>
+                            <constraint firstItem="SKK-Uf-3Wp" firstAttribute="leading" secondItem="5Bu-UR-80R" secondAttribute="leading" constant="3" id="Bnz-AS-5cV"/>
+                            <constraint firstAttribute="trailing" secondItem="SKK-Uf-3Wp" secondAttribute="trailing" constant="3" id="FcR-jn-cMS"/>
                             <constraint firstItem="SKK-Uf-3Wp" firstAttribute="centerX" secondItem="2Wi-F9-a7i" secondAttribute="centerX" id="N8C-WX-sW8"/>
                             <constraint firstItem="Xa4-6J-1fa" firstAttribute="centerX" secondItem="5Bu-UR-80R" secondAttribute="centerX" id="O9R-ZL-724"/>
                             <constraint firstItem="2Wi-F9-a7i" firstAttribute="centerX" secondItem="Xa4-6J-1fa" secondAttribute="centerX" id="Q3t-Vi-1BJ"/>
@@ -67,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3A4-Dz-eaA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1344" y="2046"/>
+            <point key="canvasLocation" x="-1344.375" y="2045.0704225352113"/>
         </scene>
         <!--Settings-->
         <scene sceneID="Gao-pL-Six">
