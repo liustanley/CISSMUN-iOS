@@ -40,14 +40,14 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="31" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKK-Uf-3Wp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="31" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKK-Uf-3Wp">
                                 <rect key="frame" x="0.0" y="35" width="320" height="500"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="500" id="Lri-jJ-7n5"/>
                                 </constraints>
                                 <mutableString key="text">Since winter of 2017, we, the app development team for CISSMUN IX and GINAsia 2018, have been working to create a convenient little app to help out conference participants. We are a group of computer science and design enthusiasts consisting of ten seniors from Concordia International School Shanghai and Shenendehowa High School, located in New York. Just as how society keeps advancing by leaps and bounds, we’ve decided to help propel CISSMUN IX and GINAsia 2018 to greater heights than ever before with the help of this app.
 
-It all started in February, when the director of CISSMUN, Mr. Erik Paulson, expressed his dream of having an app for the 2018 conferences. Of course we had to make this idea become a reality. Things just took off from there— we got the help of resident computer science guru and teacher Mr. Joel Klammer to help us in our endeavors, found more talented and passionate individuals to join the team, and stepped into the realms of  Android Studio and Xcode to make our goal come to fruit.
+It all started in February, when the director of CISSMUN, Mr. Erik Paulson, expressed his dream of having an app for the 2018 conferences. Of course we had to make this idea become a reality. Things just took off from there — we got the help of resident computer science guru and teacher Mr. Joel Klammer to help us in our endeavors, found more talented and passionate individuals to join the team, and stepped into the realms of Android Studio and Xcode to make our goal come to fruition.
 
 After eleven long months, we are proud to present you with the product of all our hard work: the one and only CISSMUN IX/GINAsia 2018 app. We hope that you enjoy the app and find it of great use throughout these three days of the conference. Have fun at these conferences and find a place to stand.
 
