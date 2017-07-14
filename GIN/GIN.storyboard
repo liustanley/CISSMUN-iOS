@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -1731,10 +1731,10 @@
                                                                 <rect key="frame" x="0.0" y="1080.5" width="280" height="269.5"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HyL-sT-UPY" userLabel="Phuc Top">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="136"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="280" height="160"/>
                                                                         <subviews>
                                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ckn-bl-Gl1">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="160"/>
                                                                                 <subviews>
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uvD-SN-Wrs">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="135" height="61"/>
@@ -1766,12 +1766,13 @@
                                                                                         </constraints>
                                                                                     </view>
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EYg-vS-ezM">
-                                                                                        <rect key="frame" x="0.0" y="73" width="135" height="63"/>
+                                                                                        <rect key="frame" x="0.0" y="73" width="135" height="87"/>
                                                                                         <subviews>
-                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="DfI-ue-PNe">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="63"/>
+                                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="DfI-ue-PNe">
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="87"/>
                                                                                                 <constraints>
-                                                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="63" id="XXZ-0c-62Q"/>
+                                                                                                    <constraint firstAttribute="width" constant="135" id="C6r-A4-1Ch"/>
+                                                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="87" id="XXZ-0c-62Q"/>
                                                                                                 </constraints>
                                                                                                 <string key="text">For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred. </string>
                                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
@@ -1795,7 +1796,7 @@
                                                                                 </constraints>
                                                                             </stackView>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lpe-ps-nbL">
-                                                                                <rect key="frame" x="145" y="0.0" width="135" height="136"/>
+                                                                                <rect key="frame" x="145" y="0.0" width="135" height="160"/>
                                                                                 <subviews>
                                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Phuc" translatesAutoresizingMaskIntoConstraints="NO" id="SGV-yp-CdC">
                                                                                         <rect key="frame" x="7" y="7" width="121" height="121"/>
@@ -1804,19 +1805,19 @@
                                                                                 </subviews>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <constraints>
-                                                                                    <constraint firstAttribute="height" constant="136" id="cxU-pq-u6l"/>
+                                                                                    <constraint firstAttribute="height" constant="160" id="cxU-pq-u6l"/>
                                                                                     <constraint firstAttribute="width" constant="135" id="fbe-eS-yzG"/>
                                                                                 </constraints>
                                                                             </view>
                                                                         </subviews>
                                                                     </stackView>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MBe-yo-cZR" userLabel="Phuc Bottom">
-                                                                        <rect key="frame" x="0.0" y="136" width="280" height="133.5"/>
+                                                                        <rect key="frame" x="0.0" y="160" width="280" height="109.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="Twe-m1-miA">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="133.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="280" height="110"/>
                                                                                 <constraints>
-                                                                                    <constraint firstAttribute="height" constant="134" id="YfU-kB-pmt"/>
+                                                                                    <constraint firstAttribute="height" constant="110" id="YfU-kB-pmt"/>
                                                                                 </constraints>
                                                                                 <string key="text">The scars that covered 65 percent of her body were not only disfiguring – making her believe no one would ever love her – they hurt. A lot. For the past 20 years, Phuc has traveled the world telling her story of hope borne out of despair. Her passion for peaceful resolutions to conflict in our world is inspiring. Kim is the girl who was captured in a famous 1972 photograph that brought the world's attention to the horrors of the war in Vietnam. </string>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
