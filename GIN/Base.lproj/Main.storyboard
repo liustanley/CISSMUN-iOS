@@ -40,12 +40,12 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="31" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKK-Uf-3Wp">
-                                <rect key="frame" x="3" y="54" width="314" height="500"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="31" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKK-Uf-3Wp">
+                                <rect key="frame" x="0.0" y="35" width="320" height="500"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="Lri-jJ-7n5"/>
+                                    <constraint firstAttribute="height" constant="500" id="Lri-jJ-7n5"/>
                                 </constraints>
-                                <mutableString key="text">Since winter of 2017, we, the app development team for CISSMUN IX and GINAsia 2018, have been working to create a convenient little app to help out conference participants. We are a group of computer science and design enthusiasts consisting of ten seniors from Concordia International School Shanghai and Shenendehowa High School, located in New York. Just as how society keeps advancing by leaps and bounds, we’ve decided to help bring CISSMUN IX and GINAsia 2018 to greater heights than ever before with the help of this app.
+                                <mutableString key="text">Since winter of 2017, we, the app development team for CISSMUN IX and GINAsia 2018, have been working to create a convenient little app to help out conference participants. We are a group of computer science and design enthusiasts consisting of ten seniors from Concordia International School Shanghai and Shenendehowa High School, located in New York. Just as how society keeps advancing by leaps and bounds, we’ve decided to help propel CISSMUN IX and GINAsia 2018 to greater heights than ever before with the help of this app.
 
 It all started in February, when the director of CISSMUN, Mr. Erik Paulson, expressed his dream of having an app for the 2018 conferences. Of course we had to make this idea become a reality. Things just took off from there— we got the help of resident computer science guru and teacher Mr. Joel Klammer to help us in our endeavors, found more talented and passionate individuals to join the team, and stepped into the realms of  Android Studio and Xcode to make our goal come to fruit.
 
@@ -57,19 +57,28 @@ The CISSMUN IX and GINAsia 2018 App Development Team</mutableString>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0q-6n-62l">
+                                <rect key="frame" x="0.0" y="432" width="320" height="22"/>
+                                <string key="text">Jessica Chen, Edward Huang, Tanya Lai, Stanley Liu, Roland Rao, Jonathan Serbent, Aaron Tsang, Katrina Tsang, Ethan Wang, and Samuel Yang</string>
+                                <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Xa4-6J-1fa" firstAttribute="width" secondItem="5Bu-UR-80R" secondAttribute="width" multiplier="0.3" id="6KZ-Fy-Bb8"/>
                             <constraint firstItem="2Wi-F9-a7i" firstAttribute="top" secondItem="Xa4-6J-1fa" secondAttribute="bottom" constant="8" id="75E-wG-Ed5"/>
-                            <constraint firstItem="SKK-Uf-3Wp" firstAttribute="leading" secondItem="5Bu-UR-80R" secondAttribute="leading" constant="3" id="Bnz-AS-5cV"/>
-                            <constraint firstAttribute="trailing" secondItem="SKK-Uf-3Wp" secondAttribute="trailing" constant="3" id="FcR-jn-cMS"/>
-                            <constraint firstItem="SKK-Uf-3Wp" firstAttribute="centerX" secondItem="2Wi-F9-a7i" secondAttribute="centerX" id="N8C-WX-sW8"/>
+                            <constraint firstItem="SKK-Uf-3Wp" firstAttribute="top" secondItem="T7d-8J-jAs" secondAttribute="bottom" constant="35" id="Fzw-Vf-vb0"/>
+                            <constraint firstAttribute="trailing" secondItem="SKK-Uf-3Wp" secondAttribute="trailing" id="IaO-kM-afn"/>
                             <constraint firstItem="Xa4-6J-1fa" firstAttribute="centerX" secondItem="5Bu-UR-80R" secondAttribute="centerX" id="O9R-ZL-724"/>
                             <constraint firstItem="2Wi-F9-a7i" firstAttribute="centerX" secondItem="Xa4-6J-1fa" secondAttribute="centerX" id="Q3t-Vi-1BJ"/>
+                            <constraint firstItem="r0q-6n-62l" firstAttribute="leading" secondItem="5Bu-UR-80R" secondAttribute="leading" id="Rz7-qL-xjd"/>
                             <constraint firstItem="Xa4-6J-1fa" firstAttribute="width" secondItem="Xa4-6J-1fa" secondAttribute="height" multiplier="1:1" id="S8y-gl-Zdv"/>
                             <constraint firstItem="Xa4-6J-1fa" firstAttribute="top" secondItem="T7d-8J-jAs" secondAttribute="bottom" constant="8" id="Sdh-hC-Hmv"/>
-                            <constraint firstItem="SKK-Uf-3Wp" firstAttribute="top" secondItem="2Wi-F9-a7i" secondAttribute="bottom" constant="8" id="Z3a-Oh-1k6"/>
+                            <constraint firstItem="r0q-6n-62l" firstAttribute="top" secondItem="2Wi-F9-a7i" secondAttribute="bottom" constant="290" id="YtW-Dh-58G"/>
+                            <constraint firstItem="SKK-Uf-3Wp" firstAttribute="leading" secondItem="5Bu-UR-80R" secondAttribute="leading" id="fO5-w6-42g"/>
+                            <constraint firstAttribute="trailing" secondItem="r0q-6n-62l" secondAttribute="trailing" id="nok-hR-HRP"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="About" id="Mzy-Pz-ZZ5"/>
