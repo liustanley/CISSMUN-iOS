@@ -373,7 +373,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="R50-ek-x85" kind="relationship" relationship="rootViewController" id="ArP-6x-I8R"/>
+                        <segue destination="R50-ek-x85" kind="relationship" relationship="rootViewController" id="X3H-6v-7Wd"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m6q-Lg-cts" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1316,7 +1316,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9pA-Jy-5Ky">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1400"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="g7R-Hg-nFg">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="g7R-Hg-nFg">
                                                 <rect key="frame" x="16" y="20" width="288" height="1360"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Aez-Ky-Ed2" userLabel="Beah Stack View">
@@ -1424,19 +1424,19 @@
                                                         </constraints>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fNZ-gr-Z2B" userLabel="Dalglish Stack View">
-                                                        <rect key="frame" x="0.0" y="293" width="288" height="225"/>
+                                                        <rect key="frame" x="0.0" y="295" width="288" height="225"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8xg-JA-P9j" userLabel="Dalglish Top">
                                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="136"/>
                                                                 <subviews>
-                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="htl-E7-VfH">
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="htl-E7-VfH">
                                                                         <rect key="frame" x="0.0" y="0.0" width="143" height="136"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lIW-bs-J65">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="143" height="46"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="143" height="43"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Humanitarian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="2cv-gg-SYd">
-                                                                                        <rect key="frame" x="0.0" y="26.5" width="83.5" height="19.5"/>
+                                                                                        <rect key="frame" x="0.0" y="27.5" width="83.5" height="19.5"/>
                                                                                         <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
@@ -1454,7 +1454,7 @@
                                                                                     <constraint firstItem="2cv-gg-SYd" firstAttribute="leading" secondItem="lIW-bs-J65" secondAttribute="leading" id="38X-46-YPC"/>
                                                                                     <constraint firstItem="Epe-FM-Jjo" firstAttribute="leading" secondItem="lIW-bs-J65" secondAttribute="leading" id="DNv-in-Dja"/>
                                                                                     <constraint firstAttribute="trailing" secondItem="Epe-FM-Jjo" secondAttribute="trailing" id="HyQ-Ro-HRh"/>
-                                                                                    <constraint firstAttribute="bottom" secondItem="2cv-gg-SYd" secondAttribute="bottom" id="p2B-yR-XUe"/>
+                                                                                    <constraint firstItem="2cv-gg-SYd" firstAttribute="top" secondItem="Epe-FM-Jjo" secondAttribute="bottom" id="k7I-AH-p3m"/>
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hbz-dU-Ud6">
@@ -1529,7 +1529,7 @@
                                                         </constraints>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="o1C-NO-buV" userLabel="Wijsen Stack View">
-                                                        <rect key="frame" x="0.0" y="521" width="288" height="275"/>
+                                                        <rect key="frame" x="0.0" y="525" width="288" height="275"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="JFh-fh-5n2" userLabel="Wijsen Top">
                                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="151"/>
@@ -1640,7 +1640,7 @@
                                                         </constraints>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="S7c-jy-Idk" userLabel="Bedard Stack View">
-                                                        <rect key="frame" x="0.0" y="799" width="288" height="300"/>
+                                                        <rect key="frame" x="0.0" y="805" width="288" height="300"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gI9-XR-rKM" userLabel="Bedard Top">
                                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="136"/>
@@ -1652,7 +1652,7 @@
                                                                                 <rect key="frame" x="0.0" y="0.0" width="143" height="68"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Executive Director of JUMP!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="9yD-mP-wsS">
-                                                                                        <rect key="frame" x="0.0" y="30.5" width="143" height="19.5"/>
+                                                                                        <rect key="frame" x="0.0" y="27.5" width="143" height="19.5"/>
                                                                                         <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
@@ -1671,7 +1671,7 @@
                                                                                     <constraint firstItem="9yD-mP-wsS" firstAttribute="leading" secondItem="No5-PU-TcE" secondAttribute="leading" id="Sxz-bN-og8"/>
                                                                                     <constraint firstItem="Bsw-SU-HwP" firstAttribute="leading" secondItem="No5-PU-TcE" secondAttribute="leading" id="kbS-3m-sjb"/>
                                                                                     <constraint firstAttribute="trailing" secondItem="Bsw-SU-HwP" secondAttribute="trailing" id="nAg-Xd-Kym"/>
-                                                                                    <constraint firstItem="9yD-mP-wsS" firstAttribute="top" secondItem="Bsw-SU-HwP" secondAttribute="bottom" constant="3" id="wIu-c0-4Id"/>
+                                                                                    <constraint firstItem="9yD-mP-wsS" firstAttribute="top" secondItem="Bsw-SU-HwP" secondAttribute="bottom" id="wIu-c0-4Id"/>
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NeL-nv-w8J">
@@ -1742,7 +1742,7 @@
                                                         </constraints>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="iMj-7F-WZP" userLabel="Phuc Stack View">
-                                                        <rect key="frame" x="0.0" y="1102" width="288" height="258"/>
+                                                        <rect key="frame" x="0.0" y="1110" width="288" height="250"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uzd-wq-s4G" userLabel="Phuc Top">
                                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="135"/>
@@ -1751,7 +1751,7 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="143" height="135"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5JZ-Zd-7t4">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="143" height="42"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="143" height="46"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kim Phuc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="bXG-VX-e54">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="143" height="27.5"/>
@@ -1776,10 +1776,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0jb-Vs-hct">
-                                                                                <rect key="frame" x="0.0" y="57" width="143" height="78"/>
+                                                                                <rect key="frame" x="0.0" y="61" width="143" height="74"/>
                                                                                 <subviews>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="vN4-Db-fuj">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="143" height="78"/>
+                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="vN4-Db-fuj">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="143" height="74"/>
                                                                                         <string key="text">For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred. </string>
                                                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="9"/>
                                                                                         <nil key="textColor"/>
@@ -1820,10 +1820,10 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RnO-Qr-G3W" userLabel="Phuc Bottom">
-                                                                <rect key="frame" x="0.0" y="135" width="288" height="123"/>
+                                                                <rect key="frame" x="0.0" y="135" width="288" height="115"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Pr6-6h-GQ4">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="123"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="115"/>
                                                                         <string key="text">The scars that covered 65 percent of her body were not only disfiguring – making her believe no one would ever love her – they hurt. A lot. For the past 20 years, Phuc has traveled the world telling her story of hope borne out of despair. Her passion for peaceful resolutions to conflict in our world is inspiring. Kim is the girl who was captured in a famous 1972 photograph that brought the world's attention to the horrors of the war in Vietnam. </string>
                                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="9"/>
                                                                         <nil key="textColor"/>
@@ -1861,7 +1861,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="iMY-6V-MQa" firstAttribute="leading" secondItem="sC8-YV-R5a" secondAttribute="leading" id="11d-6A-ZSo"/>
                             <constraint firstAttribute="bottom" secondItem="iMY-6V-MQa" secondAttribute="bottom" id="D97-uu-cdb"/>
