@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -45,14 +45,14 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="500" id="Lri-jJ-7n5"/>
                                 </constraints>
-                                <mutableString key="text">Since the beginning of 2017, we, the app development team for CISSMUN IX and GINAsia 2018, have been working to create a convenient little app to help out conference participants. We are a group of computer science and design enthusiasts consisting of ten seniors from Concordia International School Shanghai and Shenendehowa High School, located in New York. Just as how society keeps advancing by leaps and bounds, we’ve decided to help propel CISSMUN IX and GINAsia 2018 to greater heights than ever before with the help of this app.
+                                <string key="text">Since the beginning of 2017, we, the app development team for CISSMUN IX and GINAsia 2018, have been working to create a convenient little app to help out conference participants. We are a group of computer science and design enthusiasts consisting of ten seniors from Concordia International School Shanghai and Shenendehowa High School, located in New York. Just as how society keeps advancing by leaps and bounds, we’ve decided to help propel CISSMUN IX and GINAsia 2018 to greater heights than ever before with the help of this app.
 
 It all started in February, when the director of CISSMUN, Mr. Erik Paulson, expressed his dream of having an app for the 2018 conferences. Of course we had to make this idea become a reality. Things just took off from there — we got the help of resident computer science guru and teacher Mr. Joel Klammer to help us in our endeavors, found more talented and passionate individuals to join the team, and stepped into the realms of Android Studio and Xcode to make our goal come to fruition.
 
 After eleven long months, we are proud to present you with the product of all our hard work: the one and only CISSMUN IX/GINAsia 2018 app. We hope that you enjoy the app and find it of great use throughout these three days of the conference. Have fun at these conferences and find a place to stand.
 
 Sincerely,
-The CISSMUN IX and GINAsia 2018 App Development Team</mutableString>
+The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="9"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -102,7 +102,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</mutableString>
                                         <rect key="frame" x="0.0" y="35" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lav-EN-WIQ" id="eEG-hs-7LO">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change conference" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljI-Sz-jkj">
@@ -133,7 +133,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</mutableString>
                                         <rect key="frame" x="0.0" y="115" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="my5-zq-ZFe" id="hMi-3H-IjG">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPu-HC-4QL">
@@ -227,7 +227,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</mutableString>
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="YUw-BG-RXk" kind="show" id="eCy-Ot-gn4"/>
+                                                    <segue destination="uZa-gz-GPp" kind="show" id="L40-GL-Ubb"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1210,54 +1210,6 @@ The CISSMUN IX and GINAsia 2018 App Development Team</mutableString>
             </objects>
             <point key="canvasLocation" x="-1344" y="1205"/>
         </scene>
-        <!--Jinqiao-->
-        <scene sceneID="MBy-Zq-7Ns">
-            <objects>
-                <viewController id="YUw-BG-RXk" customClass="JinqaioViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ISe-Oi-Q4Q"/>
-                        <viewControllerLayoutGuide type="bottom" id="FgE-MK-ghf"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="PcH-fv-F9x">
-                        <rect key="frame" x="0.0" y="64" width="320" height="1436"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iWH-HW-Nq5">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1436"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jgy-a6-NHa">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1500"/>
-                                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="yjJ-C1-gd0"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="jgy-a6-NHa" secondAttribute="bottom" id="Olq-dT-uBZ"/>
-                                    <constraint firstItem="jgy-a6-NHa" firstAttribute="leading" secondItem="iWH-HW-Nq5" secondAttribute="leading" id="QjZ-zk-nwz"/>
-                                    <constraint firstItem="jgy-a6-NHa" firstAttribute="top" secondItem="iWH-HW-Nq5" secondAttribute="top" id="YnS-19-bhe"/>
-                                    <constraint firstAttribute="trailing" secondItem="jgy-a6-NHa" secondAttribute="trailing" id="swn-rN-2Nn"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="FgE-MK-ghf" firstAttribute="top" secondItem="iWH-HW-Nq5" secondAttribute="bottom" id="37g-0E-tnh"/>
-                            <constraint firstItem="iWH-HW-Nq5" firstAttribute="leading" secondItem="PcH-fv-F9x" secondAttribute="leading" id="DsO-1k-RRX"/>
-                            <constraint firstAttribute="trailing" secondItem="iWH-HW-Nq5" secondAttribute="trailing" id="FLJ-Ck-pjS"/>
-                            <constraint firstItem="jgy-a6-NHa" firstAttribute="width" secondItem="PcH-fv-F9x" secondAttribute="width" id="Ycy-CV-FHB"/>
-                            <constraint firstItem="iWH-HW-Nq5" firstAttribute="top" secondItem="ISe-Oi-Q4Q" secondAttribute="bottom" id="ejn-SN-N6j"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Jinqiao" id="ten-s5-ByY"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1500"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="agm-Rz-Omb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1742" y="1526"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Bmk-Oa-LVR">
             <objects>
@@ -1309,8 +1261,8 @@ The CISSMUN IX and GINAsia 2018 App Development Team</mutableString>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mZ-6L-POZ">
-                                                <rect key="frame" x="8" y="208" width="304" height="154"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="3mZ-6L-POZ">
+                                                <rect key="frame" x="16" y="212" width="288" height="146"/>
                                                 <string key="text">Shanghai is the largest city by population in the People’s Republic of China and one of the largest in the world. Often called the “showpiece” of the new China, Shanghai offers visitors a cosmopolitan blend of tradition and modernity, a place where ancient historical sites blend seamlessly with one of the world’s most modern and spectacular skylines.</string>
                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
                                                 <nil key="textColor"/>
@@ -1407,7 +1359,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</mutableString>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="3y7-29-A1u" firstAttribute="leading" secondItem="Jkr-Qf-NLO" secondAttribute="leading" id="065-El-f6w"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="3mZ-6L-POZ" secondAttribute="trailing" id="0Uu-rC-zod"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="3mZ-6L-POZ" secondAttribute="trailing" constant="8" id="0Uu-rC-zod"/>
                                             <constraint firstItem="TBg-b3-baC" firstAttribute="leading" secondItem="Jkr-Qf-NLO" secondAttribute="leading" id="4DF-sk-EoX"/>
                                             <constraint firstItem="HKa-ly-2xR" firstAttribute="top" secondItem="nrF-B0-FCI" secondAttribute="bottom" constant="5" id="4zN-Fy-x1A"/>
                                             <constraint firstAttribute="trailing" secondItem="3y7-29-A1u" secondAttribute="trailing" id="681-2c-X4b"/>
@@ -1432,13 +1384,13 @@ The CISSMUN IX and GINAsia 2018 App Development Team</mutableString>
                                             <constraint firstAttribute="trailing" secondItem="PZN-HK-EKj" secondAttribute="trailing" constant="16" id="fTY-7k-JLZ"/>
                                             <constraint firstAttribute="height" constant="550" id="gdb-Jb-h37"/>
                                             <constraint firstAttribute="trailing" secondItem="xXo-1D-96a" secondAttribute="trailing" id="jbM-y0-3Nv"/>
-                                            <constraint firstItem="nrF-B0-FCI" firstAttribute="top" secondItem="3mZ-6L-POZ" secondAttribute="bottom" constant="12" id="pwa-dN-6Ex"/>
+                                            <constraint firstItem="nrF-B0-FCI" firstAttribute="top" secondItem="3mZ-6L-POZ" secondAttribute="bottom" constant="16" id="pwa-dN-6Ex"/>
                                             <constraint firstAttribute="trailing" secondItem="nrF-B0-FCI" secondAttribute="trailing" id="q4u-g9-pZL"/>
                                             <constraint firstItem="AuC-FT-Wzz" firstAttribute="leading" secondItem="Jkr-Qf-NLO" secondAttribute="leading" id="rPz-ak-XLm"/>
                                             <constraint firstItem="3y7-29-A1u" firstAttribute="centerY" secondItem="y9N-3z-gkO" secondAttribute="centerY" id="sxb-7N-6vZ"/>
-                                            <constraint firstItem="3mZ-6L-POZ" firstAttribute="top" secondItem="TBg-b3-baC" secondAttribute="bottom" constant="8" id="tMR-OW-pD2"/>
+                                            <constraint firstItem="3mZ-6L-POZ" firstAttribute="top" secondItem="TBg-b3-baC" secondAttribute="bottom" constant="12" id="tMR-OW-pD2"/>
                                             <constraint firstAttribute="bottom" secondItem="y9N-3z-gkO" secondAttribute="bottom" constant="16" id="u7S-DA-Zpa"/>
-                                            <constraint firstItem="3mZ-6L-POZ" firstAttribute="leading" secondItem="Jkr-Qf-NLO" secondAttribute="leadingMargin" id="wAq-Y5-QJm"/>
+                                            <constraint firstItem="3mZ-6L-POZ" firstAttribute="leading" secondItem="Jkr-Qf-NLO" secondAttribute="leadingMargin" constant="8" id="wAq-Y5-QJm"/>
                                             <constraint firstItem="xXo-1D-96a" firstAttribute="centerX" secondItem="nrF-B0-FCI" secondAttribute="centerX" id="wJi-U7-yhz"/>
                                             <constraint firstAttribute="trailing" secondItem="AuC-FT-Wzz" secondAttribute="trailing" id="yHR-z0-F8x"/>
                                             <constraint firstItem="D5z-AU-Vey" firstAttribute="centerX" secondItem="TBg-b3-baC" secondAttribute="centerX" id="yn3-7w-pd8"/>
@@ -1551,6 +1503,279 @@ The CISSMUN IX and GINAsia 2018 App Development Team</mutableString>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DKn-yv-oZj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="887" y="467"/>
+        </scene>
+        <!--Jinqiao-->
+        <scene sceneID="sbF-Sg-67p">
+            <objects>
+                <viewController id="uZa-gz-GPp" customClass="ShanghaiViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HBl-PQ-zEm"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vch-Ga-Oe7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xcw-Te-kbu">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zFl-gB-UY3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sE8-Sw-FXM">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="550"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="concordia" translatesAutoresizingMaskIntoConstraints="NO" id="ftF-l6-RRA">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="gb9-ed-Qgp"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金桥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwB-Tn-K8T">
+                                                <rect key="frame" x="136" y="84" width="48" height="33"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="0ne-IE-xum">
+                                                <rect key="frame" x="16" y="212" width="288" height="146"/>
+                                                <string key="text">Shanghai is the largest city by population in the People’s Republic of China and one of the largest in the world. Often called the “showpiece” of the new China, Shanghai offers visitors a cosmopolitan blend of tradition and modernity, a place where ancient historical sites blend seamlessly with one of the world’s most modern and spectacular skylines.</string>
+                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NKc-0n-wDG">
+                                                <rect key="frame" x="0.0" y="374" width="320" height="52"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="52" id="RQe-Rn-aa3"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eiT-RA-OP9">
+                                                <rect key="frame" x="0.0" y="374" width="320" height="50"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="ijd-GK-c4O"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                <state key="normal" title="   Attractions">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="55F-hM-CbL" kind="show" id="XU2-7c-5wF">
+                                                        <nil key="action"/>
+                                                    </segue>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YS7-NL-j3W">
+                                                <rect key="frame" x="291" y="387" width="13" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmX-QV-mj3">
+                                                <rect key="frame" x="0.0" y="428" width="320" height="52"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="52" id="Tbp-Q9-jmE"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2a-F2-a8j">
+                                                <rect key="frame" x="0.0" y="429" width="320" height="50"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="k2M-cM-BhG"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                <state key="normal" title="   Transportation">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="4LI-Fo-rGJ" kind="show" id="WHr-eV-Rot">
+                                                        <nil key="action"/>
+                                                    </segue>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgu-XH-vuu">
+                                                <rect key="frame" x="291" y="442" width="13" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Reb-cx-dct">
+                                                <rect key="frame" x="0.0" y="483" width="320" height="52"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="52" id="8Tm-uw-Ggf"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhG-4N-She">
+                                                <rect key="frame" x="0.0" y="484" width="320" height="50"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="il4-aQ-Htq"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                <state key="normal" title="   Dining">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="WqQ-db-Ojj" kind="show" id="N6X-Md-XnN">
+                                                        <nil key="action"/>
+                                                    </segue>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2w-f1-8f4">
+                                                <rect key="frame" x="291" y="497" width="13" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="s2a-F2-a8j" firstAttribute="top" secondItem="eiT-RA-OP9" secondAttribute="bottom" constant="5" id="0Tq-uU-gUh"/>
+                                            <constraint firstAttribute="trailing" secondItem="q2w-f1-8f4" secondAttribute="trailing" constant="16" id="3AK-hf-cLq"/>
+                                            <constraint firstAttribute="trailing" secondItem="eiT-RA-OP9" secondAttribute="trailing" id="3lu-fg-Rm8"/>
+                                            <constraint firstAttribute="trailing" secondItem="ftF-l6-RRA" secondAttribute="trailing" id="4sK-Vy-kIk"/>
+                                            <constraint firstItem="nwB-Tn-K8T" firstAttribute="centerY" secondItem="ftF-l6-RRA" secondAttribute="centerY" id="7gZ-SN-S7w"/>
+                                            <constraint firstAttribute="trailing" secondItem="hhG-4N-She" secondAttribute="trailing" id="9Ow-bq-mgy"/>
+                                            <constraint firstItem="ftF-l6-RRA" firstAttribute="leading" secondItem="sE8-Sw-FXM" secondAttribute="leading" id="DPq-Tf-RuS"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="0ne-IE-xum" secondAttribute="trailing" constant="8" id="FgW-hM-e50"/>
+                                            <constraint firstItem="YS7-NL-j3W" firstAttribute="centerY" secondItem="eiT-RA-OP9" secondAttribute="centerY" id="GAM-bL-UJt"/>
+                                            <constraint firstItem="NKc-0n-wDG" firstAttribute="centerY" secondItem="eiT-RA-OP9" secondAttribute="centerY" multiplier="1.001" id="Ht6-Qu-hqj"/>
+                                            <constraint firstItem="hhG-4N-She" firstAttribute="leading" secondItem="sE8-Sw-FXM" secondAttribute="leading" id="J6d-h1-avl"/>
+                                            <constraint firstItem="eiT-RA-OP9" firstAttribute="leading" secondItem="sE8-Sw-FXM" secondAttribute="leading" id="JW8-Hc-ehK"/>
+                                            <constraint firstAttribute="trailing" secondItem="s2a-F2-a8j" secondAttribute="trailing" id="NcC-vY-zbk"/>
+                                            <constraint firstItem="ftF-l6-RRA" firstAttribute="top" secondItem="sE8-Sw-FXM" secondAttribute="top" id="OHy-th-yU8"/>
+                                            <constraint firstItem="nwB-Tn-K8T" firstAttribute="centerX" secondItem="ftF-l6-RRA" secondAttribute="centerX" id="Olp-pK-07f"/>
+                                            <constraint firstItem="0ne-IE-xum" firstAttribute="leading" secondItem="sE8-Sw-FXM" secondAttribute="leadingMargin" constant="8" id="Oty-sC-brQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="YS7-NL-j3W" secondAttribute="trailing" constant="16" id="P2v-XR-V6h"/>
+                                            <constraint firstItem="gmX-QV-mj3" firstAttribute="centerY" secondItem="s2a-F2-a8j" secondAttribute="centerY" multiplier="1.001" id="R6e-Hs-4aJ"/>
+                                            <constraint firstItem="NKc-0n-wDG" firstAttribute="leading" secondItem="sE8-Sw-FXM" secondAttribute="leading" id="V7E-HQ-MDq"/>
+                                            <constraint firstItem="NKc-0n-wDG" firstAttribute="centerX" secondItem="eiT-RA-OP9" secondAttribute="centerX" id="Vzz-Wl-0Fq"/>
+                                            <constraint firstAttribute="height" constant="550" id="WT9-6H-4uw"/>
+                                            <constraint firstItem="gmX-QV-mj3" firstAttribute="centerX" secondItem="s2a-F2-a8j" secondAttribute="centerX" id="Wd6-f4-Kbe"/>
+                                            <constraint firstItem="gmX-QV-mj3" firstAttribute="leading" secondItem="sE8-Sw-FXM" secondAttribute="leading" id="ZSB-1C-tAR"/>
+                                            <constraint firstItem="jgu-XH-vuu" firstAttribute="centerY" secondItem="s2a-F2-a8j" secondAttribute="centerY" id="clR-Ge-tZe"/>
+                                            <constraint firstItem="s2a-F2-a8j" firstAttribute="leading" secondItem="sE8-Sw-FXM" secondAttribute="leading" id="jih-Da-Z0z"/>
+                                            <constraint firstItem="hhG-4N-She" firstAttribute="top" secondItem="s2a-F2-a8j" secondAttribute="bottom" constant="5" id="mfj-dT-AnD"/>
+                                            <constraint firstAttribute="trailing" secondItem="jgu-XH-vuu" secondAttribute="trailing" constant="16" id="oFW-Al-Ot7"/>
+                                            <constraint firstItem="Reb-cx-dct" firstAttribute="centerX" secondItem="hhG-4N-She" secondAttribute="centerX" id="p4g-i1-tzx"/>
+                                            <constraint firstItem="Reb-cx-dct" firstAttribute="centerY" secondItem="hhG-4N-She" secondAttribute="centerY" id="qtJ-1b-tbM"/>
+                                            <constraint firstAttribute="bottom" secondItem="hhG-4N-She" secondAttribute="bottom" constant="16" id="uyL-E2-jAU"/>
+                                            <constraint firstItem="eiT-RA-OP9" firstAttribute="top" secondItem="0ne-IE-xum" secondAttribute="bottom" constant="16" id="vgd-ei-L79"/>
+                                            <constraint firstItem="0ne-IE-xum" firstAttribute="top" secondItem="ftF-l6-RRA" secondAttribute="bottom" constant="12" id="wJb-fM-7t9"/>
+                                            <constraint firstItem="Reb-cx-dct" firstAttribute="leading" secondItem="sE8-Sw-FXM" secondAttribute="leading" id="x4l-Hs-5hn"/>
+                                            <constraint firstAttribute="trailing" secondItem="gmX-QV-mj3" secondAttribute="trailing" id="xNS-Of-AVt"/>
+                                            <constraint firstAttribute="trailing" secondItem="NKc-0n-wDG" secondAttribute="trailing" id="xRH-jm-kLf"/>
+                                            <constraint firstAttribute="trailing" secondItem="Reb-cx-dct" secondAttribute="trailing" id="xjM-0h-T6X"/>
+                                            <constraint firstItem="q2w-f1-8f4" firstAttribute="centerY" secondItem="hhG-4N-She" secondAttribute="centerY" id="yUU-aD-NtQ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="sE8-Sw-FXM" firstAttribute="top" secondItem="zFl-gB-UY3" secondAttribute="top" id="08X-nk-OhF"/>
+                                    <constraint firstItem="sE8-Sw-FXM" firstAttribute="leading" secondItem="zFl-gB-UY3" secondAttribute="leading" id="NMV-6v-Nfv"/>
+                                    <constraint firstAttribute="bottom" secondItem="sE8-Sw-FXM" secondAttribute="bottom" id="h6A-Fu-nfC"/>
+                                    <constraint firstAttribute="trailing" secondItem="sE8-Sw-FXM" secondAttribute="trailing" id="ja4-RP-3QW"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zFl-gB-UY3" firstAttribute="top" secondItem="HBl-PQ-zEm" secondAttribute="bottom" id="6Qh-L7-ujy"/>
+                            <constraint firstAttribute="trailing" secondItem="zFl-gB-UY3" secondAttribute="trailing" id="LEV-5m-unU"/>
+                            <constraint firstItem="zFl-gB-UY3" firstAttribute="leading" secondItem="Xcw-Te-kbu" secondAttribute="leading" id="MF6-Nq-1CB"/>
+                            <constraint firstItem="sE8-Sw-FXM" firstAttribute="width" secondItem="Xcw-Te-kbu" secondAttribute="width" id="r31-ri-Vdg"/>
+                            <constraint firstAttribute="bottom" secondItem="zFl-gB-UY3" secondAttribute="bottom" id="wNd-WC-RZf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Jinqiao" id="LYd-Vj-jzP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uGz-Pt-D56" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1656" y="1204"/>
+        </scene>
+        <!--Attractions-->
+        <scene sceneID="Rhc-22-1uJ">
+            <objects>
+                <viewController title="Attractions" id="55F-hM-CbL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bqf-5a-Msw"/>
+                        <viewControllerLayoutGuide type="bottom" id="v1f-zo-Y9D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E2w-A5-V8W">
+                        <rect key="frame" x="0.0" y="64" width="320" height="1011"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h27-mj-PNO">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1011"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AOb-8P-2d9">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="8Uz-fw-8CU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="AOb-8P-2d9" firstAttribute="top" secondItem="h27-mj-PNO" secondAttribute="top" id="Awu-03-O3v"/>
+                                    <constraint firstItem="AOb-8P-2d9" firstAttribute="leading" secondItem="h27-mj-PNO" secondAttribute="leading" id="XrE-jO-2lv"/>
+                                    <constraint firstAttribute="bottom" secondItem="AOb-8P-2d9" secondAttribute="bottom" id="cJ1-k6-S39"/>
+                                    <constraint firstAttribute="trailing" secondItem="AOb-8P-2d9" secondAttribute="trailing" id="lss-Vv-CRR"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="h27-mj-PNO" firstAttribute="leading" secondItem="E2w-A5-V8W" secondAttribute="leading" id="07M-Jk-oZv"/>
+                            <constraint firstItem="h27-mj-PNO" firstAttribute="top" secondItem="Bqf-5a-Msw" secondAttribute="bottom" id="7eW-fa-qVW"/>
+                            <constraint firstItem="AOb-8P-2d9" firstAttribute="width" secondItem="E2w-A5-V8W" secondAttribute="width" id="CHO-Ja-JLZ"/>
+                            <constraint firstAttribute="bottom" secondItem="h27-mj-PNO" secondAttribute="bottom" id="Sjl-4n-1aG"/>
+                            <constraint firstAttribute="trailing" secondItem="h27-mj-PNO" secondAttribute="trailing" id="ssU-rY-aCe"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="1075"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k7u-U9-n0h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2604" y="1472"/>
+        </scene>
+        <!--Transportation-->
+        <scene sceneID="JQh-W4-dyX">
+            <objects>
+                <viewController title="Transportation" id="4LI-Fo-rGJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l6Z-us-NbB"/>
+                        <viewControllerLayoutGuide type="bottom" id="sf5-D1-1wS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nbv-4N-OF6">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TPV-ow-bdq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3510" y="1204"/>
+        </scene>
+        <!--Dining-->
+        <scene sceneID="h3a-Kc-Lev">
+            <objects>
+                <viewController title="Dining" id="WqQ-db-Ojj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I3g-6j-68v"/>
+                        <viewControllerLayoutGuide type="bottom" id="IcK-Fv-E6w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FwD-bU-oFI">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KM5-XF-kcf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1656" y="1971"/>
         </scene>
     </scenes>
     <resources>
