@@ -1098,7 +1098,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <!--Shanghai-->
         <scene sceneID="zRS-er-xw6">
             <objects>
-                <viewController id="jkb-jA-h2l" customClass="ShanghaiViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jkb-jA-h2l" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zvq-64-0ts"/>
                         <viewControllerLayoutGuide type="bottom" id="MmB-37-j8C"/>
@@ -1371,7 +1371,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <!--Jinqiao-->
         <scene sceneID="sbF-Sg-67p">
             <objects>
-                <viewController id="uZa-gz-GPp" customClass="ShanghaiViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uZa-gz-GPp" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HBl-PQ-zEm"/>
                         <viewControllerLayoutGuide type="bottom" id="Vch-Ga-Oe7"/>
