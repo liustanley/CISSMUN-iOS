@@ -283,7 +283,8 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="OxF-F8-Tjh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.11372549019607843" green="0.23137254901960785" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.1137254902" green="0.23137254900000001" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
@@ -315,13 +316,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" id="qeS-Ts-7Hs"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="icons8-Map Marker " selectedImage="icons8-Map Marker Filled " id="qeS-Ts-7Hs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emT-jT-Ok8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1052" y="-869"/>
         </scene>
-        <!--More View Controller-->
+        <!--More-->
         <scene sceneID="8OI-dy-EUc">
             <objects>
                 <viewController id="J91-I6-PVO" customClass="MoreViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
@@ -334,7 +335,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="QhQ-pC-fO6"/>
+                    <tabBarItem key="tabBarItem" title="More" image="icons8-More " selectedImage="icons8-More Filled " id="QhQ-pC-fO6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N94-HK-tdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -344,7 +345,7 @@
         <scene sceneID="ZSD-Xl-bwt">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zFM-Cb-Sfd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="4J1-Bj-imc"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="icons8-Home " selectedImage="icons8-Home Filled " id="4J1-Bj-imc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="b8j-nk-SsN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -364,7 +365,7 @@
         <scene sceneID="5op-gx-bOX">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cFy-mO-2qP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Keynote" id="CSx-ZK-mBH"/>
+                    <tabBarItem key="tabBarItem" title="Keynote" image="icons8-Presentation " selectedImage="icons8-Presentation Filled " id="CSx-ZK-mBH"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="Ojx-PW-rwB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -384,7 +385,7 @@
         <scene sceneID="Ymy-Ch-c7s">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1tb-FF-gfn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Schedule" id="A1n-9e-Tsy"/>
+                    <tabBarItem key="tabBarItem" title="Schedule" image="icons8-Schedule " selectedImage="icons8-Schedule Filled " id="A1n-9e-Tsy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="wsp-oh-f6C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -575,13 +576,13 @@
                                                                         <rect key="frame" x="0.0" y="111" width="288" height="50.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:45 - 10:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4y-ZN-H3t">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="26.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="26"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PC Commons / Café" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbp-Ba-gcM">
-                                                                                <rect key="frame" x="0.0" y="25.5" width="118.5" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="25" width="118.5" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1035,13 +1036,13 @@
                                                                         <rect key="frame" x="0.0" y="109.5" width="288" height="49.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:45 - 10:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qG8-EH-Ldk">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="25"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PC Commons / Café" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKn-so-hJh">
-                                                                                <rect key="frame" x="0.0" y="23.5" width="118.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="24" width="118.5" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1070,13 +1071,13 @@
                                                                         <rect key="frame" x="0.0" y="164" width="288" height="49.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:15 - 12:00 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzo-Mm-N8M">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="98.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="98.5" height="25"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Committees in Session" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aI-QC-P2V">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="150.5" height="24.5"/>
+                                                                                <rect key="frame" x="0.0" y="24" width="150.5" height="25"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1111,7 +1112,7 @@
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PC Commons /ES Cafeteria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTn-kF-mq5">
-                                                                                <rect key="frame" x="0.0" y="24" width="159" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="24" width="159" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1175,13 +1176,13 @@
                                                                         <rect key="frame" x="0.0" y="328" width="288" height="49.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:00 - 4:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9D-6v-rky">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbm-aI-oTf">
-                                                                                <rect key="frame" x="0.0" y="24" width="0.0" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="23.5" width="0.0" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1899,6 +1900,16 @@
         <image name="Melati 2" width="150" height="150"/>
         <image name="Phuc" width="150" height="150"/>
         <image name="gin" width="1000" height="665"/>
+        <image name="icons8-Home " width="25" height="25"/>
+        <image name="icons8-Home Filled " width="25" height="25"/>
+        <image name="icons8-Map Marker " width="25" height="25"/>
+        <image name="icons8-Map Marker Filled " width="25" height="25"/>
+        <image name="icons8-More " width="25" height="25"/>
+        <image name="icons8-More Filled " width="25" height="25"/>
+        <image name="icons8-Presentation " width="25" height="25"/>
+        <image name="icons8-Presentation Filled " width="25" height="25"/>
+        <image name="icons8-Schedule " width="25" height="25"/>
+        <image name="icons8-Schedule Filled " width="25" height="25"/>
         <image name="lavender_leeanne" width="121" height="121"/>
     </resources>
 </document>

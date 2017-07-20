@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -287,13 +287,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" id="3eb-8y-PPj"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="icons8-Map Marker " selectedImage="icons8-Map Marker Filled " id="3eb-8y-PPj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ukp-yE-PI2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="741" y="796"/>
         </scene>
-        <!--More View Controller-->
+        <!--More-->
         <scene sceneID="O96-Sa-jg7">
             <objects>
                 <viewController id="Zkv-yl-XCj" customClass="MoreViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
@@ -306,7 +306,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="e5n-5D-Vkc"/>
+                    <tabBarItem key="tabBarItem" title="More" image="icons8-More " selectedImage="icons8-More Filled " id="e5n-5D-Vkc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2y1-L7-m3F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -320,9 +320,9 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="5l8-hI-hyc">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.1044194593" green="0.11844497499999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="selectedImageTintColor" red="0.083061817489999995" green="0.1021017207" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.11372549019607843" green="0.23137254901960785" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.11372549019607843" green="0.23137254901960785" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
@@ -412,7 +412,7 @@
         <scene sceneID="Dpv-rD-Z1G">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0bl-7p-dgK" userLabel="Schedule Navigation" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Schedule" id="Ldi-mf-mgP"/>
+                    <tabBarItem key="tabBarItem" title="Schedule" image="icons8-Schedule " selectedImage="icons8-Schedule Filled " id="Ldi-mf-mgP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="hJm-MR-WYZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -432,7 +432,7 @@
         <scene sceneID="LgD-U3-tjR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ppq-NZ-34x" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="second" id="22U-7i-2Da"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="icons8-Home " selectedImage="icons8-Home Filled " id="22U-7i-2Da"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="FYK-m9-DVk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -1776,7 +1776,7 @@
         <scene sceneID="J1e-c6-haN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iDA-Nh-bMe" userLabel="Procedure Navigational" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Procedure" image="clock" id="sRS-jj-PEa"/>
+                    <tabBarItem key="tabBarItem" title="Procedure" image="icons8-Globe " selectedImage="icons8-Globe Filled " id="sRS-jj-PEa"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="00p-Mq-WHM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -1794,10 +1794,18 @@
         </scene>
     </scenes>
     <resources>
-        <image name="clock" width="24" height="24"/>
+        <image name="icons8-Globe " width="25" height="25"/>
+        <image name="icons8-Globe Filled " width="25" height="25"/>
+        <image name="icons8-Home " width="25" height="25"/>
+        <image name="icons8-Home Filled " width="25" height="25"/>
+        <image name="icons8-Map Marker " width="25" height="25"/>
+        <image name="icons8-Map Marker Filled " width="25" height="25"/>
+        <image name="icons8-More " width="25" height="25"/>
+        <image name="icons8-More Filled " width="25" height="25"/>
+        <image name="icons8-Schedule " width="25" height="25"/>
+        <image name="icons8-Schedule Filled " width="25" height="25"/>
         <image name="paulson_erik" width="121" height="121"/>
         <image name="procedure" width="2592" height="1728"/>
-        <image name="second" width="30" height="30"/>
         <image name="welcome" width="1000" height="707"/>
     </resources>
 </document>
