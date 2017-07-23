@@ -102,7 +102,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         <rect key="frame" x="0.0" y="35" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lav-EN-WIQ" id="eEG-hs-7LO">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change conference" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljI-Sz-jkj">
@@ -133,7 +133,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         <rect key="frame" x="0.0" y="115" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="my5-zq-ZFe" id="hMi-3H-IjG">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPu-HC-4QL">
@@ -1288,7 +1288,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <!--Attractions-->
         <scene sceneID="Dgx-Rt-d15">
             <objects>
-                <viewController title="Attractions" id="OCl-fg-FtA" sceneMemberID="viewController">
+                <viewController title="Attractions" id="OCl-fg-FtA" customClass="AttractionsViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eL8-7E-hEX"/>
                         <viewControllerLayoutGuide type="bottom" id="kdK-l9-CxK"/>
@@ -1302,9 +1302,261 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NDn-sR-CMJ">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zYj-yD-bru">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EZF-jE-ERI" userLabel="Disneyland">
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3JC-gd-mUm">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
+                                                                <state key="normal" title="Button" image="disney"/>
+                                                                <connections>
+                                                                    <action selector="openDisney:" destination="OCl-fg-FtA" eventType="touchUpInside" id="gK5-aJ-bgq"/>
+                                                                </connections>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disneyland (迪斯尼乐园)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbF-bc-nLp">
+                                                                <rect key="frame" x="14" y="43.5" width="298" height="29"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="21"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shanghai Disney Resort is a themed resort in Pudong, Shanghai, China." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcS-2l-AuT">
+                                                                <rect key="frame" x="14" y="72.5" width="181" height="30.5"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="11"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstItem="3JC-gd-mUm" firstAttribute="leading" secondItem="EZF-jE-ERI" secondAttribute="leading" id="8ul-H2-aK4"/>
+                                                            <constraint firstAttribute="bottom" secondItem="rcS-2l-AuT" secondAttribute="bottom" constant="40" id="Dvu-DE-A1L"/>
+                                                            <constraint firstAttribute="bottom" secondItem="3JC-gd-mUm" secondAttribute="bottom" id="GgW-3v-2NJ"/>
+                                                            <constraint firstItem="3JC-gd-mUm" firstAttribute="top" secondItem="EZF-jE-ERI" secondAttribute="top" id="GkS-1e-pcb"/>
+                                                            <constraint firstAttribute="trailing" secondItem="3JC-gd-mUm" secondAttribute="trailing" id="SGb-kx-Wwq"/>
+                                                            <constraint firstItem="rcS-2l-AuT" firstAttribute="top" secondItem="IbF-bc-nLp" secondAttribute="bottom" id="Y5H-X3-jhx"/>
+                                                            <constraint firstItem="rcS-2l-AuT" firstAttribute="leading" secondItem="EZF-jE-ERI" secondAttribute="leading" constant="14" id="gj1-Wa-snC"/>
+                                                            <constraint firstItem="IbF-bc-nLp" firstAttribute="leading" secondItem="EZF-jE-ERI" secondAttribute="leading" constant="14" id="gpo-sL-ahq"/>
+                                                            <constraint firstAttribute="trailing" secondItem="IbF-bc-nLp" secondAttribute="trailing" constant="8" id="jt0-PM-KFt"/>
+                                                            <constraint firstAttribute="trailing" secondItem="rcS-2l-AuT" secondAttribute="trailing" constant="125" id="qQf-w0-4ux"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68X-Vr-7ak" userLabel="The Bund">
+                                                        <rect key="frame" x="0.0" y="143" width="320" height="142.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKl-fe-TPk">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="142.5"/>
+                                                                <state key="normal" title="Button" image="bund"/>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Bund (外滩)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HmH-et-Vkn">
+                                                                <rect key="frame" x="14" y="41.5" width="298" height="30.5"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="22"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Bund or Waitan is a waterfront area in central Shanghai." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2j-y7-3Ps">
+                                                                <rect key="frame" x="14" y="72" width="181" height="30.5"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="11"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="j2j-y7-3Ps" secondAttribute="trailing" constant="125" id="KgG-dE-Gdk"/>
+                                                            <constraint firstAttribute="trailing" secondItem="GKl-fe-TPk" secondAttribute="trailing" id="Krd-Zq-U0o"/>
+                                                            <constraint firstItem="GKl-fe-TPk" firstAttribute="top" secondItem="68X-Vr-7ak" secondAttribute="top" id="MtC-vA-qKj"/>
+                                                            <constraint firstItem="GKl-fe-TPk" firstAttribute="leading" secondItem="68X-Vr-7ak" secondAttribute="leading" id="O0a-Js-Keh"/>
+                                                            <constraint firstItem="HmH-et-Vkn" firstAttribute="leading" secondItem="68X-Vr-7ak" secondAttribute="leading" constant="14" id="Ydh-gg-KwJ"/>
+                                                            <constraint firstAttribute="bottom" secondItem="GKl-fe-TPk" secondAttribute="bottom" id="e4E-s3-A20"/>
+                                                            <constraint firstItem="j2j-y7-3Ps" firstAttribute="leading" secondItem="68X-Vr-7ak" secondAttribute="leading" constant="14" id="kGm-Yz-nyr"/>
+                                                            <constraint firstAttribute="bottom" secondItem="j2j-y7-3Ps" secondAttribute="bottom" constant="40" id="n2H-4X-6od"/>
+                                                            <constraint firstItem="j2j-y7-3Ps" firstAttribute="top" secondItem="HmH-et-Vkn" secondAttribute="bottom" id="ngb-UG-eG4"/>
+                                                            <constraint firstAttribute="trailing" secondItem="HmH-et-Vkn" secondAttribute="trailing" constant="8" id="wiQ-6z-Lmc"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="15D-Gu-bLi" userLabel="French Concession">
+                                                        <rect key="frame" x="0.0" y="285.5" width="320" height="143"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJA-kd-5DN">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
+                                                                <state key="normal" title="Button" image="french concession"/>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="French Concession (田子坊)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qy-7x-y6H">
+                                                                <rect key="frame" x="14" y="42" width="298" height="30.5"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="22"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shanghai Disney Resort is a themed resort in Pudong, Shanghai, China." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZY-UP-n2b">
+                                                                <rect key="frame" x="14" y="72.5" width="181" height="30.5"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="11"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstItem="kJA-kd-5DN" firstAttribute="top" secondItem="15D-Gu-bLi" secondAttribute="top" id="07A-ag-hmM"/>
+                                                            <constraint firstAttribute="trailing" secondItem="kJA-kd-5DN" secondAttribute="trailing" id="3pI-7O-2eD"/>
+                                                            <constraint firstAttribute="bottom" secondItem="eZY-UP-n2b" secondAttribute="bottom" constant="40" id="IBG-kB-g6C"/>
+                                                            <constraint firstItem="kJA-kd-5DN" firstAttribute="leading" secondItem="15D-Gu-bLi" secondAttribute="leading" id="Kn7-SU-XAX"/>
+                                                            <constraint firstAttribute="trailing" secondItem="5Qy-7x-y6H" secondAttribute="trailing" constant="8" id="Q0O-uI-AuA"/>
+                                                            <constraint firstAttribute="bottom" secondItem="kJA-kd-5DN" secondAttribute="bottom" id="Uai-xf-FSL"/>
+                                                            <constraint firstItem="eZY-UP-n2b" firstAttribute="top" secondItem="5Qy-7x-y6H" secondAttribute="bottom" id="Yxe-r6-NKt"/>
+                                                            <constraint firstItem="eZY-UP-n2b" firstAttribute="leading" secondItem="15D-Gu-bLi" secondAttribute="leading" constant="14" id="jlE-oS-EyU"/>
+                                                            <constraint firstAttribute="trailing" secondItem="eZY-UP-n2b" secondAttribute="trailing" constant="125" id="qhG-5d-G3z"/>
+                                                            <constraint firstItem="5Qy-7x-y6H" firstAttribute="leading" secondItem="15D-Gu-bLi" secondAttribute="leading" constant="14" id="vPf-bU-V6d"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6mF-gi-TUQ" userLabel="Disneyland">
+                                                        <rect key="frame" x="0.0" y="428.5" width="320" height="143"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zag-ov-UeD">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
+                                                                <state key="normal" title="Button" image="yu garden"/>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yu Garden (豫园)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Xn-rU-dwf">
+                                                                <rect key="frame" x="14" y="28.5" width="298" height="29"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="21"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yuyuan Garden is a famous classical garden located in Anren Jie, Shanghai. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YK9-mS-Ecv">
+                                                                <rect key="frame" x="14" y="57.5" width="181" height="45.5"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="11"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="zag-ov-UeD" secondAttribute="bottom" id="2Zj-yc-AvA"/>
+                                                            <constraint firstItem="YK9-mS-Ecv" firstAttribute="leading" secondItem="6mF-gi-TUQ" secondAttribute="leading" constant="14" id="Duq-zP-jd0"/>
+                                                            <constraint firstAttribute="trailing" secondItem="zag-ov-UeD" secondAttribute="trailing" id="Elf-kF-wzX"/>
+                                                            <constraint firstItem="YK9-mS-Ecv" firstAttribute="top" secondItem="6Xn-rU-dwf" secondAttribute="bottom" id="S1d-ot-J8N"/>
+                                                            <constraint firstItem="6Xn-rU-dwf" firstAttribute="leading" secondItem="6mF-gi-TUQ" secondAttribute="leading" constant="14" id="Z5P-Tn-N95"/>
+                                                            <constraint firstAttribute="bottom" secondItem="YK9-mS-Ecv" secondAttribute="bottom" constant="40" id="a7j-qO-9UX"/>
+                                                            <constraint firstItem="zag-ov-UeD" firstAttribute="top" secondItem="6mF-gi-TUQ" secondAttribute="top" id="aQn-oB-mvE"/>
+                                                            <constraint firstAttribute="trailing" secondItem="YK9-mS-Ecv" secondAttribute="trailing" constant="125" id="bZ6-NU-RYw"/>
+                                                            <constraint firstAttribute="trailing" secondItem="6Xn-rU-dwf" secondAttribute="trailing" constant="8" id="clT-Yd-d6k"/>
+                                                            <constraint firstItem="zag-ov-UeD" firstAttribute="leading" secondItem="6mF-gi-TUQ" secondAttribute="leading" id="zPH-aL-5bL"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xpT-Qs-i01" userLabel="Disneyland">
+                                                        <rect key="frame" x="0.0" y="571.5" width="320" height="143"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftk-3C-hND">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
+                                                                <state key="normal" title="Button" image="disney"/>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disneyland (迪斯尼乐园)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EsM-OR-led">
+                                                                <rect key="frame" x="14" y="43.5" width="298" height="29"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="21"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shanghai Disney Resort is a themed resort in Pudong, Shanghai, China." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkX-sy-DCf">
+                                                                <rect key="frame" x="14" y="72.5" width="181" height="30.5"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="11"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstItem="ftk-3C-hND" firstAttribute="leading" secondItem="xpT-Qs-i01" secondAttribute="leading" id="198-0w-9dC"/>
+                                                            <constraint firstAttribute="bottom" secondItem="ftk-3C-hND" secondAttribute="bottom" id="2rV-jG-skO"/>
+                                                            <constraint firstItem="EsM-OR-led" firstAttribute="leading" secondItem="xpT-Qs-i01" secondAttribute="leading" constant="14" id="3o9-Ff-aFu"/>
+                                                            <constraint firstAttribute="bottom" secondItem="zkX-sy-DCf" secondAttribute="bottom" constant="40" id="9P6-y1-ZLB"/>
+                                                            <constraint firstItem="zkX-sy-DCf" firstAttribute="leading" secondItem="xpT-Qs-i01" secondAttribute="leading" constant="14" id="Ga1-SI-r4a"/>
+                                                            <constraint firstAttribute="trailing" secondItem="EsM-OR-led" secondAttribute="trailing" constant="8" id="IVc-gg-9zJ"/>
+                                                            <constraint firstItem="zkX-sy-DCf" firstAttribute="top" secondItem="EsM-OR-led" secondAttribute="bottom" id="TtN-QH-nr7"/>
+                                                            <constraint firstItem="ftk-3C-hND" firstAttribute="top" secondItem="xpT-Qs-i01" secondAttribute="top" id="e1H-gr-yWT"/>
+                                                            <constraint firstAttribute="trailing" secondItem="ftk-3C-hND" secondAttribute="trailing" id="jiC-Y1-ERU"/>
+                                                            <constraint firstAttribute="trailing" secondItem="zkX-sy-DCf" secondAttribute="trailing" constant="125" id="lg6-Oh-5T1"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Eo-Ra-abA" userLabel="Disneyland">
+                                                        <rect key="frame" x="0.0" y="714.5" width="320" height="142.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoW-b9-OKD">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="142.5"/>
+                                                                <state key="normal" title="Button" image="disney"/>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disneyland (迪斯尼乐园)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e73-Tw-UZn">
+                                                                <rect key="frame" x="14" y="43" width="298" height="29"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="21"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shanghai Disney Resort is a themed resort in Pudong, Shanghai, China." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGu-PV-eNg">
+                                                                <rect key="frame" x="14" y="72" width="181" height="30.5"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="11"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="MGu-PV-eNg" secondAttribute="trailing" constant="125" id="8K7-KA-56p"/>
+                                                            <constraint firstItem="MGu-PV-eNg" firstAttribute="top" secondItem="e73-Tw-UZn" secondAttribute="bottom" id="Cbj-qm-Vsx"/>
+                                                            <constraint firstAttribute="trailing" secondItem="e73-Tw-UZn" secondAttribute="trailing" constant="8" id="ZEy-B8-bAZ"/>
+                                                            <constraint firstItem="MGu-PV-eNg" firstAttribute="leading" secondItem="3Eo-Ra-abA" secondAttribute="leading" constant="14" id="ZhR-84-CPD"/>
+                                                            <constraint firstAttribute="trailing" secondItem="CoW-b9-OKD" secondAttribute="trailing" id="adW-d8-0bX"/>
+                                                            <constraint firstItem="e73-Tw-UZn" firstAttribute="leading" secondItem="3Eo-Ra-abA" secondAttribute="leading" constant="14" id="dRk-wE-jgs"/>
+                                                            <constraint firstAttribute="bottom" secondItem="MGu-PV-eNg" secondAttribute="bottom" constant="40" id="eTF-sQ-xN9"/>
+                                                            <constraint firstAttribute="bottom" secondItem="CoW-b9-OKD" secondAttribute="bottom" id="pdb-0a-95y"/>
+                                                            <constraint firstItem="CoW-b9-OKD" firstAttribute="top" secondItem="3Eo-Ra-abA" secondAttribute="top" id="rCU-72-Okd"/>
+                                                            <constraint firstItem="CoW-b9-OKD" firstAttribute="leading" secondItem="3Eo-Ra-abA" secondAttribute="leading" id="uTz-WS-ai7"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dad-tJ-Imk" userLabel="Disneyland">
+                                                        <rect key="frame" x="0.0" y="857" width="320" height="143"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPz-Gv-CUW">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
+                                                                <state key="normal" title="Button" image="disney"/>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disneyland (迪斯尼乐园)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hid-eg-pne">
+                                                                <rect key="frame" x="14" y="43.5" width="298" height="29"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="21"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shanghai Disney Resort is a themed resort in Pudong, Shanghai, China." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFw-77-iwN">
+                                                                <rect key="frame" x="14" y="72.5" width="181" height="30.5"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="11"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstItem="KFw-77-iwN" firstAttribute="leading" secondItem="Dad-tJ-Imk" secondAttribute="leading" constant="14" id="37O-ph-MOH"/>
+                                                            <constraint firstItem="KFw-77-iwN" firstAttribute="top" secondItem="hid-eg-pne" secondAttribute="bottom" id="AMk-Ef-cpG"/>
+                                                            <constraint firstAttribute="trailing" secondItem="MPz-Gv-CUW" secondAttribute="trailing" id="AeA-bK-pMZ"/>
+                                                            <constraint firstItem="MPz-Gv-CUW" firstAttribute="top" secondItem="Dad-tJ-Imk" secondAttribute="top" id="IzR-ro-G9L"/>
+                                                            <constraint firstAttribute="trailing" secondItem="hid-eg-pne" secondAttribute="trailing" constant="8" id="ZfZ-ZD-uWh"/>
+                                                            <constraint firstAttribute="trailing" secondItem="KFw-77-iwN" secondAttribute="trailing" constant="125" id="fca-eX-5Oi"/>
+                                                            <constraint firstAttribute="bottom" secondItem="KFw-77-iwN" secondAttribute="bottom" constant="40" id="hj8-wm-ZRJ"/>
+                                                            <constraint firstAttribute="bottom" secondItem="MPz-Gv-CUW" secondAttribute="bottom" id="hyh-Dd-IU6"/>
+                                                            <constraint firstItem="MPz-Gv-CUW" firstAttribute="leading" secondItem="Dad-tJ-Imk" secondAttribute="leading" id="o5M-uI-D8W"/>
+                                                            <constraint firstItem="hid-eg-pne" firstAttribute="leading" secondItem="Dad-tJ-Imk" secondAttribute="leading" constant="14" id="riF-ac-OTp"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1000" id="BBq-AD-GC0"/>
+                                            <constraint firstItem="zYj-yD-bru" firstAttribute="top" secondItem="NDn-sR-CMJ" secondAttribute="top" id="GgK-6m-W9X"/>
+                                            <constraint firstAttribute="bottom" secondItem="zYj-yD-bru" secondAttribute="bottom" id="Tzs-k8-j31"/>
+                                            <constraint firstAttribute="trailing" secondItem="zYj-yD-bru" secondAttribute="trailing" id="dPc-vu-pn8"/>
+                                            <constraint firstItem="zYj-yD-bru" firstAttribute="leading" secondItem="NDn-sR-CMJ" secondAttribute="leading" id="wIW-fH-seF"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1330,7 +1582,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wes-2x-6Qs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-39" y="-616"/>
+            <point key="canvasLocation" x="-39.375" y="-616.37323943661977"/>
         </scene>
         <!--Transportation-->
         <scene sceneID="LSD-DK-CsR">
@@ -1644,11 +1896,15 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
     </scenes>
     <resources>
         <image name="ConcordiaLogo" width="458" height="456"/>
+        <image name="bund" width="2560" height="1440"/>
         <image name="concordia" width="1500" height="1125"/>
         <image name="contact" width="1920" height="1275"/>
         <image name="crown" width="24" height="24"/>
+        <image name="disney" width="5501" height="3559"/>
+        <image name="french concession" width="750" height="422"/>
         <image name="gin" width="1000" height="665"/>
         <image name="shanghai" width="1000" height="667"/>
+        <image name="yu garden" width="1200" height="798"/>
     </resources>
     <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
