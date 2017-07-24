@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -354,7 +354,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Am-vW-LJZ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1887"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1936"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2D7-d0-YrT">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="2000"/>
@@ -396,8 +396,8 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="7Am-vW-LJZ" secondAttribute="trailing" id="Fdk-JU-U2I"/>
                             <constraint firstItem="7Am-vW-LJZ" firstAttribute="top" secondItem="Ak3-Oc-gcM" secondAttribute="bottom" id="Wbq-cm-abW"/>
+                            <constraint firstAttribute="bottom" secondItem="7Am-vW-LJZ" secondAttribute="bottom" id="Xi7-Sp-yDp"/>
                             <constraint firstItem="7Am-vW-LJZ" firstAttribute="leading" secondItem="jTV-iP-cKa" secondAttribute="leading" id="dr6-CE-T5S"/>
-                            <constraint firstItem="Lgr-1J-jh5" firstAttribute="top" secondItem="7Am-vW-LJZ" secondAttribute="bottom" id="xi7-DN-ZYJ"/>
                             <constraint firstItem="2D7-d0-YrT" firstAttribute="width" secondItem="jTV-iP-cKa" secondAttribute="width" id="y2A-7d-BAv"/>
                         </constraints>
                     </view>
