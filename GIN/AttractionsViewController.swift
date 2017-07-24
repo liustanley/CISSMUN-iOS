@@ -21,10 +21,32 @@ class AttractionsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func openDisney(_ sender: Any) {
-        let url = URL(string: "http://maps.apple.com/?daddr=1+Infinite+Loop,+Cupertino,+CA")!
-        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    @IBAction func expandMenu(sender: UIButton) {
+        let url = URL(string: sender.accessibilityIdentifier!)!
+
+        let alertController = UIAlertController(title: sender.accessibilityLabel, message: sender.accessibilityHint, preferredStyle: .actionSheet)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { action in
+            // ...
+        }
+        alertController.addAction(cancelAction)
+        
+        let mapsAction = UIAlertAction(title: "Open in Maps", style: .default) { action in
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+        alertController.addAction(mapsAction)
+        
+        let copyAction = UIAlertAction(title: "Copy to Clipboard", style: .default) { action in
+            UIPasteboard.general.string = sender.restorationIdentifier
+        }
+        alertController.addAction(copyAction)
+        
+        self.present(alertController, animated: true) {
+            // ...
+        }
+        
     }
+    
     
 
     /*

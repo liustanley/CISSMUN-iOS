@@ -1312,9 +1312,6 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3JC-gd-mUm">
                                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <connections>
-                                                                    <action selector="openDisney:" destination="OCl-fg-FtA" eventType="touchUpInside" id="gK5-aJ-bgq"/>
-                                                                </connections>
                                                             </button>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disney" translatesAutoresizingMaskIntoConstraints="NO" id="iuU-za-2cj">
                                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
@@ -1331,6 +1328,19 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Shanghai disney" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYZ-zz-08Y" userLabel="Menu">
+                                                                <rect key="frame" x="288" y="12" width="20" height="20"/>
+                                                                <accessibility key="accessibilityConfiguration" hint="川沙镇黄赵路310号" identifier="http://maps.apple.com/?daddr=34+Huangzhao+Rd,+ChuanSha+Zhen" label="34 Huangzhao Rd, ChuanSha Zhen"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="aSc-St-lTc"/>
+                                                                    <constraint firstAttribute="width" constant="20" id="fqp-HC-eeW"/>
+                                                                </constraints>
+                                                                <state key="normal" image="expand arrow"/>
+                                                                <state key="highlighted" image="expand arrow filled"/>
+                                                                <connections>
+                                                                    <action selector="expandMenuWithSender:" destination="OCl-fg-FtA" eventType="touchUpInside" id="33N-Qc-yCu"/>
+                                                                </connections>
+                                                            </button>
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <constraints>
@@ -1339,6 +1349,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                                             <constraint firstAttribute="bottom" secondItem="3JC-gd-mUm" secondAttribute="bottom" id="GgW-3v-2NJ"/>
                                                             <constraint firstItem="3JC-gd-mUm" firstAttribute="top" secondItem="EZF-jE-ERI" secondAttribute="top" id="GkS-1e-pcb"/>
                                                             <constraint firstItem="iuU-za-2cj" firstAttribute="leading" secondItem="EZF-jE-ERI" secondAttribute="leading" id="JvK-UE-3dx"/>
+                                                            <constraint firstItem="dYZ-zz-08Y" firstAttribute="top" secondItem="EZF-jE-ERI" secondAttribute="top" constant="12" id="Lo8-M2-Shy"/>
                                                             <constraint firstAttribute="trailing" secondItem="3JC-gd-mUm" secondAttribute="trailing" id="SGb-kx-Wwq"/>
                                                             <constraint firstItem="iuU-za-2cj" firstAttribute="top" secondItem="EZF-jE-ERI" secondAttribute="top" id="Wzx-Om-2t1"/>
                                                             <constraint firstItem="rcS-2l-AuT" firstAttribute="top" secondItem="IbF-bc-nLp" secondAttribute="bottom" id="Y5H-X3-jhx"/>
@@ -1347,6 +1358,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                                             <constraint firstItem="IbF-bc-nLp" firstAttribute="leading" secondItem="EZF-jE-ERI" secondAttribute="leading" constant="14" id="gpo-sL-ahq"/>
                                                             <constraint firstAttribute="bottom" secondItem="iuU-za-2cj" secondAttribute="bottom" id="h6X-JF-5m5"/>
                                                             <constraint firstAttribute="trailing" secondItem="IbF-bc-nLp" secondAttribute="trailing" constant="8" id="jt0-PM-KFt"/>
+                                                            <constraint firstAttribute="trailing" secondItem="dYZ-zz-08Y" secondAttribute="trailing" constant="12" id="pbr-sY-gaO"/>
                                                             <constraint firstAttribute="trailing" secondItem="rcS-2l-AuT" secondAttribute="trailing" constant="125" id="qQf-w0-4ux"/>
                                                         </constraints>
                                                     </view>
@@ -1953,6 +1965,8 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <image name="contact" width="1920" height="1275"/>
         <image name="crown" width="24" height="24"/>
         <image name="disney" width="5501" height="3559"/>
+        <image name="expand arrow" width="100" height="100"/>
+        <image name="expand arrow filled" width="100" height="100"/>
         <image name="french concession" width="750" height="422"/>
         <image name="gin" width="1000" height="665"/>
         <image name="pearl tower" width="3456" height="4608"/>
