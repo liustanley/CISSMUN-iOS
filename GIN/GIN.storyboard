@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -36,7 +36,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEW-7y-cMg">
-                                                <rect key="frame" x="96" y="83.5" width="126.5" height="33"/>
+                                                <rect key="frame" x="96.5" y="84" width="126.5" height="33"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -80,9 +80,10 @@
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U4G-qF-U1r">
                                                                                 <rect key="frame" x="0.0" y="66" width="137" height="70"/>
                                                                                 <subviews>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls dsjfsklfjas " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="nWk-lF-myG">
+                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="nWk-lF-myG">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="137" height="70"/>
-                                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                        <string key="text">I am a high school English teacher and a Global Issues Network advisor, and I am passionate about making the world a better place!</string>
+                                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -120,20 +121,20 @@
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eTG-GT-yQe" userLabel="Lavender Bottom">
                                                                 <rect key="frame" x="0.0" y="136" width="280" height="94"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="30p-CI-ObN">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="30p-CI-ObN">
                                                                         <rect key="frame" x="0.0" y="0.0" width="280" height="94"/>
-                                                                        <string key="text">stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend</string>
-                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                        <string key="text">I believe that if we all work together, we can achieve great things in regards to our planet and its people and that the future can be bright. I have been working with GIN for 11 years and have attended conferences worldwide, led 3 groups in different countries and hosted 2 conferences. Let's channel our energy to make some change!</string>
+                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <constraints>
-                                                                    <constraint firstItem="30p-CI-ObN" firstAttribute="top" secondItem="eTG-GT-yQe" secondAttribute="top" id="2aU-e7-hvX"/>
-                                                                    <constraint firstAttribute="trailing" secondItem="30p-CI-ObN" secondAttribute="trailing" id="PAr-zA-YBQ"/>
-                                                                    <constraint firstAttribute="bottom" secondItem="30p-CI-ObN" secondAttribute="bottom" id="fx3-Yn-TUr"/>
-                                                                    <constraint firstItem="30p-CI-ObN" firstAttribute="leading" secondItem="eTG-GT-yQe" secondAttribute="leading" id="uJA-BI-HOO"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="30p-CI-ObN" secondAttribute="bottom" id="4XA-mT-1bq"/>
+                                                                    <constraint firstItem="30p-CI-ObN" firstAttribute="top" secondItem="eTG-GT-yQe" secondAttribute="top" id="uQr-UI-VEU"/>
+                                                                    <constraint firstItem="30p-CI-ObN" firstAttribute="leading" secondItem="eTG-GT-yQe" secondAttribute="leading" id="wxI-1p-UK4"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="30p-CI-ObN" secondAttribute="trailing" id="yu8-Aa-fD6"/>
                                                                 </constraints>
                                                             </view>
                                                         </subviews>
@@ -188,9 +189,10 @@
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ju0-qH-Zru">
                                                                                 <rect key="frame" x="0.0" y="66" width="137" height="70"/>
                                                                                 <subviews>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls dsjfsklfjas " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="k1I-h3-aSQ">
+                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="k1I-h3-aSQ">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="137" height="70"/>
-                                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                                        <string key="text">I am currently in 11th grade and I am passionate about leading a sustainable life and making choices that benefit the environment.</string>
+                                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
@@ -214,20 +216,20 @@
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJX-c6-HS2" userLabel="Karen Bottom">
                                                                 <rect key="frame" x="0.0" y="136" width="280" height="94"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="PmX-fA-u7x">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="PmX-fA-u7x">
                                                                         <rect key="frame" x="0.0" y="0.0" width="280" height="94"/>
-                                                                        <string key="text">stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend</string>
-                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                        <string key="text">I have been in GIN for 4 years and have led it for 2 years now.  This year’s conference theme, “A Place to Stand,” resonates with me a lot because of personal experiences and beliefs. However, I know everybody has a different interpretation of this theme, so where do you stand in this world? I hope you discover answers to this question as you listen to the amazing keynote speakers and changemaker panels!</string>
+                                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <constraints>
-                                                                    <constraint firstItem="PmX-fA-u7x" firstAttribute="leading" secondItem="yJX-c6-HS2" secondAttribute="leading" id="J9w-6k-ADt"/>
-                                                                    <constraint firstAttribute="trailing" secondItem="PmX-fA-u7x" secondAttribute="trailing" id="LaZ-Cp-JF2"/>
-                                                                    <constraint firstAttribute="bottom" secondItem="PmX-fA-u7x" secondAttribute="bottom" id="XHJ-pV-3gb"/>
-                                                                    <constraint firstItem="PmX-fA-u7x" firstAttribute="top" secondItem="yJX-c6-HS2" secondAttribute="top" id="fik-RP-OB9"/>
+                                                                    <constraint firstItem="PmX-fA-u7x" firstAttribute="top" secondItem="yJX-c6-HS2" secondAttribute="top" id="R9e-HU-3AN"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="PmX-fA-u7x" secondAttribute="trailing" id="VfT-lO-20p"/>
+                                                                    <constraint firstItem="PmX-fA-u7x" firstAttribute="leading" secondItem="yJX-c6-HS2" secondAttribute="leading" id="bp7-a6-m1Q"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="PmX-fA-u7x" secondAttribute="bottom" id="wu9-oo-PeM"/>
                                                                 </constraints>
                                                             </view>
                                                         </subviews>
@@ -312,7 +314,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ygM-fZ-elX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JI6-2e-icX">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -331,7 +333,7 @@
                         <viewControllerLayoutGuide type="bottom" id="fJZ-iD-euU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9pm-L4-oIv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -506,13 +508,13 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="288" height="50.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7:45 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Llx-MD-TBf">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="61.5" height="26.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="61.5" height="26"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dorsett Hotel Shanghai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJV-5D-KGo">
-                                                                                <rect key="frame" x="0.0" y="25.5" width="135.5" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="25" width="135.5" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -716,13 +718,13 @@
                                                                         <rect key="frame" x="0.0" y="332.5" width="288" height="50.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:00 - 4:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LY9-95-rdF">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="26.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="26"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JK-4J-7cS">
-                                                                                <rect key="frame" x="0.0" y="25.5" width="0.0" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="25" width="0.0" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -751,13 +753,13 @@
                                                                         <rect key="frame" x="0.0" y="388" width="288" height="50.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsy-27-Mj8">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="26.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="26"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Yj-kd-ZbK">
-                                                                                <rect key="frame" x="0.0" y="25.5" width="0.0" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="25" width="0.0" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -786,13 +788,13 @@
                                                                         <rect key="frame" x="0.0" y="443.5" width="288" height="50.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBi-1L-l1c">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="26"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2UF-fI-qf0">
-                                                                                <rect key="frame" x="0.0" y="25" width="0.0" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="26"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -821,13 +823,13 @@
                                                                         <rect key="frame" x="0.0" y="499" width="288" height="50"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qMY-gY-kq0">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="26"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ae3-jz-O8H">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="25" width="0.0" height="25"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -966,13 +968,13 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="288" height="49.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7:45 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdR-zj-0ap">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="61.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="61.5" height="26"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dorsett Hotel Shanghai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywc-gQ-Ami">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="135.5" height="24.5"/>
+                                                                                <rect key="frame" x="0.0" y="25" width="135.5" height="24.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1036,13 +1038,13 @@
                                                                         <rect key="frame" x="0.0" y="109.5" width="288" height="49.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:45 - 10:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qG8-EH-Ldk">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PC Commons / Café" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKn-so-hJh">
-                                                                                <rect key="frame" x="0.0" y="24" width="118.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="24.5" width="118.5" height="25"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1071,13 +1073,13 @@
                                                                         <rect key="frame" x="0.0" y="164" width="288" height="49.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:15 - 12:00 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzo-Mm-N8M">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="98.5" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="98.5" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Committees in Session" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aI-QC-P2V">
-                                                                                <rect key="frame" x="0.0" y="24" width="150.5" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="24.5" width="150.5" height="25"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1106,13 +1108,13 @@
                                                                         <rect key="frame" x="0.0" y="218.5" width="288" height="49.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:15 - 1:30 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fo0-Sf-0zu">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="114" height="26"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="114" height="26.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PC Commons /ES Cafeteria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTn-kF-mq5">
-                                                                                <rect key="frame" x="0.0" y="24" width="159" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="24.5" width="159" height="25"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1176,13 +1178,13 @@
                                                                         <rect key="frame" x="0.0" y="328" width="288" height="49.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:00 - 4:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9D-6v-rky">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="25"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbm-aI-oTf">
-                                                                                <rect key="frame" x="0.0" y="23.5" width="0.0" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="25" width="0.0" height="24.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1211,13 +1213,13 @@
                                                                         <rect key="frame" x="0.0" y="382.5" width="288" height="49.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7:45 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEF-S9-3V5">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="61.5" height="26"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="61.5" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dorsett Hotel Shanghai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zi-pL-Yp2">
-                                                                                <rect key="frame" x="0.0" y="24" width="135.5" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="24.5" width="135.5" height="25"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1545,7 +1547,7 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="126" height="160"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lxv-g0-xZ5">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="126" height="76.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="126" height="77"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teenagers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="khS-Vu-WQ0">
                                                                                         <rect key="frame" x="0.0" y="55" width="64.5" height="19.5"/>
@@ -1570,10 +1572,10 @@
                                                                                 </constraints>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ec-VO-wBz">
-                                                                                <rect key="frame" x="0.0" y="91.5" width="126" height="68.5"/>
+                                                                                <rect key="frame" x="0.0" y="92" width="126" height="68"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="eag-nV-2m0">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="126" height="68.5"/>
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="126" height="68"/>
                                                                                         <string key="text">Two teenage sisters have taken a stand against pollution in Bali – and they’ve convinced the government to ban plastic bags by the year 2018. </string>
                                                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
                                                                                         <nil key="textColor"/>
@@ -1598,13 +1600,13 @@
                                                                         <rect key="frame" x="138" y="0.0" width="150" height="160"/>
                                                                         <subviews>
                                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Melati 2" translatesAutoresizingMaskIntoConstraints="NO" id="LUl-nx-ZEW">
-                                                                                <rect key="frame" x="52.5" y="52.5" width="97.5" height="97.5"/>
+                                                                                <rect key="frame" x="53" y="53" width="97" height="97"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" secondItem="LUl-nx-ZEW" secondAttribute="height" multiplier="1:1" id="lIP-wY-sxk"/>
                                                                                 </constraints>
                                                                             </imageView>
                                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Melati 1" translatesAutoresizingMaskIntoConstraints="NO" id="PTI-U5-zjC">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="97.5" height="97.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="97" height="97"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
