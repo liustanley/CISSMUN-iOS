@@ -36,8 +36,8 @@ class AttractionsViewController: UIViewController {
         }
         alertController.addAction(mapsAction)
         
-        let copyAction = UIAlertAction(title: "Copy to Clipboard", style: .default) { action in
-            UIPasteboard.general.string = sender.restorationIdentifier
+        let copyAction = UIAlertAction(title: "Copy Address to Clipboard", style: .default) { action in
+            UIPasteboard.general.string = sender.accessibilityLabel! + "\n" + sender.accessibilityHint!
         }
         alertController.addAction(copyAction)
         
