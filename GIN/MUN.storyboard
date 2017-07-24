@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -363,7 +363,6 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="9cn-ig-ZZY"/>
-                                                    <constraint firstAttribute="width" constant="320" id="p7N-3c-OCH"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROCEDURES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANC-sF-z7f">
@@ -376,9 +375,11 @@
                                         <color key="backgroundColor" red="0.97280138729999999" green="0.96108514069999995" blue="0.94418889279999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="q1c-MF-x8I" firstAttribute="centerY" secondItem="ANC-sF-z7f" secondAttribute="centerY" id="0iS-nX-na4"/>
+                                            <constraint firstAttribute="trailing" secondItem="q1c-MF-x8I" secondAttribute="trailing" id="LBV-HI-JUy"/>
                                             <constraint firstItem="q1c-MF-x8I" firstAttribute="top" secondItem="2D7-d0-YrT" secondAttribute="top" id="PKU-DG-kaL"/>
                                             <constraint firstAttribute="height" constant="2000" id="n2d-83-OSy"/>
                                             <constraint firstItem="q1c-MF-x8I" firstAttribute="centerX" secondItem="ANC-sF-z7f" secondAttribute="centerX" id="q7i-zl-2Kh"/>
+                                            <constraint firstItem="q1c-MF-x8I" firstAttribute="leading" secondItem="2D7-d0-YrT" secondAttribute="leading" id="qZv-Ds-CEJ"/>
                                             <constraint firstItem="q1c-MF-x8I" firstAttribute="leading" secondItem="2D7-d0-YrT" secondAttribute="leading" id="t2o-xm-8Vm"/>
                                         </constraints>
                                     </view>

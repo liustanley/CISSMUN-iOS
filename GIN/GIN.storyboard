@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -147,7 +147,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jgk-J5-qx8">
                                                                         <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
                                                                         <subviews>
-                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lavender_leeanne" translatesAutoresizingMaskIntoConstraints="NO" id="aER-KH-Noo">
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Karen" translatesAutoresizingMaskIntoConstraints="NO" id="aER-KH-Noo">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="135" height="136"/>
                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                             </imageView>
@@ -1896,6 +1896,7 @@
         <image name="Beah" width="150" height="150"/>
         <image name="Bedard" width="150" height="150"/>
         <image name="Dalglish" width="150" height="150"/>
+        <image name="Karen" width="150" height="150"/>
         <image name="Melati 1" width="150" height="150"/>
         <image name="Melati 2" width="150" height="150"/>
         <image name="Phuc" width="150" height="150"/>
