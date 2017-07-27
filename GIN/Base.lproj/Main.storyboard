@@ -966,7 +966,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <viewControllerLayoutGuide type="bottom" id="f0c-41-mFQ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2zI-H3-Oo9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJn-FP-cCt">
@@ -982,7 +982,8 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="crown" id="q5n-UJ-BXQ"/>
+                    <navigationItem key="navigationItem" title="Map" id="kC4-4Q-SX5"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2000,7 +2001,6 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <image name="bund" width="2560" height="1440"/>
         <image name="concordia" width="1500" height="1125"/>
         <image name="contact" width="1920" height="1275"/>
-        <image name="crown" width="24" height="24"/>
         <image name="disney" width="5501" height="3559"/>
         <image name="expand arrow" width="100" height="100"/>
         <image name="expand arrow filled" width="100" height="100"/>
