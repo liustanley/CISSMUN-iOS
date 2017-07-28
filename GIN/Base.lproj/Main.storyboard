@@ -979,6 +979,14 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Select Your Destination "/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="userlocation" translatesAutoresizingMaskIntoConstraints="NO" id="xlw-c6-ZaT">
+                                <rect key="frame" x="16" y="67" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="destination" translatesAutoresizingMaskIntoConstraints="NO" id="Omm-zf-Nfp">
+                                <rect key="frame" x="16" y="128" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -2001,6 +2009,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <image name="bund" width="2560" height="1440"/>
         <image name="concordia" width="1500" height="1125"/>
         <image name="contact" width="1920" height="1275"/>
+        <image name="destination" width="25" height="25"/>
         <image name="disney" width="5501" height="3559"/>
         <image name="expand arrow" width="100" height="100"/>
         <image name="expand arrow filled" width="100" height="100"/>
@@ -2009,6 +2018,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <image name="pearl tower" width="3456" height="4608"/>
         <image name="shanghai" width="1000" height="667"/>
         <image name="shanghai tower" width="1024" height="768"/>
+        <image name="userlocation" width="25" height="25"/>
         <image name="yu garden" width="1200" height="798"/>
     </resources>
     <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
