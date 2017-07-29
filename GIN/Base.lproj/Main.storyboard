@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="ipad9_7" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -21,17 +21,17 @@
                         <viewControllerLayoutGuide type="bottom" id="ciN-m3-32Y"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5Bu-UR-80R">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ConcordiaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Xa4-6J-1fa">
-                                <rect key="frame" x="269" y="8" width="230" height="230.5"/>
+                                <rect key="frame" x="131.5" y="8" width="112.5" height="113"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Xa4-6J-1fa" secondAttribute="height" multiplier="1:1" id="SI1-sQ-VbK"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISSMUN 0.0.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Wi-F9-a7i">
-                                <rect key="frame" x="323" y="246.5" width="122" height="30"/>
+                                <rect key="frame" x="126.5" y="129" width="122" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="122" id="KDn-bj-s8Z"/>
                                     <constraint firstAttribute="height" constant="30" id="deK-7g-6yl"/>
@@ -41,7 +41,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="31" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKK-Uf-3Wp">
-                                <rect key="frame" x="0.0" y="35" width="768" height="500"/>
+                                <rect key="frame" x="0.0" y="35" width="375" height="500"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="500" id="Lri-jJ-7n5"/>
                                 </constraints>
@@ -58,7 +58,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0q-6n-62l">
-                                <rect key="frame" x="0.0" y="566.5" width="768" height="11"/>
+                                <rect key="frame" x="0.0" y="449" width="375" height="22"/>
                                 <string key="text">Jessica Chen, Edward Huang, Tanya Lai, Stanley Liu, Roland Rao, Jonathan Serbent, Aaron Tsang, Katrina Tsang, Ethan Wang, and Samuel Yang</string>
                                 <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="8"/>
                                 <nil key="textColor"/>
@@ -92,21 +92,21 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
             <objects>
                 <tableViewController id="3au-d8-LKR" customClass="SettingsTableViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="8cb-Da-7YN">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
                             <tableViewSection id="dgc-NI-zrw">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="lav-EN-WIQ">
-                                        <rect key="frame" x="0.0" y="35" width="768" height="44"/>
+                                        <rect key="frame" x="0.0" y="35" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lav-EN-WIQ" id="eEG-hs-7LO">
-                                            <rect key="frame" x="0.0" y="0.0" width="702" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change conference" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljI-Sz-jkj">
-                                                    <rect key="frame" x="13" y="8" width="664" height="27"/>
+                                                    <rect key="frame" x="13" y="8" width="271" height="27"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -130,14 +130,14 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                             <tableViewSection id="G1x-Yl-jJ8">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="my5-zq-ZFe">
-                                        <rect key="frame" x="0.0" y="115" width="768" height="44"/>
+                                        <rect key="frame" x="0.0" y="115" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="my5-zq-ZFe" id="hMi-3H-IjG">
-                                            <rect key="frame" x="0.0" y="0.0" width="702" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPu-HC-4QL">
-                                                    <rect key="frame" x="13" y="8" width="664" height="27"/>
+                                                    <rect key="frame" x="13" y="8" width="271" height="27"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -818,20 +818,20 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <viewControllerLayoutGuide type="bottom" id="m75-dv-Ovc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="15R-3M-WIW">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gRO-ZC-fRk">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RGX-Nq-BXZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="768" height="240"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="151"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shanghai" translatesAutoresizingMaskIntoConstraints="NO" id="eOO-wf-7IC">
-                                                <rect key="frame" x="0.0" y="0.0" width="768" height="240"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="151"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tbd-Ln-G2h">
-                                                <rect key="frame" x="0.0" y="0.0" width="768" height="240"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="151"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
                                                 <state key="normal" title="Shanghai">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -854,13 +854,13 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="srB-Ph-Pha">
-                                        <rect key="frame" x="0.0" y="240" width="768" height="240"/>
+                                        <rect key="frame" x="0.0" y="151" width="375" height="150.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="concordia" translatesAutoresizingMaskIntoConstraints="NO" id="iue-Lz-eXA">
-                                                <rect key="frame" x="0.0" y="0.0" width="768" height="240"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="150.5"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YiO-Qv-uWU">
-                                                <rect key="frame" x="0.0" y="0.0" width="768" height="240"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="150.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
                                                 <state key="normal" title="Jinqiao">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -883,13 +883,13 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6eV-LW-56z">
-                                        <rect key="frame" x="0.0" y="480" width="768" height="240"/>
+                                        <rect key="frame" x="0.0" y="301.5" width="375" height="151"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="contact" translatesAutoresizingMaskIntoConstraints="NO" id="K0X-k4-AbF">
-                                                <rect key="frame" x="0.0" y="0.0" width="768" height="240"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="151"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9T-YP-l8X">
-                                                <rect key="frame" x="0.0" y="0.0" width="768" height="240"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="151"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
                                                 <state key="normal" title="Contact">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -912,13 +912,13 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KaY-QK-0Rm">
-                                        <rect key="frame" x="0.0" y="720" width="768" height="240"/>
+                                        <rect key="frame" x="0.0" y="452.5" width="375" height="150.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gin" translatesAutoresizingMaskIntoConstraints="NO" id="lEb-Qq-A4b">
-                                                <rect key="frame" x="0.0" y="0.0" width="768" height="240"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="150.5"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9Z-ax-ZtX">
-                                                <rect key="frame" x="0.0" y="0.0" width="768" height="240"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="150.5"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
                                                 <state key="normal" title="Settings">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -966,11 +966,11 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <viewControllerLayoutGuide type="bottom" id="f0c-41-mFQ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2zI-H3-Oo9">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Your Current Conference Room" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ztu-Gl-XEc">
-                                <rect key="frame" x="62" y="8" width="694" height="30"/>
+                                <rect key="frame" x="58" y="8" width="309" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="k91-9O-ROY"/>
                                 </constraints>
@@ -979,7 +979,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Your Destination" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3bl-4n-Ol4">
-                                <rect key="frame" x="62" y="54" width="698" height="30"/>
+                                <rect key="frame" x="58" y="54" width="309" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="D0b-VZ-KLv"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="rfV-sx-8AS"/>
@@ -989,13 +989,13 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="xlw-c6-ZaT">
-                                <rect key="frame" x="28" y="8" width="26" height="30"/>
+                                <rect key="frame" x="24" y="8" width="26" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="TAX-n4-GPz"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="RIZ-JU-x9K">
-                                <rect key="frame" x="28" y="54" width="26" height="30"/>
+                                <rect key="frame" x="24" y="54" width="26" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Ig8-bV-9Vr"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="JTW-Gg-tVd"/>
@@ -1033,28 +1033,28 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <viewControllerLayoutGuide type="bottom" id="CQi-aQ-Q6d"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ycc-NT-T6J">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wy1-zd-ecM">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="130"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="84.5"/>
                                 <color key="backgroundColor" red="0.098039215686274508" green="0.20392156862745098" blue="0.32549019607843138" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="0.30110231164383561" colorSpace="calibratedRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-ol-wvY">
-                                <rect key="frame" x="235.5" y="25" width="307" height="71.5"/>
+                                <rect key="frame" x="117.5" y="25" width="150" height="46.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="60"/>
                                 <color key="textColor" red="1" green="0.98676989856867336" blue="0.98467826126877589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please select your conference:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdf-to-F7v">
-                                <rect key="frame" x="276.5" y="651" width="215" height="22"/>
+                                <rect key="frame" x="80" y="369.5" width="215" height="22"/>
                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="16"/>
                                 <color key="textColor" red="1" green="0.98676989859999997" blue="0.98467826130000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGp-82-ssm">
-                                <rect key="frame" x="35" y="763" width="307" height="70"/>
+                                <rect key="frame" x="31" y="481.5" width="150" height="70"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="42"/>
                                 <state key="normal" title="CISSMUN">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1064,7 +1064,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Djh-L1-0Mr">
-                                <rect key="frame" x="456.5" y="763" width="276.5" height="70"/>
+                                <rect key="frame" x="209" y="481.5" width="135" height="70"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="42"/>
                                 <state key="normal" title="GINASIA">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1074,7 +1074,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ConcordiaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="G3C-P4-qxV">
-                                <rect key="frame" x="153.5" y="160" width="461" height="461"/>
+                                <rect key="frame" x="75" y="114.5" width="225" height="225"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="G3C-P4-qxV" secondAttribute="height" multiplier="1:1" id="gb9-Ce-FE5"/>
                                 </constraints>
@@ -1143,43 +1143,43 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <viewControllerLayoutGuide type="bottom" id="MmB-37-j8C"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fYz-zy-BUi">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kBG-cp-bFt">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jkr-Qf-NLO">
-                                        <rect key="frame" x="0.0" y="0.0" width="768" height="550"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="550"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shanghai" translatesAutoresizingMaskIntoConstraints="NO" id="TBg-b3-baC">
-                                                <rect key="frame" x="0.0" y="0.0" width="768" height="200"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="sRE-CM-dTH"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上海" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5z-AU-Vey">
-                                                <rect key="frame" x="360" y="84" width="48" height="33"/>
+                                                <rect key="frame" x="163.5" y="84" width="48" height="33"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="3mZ-6L-POZ">
-                                                <rect key="frame" x="16" y="212" width="736" height="146"/>
+                                                <rect key="frame" x="16" y="212" width="343" height="146"/>
                                                 <string key="text">Shanghai is the largest city by population in the People’s Republic of China and one of the largest in the world. Often called the “showpiece” of the new China, Shanghai offers visitors a cosmopolitan blend of tradition and modernity, a place where ancient historical sites blend seamlessly with one of the world’s most modern and spectacular skylines.</string>
                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXo-1D-96a">
-                                                <rect key="frame" x="0.0" y="374" width="768" height="52"/>
+                                                <rect key="frame" x="0.0" y="374" width="375" height="52"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="U2n-ZF-WKw"/>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrF-B0-FCI">
-                                                <rect key="frame" x="0.0" y="374" width="768" height="50"/>
+                                                <rect key="frame" x="0.0" y="374" width="375" height="50"/>
                                                 <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="bV4-b4-PSP"/>
@@ -1195,20 +1195,20 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZN-HK-EKj">
-                                                <rect key="frame" x="739" y="387" width="13" height="24"/>
+                                                <rect key="frame" x="346" y="387" width="13" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AuC-FT-Wzz">
-                                                <rect key="frame" x="0.0" y="428" width="768" height="52"/>
+                                                <rect key="frame" x="0.0" y="428" width="375" height="52"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="xUA-sH-NS4"/>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKa-ly-2xR">
-                                                <rect key="frame" x="0.0" y="429" width="768" height="50"/>
+                                                <rect key="frame" x="0.0" y="429" width="375" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="e4Y-9n-hLG"/>
@@ -1224,20 +1224,20 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2A-vs-aKf">
-                                                <rect key="frame" x="739" y="442" width="13" height="24"/>
+                                                <rect key="frame" x="346" y="442" width="13" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3y7-29-A1u">
-                                                <rect key="frame" x="0.0" y="483" width="768" height="52"/>
+                                                <rect key="frame" x="0.0" y="483" width="375" height="52"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="Y59-9A-RYn"/>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9N-3z-gkO">
-                                                <rect key="frame" x="0.0" y="484" width="768" height="50"/>
+                                                <rect key="frame" x="0.0" y="484" width="375" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="JR4-by-lkK"/>
@@ -1253,7 +1253,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXj-9C-8mU">
-                                                <rect key="frame" x="739" y="497" width="13" height="24"/>
+                                                <rect key="frame" x="346" y="497" width="13" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -1729,23 +1729,23 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <viewControllerLayoutGuide type="bottom" id="j5o-T9-Twd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dHc-5g-5X3">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To/From Shanghai:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lyw-Ye-miI">
-                                <rect key="frame" x="20" y="20" width="728" height="23.5"/>
+                                <rect key="frame" x="16" y="20" width="343" height="23.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airport Transfers:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTu-48-QCR">
-                                <rect key="frame" x="20" y="251.5" width="728" height="23.5"/>
+                                <rect key="frame" x="16" y="251.5" width="343" height="23.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xH2-Je-ezZ">
-                                <rect key="frame" x="20" y="47.5" width="728" height="200"/>
+                                <rect key="frame" x="16" y="47.5" width="343" height="200"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="F9Q-fr-cby"/>
@@ -1756,7 +1756,7 @@ Schools are expected to make their own travel arrangements, but please feel free
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mKK-KI-2cL">
-                                <rect key="frame" x="20" y="740" width="728" height="200"/>
+                                <rect key="frame" x="16" y="383" width="343" height="200"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="4Uh-JD-ff3"/>
@@ -2926,43 +2926,43 @@ The cost of buses to and from the airport/train station will be borne by the vis
                         <viewControllerLayoutGuide type="bottom" id="Vch-Ga-Oe7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Xcw-Te-kbu">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zFl-gB-UY3">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sE8-Sw-FXM">
-                                        <rect key="frame" x="0.0" y="0.0" width="768" height="550"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="550"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="concordia" translatesAutoresizingMaskIntoConstraints="NO" id="ftF-l6-RRA">
-                                                <rect key="frame" x="0.0" y="0.0" width="768" height="200"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="gb9-ed-Qgp"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金桥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwB-Tn-K8T">
-                                                <rect key="frame" x="360" y="84" width="48" height="33"/>
+                                                <rect key="frame" x="163.5" y="84" width="48" height="33"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="0ne-IE-xum">
-                                                <rect key="frame" x="16" y="212" width="736" height="146"/>
+                                                <rect key="frame" x="16" y="212" width="343" height="146"/>
                                                 <string key="text">Shanghai is the largest city by population in the People’s Republic of China and one of the largest in the world. Often called the “showpiece” of the new China, Shanghai offers visitors a cosmopolitan blend of tradition and modernity, a place where ancient historical sites blend seamlessly with one of the world’s most modern and spectacular skylines.</string>
                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NKc-0n-wDG">
-                                                <rect key="frame" x="0.0" y="374" width="768" height="52"/>
+                                                <rect key="frame" x="0.0" y="374" width="375" height="52"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="RQe-Rn-aa3"/>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eiT-RA-OP9">
-                                                <rect key="frame" x="0.0" y="374" width="768" height="50"/>
+                                                <rect key="frame" x="0.0" y="374" width="375" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="ijd-GK-c4O"/>
@@ -2978,20 +2978,20 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YS7-NL-j3W">
-                                                <rect key="frame" x="739" y="387" width="13" height="24"/>
+                                                <rect key="frame" x="346" y="387" width="13" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmX-QV-mj3">
-                                                <rect key="frame" x="0.0" y="428" width="768" height="52"/>
+                                                <rect key="frame" x="0.0" y="428" width="375" height="52"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="Tbp-Q9-jmE"/>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2a-F2-a8j">
-                                                <rect key="frame" x="0.0" y="429" width="768" height="50"/>
+                                                <rect key="frame" x="0.0" y="429" width="375" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="k2M-cM-BhG"/>
@@ -3007,20 +3007,20 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgu-XH-vuu">
-                                                <rect key="frame" x="739" y="442" width="13" height="24"/>
+                                                <rect key="frame" x="346" y="442" width="13" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Reb-cx-dct">
-                                                <rect key="frame" x="0.0" y="483" width="768" height="52"/>
+                                                <rect key="frame" x="0.0" y="483" width="375" height="52"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="8Tm-uw-Ggf"/>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhG-4N-She">
-                                                <rect key="frame" x="0.0" y="484" width="768" height="50"/>
+                                                <rect key="frame" x="0.0" y="484" width="375" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="il4-aQ-Htq"/>
@@ -3036,7 +3036,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2w-f1-8f4">
-                                                <rect key="frame" x="739" y="497" width="13" height="24"/>
+                                                <rect key="frame" x="346" y="497" width="13" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -3163,7 +3163,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                         <viewControllerLayoutGuide type="bottom" id="sf5-D1-1wS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Nbv-4N-OF6">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -3181,7 +3181,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                         <viewControllerLayoutGuide type="bottom" id="IcK-Fv-E6w"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="FwD-bU-oFI">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
