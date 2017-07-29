@@ -955,12 +955,12 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aPL-dz-USw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-39" y="1204"/>
+            <point key="canvasLocation" x="547.5" y="1203.5"/>
         </scene>
         <!--Map-->
         <scene sceneID="Z8r-MY-f6S">
             <objects>
-                <viewController storyboardIdentifier="Map" id="qtl-lD-hPh" customClass="MapViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Map" id="qtl-lD-hPh" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3mG-bv-JqH"/>
                         <viewControllerLayoutGuide type="bottom" id="f0c-41-mFQ"/>
@@ -1046,7 +1046,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2607.1999999999998" y="1202.2488755622189"/>
+            <point key="canvasLocation" x="-2020.5" y="1201.5"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="dXl-3i-UcF">
@@ -1135,7 +1135,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YLb-Gd-vMn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1344" y="1205"/>
+            <point key="canvasLocation" x="-757.5" y="1204.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Bmk-Oa-LVR">
@@ -3179,7 +3179,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uGz-Pt-D56" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1656" y="1204"/>
+            <point key="canvasLocation" x="2242.5" y="1203.5"/>
         </scene>
         <!--Attractions-->
         <scene sceneID="Rhc-22-1uJ">
@@ -3226,7 +3226,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k7u-U9-n0h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2604" y="1472"/>
+            <point key="canvasLocation" x="3191" y="1471.5"/>
         </scene>
         <!--Transportation-->
         <scene sceneID="JQh-W4-dyX">
@@ -3244,7 +3244,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TPV-ow-bdq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3510" y="1204"/>
+            <point key="canvasLocation" x="4096.5" y="1203.5"/>
         </scene>
         <!--Dining-->
         <scene sceneID="h3a-Kc-Lev">
