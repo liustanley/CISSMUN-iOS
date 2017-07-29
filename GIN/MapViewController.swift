@@ -12,6 +12,8 @@ class MapViewController: UIViewController {
     
     @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     
+    var menuShowing = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +21,7 @@ class MapViewController: UIViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "Map") as UIViewController
         addChildViewController(controller)
-        view.addSubview(controller.view)
+       view.addSubview(controller.view)
         controller.didMove(toParentViewController: self)
     }
     
@@ -30,8 +32,13 @@ class MapViewController: UIViewController {
     
     @IBAction func openMenu(_ sender: Any) {
         
+        if(menuShowing) {
+        leadingConstraint.constant = -145
+        } else {
         leadingConstraint.constant = 0
+        }
         
+        menuShowing = !menuShowing
     }
     
 }
