@@ -960,7 +960,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <!--Map-->
         <scene sceneID="Z8r-MY-f6S">
             <objects>
-                <viewController storyboardIdentifier="Map" id="qtl-lD-hPh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Map" id="qtl-lD-hPh" customClass="MapViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3mG-bv-JqH"/>
                         <viewControllerLayoutGuide type="bottom" id="f0c-41-mFQ"/>
@@ -1005,25 +1005,44 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </constraints>
                                 <state key="normal" image="Image"/>
                             </button>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lLT-Bn-LaV">
+                                <rect key="frame" x="0.0" y="0.0" width="145" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="145" id="bXi-Mi-B3m"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="3bl-4n-Ol4" firstAttribute="leading" secondItem="VlD-7W-oYM" secondAttribute="trailing" constant="8" id="00R-fz-xjq"/>
                             <constraint firstItem="WaW-eA-v5b" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leadingMargin" constant="8" id="2dG-9K-btN"/>
                             <constraint firstItem="VlD-7W-oYM" firstAttribute="top" secondItem="WaW-eA-v5b" secondAttribute="bottom" constant="16" id="8YH-p8-nkn"/>
+                            <constraint firstItem="f0c-41-mFQ" firstAttribute="top" secondItem="lLT-Bn-LaV" secondAttribute="bottom" id="BHZ-tW-trW"/>
                             <constraint firstAttribute="trailing" secondItem="ztu-Gl-XEc" secondAttribute="trailing" constant="8" id="JeT-5R-wEt"/>
                             <constraint firstItem="ztu-Gl-XEc" firstAttribute="leading" secondItem="WaW-eA-v5b" secondAttribute="trailing" constant="8" id="LSk-LH-AzE"/>
+                            <constraint firstItem="lLT-Bn-LaV" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="-145" id="LrW-kA-Sew"/>
                             <constraint firstItem="ztu-Gl-XEc" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="8" id="VGD-ux-tgW"/>
                             <constraint firstItem="VlD-7W-oYM" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leadingMargin" constant="8" id="WSD-aK-ewj"/>
                             <constraint firstItem="3bl-4n-Ol4" firstAttribute="leading" secondItem="VlD-7W-oYM" secondAttribute="trailing" constant="8" id="Y8L-oR-5z6"/>
                             <constraint firstItem="3bl-4n-Ol4" firstAttribute="top" secondItem="ztu-Gl-XEc" secondAttribute="bottom" constant="16" id="fJ9-wt-clX"/>
+                            <constraint firstItem="lLT-Bn-LaV" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" id="icj-5o-Hf3"/>
                             <constraint firstItem="ztu-Gl-XEc" firstAttribute="leading" secondItem="WaW-eA-v5b" secondAttribute="trailing" constant="8" id="mJR-97-W3U"/>
                             <constraint firstAttribute="trailing" secondItem="3bl-4n-Ol4" secondAttribute="trailing" constant="8" id="pQp-NZ-HZz"/>
                             <constraint firstItem="WaW-eA-v5b" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="8" id="py1-kc-xBi"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Map" id="kC4-4Q-SX5"/>
+                    <navigationItem key="navigationItem" title="Map" id="kC4-4Q-SX5">
+                        <barButtonItem key="leftBarButtonItem" image="Image" id="Jak-em-XYA">
+                            <connections>
+                                <action selector="openMenu:" destination="qtl-lD-hPh" id="xtP-7v-Le9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="leadingConstraint" destination="LrW-kA-Sew" id="9fG-7Z-uae"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
