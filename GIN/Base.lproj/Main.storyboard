@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -1704,7 +1704,58 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                     <view key="view" contentMode="scaleToFill" id="dHc-5g-5X3">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To/From Shanghai:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lyw-Ye-miI">
+                                <rect key="frame" x="16" y="20" width="288" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airport Transfers:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTu-48-QCR">
+                                <rect key="frame" x="16" y="251.5" width="288" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xH2-Je-ezZ">
+                                <rect key="frame" x="16" y="47.5" width="288" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="F9Q-fr-cby"/>
+                                </constraints>
+                                <string key="text">Shanghai is served by two international airports with daily flights from many Chinese cities, most Asian capitals and many other American and European destinations. Shanghai is also a major hub for China’s high-speed rail network, with efficient service from Beijing, Hong Kong and many other cities.
+Schools are expected to make their own travel arrangements, but please feel free to contact us if you require assistance in obtaining the necessary entrance visas.</string>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mKK-KI-2cL">
+                                <rect key="frame" x="16" y="284" width="288" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="4Uh-JD-ff3"/>
+                                </constraints>
+                                <mutableString key="text">The CISSMUN administrative staff will arrange a bus transfer (on arrival and/or departure) from Pudong or Hongqiao airport, or from any of the Shanghai Railway stations, for any school that requires it. Please fill out the Arrival/Departure form (available at https://www.cissmun.org/arrivaldeparture-form/) to communicate your numbers and specific travel details.
+The cost of buses to and from the airport/train station will be borne by the visiting schools, and will be included with the conference registration fees on your school’s CISSMUN invoice. That cost is RMB 900.00 or USD 130.00 each way.</mutableString>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="11"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mKK-KI-2cL" firstAttribute="leading" secondItem="dHc-5g-5X3" secondAttribute="leadingMargin" id="2cC-Qe-yQN"/>
+                            <constraint firstItem="Lyw-Ye-miI" firstAttribute="leading" secondItem="dHc-5g-5X3" secondAttribute="leadingMargin" id="Gue-wK-z91"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lyw-Ye-miI" secondAttribute="trailing" id="HbI-0q-4nW"/>
+                            <constraint firstItem="j5o-T9-Twd" firstAttribute="top" secondItem="mKK-KI-2cL" secondAttribute="bottom" constant="20" id="IcF-7c-PBo"/>
+                            <constraint firstItem="oTu-48-QCR" firstAttribute="trailing" secondItem="dHc-5g-5X3" secondAttribute="trailingMargin" id="RJs-My-Woj"/>
+                            <constraint firstItem="oTu-48-QCR" firstAttribute="leading" secondItem="dHc-5g-5X3" secondAttribute="leadingMargin" id="X5F-kY-XMh"/>
+                            <constraint firstItem="mKK-KI-2cL" firstAttribute="trailing" secondItem="dHc-5g-5X3" secondAttribute="trailingMargin" id="cy2-9k-IQu"/>
+                            <constraint firstItem="oTu-48-QCR" firstAttribute="top" secondItem="xH2-Je-ezZ" secondAttribute="bottom" constant="4" id="f4J-QV-65H"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xH2-Je-ezZ" secondAttribute="trailing" id="gkT-lA-FJx"/>
+                            <constraint firstItem="xH2-Je-ezZ" firstAttribute="top" secondItem="Lyw-Ye-miI" secondAttribute="bottom" constant="4" id="hmb-nA-d8N"/>
+                            <constraint firstItem="Lyw-Ye-miI" firstAttribute="top" secondItem="QRE-6O-CDI" secondAttribute="bottom" constant="20" id="jzQ-JM-Oj2"/>
+                            <constraint firstItem="xH2-Je-ezZ" firstAttribute="leading" secondItem="dHc-5g-5X3" secondAttribute="leadingMargin" id="vCV-ua-zIv"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NTM-ZP-2vr" userLabel="First Responder" sceneMemberID="firstResponder"/>
