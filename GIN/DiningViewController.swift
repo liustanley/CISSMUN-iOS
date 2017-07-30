@@ -22,7 +22,8 @@ class DiningViewController: UIViewController {
     }
     
     @IBAction func expandMenu(sender: UIButton) {
-        let url = URL(string: sender.accessibilityIdentifier!)!
+        let mapURL = URL(string: sender.accessibilityIdentifier!)!
+        let webURL = URL(string: sender.accessibilityHint!)!
         
         let alertController = UIAlertController(title: sender.accessibilityLabel, message: nil, preferredStyle: .actionSheet)
         
@@ -32,7 +33,7 @@ class DiningViewController: UIViewController {
         alertController.addAction(cancelAction)
         
         let mapsAction = UIAlertAction(title: "Open in Maps", style: .default) { action in
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            UIApplication.shared.open(mapURL, options: [:], completionHandler: nil)
         }
         alertController.addAction(mapsAction)
         
@@ -40,6 +41,11 @@ class DiningViewController: UIViewController {
             UIPasteboard.general.string = sender.accessibilityLabel!
         }
         alertController.addAction(copyAction)
+        
+        let webAction = UIAlertAction(title: "Go to Website", style: .default) { action in
+            UIApplication.shared.open(webURL, options: [:], completionHandler: nil)
+        }
+        alertController.addAction(webAction)
         
         self.present(alertController, animated: true) {
             // ...
