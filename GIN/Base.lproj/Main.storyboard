@@ -988,15 +988,25 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P0z-So-oda">
+                                <rect key="frame" x="0.0" y="0.0" width="145" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="145" id="oLr-e2-OVY"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="OsS-Vg-2iP" secondAttribute="trailing" constant="8" id="E9L-3r-gWz"/>
+                            <constraint firstItem="P0z-So-oda" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" id="M0J-Im-X39"/>
                             <constraint firstItem="OsS-Vg-2iP" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="8" id="Mne-gE-P84"/>
+                            <constraint firstItem="f0c-41-mFQ" firstAttribute="top" secondItem="P0z-So-oda" secondAttribute="bottom" id="Vqd-fA-495"/>
                             <constraint firstItem="m8X-DL-4Z4" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="8" id="gTM-YX-AHZ"/>
                             <constraint firstItem="m8X-DL-4Z4" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="8" id="isn-ub-oun"/>
                             <constraint firstAttribute="trailing" secondItem="m8X-DL-4Z4" secondAttribute="trailing" constant="8" id="qpr-rv-XRG"/>
                             <constraint firstItem="OsS-Vg-2iP" firstAttribute="top" secondItem="m8X-DL-4Z4" secondAttribute="bottom" constant="16" id="uzb-wo-bpl"/>
+                            <constraint firstItem="P0z-So-oda" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" id="x9x-Eq-a1H"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Map" id="D3c-Zg-9cX">
