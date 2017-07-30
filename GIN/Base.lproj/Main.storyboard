@@ -988,7 +988,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P0z-So-oda">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P0z-So-oda">
                                 <rect key="frame" x="0.0" y="0.0" width="145" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1006,7 +1006,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                             <constraint firstItem="m8X-DL-4Z4" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="8" id="isn-ub-oun"/>
                             <constraint firstAttribute="trailing" secondItem="m8X-DL-4Z4" secondAttribute="trailing" constant="8" id="qpr-rv-XRG"/>
                             <constraint firstItem="OsS-Vg-2iP" firstAttribute="top" secondItem="m8X-DL-4Z4" secondAttribute="bottom" constant="16" id="uzb-wo-bpl"/>
-                            <constraint firstItem="P0z-So-oda" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" id="x9x-Eq-a1H"/>
+                            <constraint firstItem="P0z-So-oda" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="-145" id="x9x-Eq-a1H"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Map" id="D3c-Zg-9cX">
