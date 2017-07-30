@@ -970,59 +970,37 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Your Current Conference Room" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ztu-Gl-XEc">
-                                <rect key="frame" x="62" y="8" width="305" height="30"/>
+                                <rect key="frame" x="8" y="8" width="359" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="K1P-Oy-rcN"/>
-                                    <constraint firstAttribute="width" constant="305" id="x0z-Tq-F1w"/>
+                                    <constraint firstAttribute="height" constant="30" id="wEc-Uy-iQn"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Your Destination" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3bl-4n-Ol4">
-                                <rect key="frame" x="62" y="54" width="305" height="30"/>
+                                <rect key="frame" x="8" y="54" width="359" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="bHr-fW-l4W"/>
-                                    <constraint firstAttribute="width" constant="305" id="vGb-Ex-Fiz"/>
+                                    <constraint firstAttribute="height" constant="30" id="tdX-Ny-Q6X"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaW-eA-v5b">
-                                <rect key="frame" x="24" y="8" width="30" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="UkS-tR-2NA"/>
-                                    <constraint firstAttribute="height" constant="30" id="Yox-JA-jsr"/>
-                                </constraints>
-                                <state key="normal" image="Image"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VlD-7W-oYM">
-                                <rect key="frame" x="24" y="54" width="30" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="uJr-No-cdB"/>
-                                    <constraint firstAttribute="height" constant="30" id="zYy-Yj-t5o"/>
-                                </constraints>
-                                <state key="normal" image="Image"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="3bl-4n-Ol4" firstAttribute="leading" secondItem="VlD-7W-oYM" secondAttribute="trailing" constant="8" id="00R-fz-xjq"/>
-                            <constraint firstItem="WaW-eA-v5b" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leadingMargin" constant="8" id="2dG-9K-btN"/>
-                            <constraint firstItem="VlD-7W-oYM" firstAttribute="top" secondItem="WaW-eA-v5b" secondAttribute="bottom" constant="16" id="8YH-p8-nkn"/>
-                            <constraint firstAttribute="trailing" secondItem="ztu-Gl-XEc" secondAttribute="trailing" constant="8" id="JeT-5R-wEt"/>
-                            <constraint firstItem="ztu-Gl-XEc" firstAttribute="leading" secondItem="WaW-eA-v5b" secondAttribute="trailing" constant="8" id="LSk-LH-AzE"/>
-                            <constraint firstItem="ztu-Gl-XEc" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="8" id="VGD-ux-tgW"/>
-                            <constraint firstItem="VlD-7W-oYM" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leadingMargin" constant="8" id="WSD-aK-ewj"/>
-                            <constraint firstItem="3bl-4n-Ol4" firstAttribute="leading" secondItem="VlD-7W-oYM" secondAttribute="trailing" constant="8" id="Y8L-oR-5z6"/>
-                            <constraint firstItem="3bl-4n-Ol4" firstAttribute="top" secondItem="ztu-Gl-XEc" secondAttribute="bottom" constant="16" id="fJ9-wt-clX"/>
-                            <constraint firstItem="ztu-Gl-XEc" firstAttribute="leading" secondItem="WaW-eA-v5b" secondAttribute="trailing" constant="8" id="mJR-97-W3U"/>
-                            <constraint firstAttribute="trailing" secondItem="3bl-4n-Ol4" secondAttribute="trailing" constant="8" id="pQp-NZ-HZz"/>
-                            <constraint firstItem="WaW-eA-v5b" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="8" id="py1-kc-xBi"/>
+                            <constraint firstItem="ztu-Gl-XEc" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="8" id="0wW-NP-GoC"/>
+                            <constraint firstItem="3bl-4n-Ol4" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="8" id="Uey-Qo-N7B"/>
+                            <constraint firstAttribute="trailing" secondItem="ztu-Gl-XEc" secondAttribute="trailing" constant="8" id="abF-aC-SEZ"/>
+                            <constraint firstItem="3bl-4n-Ol4" firstAttribute="top" secondItem="ztu-Gl-XEc" secondAttribute="bottom" constant="16" id="dUI-qX-jSN"/>
+                            <constraint firstItem="ztu-Gl-XEc" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="8" id="rmm-u5-P28"/>
+                            <constraint firstAttribute="trailing" secondItem="3bl-4n-Ol4" secondAttribute="trailing" constant="8" id="y7y-Wc-jqr"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Map" id="D3c-Zg-9cX"/>
+                    <navigationItem key="navigationItem" title="Map" id="D3c-Zg-9cX">
+                        <barButtonItem key="leftBarButtonItem" image="Image" id="sjY-RW-OOf"/>
+                    </navigationItem>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="667"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
