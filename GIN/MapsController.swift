@@ -32,7 +32,7 @@ class MapsController: UIViewController {
     @IBAction func menuOpen(_ sender: Any) {
         
         if(menuShowing) {
-            menuConstraint.constant = -145
+            menuConstraint.constant = -155
             UIView.animate(withDuration: 0.3, animations: {self.view.layoutIfNeeded()})
         } else {
             menuConstraint.constant = 0
