@@ -1019,6 +1019,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="667"/>
                     <connections>
                         <outlet property="menuConstraint" destination="x9x-Eq-a1H" id="aLI-cW-Lu9"/>
+                        <outlet property="menuView" destination="P0z-So-oda" id="g3U-mc-Lc5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -10,6 +10,7 @@ import UIKit
 
 class MapsController: UIViewController {
     
+    @IBOutlet weak var menuView: UIView!
     @IBOutlet weak var menuConstraint: NSLayoutConstraint!
     
     var menuShowing = false
@@ -18,6 +19,9 @@ class MapsController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
   
+        menuView.layer.shadowOpacity = 1
+        menuView.layer.shadowRadius = 6
+        
     }
     
     override func didReceiveMemoryWarning() {
