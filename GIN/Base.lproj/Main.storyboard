@@ -1012,13 +1012,13 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                     <navigationItem key="navigationItem" title="Map" id="D3c-Zg-9cX">
                         <barButtonItem key="leftBarButtonItem" image="Image" id="sjY-RW-OOf">
                             <connections>
-                                <action selector="menuOpen:" destination="qtl-lD-hPh" id="UKk-sq-Ty7"/>
+                                <action selector="menuOpen:" destination="qtl-lD-hPh" id="GYW-BJ-uqE"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="667"/>
                     <connections>
-                        <outlet property="menuConstraint" destination="x9x-Eq-a1H" id="aLI-cW-Lu9"/>
+                        <outlet property="menuConstraint" destination="x9x-Eq-a1H" id="vE6-HT-adS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
