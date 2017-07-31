@@ -29,8 +29,11 @@ class MapsController: UIViewController {
         
         if(menuShowing) {
             menuConstraint.constant = -145
+            UIView.animate(withDuration: 0.3, animations: {self.view.layoutIfNeeded()})
         } else {
             menuConstraint.constant = 0
+        UIView.animate(withDuration: 0.3, animations: {self.view.layoutIfNeeded()})
+    
         }
         menuShowing = !menuShowing
     }
