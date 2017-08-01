@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -102,7 +102,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         <rect key="frame" x="0.0" y="35" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lav-EN-WIQ" id="eEG-hs-7LO">
-                                            <rect key="frame" x="0.0" y="0.0" width="381" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="381" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change conference" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljI-Sz-jkj">
@@ -133,7 +133,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         <rect key="frame" x="0.0" y="115" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="my5-zq-ZFe" id="hMi-3H-IjG">
-                                            <rect key="frame" x="0.0" y="0.0" width="381" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="381" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPu-HC-4QL">
@@ -990,9 +990,37 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                             </searchBar>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P0z-So-oda">
                                 <rect key="frame" x="0.0" y="0.0" width="145" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0CG-yt-o4F">
+                                        <rect key="frame" x="35" y="8" width="74" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="74" id="92u-Is-ykb"/>
+                                            <constraint firstAttribute="height" constant="21" id="jUD-rL-7Bz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQR-cJ-KwH">
+                                        <rect key="frame" x="0.0" y="16" width="145" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="145" id="AGt-V1-Gv4"/>
+                                            <constraint firstAttribute="height" constant="21" id="CrX-0d-m8E"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="KQR-cJ-KwH" firstAttribute="leading" secondItem="P0z-So-oda" secondAttribute="leading" id="1RC-DR-T9o"/>
+                                    <constraint firstAttribute="trailing" secondItem="0CG-yt-o4F" secondAttribute="trailing" constant="36" id="HtC-4a-pPM"/>
+                                    <constraint firstItem="KQR-cJ-KwH" firstAttribute="top" secondItem="P0z-So-oda" secondAttribute="top" constant="16" id="IPF-gC-0KS"/>
+                                    <constraint firstItem="0CG-yt-o4F" firstAttribute="top" secondItem="P0z-So-oda" secondAttribute="top" constant="8" id="NoA-VQ-aMu"/>
+                                    <constraint firstAttribute="trailing" secondItem="KQR-cJ-KwH" secondAttribute="trailing" id="kcm-nE-B8Y"/>
                                     <constraint firstAttribute="width" constant="145" id="oLr-e2-OVY"/>
+                                    <constraint firstItem="0CG-yt-o4F" firstAttribute="leading" secondItem="P0z-So-oda" secondAttribute="leading" constant="35" id="yTe-oi-IYR"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1024,7 +1052,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1668" y="1202.2488755622189"/>
+            <point key="canvasLocation" x="-1668.840579710145" y="1202.038043478261"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="dXl-3i-UcF">
