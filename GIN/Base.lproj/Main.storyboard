@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -2179,7 +2179,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                             <constraint firstAttribute="trailing" secondItem="ncV-SF-K07" secondAttribute="trailing" constant="8" id="miK-Po-Va1"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SvM-Kf-niz" userLabel="Yang's Fried Dumplings">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SvM-Kf-niz" userLabel="BiQiYa">
                                                         <rect key="frame" x="0.0" y="297" width="304" height="93"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="biqiya placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Glf-uM-tQn">
@@ -2291,7 +2291,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                             <constraint firstItem="vJa-1F-9tj" firstAttribute="top" secondItem="3rw-NX-QLP" secondAttribute="bottom" constant="4" id="zas-w0-4pq"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qE-dV-bAL" userLabel="Yang's Fried Dumplings">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3qE-dV-bAL" userLabel="Urban Soup Kitchen">
                                                         <rect key="frame" x="0.0" y="396" width="304" height="93"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Urban Soup Kitchen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWJ-0S-ExL">
@@ -2403,7 +2403,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                             <constraint firstItem="v5Q-GD-SI0" firstAttribute="leading" secondItem="yk3-5d-sge" secondAttribute="trailing" constant="4" id="vvC-S5-5b5"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LNE-R6-lMs" userLabel="Yang's Fried Dumplings">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LNE-R6-lMs" userLabel="Pizza Express">
                                                         <rect key="frame" x="0.0" y="495" width="304" height="93"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizza express" translatesAutoresizingMaskIntoConstraints="NO" id="OWD-2Y-yAL">
@@ -2515,16 +2515,16 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                             <constraint firstItem="KPW-jY-9vD" firstAttribute="leading" secondItem="OWD-2Y-yAL" secondAttribute="trailing" constant="8" id="x4u-16-FC0"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ruL-dH-rc6" userLabel="Yang's Fried Dumplings">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ruL-dH-rc6" userLabel="Din Tai Fung">
                                                         <rect key="frame" x="0.0" y="594" width="304" height="93"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yangs dumplings" translatesAutoresizingMaskIntoConstraints="NO" id="gxt-xb-4zT">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dintaifung" translatesAutoresizingMaskIntoConstraints="NO" id="gxt-xb-4zT">
                                                                 <rect key="frame" x="8" y="8" width="77" height="77"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="gxt-xb-4zT" secondAttribute="height" multiplier="1:1" id="PVu-ru-7mi"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yang's Fried Dumplings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15k-Kj-f2E">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Din Tai Fung" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15k-Kj-f2E">
                                                                 <rect key="frame" x="93" y="8" width="180" height="19.333333333333371"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
@@ -2565,19 +2565,19 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                     <constraint firstAttribute="width" constant="15" id="j6h-sk-gHi"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Do0-Dj-3dX">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="514 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Do0-Dj-3dX">
                                                                 <rect key="frame" x="180" y="32.333333333333371" width="120" height="13.666666666666629"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chinese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFp-ct-7vc">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chinese, Taiwanese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFp-ct-7vc">
                                                                 <rect key="frame" x="93" y="51" width="203" height="19.333333333333371"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Lujiazui" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2e-w9-pLA">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$-$$$ - Lujiazui" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2e-w9-pLA">
                                                                 <rect key="frame" x="93" y="70.333333333333371" width="203" height="15.333333333333258"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -2585,7 +2585,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrB-UE-hJH" userLabel="Menu">
                                                                 <rect key="frame" x="277" y="6" width="25" height="25"/>
-                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d10378374-Reviews-Yang_s_Fried_Dumplings_Dongfang_Mingzhu-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="406-1408 Lujiazui Ring Road"/>
+                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d2687479-Reviews-Din_Tai_Fung_Super_Brand_Mall-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="168 Lujiazui West Road"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="25" id="3pi-97-B1B"/>
                                                                     <constraint firstAttribute="width" secondItem="hrB-UE-hJH" secondAttribute="height" multiplier="1:1" id="Xg3-Gj-5Yh"/>
@@ -2630,13 +2630,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4tF-pP-VVp" userLabel="Yang's Fried Dumplings">
                                                         <rect key="frame" x="0.0" y="693" width="304" height="93"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yangs dumplings" translatesAutoresizingMaskIntoConstraints="NO" id="6d8-og-WCf">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lost heaven" translatesAutoresizingMaskIntoConstraints="NO" id="6d8-og-WCf">
                                                                 <rect key="frame" x="8" y="8" width="77.666666666666671" height="77"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="6d8-og-WCf" secondAttribute="height" multiplier="1:1" id="UhG-EW-cK3"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yang's Fried Dumplings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1g-47-SQt">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lost Heaven" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1g-47-SQt">
                                                                 <rect key="frame" x="93.666666666666657" y="8" width="179.33333333333334" height="19.333333333333371"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
@@ -2677,19 +2677,19 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                     <constraint firstAttribute="width" secondItem="1Pd-9m-PWF" secondAttribute="height" multiplier="1:1" id="yGv-BG-Mhv"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkg-mg-rRj">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2,120 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkg-mg-rRj">
                                                                 <rect key="frame" x="180.66666666666663" y="32.333333333333371" width="119.33333333333337" height="13.666666666666629"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chinese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLK-Vx-kM6">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chinese, Yunnan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLK-Vx-kM6">
                                                                 <rect key="frame" x="93.666666666666657" y="51" width="202.33333333333334" height="19.333333333333371"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Lujiazui" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcR-u6-WwF">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$-$$$ - Former French Concession" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcR-u6-WwF">
                                                                 <rect key="frame" x="93.666666666666657" y="70.333333333333371" width="202.33333333333334" height="15.333333333333258"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -2697,7 +2697,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVd-6e-JGx" userLabel="Menu">
                                                                 <rect key="frame" x="277" y="6" width="25" height="25"/>
-                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d10378374-Reviews-Yang_s_Fried_Dumplings_Dongfang_Mingzhu-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="406-1408 Lujiazui Ring Road"/>
+                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d1218734-Reviews-Lost_Heaven-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="38 Gaoyou Rd, Xuhui Qu"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="sVd-6e-JGx" secondAttribute="height" multiplier="1:1" id="RLp-Hg-M3E"/>
                                                                     <constraint firstAttribute="width" constant="25" id="qy7-s6-2ZB"/>
@@ -2742,13 +2742,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tkM-oa-3hC" userLabel="Yang's Fried Dumplings">
                                                         <rect key="frame" x="0.0" y="792" width="304" height="93"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yangs dumplings" translatesAutoresizingMaskIntoConstraints="NO" id="eak-lj-baZ">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ginger" translatesAutoresizingMaskIntoConstraints="NO" id="eak-lj-baZ">
                                                                 <rect key="frame" x="8" y="8" width="77" height="77"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="eak-lj-baZ" secondAttribute="height" multiplier="1:1" id="hzy-b7-RVb"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yang's Fried Dumplings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5L-Lo-l5A">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ginger Modern Asian Bistro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5L-Lo-l5A">
                                                                 <rect key="frame" x="93" y="8" width="180" height="19.333333333333371"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
@@ -2782,26 +2782,26 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                     <constraint firstAttribute="width" constant="15" id="rph-Zt-y4W"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Half Empty" translatesAutoresizingMaskIntoConstraints="NO" id="TJr-Fx-VcQ" userLabel="Star Half Filled">
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Empty" translatesAutoresizingMaskIntoConstraints="NO" id="TJr-Fx-VcQ" userLabel="Star Empty">
                                                                 <rect key="frame" x="161" y="31.333333333333371" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="TJr-Fx-VcQ" secondAttribute="height" multiplier="1:1" id="F1P-op-qNS"/>
                                                                     <constraint firstAttribute="width" constant="15" id="TZe-Ua-vzi"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5I-RV-t1u">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="76 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5I-RV-t1u">
                                                                 <rect key="frame" x="180" y="32.333333333333371" width="120" height="13.666666666666629"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chinese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGr-7h-WN7">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asian, International" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGr-7h-WN7">
                                                                 <rect key="frame" x="93" y="51" width="203" height="19.333333333333371"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Lujiazui" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m21-em-KEz">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$-$$$ - Former French Concession" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m21-em-KEz">
                                                                 <rect key="frame" x="93" y="70.333333333333371" width="203" height="15.333333333333258"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -2809,7 +2809,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sD-JA-6EP" userLabel="Menu">
                                                                 <rect key="frame" x="277" y="6" width="25" height="25"/>
-                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d10378374-Reviews-Yang_s_Fried_Dumplings_Dongfang_Mingzhu-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="406-1408 Lujiazui Ring Road"/>
+                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d3700870-Reviews-Ginger_Modern_Asian_Bistro-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="91 Xingguo Rd, Xuhui Qu"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="25" id="1ru-4e-ycG"/>
                                                                     <constraint firstAttribute="width" secondItem="1sD-JA-6EP" secondAttribute="height" multiplier="1:1" id="YsW-EE-NRh"/>
@@ -2854,13 +2854,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Buj-bw-JYJ" userLabel="Yang's Fried Dumplings">
                                                         <rect key="frame" x="0.0" y="891" width="304" height="93"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yangs dumplings" translatesAutoresizingMaskIntoConstraints="NO" id="Wp0-eW-H8I">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="haidilao" translatesAutoresizingMaskIntoConstraints="NO" id="Wp0-eW-H8I">
                                                                 <rect key="frame" x="8" y="8" width="77" height="77"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="Wp0-eW-H8I" secondAttribute="height" multiplier="1:1" id="pLZ-h5-cOW"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yang's Fried Dumplings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6U0-Yf-XeD">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haidilao Hot Pot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6U0-Yf-XeD">
                                                                 <rect key="frame" x="93" y="8" width="180" height="19.333333333333371"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
@@ -2901,7 +2901,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                     <constraint firstAttribute="width" secondItem="4Pi-sf-ctg" secondAttribute="height" multiplier="1:1" id="kNM-O6-41w"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTP-3K-5Gm">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTP-3K-5Gm">
                                                                 <rect key="frame" x="180" y="32.333333333333371" width="120" height="13.666666666666629"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
                                                                 <nil key="textColor"/>
@@ -2913,7 +2913,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Lujiazui" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SO0-Hz-wrY">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$-$$$ - Dapuqiao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SO0-Hz-wrY">
                                                                 <rect key="frame" x="93" y="70.333333333333371" width="203" height="15.333333333333258"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -2921,7 +2921,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50j-uU-YFr" userLabel="Menu">
                                                                 <rect key="frame" x="277" y="6" width="25" height="25"/>
-                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d10378374-Reviews-Yang_s_Fried_Dumplings_Dongfang_Mingzhu-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="406-1408 Lujiazui Ring Road"/>
+                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d3449122-Reviews-Haidilao_Hot_Pot_Dian_Da_Pu_Road-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="DaPu Road 1, JinYuLan Plaza 4 Floor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="25" id="MF3-Y5-605"/>
                                                                     <constraint firstAttribute="width" secondItem="50j-uU-YFr" secondAttribute="height" multiplier="1:1" id="XHV-J2-E7C"/>
@@ -3235,7 +3235,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k7u-U9-n0h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3542.4000000000001" y="1471.2143928035982"/>
+            <point key="canvasLocation" x="3538" y="1343"/>
         </scene>
         <!--Transportation-->
         <scene sceneID="JQh-W4-dyX">
@@ -3253,7 +3253,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TPV-ow-bdq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4448.8000000000002" y="1203.1484257871066"/>
+            <point key="canvasLocation" x="4416" y="1205"/>
         </scene>
         <!--Dining-->
         <scene sceneID="h3a-Kc-Lev">
@@ -3303,15 +3303,19 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="bund" width="2560" height="1440"/>
         <image name="concordia" width="1500" height="1125"/>
         <image name="contact" width="1920" height="1275"/>
+        <image name="dintaifung" width="550" height="412"/>
         <image name="disney" width="5501" height="3559"/>
         <image name="expand arrow" width="100" height="100"/>
         <image name="expand arrow filled" width="100" height="100"/>
         <image name="french concession" width="750" height="422"/>
         <image name="gin" width="1000" height="665"/>
+        <image name="ginger" width="450" height="450"/>
+        <image name="haidilao" width="550" height="412"/>
         <image name="icons8-Menu 2-64" width="64" height="64"/>
         <image name="icons8-Star Empty" width="40" height="40"/>
         <image name="icons8-Star Filled" width="40" height="40"/>
         <image name="icons8-Star Half Empty" width="40" height="40"/>
+        <image name="lost heaven" width="549" height="367"/>
         <image name="pearl tower" width="3456" height="4608"/>
         <image name="pizza express" width="700" height="466"/>
         <image name="shanghai" width="1000" height="667"/>
