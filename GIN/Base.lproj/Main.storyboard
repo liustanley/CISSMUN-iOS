@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -969,6 +969,13 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yt7-kU-Fa0">
+                                <rect key="frame" x="166" y="100" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <searchBar contentMode="redraw" placeholder="Search Your Current Location" translatesAutoresizingMaskIntoConstraints="NO" id="m8X-DL-4Z4">
                                 <rect key="frame" x="8" y="8" width="359" height="30"/>
                                 <constraints>
@@ -1023,6 +1030,10 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <constraint firstItem="0CG-yt-o4F" firstAttribute="leading" secondItem="P0z-So-oda" secondAttribute="leading" constant="35" id="yTe-oi-IYR"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ConcordiaMap" translatesAutoresizingMaskIntoConstraints="NO" id="ibE-yA-kBj">
+                                <rect key="frame" x="8" y="154" width="359" height="370"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -3297,6 +3308,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
     </scenes>
     <resources>
         <image name="ConcordiaLogo" width="458" height="456"/>
+        <image name="ConcordiaMap" width="600" height="575"/>
         <image name="Image" width="26" height="26"/>
         <image name="Jing’an Temple" width="1280" height="819"/>
         <image name="biqiya placeholder" width="337" height="450"/>
