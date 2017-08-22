@@ -1005,8 +1005,8 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <constraint firstAttribute="width" constant="359" id="QX5-PG-TnM"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P0z-So-oda">
-                                <rect key="frame" x="-155" y="0.0" width="145" height="603"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P0z-So-oda">
+                                <rect key="frame" x="0.0" y="0.0" width="145" height="603"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0CG-yt-o4F">
                                         <rect key="frame" x="35" y="8" width="74" height="21"/>
@@ -1035,6 +1035,32 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         <connections>
                                             <segue destination="Jjz-lz-LO4" kind="show" id="BFe-2W-oUl"/>
                                         </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cx8-a3-Lnd">
+                                        <rect key="frame" x="8" y="83" width="129" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Inter Building"/>
+                                        <connections>
+                                            <segue destination="mcV-MX-kjh" kind="show" id="7cW-fo-lhe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qG-U4-c5F">
+                                        <rect key="frame" x="8" y="121" width="129" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Lower Building"/>
+                                        <connections>
+                                            <segue destination="BEF-lz-9QA" kind="show" id="YVe-it-XQM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZf-Sf-IzW">
+                                        <rect key="frame" x="8" y="159" width="129" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Phoenix Center"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPi-jJ-qlG">
+                                        <rect key="frame" x="8" y="197" width="129" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Rittman Center"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -1101,7 +1127,43 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mZE-Ur-ReI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3212" y="1129"/>
+            <point key="canvasLocation" x="-3093" y="-413"/>
+        </scene>
+        <!--Intermediate Building (Middle School)-->
+        <scene sceneID="x3b-0u-qCX">
+            <objects>
+                <viewController title="Intermediate Building (Middle School)" id="mcV-MX-kjh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PeP-AB-fAf"/>
+                        <viewControllerLayoutGuide type="bottom" id="xFB-b0-orS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Oq-UC-aMr">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yd6-P5-bNF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3093" y="257"/>
+        </scene>
+        <!--Lower Building (Elementary School)-->
+        <scene sceneID="tHe-2M-3wU">
+            <objects>
+                <viewController title="Lower Building (Elementary School)" id="BEF-lz-9QA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YWO-uH-krJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="lsq-X9-8dC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e7z-Gx-pqv">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nxd-5T-Nmm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3094" y="954"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="dXl-3i-UcF">
