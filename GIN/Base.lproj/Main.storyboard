@@ -1056,11 +1056,17 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         <rect key="frame" x="8" y="159" width="129" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Phoenix Center"/>
+                                        <connections>
+                                            <segue destination="uNY-mp-DFV" kind="show" id="sMQ-73-nzq"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPi-jJ-qlG">
                                         <rect key="frame" x="8" y="197" width="129" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Rittman Center"/>
+                                        <connections>
+                                            <segue destination="3U4-L5-i7V" kind="show" id="grg-8a-xMo"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -1164,6 +1170,42 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nxd-5T-Nmm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3094" y="954"/>
+        </scene>
+        <!--Phoenix Center-->
+        <scene sceneID="tVh-Uq-sOB">
+            <objects>
+                <viewController title="Phoenix Center" id="uNY-mp-DFV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o0g-gh-mfM"/>
+                        <viewControllerLayoutGuide type="bottom" id="gCC-JQ-FIi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d8o-9Z-Ydd">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8uf-ii-aGB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3095" y="1590"/>
+        </scene>
+        <!--Rittman Center-->
+        <scene sceneID="5Cu-ke-REk">
+            <objects>
+                <viewController title="Rittman Center" id="3U4-L5-i7V" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vg5-iN-ia1"/>
+                        <viewControllerLayoutGuide type="bottom" id="bT0-hm-tuu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WNG-gX-kTO">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vE8-GO-39v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3096" y="2238"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="dXl-3i-UcF">
