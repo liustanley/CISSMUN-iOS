@@ -1162,8 +1162,8 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dYS-6J-vQx">
                                 <rect key="frame" x="16" y="54" width="343" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="B4z-1k-iTA"/>
-                                    <constraint firstAttribute="width" constant="343" id="HVW-IB-u9f"/>
+                                    <constraint firstAttribute="height" constant="28" id="9cM-5q-Leh"/>
+                                    <constraint firstAttribute="width" constant="343" id="B6c-yH-D8C"/>
                                 </constraints>
                                 <segments>
                                     <segment title="B1"/>
@@ -1175,25 +1175,25 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <segment title="F6"/>
                                 </segments>
                             </segmentedControl>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="High School Floors" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PeL-mf-x92">
-                                <rect key="frame" x="117" y="8" width="140" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High School Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RnO-3X-2vO">
+                                <rect key="frame" x="111" y="8" width="152" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="cWt-5H-shB"/>
-                                    <constraint firstAttribute="width" constant="140" id="jnq-qK-7AR"/>
+                                    <constraint firstAttribute="height" constant="21" id="YhJ-8D-jzk"/>
+                                    <constraint firstAttribute="width" constant="152" id="Z4U-qA-Kxb"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="PeL-mf-x92" firstAttribute="top" secondItem="xWw-Ag-S9R" secondAttribute="bottom" constant="8" id="6ea-MS-2g8"/>
-                            <constraint firstItem="dYS-6J-vQx" firstAttribute="leading" secondItem="dLk-Bc-gBl" secondAttribute="leadingMargin" id="Qjs-XY-3GO"/>
-                            <constraint firstItem="PeL-mf-x92" firstAttribute="leading" secondItem="dLk-Bc-gBl" secondAttribute="leadingMargin" constant="101" id="SbK-QR-Loz"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="PeL-mf-x92" secondAttribute="trailing" constant="102" id="ZT1-3V-qdK"/>
-                            <constraint firstItem="dYS-6J-vQx" firstAttribute="trailing" secondItem="dLk-Bc-gBl" secondAttribute="trailingMargin" id="c1V-ty-N7O"/>
-                            <constraint firstItem="dYS-6J-vQx" firstAttribute="top" secondItem="PeL-mf-x92" secondAttribute="bottom" constant="16" id="ep2-jp-52H"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RnO-3X-2vO" secondAttribute="trailing" constant="96" id="9kU-xA-Vnc"/>
+                            <constraint firstItem="dYS-6J-vQx" firstAttribute="trailing" secondItem="dLk-Bc-gBl" secondAttribute="trailingMargin" id="CuM-hl-ng7"/>
+                            <constraint firstItem="RnO-3X-2vO" firstAttribute="top" secondItem="xWw-Ag-S9R" secondAttribute="bottom" constant="8" id="DWe-A1-jja"/>
+                            <constraint firstItem="RnO-3X-2vO" firstAttribute="leading" secondItem="dLk-Bc-gBl" secondAttribute="leadingMargin" constant="95" id="DgJ-xa-tFd"/>
+                            <constraint firstItem="dYS-6J-vQx" firstAttribute="top" secondItem="RnO-3X-2vO" secondAttribute="bottom" constant="25" id="NSz-zA-6l3"/>
+                            <constraint firstItem="dYS-6J-vQx" firstAttribute="leading" secondItem="dLk-Bc-gBl" secondAttribute="leadingMargin" id="qip-hp-9bS"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -1213,36 +1213,36 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Middle School Floors" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hq1-Hf-JZf">
-                                <rect key="frame" x="111" y="8" width="152" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="152" id="M3c-Sy-2Yq"/>
-                                    <constraint firstAttribute="height" constant="30" id="OvT-MG-Rj0"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0ud-Pm-vdP">
                                 <rect key="frame" x="16" y="54" width="343" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="7L4-3n-THH"/>
-                                    <constraint firstAttribute="width" constant="343" id="uIF-cZ-6Uu"/>
+                                    <constraint firstAttribute="height" constant="28" id="Dmq-aE-nIZ"/>
+                                    <constraint firstAttribute="width" constant="343" id="mZs-lf-pdz"/>
                                 </constraints>
                                 <segments>
                                     <segment title="F1"/>
                                     <segment title="F2"/>
                                 </segments>
                             </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Middle School Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7A-Ya-OYs">
+                                <rect key="frame" x="105" y="8" width="164" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="UBx-qZ-ft3"/>
+                                    <constraint firstAttribute="height" constant="21" id="tKh-sf-yR3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="0ud-Pm-vdP" firstAttribute="top" secondItem="Hq1-Hf-JZf" secondAttribute="bottom" constant="16" id="0nC-d6-xnu"/>
-                            <constraint firstItem="Hq1-Hf-JZf" firstAttribute="leading" secondItem="8Oq-UC-aMr" secondAttribute="leadingMargin" constant="95" id="940-zF-wU7"/>
-                            <constraint firstItem="0ud-Pm-vdP" firstAttribute="leading" secondItem="8Oq-UC-aMr" secondAttribute="leadingMargin" id="Jn3-Hs-wSX"/>
-                            <constraint firstItem="Hq1-Hf-JZf" firstAttribute="top" secondItem="PeP-AB-fAf" secondAttribute="bottom" constant="8" id="V2k-33-uAp"/>
-                            <constraint firstItem="0ud-Pm-vdP" firstAttribute="trailing" secondItem="8Oq-UC-aMr" secondAttribute="trailingMargin" id="gf3-tf-OnH"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Hq1-Hf-JZf" secondAttribute="trailing" constant="96" id="kTb-Vf-Dg6"/>
+                            <constraint firstItem="Y7A-Ya-OYs" firstAttribute="leading" secondItem="8Oq-UC-aMr" secondAttribute="leadingMargin" constant="89" id="FCA-eT-cBf"/>
+                            <constraint firstItem="0ud-Pm-vdP" firstAttribute="top" secondItem="Y7A-Ya-OYs" secondAttribute="bottom" constant="25" id="JLG-Ze-Pcj"/>
+                            <constraint firstItem="Y7A-Ya-OYs" firstAttribute="top" secondItem="PeP-AB-fAf" secondAttribute="bottom" constant="8" id="RlE-De-ScH"/>
+                            <constraint firstItem="0ud-Pm-vdP" firstAttribute="leading" secondItem="8Oq-UC-aMr" secondAttribute="leadingMargin" id="fzh-d7-Wvi"/>
+                            <constraint firstItem="0ud-Pm-vdP" firstAttribute="trailing" secondItem="8Oq-UC-aMr" secondAttribute="trailingMargin" id="vaG-C9-XDR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Y7A-Ya-OYs" secondAttribute="trailing" constant="90" id="wkG-W7-gwq"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -1261,12 +1261,29 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                     <view key="view" contentMode="scaleToFill" id="e7z-Gx-pqv">
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Elementary School Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spK-tj-6YB">
+                                <rect key="frame" x="85" y="8" width="204" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7Tx-WM-qNP">
+                                <rect key="frame" x="127" y="37" width="121" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="ES 1"/>
+                                    <segment title="ES 2"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nxd-5T-Nmm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3094" y="954"/>
+            <point key="canvasLocation" x="-3094.9275362318845" y="953.39673913043487"/>
         </scene>
         <!--Phoenix Center (PC)-->
         <scene sceneID="tVh-Uq-sOB">
@@ -1279,12 +1296,43 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                     <view key="view" contentMode="scaleToFill" id="d8o-9Z-Ydd">
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phoenix Center Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVM-Vm-RMC">
+                                <rect key="frame" x="98" y="8" width="178" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="AXd-9R-mUF"/>
+                                    <constraint firstAttribute="width" constant="178" id="R1c-JF-n8R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TXc-XI-3Ft">
+                                <rect key="frame" x="16" y="54" width="343" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="ZVd-Gh-NuY"/>
+                                    <constraint firstAttribute="width" constant="343" id="cZ6-Ye-IyH"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="PC 1"/>
+                                    <segment title="PC 2"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kVM-Vm-RMC" firstAttribute="leading" secondItem="d8o-9Z-Ydd" secondAttribute="leadingMargin" constant="82" id="Ygt-4a-JOb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kVM-Vm-RMC" secondAttribute="trailing" constant="83" id="eDe-Ma-Dbp"/>
+                            <constraint firstItem="TXc-XI-3Ft" firstAttribute="leading" secondItem="d8o-9Z-Ydd" secondAttribute="leadingMargin" id="hcw-Go-3Kq"/>
+                            <constraint firstItem="TXc-XI-3Ft" firstAttribute="top" secondItem="kVM-Vm-RMC" secondAttribute="bottom" constant="25" id="lM5-fk-dfm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TXc-XI-3Ft" secondAttribute="trailing" id="nRP-b8-fHJ"/>
+                            <constraint firstItem="kVM-Vm-RMC" firstAttribute="top" secondItem="o0g-gh-mfM" secondAttribute="bottom" constant="8" id="pMR-c2-S63"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8uf-ii-aGB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3095" y="1590"/>
+            <point key="canvasLocation" x="-3096.376811594203" y="1589.2663043478262"/>
         </scene>
         <!--Rittman Center (RC)-->
         <scene sceneID="5Cu-ke-REk">
@@ -1297,12 +1345,45 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                     <view key="view" contentMode="scaleToFill" id="WNG-gX-kTO">
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rittman Center Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taL-3G-mfV">
+                                <rect key="frame" x="97" y="8" width="181" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="UiT-Tc-wnr"/>
+                                    <constraint firstAttribute="height" constant="21" id="wHt-fi-Cdu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="O2B-mZ-VTa">
+                                <rect key="frame" x="16" y="54" width="343" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="KBI-aF-wE2"/>
+                                    <constraint firstAttribute="width" constant="343" id="bXX-vV-vxf"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="RC 1"/>
+                                    <segment title="RC 2"/>
+                                    <segment title="RC 3"/>
+                                    <segment title="RC 4"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="O2B-mZ-VTa" firstAttribute="top" secondItem="taL-3G-mfV" secondAttribute="bottom" constant="25" id="66S-Hq-BF0"/>
+                            <constraint firstItem="O2B-mZ-VTa" firstAttribute="leading" secondItem="WNG-gX-kTO" secondAttribute="leadingMargin" id="Dsa-oF-b5u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="taL-3G-mfV" secondAttribute="trailing" constant="81" id="ObU-Xe-3WY"/>
+                            <constraint firstItem="O2B-mZ-VTa" firstAttribute="trailing" secondItem="WNG-gX-kTO" secondAttribute="trailingMargin" id="W4y-2g-5qK"/>
+                            <constraint firstItem="taL-3G-mfV" firstAttribute="top" secondItem="Vg5-iN-ia1" secondAttribute="bottom" constant="8" id="amQ-Qq-3MH"/>
+                            <constraint firstItem="taL-3G-mfV" firstAttribute="leading" secondItem="WNG-gX-kTO" secondAttribute="leadingMargin" constant="81" id="jI6-Ha-IZc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vE8-GO-39v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3096" y="2238"/>
+            <point key="canvasLocation" x="-3096.376811594203" y="2237.364130434783"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="dXl-3i-UcF">
