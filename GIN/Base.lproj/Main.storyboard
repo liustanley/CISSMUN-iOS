@@ -1028,41 +1028,56 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbf-Sv-gNs">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbf-Sv-gNs">
                                         <rect key="frame" x="8" y="45" width="129" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="129" id="8p7-mY-z3a"/>
+                                            <constraint firstAttribute="height" constant="30" id="BCb-zp-0UX"/>
+                                        </constraints>
                                         <state key="normal" title="Upper Building"/>
                                         <connections>
                                             <segue destination="Jjz-lz-LO4" kind="show" id="BFe-2W-oUl"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cx8-a3-Lnd">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cx8-a3-Lnd">
                                         <rect key="frame" x="8" y="83" width="129" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="O3q-ze-uqt"/>
+                                            <constraint firstAttribute="width" constant="129" id="vI8-Xy-KzT"/>
+                                        </constraints>
                                         <state key="normal" title="Inter Building"/>
                                         <connections>
                                             <segue destination="mcV-MX-kjh" kind="show" id="7cW-fo-lhe"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qG-U4-c5F">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qG-U4-c5F">
                                         <rect key="frame" x="8" y="121" width="129" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="CEi-Rw-hwz"/>
+                                            <constraint firstAttribute="width" constant="129" id="UeH-gJ-pLi"/>
+                                        </constraints>
                                         <state key="normal" title="Lower Building"/>
                                         <connections>
                                             <segue destination="BEF-lz-9QA" kind="show" id="YVe-it-XQM"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZf-Sf-IzW">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZf-Sf-IzW">
                                         <rect key="frame" x="8" y="159" width="129" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="B4T-Nt-nau"/>
+                                            <constraint firstAttribute="width" constant="129" id="jR3-PH-hm0"/>
+                                        </constraints>
                                         <state key="normal" title="Phoenix Center"/>
                                         <connections>
                                             <segue destination="uNY-mp-DFV" kind="show" id="sMQ-73-nzq"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPi-jJ-qlG">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPi-jJ-qlG">
                                         <rect key="frame" x="8" y="197" width="129" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="WL3-Jg-thO"/>
+                                            <constraint firstAttribute="width" constant="129" id="ZbO-dt-i0x"/>
+                                        </constraints>
                                         <state key="normal" title="Rittman Center"/>
                                         <connections>
                                             <segue destination="3U4-L5-i7V" kind="show" id="grg-8a-xMo"/>
@@ -1071,13 +1086,28 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Gbf-Sv-gNs" secondAttribute="trailing" constant="8" id="13N-fM-e21"/>
                                     <constraint firstItem="KQR-cJ-KwH" firstAttribute="leading" secondItem="P0z-So-oda" secondAttribute="leading" id="1RC-DR-T9o"/>
+                                    <constraint firstAttribute="trailing" secondItem="oZf-Sf-IzW" secondAttribute="trailing" constant="8" id="8EU-BB-RYn"/>
+                                    <constraint firstItem="cx8-a3-Lnd" firstAttribute="leading" secondItem="P0z-So-oda" secondAttribute="leading" constant="8" id="8md-d0-m9m"/>
+                                    <constraint firstItem="cx8-a3-Lnd" firstAttribute="top" secondItem="Gbf-Sv-gNs" secondAttribute="bottom" constant="8" id="9IU-9K-Haj"/>
+                                    <constraint firstItem="Gbf-Sv-gNs" firstAttribute="top" secondItem="KQR-cJ-KwH" secondAttribute="bottom" constant="8" id="Fei-5K-jAR"/>
                                     <constraint firstAttribute="trailing" secondItem="0CG-yt-o4F" secondAttribute="trailing" constant="36" id="HtC-4a-pPM"/>
                                     <constraint firstItem="KQR-cJ-KwH" firstAttribute="top" secondItem="P0z-So-oda" secondAttribute="top" constant="16" id="IPF-gC-0KS"/>
+                                    <constraint firstAttribute="trailing" secondItem="OPi-jJ-qlG" secondAttribute="trailing" constant="8" id="LSc-6g-eEI"/>
                                     <constraint firstItem="0CG-yt-o4F" firstAttribute="top" secondItem="P0z-So-oda" secondAttribute="top" constant="8" id="NoA-VQ-aMu"/>
                                     <constraint firstAttribute="height" constant="603" id="QkR-MH-jv9"/>
+                                    <constraint firstItem="oZf-Sf-IzW" firstAttribute="leading" secondItem="P0z-So-oda" secondAttribute="leading" constant="8" id="RFI-Rq-9n6"/>
+                                    <constraint firstAttribute="trailing" secondItem="0qG-U4-c5F" secondAttribute="trailing" constant="8" id="ZbS-rX-kTk"/>
+                                    <constraint firstItem="OPi-jJ-qlG" firstAttribute="leading" secondItem="P0z-So-oda" secondAttribute="leading" constant="8" id="aih-JO-O50"/>
+                                    <constraint firstItem="0qG-U4-c5F" firstAttribute="leading" secondItem="P0z-So-oda" secondAttribute="leading" constant="8" id="coV-2g-2zH"/>
+                                    <constraint firstItem="OPi-jJ-qlG" firstAttribute="top" secondItem="oZf-Sf-IzW" secondAttribute="bottom" constant="8" id="dRH-zU-Ofr"/>
+                                    <constraint firstItem="Gbf-Sv-gNs" firstAttribute="leading" secondItem="P0z-So-oda" secondAttribute="leading" constant="8" id="gIk-Wt-9Fw"/>
                                     <constraint firstAttribute="trailing" secondItem="KQR-cJ-KwH" secondAttribute="trailing" id="kcm-nE-B8Y"/>
+                                    <constraint firstItem="oZf-Sf-IzW" firstAttribute="top" secondItem="0qG-U4-c5F" secondAttribute="bottom" constant="8" id="neq-Ei-TH7"/>
                                     <constraint firstAttribute="width" constant="145" id="oLr-e2-OVY"/>
+                                    <constraint firstItem="0qG-U4-c5F" firstAttribute="top" secondItem="cx8-a3-Lnd" secondAttribute="bottom" constant="8" id="tpg-QJ-Iau"/>
+                                    <constraint firstAttribute="trailing" secondItem="cx8-a3-Lnd" secondAttribute="trailing" constant="8" id="xxj-fm-zU7"/>
                                     <constraint firstItem="0CG-yt-o4F" firstAttribute="leading" secondItem="P0z-So-oda" secondAttribute="leading" constant="35" id="yTe-oi-IYR"/>
                                 </constraints>
                             </view>
@@ -1117,10 +1147,10 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
             </objects>
             <point key="canvasLocation" x="-3928.2608695652175" y="1128.6684782608697"/>
         </scene>
-        <!--Upper Building (High School)-->
+        <!--Upper Building (HS)-->
         <scene sceneID="tPP-YK-nEI">
             <objects>
-                <viewController title="Upper Building (High School)" id="Jjz-lz-LO4" sceneMemberID="viewController">
+                <viewController title="Upper Building (HS)" id="Jjz-lz-LO4" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xWw-Ag-S9R"/>
                         <viewControllerLayoutGuide type="bottom" id="r2h-8G-7BX"/>
@@ -1135,10 +1165,10 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
             </objects>
             <point key="canvasLocation" x="-3093" y="-413"/>
         </scene>
-        <!--Intermediate Building (Middle School)-->
+        <!--Intermediate Building (MS)-->
         <scene sceneID="x3b-0u-qCX">
             <objects>
-                <viewController title="Intermediate Building (Middle School)" id="mcV-MX-kjh" sceneMemberID="viewController">
+                <viewController title="Intermediate Building (MS)" id="mcV-MX-kjh" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PeP-AB-fAf"/>
                         <viewControllerLayoutGuide type="bottom" id="xFB-b0-orS"/>
@@ -1153,10 +1183,10 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
             </objects>
             <point key="canvasLocation" x="-3093" y="257"/>
         </scene>
-        <!--Lower Building (Elementary School)-->
+        <!--Lower Building (ES)-->
         <scene sceneID="tHe-2M-3wU">
             <objects>
-                <viewController title="Lower Building (Elementary School)" id="BEF-lz-9QA" sceneMemberID="viewController">
+                <viewController title="Lower Building (ES)" id="BEF-lz-9QA" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YWO-uH-krJ"/>
                         <viewControllerLayoutGuide type="bottom" id="lsq-X9-8dC"/>
@@ -1171,10 +1201,10 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
             </objects>
             <point key="canvasLocation" x="-3094" y="954"/>
         </scene>
-        <!--Phoenix Center-->
+        <!--Phoenix Center (PC)-->
         <scene sceneID="tVh-Uq-sOB">
             <objects>
-                <viewController title="Phoenix Center" id="uNY-mp-DFV" sceneMemberID="viewController">
+                <viewController title="Phoenix Center (PC)" id="uNY-mp-DFV" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="o0g-gh-mfM"/>
                         <viewControllerLayoutGuide type="bottom" id="gCC-JQ-FIi"/>
@@ -1189,10 +1219,10 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
             </objects>
             <point key="canvasLocation" x="-3095" y="1590"/>
         </scene>
-        <!--Rittman Center-->
+        <!--Rittman Center (RC)-->
         <scene sceneID="5Cu-ke-REk">
             <objects>
-                <viewController title="Rittman Center" id="3U4-L5-i7V" sceneMemberID="viewController">
+                <viewController title="Rittman Center (RC)" id="3U4-L5-i7V" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vg5-iN-ia1"/>
                         <viewControllerLayoutGuide type="bottom" id="bT0-hm-tuu"/>
