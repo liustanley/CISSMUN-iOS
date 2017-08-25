@@ -48,6 +48,7 @@
 		9AC54D311EE84BB900E87B88 /* GINHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINHomeViewController.swift; sourceTree = "<group>"; };
 		9AC642121EEED18100B43215 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9AD568791EEAB911001D1584 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		9AD99F341F4FFBC500649D2C /* CISSMUN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CISSMUN.entitlements; sourceTree = SOURCE_ROOT; };
 		9AE0A3281EE92AAC0078144B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		9AFA21501EE9264C006E677E /* GINKeynoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINKeynoteViewController.swift; sourceTree = "<group>"; };
 		B5064B5A05590B1DB590E1CF /* Pods-CISSMUN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CISSMUN.release.xcconfig"; path = "Pods/Target Support Files/Pods-CISSMUN/Pods-CISSMUN.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 		9A9FC04A1ED5D165006E95A1 /* CISSMUN */ = {
 			isa = PBXGroup;
 			children = (
+				9AD99F341F4FFBC500649D2C /* CISSMUN.entitlements */,
 				9A07ED4B1F127ABE00BDA478 /* Shared */,
 				9AC54D301EE84B7E00E87B88 /* GIN */,
 				9AC54D2F1EE84B7000E87B88 /* MUN */,
@@ -189,6 +191,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = NB52NRZ5D5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -414,10 +421,11 @@
 			baseConfigurationReference = 9A1266B5D9127F6EEA5670FF /* Pods-CISSMUN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CISSMUN.entitlements;
 				DEVELOPMENT_TEAM = NB52NRZ5D5;
 				INFOPLIST_FILE = GIN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ciss.cissmun;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cissdev.cissmun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -428,10 +436,11 @@
 			baseConfigurationReference = B5064B5A05590B1DB590E1CF /* Pods-CISSMUN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CISSMUN.entitlements;
 				DEVELOPMENT_TEAM = NB52NRZ5D5;
 				INFOPLIST_FILE = GIN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ciss.cissmun;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cissdev.cissmun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
