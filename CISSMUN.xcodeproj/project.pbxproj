@@ -26,6 +26,7 @@
 		9AE0A3291EE92AAC0078144B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE0A3281EE92AAC0078144B /* SettingsTableViewController.swift */; };
 		9AFA21511EE9264C006E677E /* GINKeynoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA21501EE9264C006E677E /* GINKeynoteViewController.swift */; };
 		F36119A51F2F37FD00213B63 /* MapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36119A41F2F37FD00213B63 /* MapsController.swift */; };
+		F3636E0D1F5055F5008702BB /* HSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3636E0C1F5055F5008702BB /* HSViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		9AFA21501EE9264C006E677E /* GINKeynoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINKeynoteViewController.swift; sourceTree = "<group>"; };
 		B5064B5A05590B1DB590E1CF /* Pods-CISSMUN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CISSMUN.release.xcconfig"; path = "Pods/Target Support Files/Pods-CISSMUN/Pods-CISSMUN.release.xcconfig"; sourceTree = "<group>"; };
 		F36119A41F2F37FD00213B63 /* MapsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsController.swift; sourceTree = "<group>"; };
+		F3636E0C1F5055F5008702BB /* HSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				9A9FC0511ED5D165006E95A1 /* Main.storyboard */,
+				F3636E0C1F5055F5008702BB /* HSViewController.swift */,
 				F36119A41F2F37FD00213B63 /* MapsController.swift */,
 				9AE0A3281EE92AAC0078144B /* SettingsTableViewController.swift */,
 				9AD568791EEAB911001D1584 /* WelcomeViewController.swift */,
@@ -298,6 +301,7 @@
 				9AFA21511EE9264C006E677E /* GINKeynoteViewController.swift in Sources */,
 				9AE0A3291EE92AAC0078144B /* SettingsTableViewController.swift in Sources */,
 				9A6C0EC01F2485A700094667 /* AttractionsViewController.swift in Sources */,
+				F3636E0D1F5055F5008702BB /* HSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
