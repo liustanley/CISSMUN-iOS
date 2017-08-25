@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -102,7 +102,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         <rect key="frame" x="0.0" y="35" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lav-EN-WIQ" id="eEG-hs-7LO">
-                                            <rect key="frame" x="0.0" y="0.0" width="381" height="43.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="381" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change conference" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljI-Sz-jkj">
@@ -133,7 +133,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         <rect key="frame" x="0.0" y="115" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="my5-zq-ZFe" id="hMi-3H-IjG">
-                                            <rect key="frame" x="0.0" y="0.0" width="381" height="43.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="381" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPu-HC-4QL">
@@ -1273,8 +1273,8 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <rect key="frame" x="127" y="37" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="ES 1"/>
-                                    <segment title="ES 2"/>
+                                    <segment title="F1"/>
+                                    <segment title="F2"/>
                                 </segments>
                             </segmentedControl>
                         </subviews>
@@ -1314,8 +1314,8 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <constraint firstAttribute="width" constant="343" id="cZ6-Ye-IyH"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="PC 1"/>
-                                    <segment title="PC 2"/>
+                                    <segment title="F1"/>
+                                    <segment title="F2"/>
                                 </segments>
                             </segmentedControl>
                         </subviews>
@@ -1363,10 +1363,10 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <constraint firstAttribute="width" constant="343" id="bXX-vV-vxf"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="RC 1"/>
-                                    <segment title="RC 2"/>
-                                    <segment title="RC 3"/>
-                                    <segment title="RC 4"/>
+                                    <segment title="F1"/>
+                                    <segment title="F2"/>
+                                    <segment title="F3"/>
+                                    <segment title="F4"/>
                                 </segments>
                             </segmentedControl>
                         </subviews>
