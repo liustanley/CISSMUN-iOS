@@ -1255,7 +1255,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MS 1" translatesAutoresizingMaskIntoConstraints="NO" id="gi7-20-ck0">
-                                <rect key="frame" x="0.0" y="121" width="375" height="390"/>
+                                <rect key="frame" x="0.0" y="129" width="375" height="390"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="3NQ-Va-q45"/>
                                     <constraint firstAttribute="height" constant="390" id="aRR-DK-AGf"/>
@@ -1271,7 +1271,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                             <constraint firstItem="0ud-Pm-vdP" firstAttribute="trailing" secondItem="8Oq-UC-aMr" secondAttribute="trailingMargin" id="bOI-QL-4nS"/>
                             <constraint firstItem="0ud-Pm-vdP" firstAttribute="leading" secondItem="8Oq-UC-aMr" secondAttribute="leadingMargin" id="fzh-d7-Wvi"/>
                             <constraint firstItem="0ud-Pm-vdP" firstAttribute="leading" secondItem="8Oq-UC-aMr" secondAttribute="leadingMargin" id="hmr-CX-ONr"/>
-                            <constraint firstItem="gi7-20-ck0" firstAttribute="top" secondItem="0ud-Pm-vdP" secondAttribute="bottom" constant="39" id="pOm-2y-Ks9"/>
+                            <constraint firstItem="gi7-20-ck0" firstAttribute="top" secondItem="0ud-Pm-vdP" secondAttribute="bottom" constant="47" id="pOm-2y-Ks9"/>
                             <constraint firstItem="gi7-20-ck0" firstAttribute="leading" secondItem="8Oq-UC-aMr" secondAttribute="leading" id="q6H-of-UgE"/>
                             <constraint firstItem="0ud-Pm-vdP" firstAttribute="trailing" secondItem="8Oq-UC-aMr" secondAttribute="trailingMargin" id="vaG-C9-XDR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Y7A-Ya-OYs" secondAttribute="trailing" constant="90" id="wkG-W7-gwq"/>
@@ -1325,7 +1325,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <!--Phoenix Center (PC)-->
         <scene sceneID="tVh-Uq-sOB">
             <objects>
-                <viewController title="Phoenix Center (PC)" id="uNY-mp-DFV" sceneMemberID="viewController">
+                <viewController title="Phoenix Center (PC)" id="uNY-mp-DFV" customClass="PCViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="o0g-gh-mfM"/>
                         <viewControllerLayoutGuide type="bottom" id="gCC-JQ-FIi"/>
@@ -1334,38 +1334,55 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phoenix Center Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVM-Vm-RMC">
-                                <rect key="frame" x="98" y="8" width="178" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="AXd-9R-mUF"/>
-                                    <constraint firstAttribute="width" constant="178" id="R1c-JF-n8R"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TXc-XI-3Ft">
                                 <rect key="frame" x="16" y="54" width="343" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="ZVd-Gh-NuY"/>
-                                    <constraint firstAttribute="width" constant="343" id="cZ6-Ye-IyH"/>
+                                    <constraint firstAttribute="height" constant="28" id="Uhp-tU-dgk"/>
+                                    <constraint firstAttribute="width" constant="343" id="kB1-ke-c2w"/>
                                 </constraints>
                                 <segments>
                                     <segment title="F1"/>
                                     <segment title="F2"/>
                                 </segments>
+                                <connections>
+                                    <action selector="acted:" destination="uNY-mp-DFV" eventType="valueChanged" id="bDU-Dr-tff"/>
+                                </connections>
                             </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phoenix Center Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVM-Vm-RMC">
+                                <rect key="frame" x="98" y="8" width="178" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="178" id="3LU-kh-Bsj"/>
+                                    <constraint firstAttribute="height" constant="21" id="UUv-Ra-6kc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PC 1" translatesAutoresizingMaskIntoConstraints="NO" id="2hh-J0-q7O">
+                                <rect key="frame" x="0.0" y="129" width="375" height="390"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="390" id="GMs-ng-sXj"/>
+                                    <constraint firstAttribute="width" constant="375" id="ap6-cu-HRQ"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="kVM-Vm-RMC" firstAttribute="leading" secondItem="d8o-9Z-Ydd" secondAttribute="leadingMargin" constant="82" id="Ygt-4a-JOb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="kVM-Vm-RMC" secondAttribute="trailing" constant="83" id="eDe-Ma-Dbp"/>
-                            <constraint firstItem="TXc-XI-3Ft" firstAttribute="leading" secondItem="d8o-9Z-Ydd" secondAttribute="leadingMargin" id="hcw-Go-3Kq"/>
-                            <constraint firstItem="TXc-XI-3Ft" firstAttribute="top" secondItem="kVM-Vm-RMC" secondAttribute="bottom" constant="25" id="lM5-fk-dfm"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="TXc-XI-3Ft" secondAttribute="trailing" id="nRP-b8-fHJ"/>
-                            <constraint firstItem="kVM-Vm-RMC" firstAttribute="top" secondItem="o0g-gh-mfM" secondAttribute="bottom" constant="8" id="pMR-c2-S63"/>
+                            <constraint firstItem="kVM-Vm-RMC" firstAttribute="leading" secondItem="d8o-9Z-Ydd" secondAttribute="leadingMargin" constant="82" id="1qP-ik-zuk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kVM-Vm-RMC" secondAttribute="trailing" constant="83" id="EGK-38-2eU"/>
+                            <constraint firstAttribute="trailing" secondItem="2hh-J0-q7O" secondAttribute="trailing" id="Pwy-qw-9UQ"/>
+                            <constraint firstItem="TXc-XI-3Ft" firstAttribute="leading" secondItem="d8o-9Z-Ydd" secondAttribute="leadingMargin" id="d2H-Sh-4dv"/>
+                            <constraint firstItem="2hh-J0-q7O" firstAttribute="top" secondItem="TXc-XI-3Ft" secondAttribute="bottom" constant="47" id="e7y-au-Srx"/>
+                            <constraint firstItem="2hh-J0-q7O" firstAttribute="leading" secondItem="d8o-9Z-Ydd" secondAttribute="leading" id="fvV-QW-yxD"/>
+                            <constraint firstItem="kVM-Vm-RMC" firstAttribute="top" secondItem="o0g-gh-mfM" secondAttribute="bottom" constant="8" id="qYI-az-BtS"/>
+                            <constraint firstItem="TXc-XI-3Ft" firstAttribute="top" secondItem="kVM-Vm-RMC" secondAttribute="bottom" constant="25" id="rs7-LU-M7L"/>
+                            <constraint firstItem="TXc-XI-3Ft" firstAttribute="trailing" secondItem="d8o-9Z-Ydd" secondAttribute="trailingMargin" id="sy1-uU-u44"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="PC1" destination="2hh-J0-q7O" id="8KA-Ny-jTu"/>
+                        <outlet property="PCViewController" destination="TXc-XI-3Ft" id="Be2-vp-Sih"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8uf-ii-aGB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5226,6 +5243,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="Image" width="26" height="26"/>
         <image name="Jing’an Temple" width="1280" height="819"/>
         <image name="MS 1" width="720" height="540"/>
+        <image name="PC 1" width="720" height="540"/>
         <image name="biqiya placeholder" width="337" height="450"/>
         <image name="bund" width="2560" height="1440"/>
         <image name="concordia" width="1500" height="1125"/>
