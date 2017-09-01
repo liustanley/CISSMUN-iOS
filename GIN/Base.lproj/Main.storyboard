@@ -1159,9 +1159,12 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dYS-6J-vQx">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dYS-6J-vQx">
                                 <rect key="frame" x="16" y="54" width="343" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="6JS-nq-XJh"/>
+                                    <constraint firstAttribute="height" constant="28" id="Paf-gh-Qip"/>
+                                </constraints>
                                 <segments>
                                     <segment title="B1"/>
                                     <segment title="F1"/>
@@ -1175,19 +1178,36 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <action selector="ChangePhoto:" destination="Jjz-lz-LO4" eventType="valueChanged" id="6aI-pT-q2Y"/>
                                 </connections>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="High School Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RnO-3X-2vO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High School Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RnO-3X-2vO">
                                 <rect key="frame" x="111" y="8" width="152" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="152" id="9a7-pe-4VM"/>
+                                    <constraint firstAttribute="height" constant="21" id="VPF-Tk-HZG"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HS B1" translatesAutoresizingMaskIntoConstraints="NO" id="Kcr-6z-es4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HS B1" translatesAutoresizingMaskIntoConstraints="NO" id="Kcr-6z-es4">
                                 <rect key="frame" x="0.0" y="129" width="375" height="390"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="390" id="3f8-Ob-4QR"/>
+                                    <constraint firstAttribute="width" constant="375" id="ckS-ON-icw"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dYS-6J-vQx" firstAttribute="trailing" secondItem="dLk-Bc-gBl" secondAttribute="trailingMargin" id="28H-oQ-rO5"/>
+                            <constraint firstItem="RnO-3X-2vO" firstAttribute="leading" secondItem="dLk-Bc-gBl" secondAttribute="leadingMargin" constant="95" id="8QN-8a-KKK"/>
+                            <constraint firstItem="dYS-6J-vQx" firstAttribute="top" secondItem="RnO-3X-2vO" secondAttribute="bottom" constant="25" id="aRW-gw-oiU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RnO-3X-2vO" secondAttribute="trailing" constant="96" id="cuX-fw-sTZ"/>
+                            <constraint firstItem="Kcr-6z-es4" firstAttribute="leading" secondItem="dLk-Bc-gBl" secondAttribute="leading" id="hhK-fh-ekP"/>
+                            <constraint firstItem="dYS-6J-vQx" firstAttribute="leading" secondItem="dLk-Bc-gBl" secondAttribute="leadingMargin" id="jqd-H2-xTf"/>
+                            <constraint firstItem="RnO-3X-2vO" firstAttribute="top" secondItem="xWw-Ag-S9R" secondAttribute="bottom" constant="8" id="lFA-aj-UJd"/>
+                            <constraint firstItem="Kcr-6z-es4" firstAttribute="top" secondItem="dYS-6J-vQx" secondAttribute="bottom" constant="47" id="rqr-0U-Yl2"/>
+                            <constraint firstAttribute="trailing" secondItem="Kcr-6z-es4" secondAttribute="trailing" id="zIk-lH-xdR"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="Controller" destination="dYS-6J-vQx" id="QPA-wp-bwP"/>
@@ -1201,7 +1221,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <!--Intermediate Building (MS)-->
         <scene sceneID="x3b-0u-qCX">
             <objects>
-                <viewController title="Intermediate Building (MS)" id="mcV-MX-kjh" sceneMemberID="viewController">
+                <viewController title="Intermediate Building (MS)" id="mcV-MX-kjh" customClass="MSViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PeP-AB-fAf"/>
                         <viewControllerLayoutGuide type="bottom" id="xFB-b0-orS"/>
@@ -1213,13 +1233,16 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0ud-Pm-vdP">
                                 <rect key="frame" x="16" y="54" width="343" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="Dmq-aE-nIZ"/>
-                                    <constraint firstAttribute="width" constant="343" id="mZs-lf-pdz"/>
+                                    <constraint firstAttribute="width" constant="343" id="4B2-jQ-XIX"/>
+                                    <constraint firstAttribute="height" constant="28" id="pfL-pc-4YC"/>
                                 </constraints>
                                 <segments>
                                     <segment title="F1"/>
                                     <segment title="F2"/>
                                 </segments>
+                                <connections>
+                                    <action selector="acted:" destination="mcV-MX-kjh" eventType="valueChanged" id="7DV-Ng-zH8"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Middle School Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7A-Ya-OYs">
                                 <rect key="frame" x="105" y="8" width="164" height="21"/>
@@ -1231,17 +1254,34 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MS 1" translatesAutoresizingMaskIntoConstraints="NO" id="gi7-20-ck0">
+                                <rect key="frame" x="0.0" y="121" width="375" height="390"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="3NQ-Va-q45"/>
+                                    <constraint firstAttribute="height" constant="390" id="aRR-DK-AGf"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gi7-20-ck0" secondAttribute="trailing" id="3ZO-ha-QDi"/>
                             <constraint firstItem="Y7A-Ya-OYs" firstAttribute="leading" secondItem="8Oq-UC-aMr" secondAttribute="leadingMargin" constant="89" id="FCA-eT-cBf"/>
                             <constraint firstItem="0ud-Pm-vdP" firstAttribute="top" secondItem="Y7A-Ya-OYs" secondAttribute="bottom" constant="25" id="JLG-Ze-Pcj"/>
                             <constraint firstItem="Y7A-Ya-OYs" firstAttribute="top" secondItem="PeP-AB-fAf" secondAttribute="bottom" constant="8" id="RlE-De-ScH"/>
+                            <constraint firstItem="0ud-Pm-vdP" firstAttribute="trailing" secondItem="8Oq-UC-aMr" secondAttribute="trailingMargin" id="bOI-QL-4nS"/>
                             <constraint firstItem="0ud-Pm-vdP" firstAttribute="leading" secondItem="8Oq-UC-aMr" secondAttribute="leadingMargin" id="fzh-d7-Wvi"/>
+                            <constraint firstItem="0ud-Pm-vdP" firstAttribute="leading" secondItem="8Oq-UC-aMr" secondAttribute="leadingMargin" id="hmr-CX-ONr"/>
+                            <constraint firstItem="gi7-20-ck0" firstAttribute="top" secondItem="0ud-Pm-vdP" secondAttribute="bottom" constant="39" id="pOm-2y-Ks9"/>
+                            <constraint firstItem="gi7-20-ck0" firstAttribute="leading" secondItem="8Oq-UC-aMr" secondAttribute="leading" id="q6H-of-UgE"/>
                             <constraint firstItem="0ud-Pm-vdP" firstAttribute="trailing" secondItem="8Oq-UC-aMr" secondAttribute="trailingMargin" id="vaG-C9-XDR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Y7A-Ya-OYs" secondAttribute="trailing" constant="90" id="wkG-W7-gwq"/>
+                            <constraint firstItem="0ud-Pm-vdP" firstAttribute="top" secondItem="Y7A-Ya-OYs" secondAttribute="bottom" constant="25" id="x77-jU-oua"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="MS1" destination="gi7-20-ck0" id="QFt-Je-j8h"/>
+                        <outlet property="MSViewController" destination="0ud-Pm-vdP" id="5TL-le-Kyf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yd6-P5-bNF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5185,6 +5225,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="HS B1" width="720" height="540"/>
         <image name="Image" width="26" height="26"/>
         <image name="Jing’an Temple" width="1280" height="819"/>
+        <image name="MS 1" width="720" height="540"/>
         <image name="biqiya placeholder" width="337" height="450"/>
         <image name="bund" width="2560" height="1440"/>
         <image name="concordia" width="1500" height="1125"/>
