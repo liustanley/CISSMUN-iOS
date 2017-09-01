@@ -27,16 +27,16 @@ class RCViewController: UIViewController {
     @IBAction func acted(_ sender: Any) {
         
         if RCViewController.selectedSegmentIndex == 0{
-            RC1.image = UIImage(named: "RC 1");
+            RC1.image = UIImage(named: "R 1");
         }
         if RCViewController.selectedSegmentIndex == 1{
-            RC1.image = UIImage(named: "RC 2");
+            RC1.image = UIImage(named: "R 2");
         }
         if RCViewController.selectedSegmentIndex == 2{
-            RC1.image = UIImage(named: "RC 3");
+            RC1.image = UIImage(named: "R 3");
         }
         if RCViewController.selectedSegmentIndex == 3{
-            RC1.image = UIImage(named: "RC 4");
+            RC1.image = UIImage(named: "R 4");
         }
         
         
