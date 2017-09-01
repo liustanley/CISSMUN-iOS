@@ -1391,7 +1391,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <!--Rittman Center (RC)-->
         <scene sceneID="5Cu-ke-REk">
             <objects>
-                <viewController title="Rittman Center (RC)" id="3U4-L5-i7V" sceneMemberID="viewController">
+                <viewController title="Rittman Center (RC)" id="3U4-L5-i7V" customClass="RCViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vg5-iN-ia1"/>
                         <viewControllerLayoutGuide type="bottom" id="bT0-hm-tuu"/>
@@ -1401,10 +1401,10 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rittman Center Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taL-3G-mfV">
-                                <rect key="frame" x="97" y="8" width="181" height="21"/>
+                                <rect key="frame" x="98" y="8" width="178" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="181" id="UiT-Tc-wnr"/>
-                                    <constraint firstAttribute="height" constant="21" id="wHt-fi-Cdu"/>
+                                    <constraint firstAttribute="height" constant="21" id="u26-Pd-6F4"/>
+                                    <constraint firstAttribute="width" constant="178" id="whO-Qx-jyf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1413,8 +1413,8 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="O2B-mZ-VTa">
                                 <rect key="frame" x="16" y="54" width="343" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="KBI-aF-wE2"/>
-                                    <constraint firstAttribute="width" constant="343" id="bXX-vV-vxf"/>
+                                    <constraint firstAttribute="width" constant="343" id="Nra-Bn-iu6"/>
+                                    <constraint firstAttribute="height" constant="28" id="Vub-9z-RpO"/>
                                 </constraints>
                                 <segments>
                                     <segment title="F1"/>
@@ -1422,18 +1422,35 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <segment title="F3"/>
                                     <segment title="F4"/>
                                 </segments>
+                                <connections>
+                                    <action selector="acted:" destination="3U4-L5-i7V" eventType="valueChanged" id="Thk-iO-ye2"/>
+                                </connections>
                             </segmentedControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="R 1" translatesAutoresizingMaskIntoConstraints="NO" id="QAg-cF-prX">
+                                <rect key="frame" x="0.0" y="107" width="375" height="390"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="390" id="5ib-3B-BLW"/>
+                                    <constraint firstAttribute="width" constant="375" id="cql-h9-V3D"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="O2B-mZ-VTa" firstAttribute="top" secondItem="taL-3G-mfV" secondAttribute="bottom" constant="25" id="66S-Hq-BF0"/>
-                            <constraint firstItem="O2B-mZ-VTa" firstAttribute="leading" secondItem="WNG-gX-kTO" secondAttribute="leadingMargin" id="Dsa-oF-b5u"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="taL-3G-mfV" secondAttribute="trailing" constant="81" id="ObU-Xe-3WY"/>
-                            <constraint firstItem="O2B-mZ-VTa" firstAttribute="trailing" secondItem="WNG-gX-kTO" secondAttribute="trailingMargin" id="W4y-2g-5qK"/>
-                            <constraint firstItem="taL-3G-mfV" firstAttribute="top" secondItem="Vg5-iN-ia1" secondAttribute="bottom" constant="8" id="amQ-Qq-3MH"/>
-                            <constraint firstItem="taL-3G-mfV" firstAttribute="leading" secondItem="WNG-gX-kTO" secondAttribute="leadingMargin" constant="81" id="jI6-Ha-IZc"/>
+                            <constraint firstItem="O2B-mZ-VTa" firstAttribute="top" secondItem="taL-3G-mfV" secondAttribute="bottom" constant="25" id="8WW-aa-3Ml"/>
+                            <constraint firstAttribute="trailing" secondItem="QAg-cF-prX" secondAttribute="trailing" id="BO9-0M-IBa"/>
+                            <constraint firstItem="O2B-mZ-VTa" firstAttribute="leading" secondItem="WNG-gX-kTO" secondAttribute="leadingMargin" id="LVD-lw-8Mv"/>
+                            <constraint firstItem="QAg-cF-prX" firstAttribute="leading" secondItem="WNG-gX-kTO" secondAttribute="leading" id="MzB-di-DmJ"/>
+                            <constraint firstItem="QAg-cF-prX" firstAttribute="top" secondItem="O2B-mZ-VTa" secondAttribute="bottom" constant="25" id="SE0-Zk-sES"/>
+                            <constraint firstItem="taL-3G-mfV" firstAttribute="top" secondItem="Vg5-iN-ia1" secondAttribute="bottom" constant="8" id="bqD-MX-GkL"/>
+                            <constraint firstItem="taL-3G-mfV" firstAttribute="leading" secondItem="WNG-gX-kTO" secondAttribute="leadingMargin" constant="82" id="ip8-qX-H3j"/>
+                            <constraint firstItem="O2B-mZ-VTa" firstAttribute="trailing" secondItem="WNG-gX-kTO" secondAttribute="trailingMargin" id="lex-ja-neb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="taL-3G-mfV" secondAttribute="trailing" constant="83" id="nuE-hW-XQd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="RC1" destination="QAg-cF-prX" id="M3S-P3-cLw"/>
+                        <outlet property="RCViewController" destination="O2B-mZ-VTa" id="DDw-s5-xDp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vE8-GO-39v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5244,6 +5261,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="Jing’an Temple" width="1280" height="819"/>
         <image name="MS 1" width="720" height="540"/>
         <image name="PC 1" width="720" height="540"/>
+        <image name="R 1" width="720" height="540"/>
         <image name="biqiya placeholder" width="337" height="450"/>
         <image name="bund" width="2560" height="1440"/>
         <image name="concordia" width="1500" height="1125"/>
