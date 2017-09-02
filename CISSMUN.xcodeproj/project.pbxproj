@@ -24,6 +24,7 @@
 		9AC642131EEED18100B43215 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AC642121EEED18100B43215 /* GoogleService-Info.plist */; };
 		9AD5687A1EEAB911001D1584 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD568791EEAB911001D1584 /* WelcomeViewController.swift */; };
 		9AE0A3291EE92AAC0078144B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE0A3281EE92AAC0078144B /* SettingsTableViewController.swift */; };
+		9AE297EB1F599232000AF9C7 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE297EA1F599232000AF9C7 /* DropShadow.swift */; };
 		9AFA21511EE9264C006E677E /* GINKeynoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA21501EE9264C006E677E /* GINKeynoteViewController.swift */; };
 		F36119A51F2F37FD00213B63 /* MapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36119A41F2F37FD00213B63 /* MapsController.swift */; };
 		F3636E0D1F5055F5008702BB /* HSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3636E0C1F5055F5008702BB /* HSViewController.swift */; };
@@ -54,6 +55,7 @@
 		9AD568791EEAB911001D1584 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		9AD99F341F4FFBC500649D2C /* CISSMUN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CISSMUN.entitlements; sourceTree = SOURCE_ROOT; };
 		9AE0A3281EE92AAC0078144B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		9AE297EA1F599232000AF9C7 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 		9AFA21501EE9264C006E677E /* GINKeynoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINKeynoteViewController.swift; sourceTree = "<group>"; };
 		B5064B5A05590B1DB590E1CF /* Pods-CISSMUN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CISSMUN.release.xcconfig"; path = "Pods/Target Support Files/Pods-CISSMUN/Pods-CISSMUN.release.xcconfig"; sourceTree = "<group>"; };
 		F36119A41F2F37FD00213B63 /* MapsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				9A07ED491F12765400BDA478 /* MoreViewController.swift */,
 				9A6C0EBF1F2485A700094667 /* AttractionsViewController.swift */,
 				9A168C541F2CE7CF001685AD /* DiningViewController.swift */,
+				9AE297EA1F599232000AF9C7 /* DropShadow.swift */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				9A9FC04E1ED5D165006E95A1 /* MUNScheduleViewController.swift in Sources */,
 				F3636E111F58FD40008702BB /* PCViewController.swift in Sources */,
 				9AC54D321EE84BB900E87B88 /* GINHomeViewController.swift in Sources */,
+				9AE297EB1F599232000AF9C7 /* DropShadow.swift in Sources */,
 				F36119A51F2F37FD00213B63 /* MapsController.swift in Sources */,
 				9AFA21511EE9264C006E677E /* GINKeynoteViewController.swift in Sources */,
 				9AE0A3291EE92AAC0078144B /* SettingsTableViewController.swift in Sources */,
