@@ -26,7 +26,6 @@ class MUNHomeViewController: UIViewController {
 
     var isPaulson = false
     var isKatherine = false
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -43,43 +42,50 @@ class MUNHomeViewController: UIViewController {
     }
 
     @IBAction func expandPaulson(_ sender: Any) {
+        let expandHeight = PExpandUIView.frame.size.height
+        
         pMoreText.isHidden = true
         pMoreImage.isHidden = true
         PExpandUIView.isHidden = false
+        
         pHeader.isHidden = false
-        KatherineUIView.frame.origin.y += 100
+        KatherineUIView.frame.origin.y += expandHeight
         PaulsonUIView.layoutIfNeeded()
         
         if isKatherine {
-            KExpandUIView.frame.origin.y += 100
+            KExpandUIView.frame.origin.y += expandHeight
         }
         
         isPaulson = true
     }
     
     @IBAction func lessPaulson(_ sender: Any) {
+        let expandHeight = PExpandUIView.frame.size.height
+        
         pMoreText.isHidden = false
         pMoreImage.isHidden = false
         PExpandUIView.isHidden = true
         pHeader.isHidden = true
-        KatherineUIView.frame.origin.y -= 100
+        KatherineUIView.frame.origin.y -= expandHeight
         PaulsonUIView.layoutIfNeeded()
         
         if isKatherine {
-            KExpandUIView.frame.origin.y -= 100
+            KExpandUIView.frame.origin.y -= expandHeight
         }
         
         isPaulson = false
     }
     
     @IBAction func expandKatherine(_ sender: Any) {
+        let expandHeight = PExpandUIView.frame.size.height
+
         kMoreText.isHidden = true
         kMoreImage.isHidden = true
         KExpandUIView.isHidden = false
         kHeader.isHidden = false
         
         if isPaulson {
-            KExpandUIView.frame.origin.y += 100
+            KExpandUIView.frame.origin.y += expandHeight
         }
         
         KatherineUIView.layoutIfNeeded()
@@ -88,13 +94,15 @@ class MUNHomeViewController: UIViewController {
     }
     
     @IBAction func lessKatherine(_ sender: Any) {
+        let expandHeight = PExpandUIView.frame.size.height
+
         kMoreText.isHidden = false
         kMoreImage.isHidden = false
         KExpandUIView.isHidden = true
         kHeader.isHidden = true
         
         if isPaulson {
-            KExpandUIView.frame.origin.y -= 100
+            KExpandUIView.frame.origin.y -= expandHeight
         }
         
         KatherineUIView.layoutIfNeeded()

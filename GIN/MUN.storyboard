@@ -1825,10 +1825,10 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rsC-er-Ta4" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                <rect key="frame" x="12" y="216" width="296" height="126"/>
+                                                <rect key="frame" x="12" y="216" width="296" height="145"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISSMUN Director" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="Qnj-LY-d0J">
-                                                        <rect key="frame" x="12" y="12" width="165.33333333333334" height="30.333333333333314"/>
+                                                        <rect key="frame" x="12" y="12" width="150.33333333333334" height="30.333333333333314"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1840,13 +1840,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paulson_erik" translatesAutoresizingMaskIntoConstraints="NO" id="cdu-bQ-ffa">
-                                                        <rect key="frame" x="178" y="12" width="102" height="102"/>
+                                                        <rect key="frame" x="163" y="12" width="121" height="121"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="cdu-bQ-ffa" secondAttribute="height" multiplier="1:1" id="xmX-2o-WIP"/>
                                                         </constraints>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4PX-o3-W7H">
-                                                        <rect key="frame" x="35" y="103" width="145" height="15"/>
+                                                        <rect key="frame" x="35" y="122" width="145" height="15"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
                                                         <state key="normal" title="More about Erik Paulson">
                                                             <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -1856,7 +1856,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdH-uA-S1t" userLabel="Expand">
-                                                        <rect key="frame" x="10" y="103" width="15" height="15"/>
+                                                        <rect key="frame" x="10" y="122" width="15" height="15"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="15" id="YPp-vS-Msq"/>
                                                             <constraint firstAttribute="width" secondItem="bdH-uA-S1t" secondAttribute="height" multiplier="1:1" id="YUi-wD-Zqd"/>
@@ -1866,22 +1866,24 @@
                                                             <action selector="expandPaulson:" destination="Hq8-Yv-Mv1" eventType="touchUpInside" id="JcK-CL-dgI"/>
                                                         </connections>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="M6m-T6-vAt">
-                                                        <rect key="frame" x="12" y="76" width="182" height="50"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="M6m-T6-vAt">
+                                                        <rect key="frame" x="12" y="75" width="163" height="70"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="m4a-ED-HQT"/>
+                                                            <constraint firstAttribute="height" constant="70" id="m4a-ED-HQT"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                        <string key="text">I am a high school English teacher and a Global Issues Network advisor, and I am passionate about making the world a better place!</string>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="height" constant="145" id="6jw-mB-cDW"/>
                                                     <constraint firstItem="cdu-bQ-ffa" firstAttribute="top" secondItem="rsC-er-Ta4" secondAttribute="top" constant="12" id="7GM-82-47m"/>
                                                     <constraint firstItem="Qnj-LY-d0J" firstAttribute="leading" secondItem="rsC-er-Ta4" secondAttribute="leading" constant="12" id="Cc9-K3-Anp"/>
                                                     <constraint firstAttribute="bottom" secondItem="M6m-T6-vAt" secondAttribute="bottom" id="ITH-TL-AD7"/>
-                                                    <constraint firstItem="cdu-bQ-ffa" firstAttribute="leading" secondItem="M6m-T6-vAt" secondAttribute="trailing" constant="-16" id="NdB-ND-ZFx"/>
+                                                    <constraint firstItem="cdu-bQ-ffa" firstAttribute="leading" secondItem="M6m-T6-vAt" secondAttribute="trailing" constant="-12" id="NdB-ND-ZFx"/>
                                                     <constraint firstItem="bdH-uA-S1t" firstAttribute="leading" secondItem="rsC-er-Ta4" secondAttribute="leading" constant="10" id="PdJ-wZ-isJ"/>
                                                     <constraint firstAttribute="bottom" secondItem="4PX-o3-W7H" secondAttribute="bottom" constant="8" id="ZYb-yh-YDN"/>
                                                     <constraint firstItem="cdu-bQ-ffa" firstAttribute="leading" secondItem="Qnj-LY-d0J" secondAttribute="trailing" id="ck3-C2-PsG"/>
@@ -1890,17 +1892,17 @@
                                                     <constraint firstAttribute="bottom" secondItem="bdH-uA-S1t" secondAttribute="bottom" constant="8" id="qgK-ia-gTA"/>
                                                     <constraint firstItem="4PX-o3-W7H" firstAttribute="height" secondItem="bdH-uA-S1t" secondAttribute="height" id="rTv-EN-aJP"/>
                                                     <constraint firstItem="4PX-o3-W7H" firstAttribute="leading" secondItem="bdH-uA-S1t" secondAttribute="trailing" constant="10" id="sTP-TZ-uqM"/>
-                                                    <constraint firstAttribute="trailing" secondItem="cdu-bQ-ffa" secondAttribute="trailing" constant="16" id="uaG-eT-Tt9"/>
+                                                    <constraint firstAttribute="trailing" secondItem="cdu-bQ-ffa" secondAttribute="trailing" constant="12" id="uaG-eT-Tt9"/>
                                                     <constraint firstItem="M6m-T6-vAt" firstAttribute="leading" secondItem="rsC-er-Ta4" secondAttribute="leading" constant="12" id="yFF-JG-emy"/>
                                                     <constraint firstAttribute="bottom" secondItem="cdu-bQ-ffa" secondAttribute="bottom" constant="12" id="yYG-yI-CPm"/>
                                                     <constraint firstItem="P5x-me-boS" firstAttribute="leading" secondItem="rsC-er-Ta4" secondAttribute="leading" constant="12" id="yhH-mE-Wsz"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tjo-7E-Fy0" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                <rect key="frame" x="12" y="357" width="296" height="126"/>
+                                                <rect key="frame" x="12" y="376" width="296" height="145"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secretary General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="jQ7-wX-9Jn">
-                                                        <rect key="frame" x="12" y="12" width="166" height="30.333333333333314"/>
+                                                        <rect key="frame" x="12" y="12" width="151" height="30.333333333333314"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1912,13 +1914,13 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lavender_leeanne" translatesAutoresizingMaskIntoConstraints="NO" id="KSX-9v-4X7">
-                                                        <rect key="frame" x="178" y="12" width="102" height="102"/>
+                                                        <rect key="frame" x="163" y="12" width="121" height="121"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="KSX-9v-4X7" secondAttribute="height" multiplier="1:1" id="OZP-oR-DGT"/>
                                                         </constraints>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGj-9b-qaD">
-                                                        <rect key="frame" x="35" y="103" width="159" height="15"/>
+                                                        <rect key="frame" x="35" y="122" width="159" height="15"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
                                                         <state key="normal" title="More about Katherine Hou">
                                                             <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -1928,7 +1930,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Lz-Hz-dNL" userLabel="Expand">
-                                                        <rect key="frame" x="10" y="103" width="15" height="15"/>
+                                                        <rect key="frame" x="10" y="122" width="15" height="15"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="15" id="PVp-Zl-2fD"/>
                                                             <constraint firstAttribute="width" secondItem="8Lz-Hz-dNL" secondAttribute="height" multiplier="1:1" id="U8Z-eF-8jk"/>
@@ -1938,12 +1940,13 @@
                                                             <action selector="expandKatherine:" destination="Hq8-Yv-Mv1" eventType="touchUpInside" id="WgR-jq-tta"/>
                                                         </connections>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu help me i dont like stack views pls" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="oq5-0F-McL" userLabel="KHeader">
-                                                        <rect key="frame" x="12" y="76" width="150" height="50"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="oq5-0F-McL" userLabel="KHeader">
+                                                        <rect key="frame" x="12" y="75" width="139" height="70"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="0UD-5U-X6b"/>
+                                                            <constraint firstAttribute="height" constant="70" id="0UD-5U-X6b"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                        <string key="text">I am currently in 11th grade and I am passionate about leading a sustainable life and making choices that benefit the environment.</string>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -1952,6 +1955,7 @@
                                                 <constraints>
                                                     <constraint firstItem="zC6-T0-Ypm" firstAttribute="top" secondItem="jQ7-wX-9Jn" secondAttribute="bottom" id="1Z3-UP-9bO"/>
                                                     <constraint firstItem="8Lz-Hz-dNL" firstAttribute="leading" secondItem="Tjo-7E-Fy0" secondAttribute="leading" constant="10" id="46T-lL-PAU"/>
+                                                    <constraint firstAttribute="height" constant="145" id="5Hp-b0-wCd"/>
                                                     <constraint firstAttribute="bottom" secondItem="KSX-9v-4X7" secondAttribute="bottom" constant="12" id="5gv-br-Zck"/>
                                                     <constraint firstItem="jQ7-wX-9Jn" firstAttribute="top" secondItem="Tjo-7E-Fy0" secondAttribute="top" constant="12" id="884-vr-O45"/>
                                                     <constraint firstItem="KSX-9v-4X7" firstAttribute="leading" secondItem="jQ7-wX-9Jn" secondAttribute="trailing" id="ErF-RT-eGJ"/>
@@ -1962,24 +1966,24 @@
                                                     <constraint firstAttribute="bottom" secondItem="oq5-0F-McL" secondAttribute="bottom" id="Ty4-Q7-DVh"/>
                                                     <constraint firstItem="oq5-0F-McL" firstAttribute="leading" secondItem="Tjo-7E-Fy0" secondAttribute="leading" constant="12" id="Z0Q-hj-pOh"/>
                                                     <constraint firstItem="aGj-9b-qaD" firstAttribute="leading" secondItem="8Lz-Hz-dNL" secondAttribute="trailing" constant="10" id="ewi-Bw-i4I"/>
-                                                    <constraint firstItem="oq5-0F-McL" firstAttribute="trailing" secondItem="KSX-9v-4X7" secondAttribute="leading" constant="-16" id="lSM-ys-rqD"/>
+                                                    <constraint firstItem="oq5-0F-McL" firstAttribute="trailing" secondItem="KSX-9v-4X7" secondAttribute="leading" constant="-12" id="lSM-ys-rqD"/>
                                                     <constraint firstItem="aGj-9b-qaD" firstAttribute="height" secondItem="8Lz-Hz-dNL" secondAttribute="height" id="pYG-C9-vOd"/>
                                                     <constraint firstItem="zC6-T0-Ypm" firstAttribute="leading" secondItem="Tjo-7E-Fy0" secondAttribute="leading" constant="12" id="uWc-wL-riB"/>
-                                                    <constraint firstAttribute="trailing" secondItem="KSX-9v-4X7" secondAttribute="trailing" constant="16" id="z7i-iJ-T4m"/>
+                                                    <constraint firstAttribute="trailing" secondItem="KSX-9v-4X7" secondAttribute="trailing" constant="12" id="z7i-iJ-T4m"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gM9-ib-KRA" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                <rect key="frame" x="12" y="342" width="296" height="100"/>
+                                                <rect key="frame" x="12" y="361" width="296" height="150"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="QjF-VW-z2R">
-                                                        <rect key="frame" x="12" y="0.0" width="272" height="73"/>
-                                                        <string key="text">stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friendstack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend</string>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="9"/>
+                                                        <rect key="frame" x="12" y="4" width="272" height="119"/>
+                                                        <string key="text">I believe that if we all work together, we can achieve great things in regards to our planet and its people and that the future can be bright. I have been working with GIN for 11 years and have attended conferences worldwide, led 3 groups in different countries and hosted 2 conferences. Let's channel our energy to make some change!</string>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RiW-WV-qY7">
-                                                        <rect key="frame" x="35" y="77" width="58" height="15"/>
+                                                        <rect key="frame" x="35" y="127" width="58" height="15"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
                                                         <state key="normal" title="Show less">
                                                             <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -1989,7 +1993,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V36-x0-khS" userLabel="Expand">
-                                                        <rect key="frame" x="10" y="77" width="15" height="15"/>
+                                                        <rect key="frame" x="10" y="127" width="15" height="15"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="15" id="W3a-eq-GyW"/>
                                                             <constraint firstAttribute="width" secondItem="V36-x0-khS" secondAttribute="height" multiplier="1:1" id="m7i-dy-0g9"/>
@@ -2002,7 +2006,7 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstItem="QjF-VW-z2R" firstAttribute="top" secondItem="gM9-ib-KRA" secondAttribute="top" id="9NB-zJ-2W2"/>
+                                                    <constraint firstItem="QjF-VW-z2R" firstAttribute="top" secondItem="gM9-ib-KRA" secondAttribute="top" constant="4" id="9NB-zJ-2W2"/>
                                                     <constraint firstAttribute="bottom" secondItem="RiW-WV-qY7" secondAttribute="bottom" constant="8" id="9r1-Td-4sh"/>
                                                     <constraint firstItem="V36-x0-khS" firstAttribute="top" secondItem="QjF-VW-z2R" secondAttribute="bottom" constant="4" id="Qfj-vh-jEX"/>
                                                     <constraint firstItem="QjF-VW-z2R" firstAttribute="leading" secondItem="gM9-ib-KRA" secondAttribute="leading" constant="12" id="Sw5-4q-xC2"/>
@@ -2010,22 +2014,22 @@
                                                     <constraint firstItem="V36-x0-khS" firstAttribute="leading" secondItem="gM9-ib-KRA" secondAttribute="leading" constant="10" id="eZG-f3-gQP"/>
                                                     <constraint firstAttribute="trailing" secondItem="QjF-VW-z2R" secondAttribute="trailing" constant="12" id="po7-7g-i1S"/>
                                                     <constraint firstItem="RiW-WV-qY7" firstAttribute="leading" secondItem="V36-x0-khS" secondAttribute="trailing" constant="10" id="qoM-hl-KiH"/>
-                                                    <constraint firstAttribute="height" constant="100" id="x5g-bk-fen"/>
+                                                    <constraint firstAttribute="height" constant="150" id="x5g-bk-fen"/>
                                                     <constraint firstAttribute="bottom" secondItem="V36-x0-khS" secondAttribute="bottom" constant="8" id="yq3-TR-4qJ"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S8c-CO-Nwy" userLabel="KExpandUI View" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                <rect key="frame" x="12" y="483" width="296" height="100"/>
+                                                <rect key="frame" x="12" y="521" width="296" height="150"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="YoG-jp-dNg">
-                                                        <rect key="frame" x="12" y="0.0" width="272" height="73"/>
-                                                        <string key="text">stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friendstack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend stack views are my friend</string>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="9"/>
+                                                        <rect key="frame" x="12" y="4" width="272" height="119"/>
+                                                        <string key="text">I have been in GIN for 4 years and have led it for 2 years now.  This year’s conference theme, “A Place to Stand,” resonates with me a lot because of personal experiences and beliefs. However, I know everybody has a different interpretation of this theme, so where do you stand in this world? I hope you discover answers to this question as you listen to the amazing keynote speakers and changemaker panels!</string>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQO-LQ-eV4">
-                                                        <rect key="frame" x="35" y="77" width="58" height="15"/>
+                                                        <rect key="frame" x="35" y="127" width="58" height="15"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
                                                         <state key="normal" title="Show less">
                                                             <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -2035,7 +2039,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgM-US-f1H" userLabel="Expand">
-                                                        <rect key="frame" x="10" y="77" width="15" height="15"/>
+                                                        <rect key="frame" x="10" y="127" width="15" height="15"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="15" id="3WZ-j2-ftE"/>
                                                             <constraint firstAttribute="width" secondItem="IgM-US-f1H" secondAttribute="height" multiplier="1:1" id="HqM-PK-cjn"/>
@@ -2051,19 +2055,18 @@
                                                     <constraint firstAttribute="bottom" secondItem="IgM-US-f1H" secondAttribute="bottom" constant="8" id="CAl-q5-Yjn"/>
                                                     <constraint firstAttribute="bottom" secondItem="EQO-LQ-eV4" secondAttribute="bottom" constant="8" id="FNW-ge-2Eu"/>
                                                     <constraint firstItem="EQO-LQ-eV4" firstAttribute="leading" secondItem="IgM-US-f1H" secondAttribute="trailing" constant="10" id="H14-Tt-YLo"/>
-                                                    <constraint firstItem="YoG-jp-dNg" firstAttribute="top" secondItem="S8c-CO-Nwy" secondAttribute="top" id="Ll1-SI-n8H"/>
+                                                    <constraint firstItem="YoG-jp-dNg" firstAttribute="top" secondItem="S8c-CO-Nwy" secondAttribute="top" constant="4" id="Ll1-SI-n8H"/>
                                                     <constraint firstItem="IgM-US-f1H" firstAttribute="leading" secondItem="S8c-CO-Nwy" secondAttribute="leading" constant="10" id="c5o-VQ-qae"/>
                                                     <constraint firstItem="IgM-US-f1H" firstAttribute="top" secondItem="YoG-jp-dNg" secondAttribute="bottom" constant="4" id="d7o-qG-uuc"/>
                                                     <constraint firstItem="EQO-LQ-eV4" firstAttribute="height" secondItem="IgM-US-f1H" secondAttribute="height" id="lNP-mh-aeE"/>
                                                     <constraint firstItem="YoG-jp-dNg" firstAttribute="leading" secondItem="S8c-CO-Nwy" secondAttribute="leading" constant="12" id="rJe-Yk-5ir"/>
                                                     <constraint firstAttribute="trailing" secondItem="YoG-jp-dNg" secondAttribute="trailing" constant="12" id="ta0-Cp-fDS"/>
-                                                    <constraint firstAttribute="height" constant="100" id="vsE-k7-Mh0"/>
+                                                    <constraint firstAttribute="height" constant="150" id="vsE-k7-Mh0"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="rsC-er-Ta4" firstAttribute="height" secondItem="N2o-IJ-Hfj" secondAttribute="height" multiplier="0.18" id="503-Fx-FxS"/>
                                             <constraint firstItem="S8c-CO-Nwy" firstAttribute="width" secondItem="Tjo-7E-Fy0" secondAttribute="width" id="6Ju-Yg-UWd"/>
                                             <constraint firstItem="3o9-Xs-JpD" firstAttribute="centerY" secondItem="a0f-6h-b5d" secondAttribute="centerY" id="74y-uJ-3ir"/>
                                             <constraint firstItem="Tjo-7E-Fy0" firstAttribute="top" secondItem="rsC-er-Ta4" secondAttribute="bottom" constant="15" id="Bs9-DF-2y5"/>
@@ -2074,7 +2077,6 @@
                                             <constraint firstItem="S8c-CO-Nwy" firstAttribute="top" secondItem="Tjo-7E-Fy0" secondAttribute="bottom" id="VhO-NS-68c"/>
                                             <constraint firstItem="Tjo-7E-Fy0" firstAttribute="leading" secondItem="N2o-IJ-Hfj" secondAttribute="leading" constant="12" id="Y59-Xt-Ps5"/>
                                             <constraint firstAttribute="trailing" secondItem="gM9-ib-KRA" secondAttribute="trailing" constant="12" id="cIE-3I-y0L"/>
-                                            <constraint firstItem="Tjo-7E-Fy0" firstAttribute="height" secondItem="N2o-IJ-Hfj" secondAttribute="height" multiplier="0.18" id="ejo-xg-9sI"/>
                                             <constraint firstItem="rsC-er-Ta4" firstAttribute="leading" secondItem="N2o-IJ-Hfj" secondAttribute="leading" constant="12" id="ezc-vE-zHw"/>
                                             <constraint firstAttribute="trailing" secondItem="rsC-er-Ta4" secondAttribute="trailing" constant="12" id="gqX-xI-Dzz"/>
                                             <constraint firstItem="gM9-ib-KRA" firstAttribute="width" secondItem="rsC-er-Ta4" secondAttribute="width" id="hFb-c1-0L0"/>
