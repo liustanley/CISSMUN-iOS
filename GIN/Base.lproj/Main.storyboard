@@ -1290,7 +1290,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <!--Lower Building (ES)-->
         <scene sceneID="tHe-2M-3wU">
             <objects>
-                <viewController title="Lower Building (ES)" id="BEF-lz-9QA" sceneMemberID="viewController">
+                <viewController title="Lower Building (ES)" id="BEF-lz-9QA" customClass="ESViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YWO-uH-krJ"/>
                         <viewControllerLayoutGuide type="bottom" id="lsq-X9-8dC"/>
@@ -1308,6 +1308,9 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <segment title="F1"/>
                                     <segment title="F2"/>
                                 </segments>
+                                <connections>
+                                    <action selector="acted:" destination="BEF-lz-9QA" eventType="valueChanged" id="I64-8n-r8C"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elementary School Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spK-tj-6YB">
                                 <rect key="frame" x="85" y="8" width="204" height="21"/>
@@ -1318,6 +1321,10 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ES 1" translatesAutoresizingMaskIntoConstraints="NO" id="RnU-de-Uib">
+                                <rect key="frame" x="0.0" y="129" width="375" height="390"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -1329,6 +1336,10 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                             <constraint firstAttribute="trailingMargin" secondItem="spK-tj-6YB" secondAttribute="trailing" constant="70" id="gF9-nD-z0j"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Image" destination="RnU-de-Uib" id="p6M-aR-7Bt"/>
+                        <outlet property="SegmentedControl" destination="7Tx-WM-qNP" id="wXZ-4b-8r6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nxd-5T-Nmm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5268,6 +5279,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="1354592945_Concordia" width="450" height="375"/>
         <image name="ConcordiaLogo" width="458" height="456"/>
         <image name="ConcordiaMap" width="600" height="575"/>
+        <image name="ES 1" width="842" height="596"/>
         <image name="HS B1" width="720" height="540"/>
         <image name="Image" width="26" height="26"/>
         <image name="Jing’an Temple" width="1280" height="819"/>
