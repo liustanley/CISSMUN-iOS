@@ -1008,49 +1008,99 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0yN-ay-cqc">
                                 <rect key="frame" x="0.0" y="0.0" width="200" height="603"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vi-dj-jkL">
-                                        <rect key="frame" x="49" y="51" width="102" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Upper Building"/>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5Z-q7-Awb">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5Z-q7-Awb">
                                         <rect key="frame" x="64" y="8" width="73" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Mmp-A2-EWZ"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uo2-tJ-3pP">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="___________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uo2-tJ-3pP">
                                         <rect key="frame" x="0.0" y="22" width="200" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="lh7-tg-XGB"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtH-BR-BPE">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vi-dj-jkL">
+                                        <rect key="frame" x="49" y="51" width="102" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Pou-SD-str"/>
+                                        </constraints>
+                                        <state key="normal" title="Upper Building"/>
+                                        <connections>
+                                            <segue destination="Jjz-lz-LO4" kind="show" id="aw8-rH-SAa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtH-BR-BPE">
                                         <rect key="frame" x="26" y="89" width="149" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="mrK-Md-Sj9"/>
+                                        </constraints>
                                         <state key="normal" title="Intermediate Building"/>
+                                        <connections>
+                                            <segue destination="mcV-MX-kjh" kind="show" id="fOn-aP-dVJ"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRW-c3-RIa">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRW-c3-RIa">
                                         <rect key="frame" x="49" y="127" width="102" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="hdN-DO-a4Q"/>
+                                        </constraints>
                                         <state key="normal" title="Lower Building"/>
+                                        <connections>
+                                            <segue destination="BEF-lz-9QA" kind="show" id="4nA-NQ-mGE"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEe-Ck-R8y">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEe-Ck-R8y">
                                         <rect key="frame" x="43" y="165" width="115" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="prh-0H-aST"/>
+                                        </constraints>
                                         <state key="normal" title="Phoenix Center"/>
+                                        <connections>
+                                            <segue destination="uNY-mp-DFV" kind="show" id="59o-3u-Nu6"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4o-WQ-goS">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4o-WQ-goS">
                                         <rect key="frame" x="43" y="203" width="115" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="CbX-ow-Nqp"/>
+                                        </constraints>
                                         <state key="normal" title="Rittman Center"/>
+                                        <connections>
+                                            <segue destination="3U4-L5-i7V" kind="show" id="0e1-bs-rdY"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="VtH-BR-BPE" firstAttribute="top" secondItem="4vi-dj-jkL" secondAttribute="bottom" constant="8" id="1ZE-PO-zWb"/>
+                                    <constraint firstItem="aEe-Ck-R8y" firstAttribute="top" secondItem="iRW-c3-RIa" secondAttribute="bottom" constant="8" id="2cB-eV-jv2"/>
+                                    <constraint firstItem="N4o-WQ-goS" firstAttribute="top" secondItem="aEe-Ck-R8y" secondAttribute="bottom" constant="8" id="9C8-YH-wTq"/>
+                                    <constraint firstItem="aEe-Ck-R8y" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="leading" constant="43" id="AU2-dZ-TFE"/>
+                                    <constraint firstAttribute="trailing" secondItem="c5Z-q7-Awb" secondAttribute="trailing" constant="63" id="Esd-Cg-1Nw"/>
+                                    <constraint firstAttribute="trailing" secondItem="N4o-WQ-goS" secondAttribute="trailing" constant="42" id="GNn-Md-hmh"/>
+                                    <constraint firstAttribute="trailing" secondItem="VtH-BR-BPE" secondAttribute="trailing" constant="25" id="IkZ-vR-0Tc"/>
+                                    <constraint firstItem="c5Z-q7-Awb" firstAttribute="top" secondItem="0yN-ay-cqc" secondAttribute="top" constant="8" id="O9H-Jh-Kc6"/>
+                                    <constraint firstAttribute="trailing" secondItem="aEe-Ck-R8y" secondAttribute="trailing" constant="42" id="Ofv-Py-auL"/>
                                     <constraint firstAttribute="width" constant="200" id="SZp-DJ-FbB"/>
+                                    <constraint firstItem="iRW-c3-RIa" firstAttribute="top" secondItem="VtH-BR-BPE" secondAttribute="bottom" constant="8" id="Skm-26-mbe"/>
+                                    <constraint firstItem="VtH-BR-BPE" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="leading" constant="26" id="VFp-Hy-bcp"/>
+                                    <constraint firstAttribute="trailing" secondItem="Uo2-tJ-3pP" secondAttribute="trailing" id="Vmb-y1-pH3"/>
+                                    <constraint firstItem="4vi-dj-jkL" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="leading" constant="49" id="bWN-V6-KxA"/>
+                                    <constraint firstItem="N4o-WQ-goS" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="leading" constant="43" id="c6E-Wf-eQY"/>
+                                    <constraint firstItem="4vi-dj-jkL" firstAttribute="top" secondItem="Uo2-tJ-3pP" secondAttribute="bottom" constant="8" id="ddc-BK-pR1"/>
+                                    <constraint firstItem="Uo2-tJ-3pP" firstAttribute="top" secondItem="0yN-ay-cqc" secondAttribute="top" constant="22" id="fud-lf-iXY"/>
+                                    <constraint firstAttribute="trailing" secondItem="iRW-c3-RIa" secondAttribute="trailing" constant="49" id="iSy-OJ-u2p"/>
+                                    <constraint firstItem="c5Z-q7-Awb" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="leading" constant="64" id="jW1-az-zIn"/>
+                                    <constraint firstItem="iRW-c3-RIa" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="leading" constant="49" id="lR4-fQ-qiU"/>
+                                    <constraint firstAttribute="trailing" secondItem="4vi-dj-jkL" secondAttribute="trailing" constant="49" id="oBn-Z0-Eyr"/>
+                                    <constraint firstItem="Uo2-tJ-3pP" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="leading" id="rVr-If-ggX"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1095,11 +1145,11 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <viewControllerLayoutGuide type="bottom" id="r2h-8G-7BX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dLk-Bc-gBl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dYS-6J-vQx">
-                                <rect key="frame" x="20" y="74" width="343" height="29"/>
+                                <rect key="frame" x="16" y="54" width="343" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="6JS-nq-XJh"/>
                                     <constraint firstAttribute="height" constant="28" id="Paf-gh-Qip"/>
@@ -1118,7 +1168,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High School Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RnO-3X-2vO">
-                                <rect key="frame" x="115" y="28" width="152" height="21"/>
+                                <rect key="frame" x="111" y="8" width="152" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="152" id="9a7-pe-4VM"/>
                                     <constraint firstAttribute="height" constant="21" id="VPF-Tk-HZG"/>
@@ -1128,7 +1178,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HS B1" translatesAutoresizingMaskIntoConstraints="NO" id="Kcr-6z-es4">
-                                <rect key="frame" x="0.0" y="149" width="375" height="390"/>
+                                <rect key="frame" x="0.0" y="129" width="375" height="390"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="390" id="3f8-Ob-4QR"/>
                                     <constraint firstAttribute="width" constant="375" id="ckS-ON-icw"/>
@@ -1166,11 +1216,11 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <viewControllerLayoutGuide type="bottom" id="xFB-b0-orS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8Oq-UC-aMr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0ud-Pm-vdP">
-                                <rect key="frame" x="20" y="74" width="343" height="29"/>
+                                <rect key="frame" x="16" y="54" width="343" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="4B2-jQ-XIX"/>
                                     <constraint firstAttribute="height" constant="28" id="pfL-pc-4YC"/>
@@ -1184,7 +1234,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Middle School Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7A-Ya-OYs">
-                                <rect key="frame" x="109" y="28" width="164" height="21"/>
+                                <rect key="frame" x="105" y="8" width="164" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="164" id="UBx-qZ-ft3"/>
                                     <constraint firstAttribute="height" constant="21" id="tKh-sf-yR3"/>
@@ -1194,7 +1244,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MS 1" translatesAutoresizingMaskIntoConstraints="NO" id="gi7-20-ck0">
-                                <rect key="frame" x="0.0" y="149" width="375" height="390"/>
+                                <rect key="frame" x="0.0" y="129" width="375" height="390"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="3NQ-Va-q45"/>
                                     <constraint firstAttribute="height" constant="390" id="aRR-DK-AGf"/>
@@ -1235,11 +1285,11 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <viewControllerLayoutGuide type="bottom" id="lsq-X9-8dC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="e7z-Gx-pqv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7Tx-WM-qNP">
-                                <rect key="frame" x="20" y="57" width="374" height="29"/>
+                                <rect key="frame" x="16" y="37" width="343" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="dIp-Qc-Fh6"/>
                                 </constraints>
@@ -1252,7 +1302,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elementary School Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spK-tj-6YB">
-                                <rect key="frame" x="89" y="28" width="235" height="21"/>
+                                <rect key="frame" x="85" y="8" width="204" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="a1i-nN-yP1"/>
                                 </constraints>
@@ -1293,11 +1343,11 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <viewControllerLayoutGuide type="bottom" id="gCC-JQ-FIi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="d8o-9Z-Ydd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TXc-XI-3Ft">
-                                <rect key="frame" x="20" y="74" width="343" height="29"/>
+                                <rect key="frame" x="16" y="54" width="343" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Uhp-tU-dgk"/>
                                     <constraint firstAttribute="width" constant="343" id="kB1-ke-c2w"/>
@@ -1311,7 +1361,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phoenix Center Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVM-Vm-RMC">
-                                <rect key="frame" x="102" y="28" width="178" height="21"/>
+                                <rect key="frame" x="98" y="8" width="178" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="178" id="3LU-kh-Bsj"/>
                                     <constraint firstAttribute="height" constant="21" id="UUv-Ra-6kc"/>
@@ -1321,7 +1371,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PC 1" translatesAutoresizingMaskIntoConstraints="NO" id="2hh-J0-q7O">
-                                <rect key="frame" x="0.0" y="149" width="375" height="390"/>
+                                <rect key="frame" x="0.0" y="129" width="375" height="390"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="390" id="GMs-ng-sXj"/>
                                     <constraint firstAttribute="width" constant="375" id="ap6-cu-HRQ"/>
@@ -1359,11 +1409,11 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <viewControllerLayoutGuide type="bottom" id="bT0-hm-tuu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WNG-gX-kTO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="O2B-mZ-VTa">
-                                <rect key="frame" x="20" y="74" width="343" height="29"/>
+                                <rect key="frame" x="16" y="54" width="343" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="Nra-Bn-iu6"/>
                                     <constraint firstAttribute="height" constant="28" id="Vub-9z-RpO"/>
@@ -1379,7 +1429,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rittman Center Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taL-3G-mfV">
-                                <rect key="frame" x="102" y="28" width="178" height="21"/>
+                                <rect key="frame" x="98" y="8" width="178" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="u26-Pd-6F4"/>
                                     <constraint firstAttribute="width" constant="178" id="whO-Qx-jyf"/>
@@ -1389,7 +1439,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="R 1" translatesAutoresizingMaskIntoConstraints="NO" id="QAg-cF-prX">
-                                <rect key="frame" x="0.0" y="127" width="375" height="390"/>
+                                <rect key="frame" x="0.0" y="107" width="375" height="390"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="390" id="5ib-3B-BLW"/>
                                     <constraint firstAttribute="width" constant="375" id="cql-h9-V3D"/>
