@@ -10,17 +10,17 @@ import UIKit
 
 class MapsController: UIViewController {
     
+
     @IBOutlet weak var menuView: UIView!
-    @IBOutlet weak var menuConstraint: NSLayoutConstraint!
+    @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     
     var menuShowing = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-  
-        menuView.layer.shadowOpacity = 1
-        menuView.layer.shadowRadius = 6
+        menuView.layer.shadowOpacity = 1;
+        menuView.layer.shadowRadius = 6;
         
     }
     
@@ -29,17 +29,24 @@ class MapsController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func menuOpen(_ sender: Any) {
+  
+    @IBAction func openMenu(_ sender: Any) {
         
         if(menuShowing) {
-            menuConstraint.constant = -155
-            UIView.animate(withDuration: 0.3, animations: {self.view.layoutIfNeeded()})
-        } else {
-            menuConstraint.constant = 0
-        UIView.animate(withDuration: 0.3, animations: {self.view.layoutIfNeeded()})
-    
+            leadingConstraint.constant = -200;
+            UIView.animate(withDuration: 0.3, animations: {
+                self.view.layoutIfNeeded();
+            })
         }
-        menuShowing = !menuShowing
+        else {
+            leadingConstraint.constant = 0;
+            UIView.animate(withDuration: 0.3, animations: {
+                self.view.layoutIfNeeded();
+            })
+            
+            
+        }
+        menuShowing = !menuShowing;
     }
     
 }
