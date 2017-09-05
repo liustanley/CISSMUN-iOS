@@ -1005,8 +1005,8 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <constraint firstAttribute="width" constant="359" id="QX5-PG-TnM"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0yN-ay-cqc">
-                                <rect key="frame" x="0.0" y="0.0" width="200" height="603"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0yN-ay-cqc">
+                                <rect key="frame" x="-210" y="0.0" width="200" height="603"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5Z-q7-Awb">
                                         <rect key="frame" x="64" y="8" width="73" height="21"/>
