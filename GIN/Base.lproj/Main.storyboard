@@ -1108,7 +1108,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <constraints>
                             <constraint firstItem="0yN-ay-cqc" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" id="0O6-Tp-X15"/>
                             <constraint firstAttribute="trailing" secondItem="OsS-Vg-2iP" secondAttribute="trailing" constant="8" id="E9L-3r-gWz"/>
-                            <constraint firstItem="0yN-ay-cqc" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="-200" id="FKR-vJ-MwU"/>
+                            <constraint firstItem="0yN-ay-cqc" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="-210" id="FKR-vJ-MwU"/>
                             <constraint firstItem="OsS-Vg-2iP" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="8" id="Mne-gE-P84"/>
                             <constraint firstItem="ibE-yA-kBj" firstAttribute="top" secondItem="Yt7-kU-Fa0" secondAttribute="bottom" constant="17" id="Nzn-T9-BF4"/>
                             <constraint firstAttribute="trailing" secondItem="Yt7-kU-Fa0" secondAttribute="trailing" constant="8" id="UcG-Og-qoX"/>
@@ -1133,6 +1133,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="667"/>
                     <connections>
                         <outlet property="leadingConstraint" destination="FKR-vJ-MwU" id="O3N-BU-CSR"/>
+                        <outlet property="menuView" destination="0yN-ay-cqc" id="OeW-k1-Qrw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
