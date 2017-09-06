@@ -26,13 +26,15 @@ class DropShadow: UIView {
         layer.masksToBounds = false
         layer.shadowColor = UIColor.black.cgColor
         if self.accessibilityIdentifier == "reverse" {
-            layer.shadowOffset = CGSize(width: 0.0, height: -3)
+            layer.shadowOffset = CGSize(width: 0.0, height: -2)
+            layer.shadowOpacity = 0.1
+            
         } else {
-            layer.shadowOffset = CGSize(width: 0.0, height: 2)
+            layer.shadowOffset = CGSize(width: 0.0, height: 3)
+            layer.shadowOpacity = 0.3
+            
         }
-        layer.shadowOpacity = 0.3
         layer.shadowPath = shadowPath.cgPath
-        
         
     }
 
