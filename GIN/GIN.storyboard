@@ -1066,7 +1066,7 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="163" height="150"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oob-A0-Ajh">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="135" height="53"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="119.5" height="53"/>
                                                                                 <subviews>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Human Rights Activist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="v3A-vz-WMu">
                                                                                         <rect key="frame" x="0.0" y="27.5" width="136" height="19.5"/>
@@ -1075,7 +1075,7 @@
                                                                                         <nil key="highlightedColor"/>
                                                                                     </label>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ishmael Beah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="sTI-2s-7Du">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="27.5"/>
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="119.5" height="27.5"/>
                                                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                                                                         <nil key="textColor"/>
                                                                                         <nil key="highlightedColor"/>
@@ -1627,24 +1627,130 @@
             </objects>
             <point key="canvasLocation" x="-3227" y="-1830"/>
         </scene>
+        <!--Speakers and Panels-->
+        <scene sceneID="rY8-xO-UkO">
+            <objects>
+                <viewController id="3wI-ge-nMj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j6j-JZ-V8e"/>
+                        <viewControllerLayoutGuide type="bottom" id="BQ9-RI-3b3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fQa-MJ-HRm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zAe-jS-A0d">
+                                <rect key="frame" x="0.0" y="20" width="320" height="1480"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qMr-4f-uLX">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1400"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="SfH-Jm-7G3">
+                                                <rect key="frame" x="16" y="20" width="288" height="1360"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZUi-8Z-lHd">
+                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="265.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Human Rights Activist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="B6k-d9-Xk3">
+                                                                <rect key="frame" x="12" y="39.5" width="136" height="19.5"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ishmael Beah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="2hf-IL-xwh">
+                                                                <rect key="frame" x="12" y="12" width="120" height="27.5"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Beah" translatesAutoresizingMaskIntoConstraints="NO" id="d8Z-cY-IeX">
+                                                                <rect key="frame" x="126" y="12" width="150" height="150"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="d8Z-cY-IeX" secondAttribute="height" multiplier="1:1" id="AS2-eX-m1j"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstItem="2hf-IL-xwh" firstAttribute="top" secondItem="ZUi-8Z-lHd" secondAttribute="top" constant="12" id="Gom-WV-rDH"/>
+                                                            <constraint firstItem="B6k-d9-Xk3" firstAttribute="top" secondItem="2hf-IL-xwh" secondAttribute="bottom" id="Iqe-gv-c3O"/>
+                                                            <constraint firstItem="B6k-d9-Xk3" firstAttribute="leading" secondItem="ZUi-8Z-lHd" secondAttribute="leading" constant="12" id="OJz-kt-lYo"/>
+                                                            <constraint firstItem="d8Z-cY-IeX" firstAttribute="top" secondItem="ZUi-8Z-lHd" secondAttribute="top" constant="12" id="Z1d-Oc-2sa"/>
+                                                            <constraint firstItem="2hf-IL-xwh" firstAttribute="leading" secondItem="ZUi-8Z-lHd" secondAttribute="leading" constant="12" id="hnC-Gs-1Bo"/>
+                                                            <constraint firstAttribute="trailing" secondItem="d8Z-cY-IeX" secondAttribute="trailing" constant="12" id="npK-TG-tb8"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dC-vC-Wgi">
+                                                        <rect key="frame" x="0.0" y="273.5" width="288" height="265.5"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Did-SH-8Y0">
+                                                        <rect key="frame" x="0.0" y="547" width="288" height="266"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mr8-RJ-gu0">
+                                                        <rect key="frame" x="0.0" y="821" width="288" height="265.5"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7PX-Nt-v10">
+                                                        <rect key="frame" x="0.0" y="1094.5" width="288" height="265.5"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="SfH-Jm-7G3" secondAttribute="bottom" constant="20" id="HnS-zr-jxd"/>
+                                            <constraint firstItem="SfH-Jm-7G3" firstAttribute="top" secondItem="qMr-4f-uLX" secondAttribute="top" constant="20" id="Ske-KJ-eZ9"/>
+                                            <constraint firstAttribute="trailing" secondItem="SfH-Jm-7G3" secondAttribute="trailing" constant="16" id="UMB-8d-pP5"/>
+                                            <constraint firstAttribute="height" constant="1400" id="kqm-js-pRF"/>
+                                            <constraint firstItem="SfH-Jm-7G3" firstAttribute="leading" secondItem="qMr-4f-uLX" secondAttribute="leading" constant="16" id="oLn-YC-op0"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="qMr-4f-uLX" secondAttribute="bottom" id="IzM-Pu-HJ8"/>
+                                    <constraint firstItem="qMr-4f-uLX" firstAttribute="top" secondItem="zAe-jS-A0d" secondAttribute="top" id="Xxe-T0-kEK"/>
+                                    <constraint firstItem="qMr-4f-uLX" firstAttribute="leading" secondItem="zAe-jS-A0d" secondAttribute="leading" id="ge5-HM-0BU"/>
+                                    <constraint firstAttribute="trailing" secondItem="qMr-4f-uLX" secondAttribute="trailing" id="uyF-Gm-2c0"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zAe-jS-A0d" firstAttribute="top" secondItem="j6j-JZ-V8e" secondAttribute="bottom" id="2ZG-t3-fgt"/>
+                            <constraint firstItem="zAe-jS-A0d" firstAttribute="leading" secondItem="fQa-MJ-HRm" secondAttribute="leading" id="YYu-6x-NUf"/>
+                            <constraint firstItem="qMr-4f-uLX" firstAttribute="width" secondItem="fQa-MJ-HRm" secondAttribute="width" id="dvi-dw-s9k"/>
+                            <constraint firstAttribute="bottom" secondItem="zAe-jS-A0d" secondAttribute="bottom" id="lV8-NK-s23"/>
+                            <constraint firstAttribute="trailing" secondItem="zAe-jS-A0d" secondAttribute="trailing" id="qHn-qC-PKm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Speakers and Panels" id="dj5-gC-2f2"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fzl-it-cYy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3963.1999999999998" y="-1830.5847076461771"/>
+        </scene>
         <!--GINASIA-->
         <scene sceneID="iTA-hS-vNr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hQo-Hr-uPr" sceneMemberID="firstResponder"/>
                 <viewController id="tuT-TI-iF2" customClass="GINHomeViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="u7B-MI-2O8"/>
                         <viewControllerLayoutGuide type="bottom" id="06w-Xv-DNj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1lz-5a-CAs">
-                        <rect key="frame" x="0.0" y="64" width="320" height="736"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="836"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="19C-ZM-o8O">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="836"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4XB-eH-uhr">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gin" translatesAutoresizingMaskIntoConstraints="NO" id="LU5-Dh-lqr">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
@@ -1659,17 +1765,17 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OJD-Ja-ivv" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                <rect key="frame" x="12" y="361" width="296" height="175"/>
+                                                <rect key="frame" x="12" y="361" width="296" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="SJJ-hi-tDA">
-                                                        <rect key="frame" x="12" y="19.5" width="272" height="124.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="SJJ-hi-tDA">
+                                                        <rect key="frame" x="12" y="37.5" width="272" height="121.5"/>
                                                         <string key="text">I believe that if we all work together, we can achieve great things in regards to our planet and its people and that the future can be bright. I have been working with GIN for 11 years and have attended conferences worldwide, led 3 groups in different countries and hosted 2 conferences. Let's channel our energy to make some change!</string>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5oI-Oj-TmD">
-                                                        <rect key="frame" x="35" y="152" width="58" height="15"/>
+                                                        <rect key="frame" x="35" y="167" width="58" height="15"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
                                                         <state key="normal" title="Show less">
                                                             <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -1679,7 +1785,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgn-23-Fpi" userLabel="Expand">
-                                                        <rect key="frame" x="10" y="152" width="15" height="15"/>
+                                                        <rect key="frame" x="10" y="167" width="15" height="15"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="xgn-23-Fpi" secondAttribute="height" multiplier="1:1" id="5V1-T0-aag"/>
                                                             <constraint firstAttribute="height" constant="15" id="Jd2-Tf-XjF"/>
@@ -1693,7 +1799,7 @@
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstItem="5oI-Oj-TmD" firstAttribute="leading" secondItem="xgn-23-Fpi" secondAttribute="trailing" constant="10" id="9gE-RS-FRS"/>
-                                                    <constraint firstAttribute="height" constant="175" id="BSe-ZY-MHn"/>
+                                                    <constraint firstAttribute="height" constant="190" id="BSe-ZY-MHn"/>
                                                     <constraint firstItem="xgn-23-Fpi" firstAttribute="top" secondItem="SJJ-hi-tDA" secondAttribute="bottom" constant="8" id="EJv-S9-AGN"/>
                                                     <constraint firstItem="SJJ-hi-tDA" firstAttribute="leading" secondItem="OJD-Ja-ivv" secondAttribute="leading" constant="12" id="IxN-OA-edr"/>
                                                     <constraint firstAttribute="trailing" secondItem="SJJ-hi-tDA" secondAttribute="trailing" constant="12" id="S1E-A4-dnM"/>
@@ -1707,7 +1813,7 @@
                                                 <rect key="frame" x="12" y="216" width="296" height="145"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIN Director" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="QQ2-Au-GVK">
-                                                        <rect key="frame" x="12" y="18" width="151" height="20"/>
+                                                        <rect key="frame" x="12" y="18" width="123" height="20"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="20" id="d0S-aN-OqY"/>
                                                         </constraints>
@@ -1725,7 +1831,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lavender_leeanne" translatesAutoresizingMaskIntoConstraints="NO" id="lNR-Yu-II4">
-                                                        <rect key="frame" x="163" y="12" width="121" height="121"/>
+                                                        <rect key="frame" x="187" y="12" width="97" height="97"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="lNR-Yu-II4" secondAttribute="height" multiplier="1:1" id="SzI-Pq-t6R"/>
                                                         </constraints>
@@ -1751,8 +1857,8 @@
                                                             <action selector="expandLav:" destination="tuT-TI-iF2" eventType="touchUpInside" id="Uar-gb-cWE"/>
                                                         </connections>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="752" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="fxp-EJ-EIg">
-                                                        <rect key="frame" x="12" y="76" width="159" height="84.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="752" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="fxp-EJ-EIg">
+                                                        <rect key="frame" x="12" y="76" width="183" height="102.5"/>
                                                         <string key="text">I am a high school English teacher and a Global Issues Network advisor, and I am passionate about making the world a better place!</string>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
@@ -1776,23 +1882,21 @@
                                                     <constraint firstAttribute="bottom" secondItem="OSY-6J-lhF" secondAttribute="bottom" constant="8" id="ePp-wq-NEw"/>
                                                     <constraint firstItem="A7s-q8-B4R" firstAttribute="top" secondItem="QQ2-Au-GVK" secondAttribute="bottom" constant="10" id="gOZ-b4-vdr"/>
                                                     <constraint firstItem="lNR-Yu-II4" firstAttribute="top" secondItem="JcT-cG-SpY" secondAttribute="top" constant="12" id="iDf-1F-ird"/>
-                                                    <constraint firstItem="lNR-Yu-II4" firstAttribute="leading" secondItem="QQ2-Au-GVK" secondAttribute="trailing" id="iLe-Po-hHL"/>
                                                     <constraint firstItem="OSY-6J-lhF" firstAttribute="leading" secondItem="8Uz-Z2-3qJ" secondAttribute="trailing" constant="10" id="lvW-WS-9ry"/>
-                                                    <constraint firstAttribute="bottom" secondItem="lNR-Yu-II4" secondAttribute="bottom" constant="12" id="qEG-h9-nAO"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1xd-fe-3nW" userLabel="KExpandUI View" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                <rect key="frame" x="12" y="521" width="296" height="175"/>
+                                                <rect key="frame" x="12" y="521" width="296" height="200"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="nby-Ir-KnB">
-                                                        <rect key="frame" x="12" y="17" width="272" height="127"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="nby-Ir-KnB">
+                                                        <rect key="frame" x="12" y="-44.5" width="272" height="213.5"/>
                                                         <string key="text">I have been in GIN for 4 years and have led it for 2 years now.  This year’s conference theme, “A Place to Stand,” resonates with me a lot because of personal experiences and beliefs. However, I know everybody has a different interpretation of this theme, so where do you stand in this world? I hope you discover answers to this question as you listen to the amazing keynote speakers and changemaker panels!</string>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mlg-a4-4yz">
-                                                        <rect key="frame" x="35" y="152" width="58" height="15"/>
+                                                        <rect key="frame" x="35" y="177" width="58" height="15"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
                                                         <state key="normal" title="Show less">
                                                             <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -1802,7 +1906,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRC-DW-OoE" userLabel="Expand">
-                                                        <rect key="frame" x="10" y="152" width="15" height="15"/>
+                                                        <rect key="frame" x="10" y="177" width="15" height="15"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="HRC-DW-OoE" secondAttribute="height" multiplier="1:1" id="BZw-9R-16Y"/>
                                                             <constraint firstAttribute="height" constant="15" id="V9n-ho-FRp"/>
@@ -1821,7 +1925,7 @@
                                                     <constraint firstAttribute="bottom" secondItem="HRC-DW-OoE" secondAttribute="bottom" constant="8" id="JUi-zR-cHX"/>
                                                     <constraint firstItem="HRC-DW-OoE" firstAttribute="leading" secondItem="1xd-fe-3nW" secondAttribute="leading" constant="10" id="K5i-o9-p7C"/>
                                                     <constraint firstAttribute="trailing" secondItem="nby-Ir-KnB" secondAttribute="trailing" constant="12" id="RZa-zg-jTe"/>
-                                                    <constraint firstAttribute="height" constant="175" id="VhT-oC-Bxx"/>
+                                                    <constraint firstAttribute="height" constant="200" id="VhT-oC-Bxx"/>
                                                     <constraint firstAttribute="bottom" secondItem="Mlg-a4-4yz" secondAttribute="bottom" constant="8" id="m1h-Qh-oBV"/>
                                                     <constraint firstItem="nby-Ir-KnB" firstAttribute="leading" secondItem="1xd-fe-3nW" secondAttribute="leading" constant="12" id="xrx-E3-y2i"/>
                                                 </constraints>
@@ -1830,7 +1934,7 @@
                                                 <rect key="frame" x="12" y="376" width="296" height="145"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIN Student Head" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="Ckr-X0-naG">
-                                                        <rect key="frame" x="12" y="18" width="151" height="20"/>
+                                                        <rect key="frame" x="12" y="18" width="176" height="20"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="20" id="wyR-dM-jFY"/>
                                                         </constraints>
@@ -1848,7 +1952,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Karen" translatesAutoresizingMaskIntoConstraints="NO" id="gdK-mj-4Fv">
-                                                        <rect key="frame" x="163" y="12" width="121" height="121"/>
+                                                        <rect key="frame" x="188" y="12" width="96" height="96"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="gdK-mj-4Fv" secondAttribute="height" multiplier="1:1" id="4P1-ln-PQg"/>
                                                         </constraints>
@@ -1874,8 +1978,8 @@
                                                             <action selector="expandKaren:" destination="tuT-TI-iF2" eventType="touchUpInside" id="Wc4-Y5-dPv"/>
                                                         </connections>
                                                     </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="jQ7-tS-oBD" userLabel="KHeader">
-                                                        <rect key="frame" x="12" y="76" width="143" height="82"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="jQ7-tS-oBD" userLabel="KHeader">
+                                                        <rect key="frame" x="12" y="76" width="168" height="20.5"/>
                                                         <string key="text">I am currently in 11th grade and I am passionate about leading a sustainable life and making choices that benefit the environment.</string>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
@@ -1895,7 +1999,6 @@
                                                     <constraint firstItem="gdK-mj-4Fv" firstAttribute="top" secondItem="Gsl-YJ-5n2" secondAttribute="top" constant="12" id="ZD5-OX-bku"/>
                                                     <constraint firstItem="abZ-yY-91X" firstAttribute="leading" secondItem="Gsl-YJ-5n2" secondAttribute="leading" constant="10" id="ZR4-RS-Oeh"/>
                                                     <constraint firstItem="yDx-vw-Wmb" firstAttribute="leading" secondItem="abZ-yY-91X" secondAttribute="trailing" constant="10" id="h9g-k3-b5u"/>
-                                                    <constraint firstAttribute="bottom" secondItem="gdK-mj-4Fv" secondAttribute="bottom" constant="12" id="hEG-bz-lVg"/>
                                                     <constraint firstItem="yDx-vw-Wmb" firstAttribute="height" secondItem="abZ-yY-91X" secondAttribute="height" id="lMe-tR-0WA"/>
                                                     <constraint firstItem="mK2-Rr-keP" firstAttribute="top" secondItem="Ckr-X0-naG" secondAttribute="bottom" constant="10" id="lvy-s6-7g5"/>
                                                     <constraint firstAttribute="trailing" secondItem="gdK-mj-4Fv" secondAttribute="trailing" constant="12" id="n0n-V5-Kmf"/>
@@ -1925,7 +2028,7 @@
                                             <constraint firstItem="LU5-Dh-lqr" firstAttribute="top" secondItem="4XB-eH-uhr" secondAttribute="top" id="fij-to-LzM"/>
                                             <constraint firstItem="1xd-fe-3nW" firstAttribute="leading" secondItem="4XB-eH-uhr" secondAttribute="leading" constant="12" id="kXl-z7-DGK"/>
                                             <constraint firstItem="nby-Ir-KnB" firstAttribute="top" secondItem="jQ7-tS-oBD" secondAttribute="bottom" constant="4" id="lNy-qo-iRw"/>
-                                            <constraint firstAttribute="height" constant="700" id="pxz-Az-Sxq"/>
+                                            <constraint firstAttribute="height" constant="1000" id="pxz-Az-Sxq"/>
                                             <constraint firstItem="JcT-cG-SpY" firstAttribute="top" secondItem="LU5-Dh-lqr" secondAttribute="bottom" constant="16" id="uwT-fc-cKv"/>
                                             <constraint firstItem="RHr-O2-nDq" firstAttribute="centerX" secondItem="LU5-Dh-lqr" secondAttribute="centerX" id="xyk-ZJ-Yyx"/>
                                             <constraint firstItem="OJD-Ja-ivv" firstAttribute="top" secondItem="JcT-cG-SpY" secondAttribute="bottom" id="zmO-34-V5V"/>
@@ -1942,7 +2045,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="lNR-Yu-II4" firstAttribute="width" secondItem="1lz-5a-CAs" secondAttribute="width" multiplier="0.3" constant="1" id="GGD-CJ-HQl"/>
                             <constraint firstItem="19C-ZM-o8O" firstAttribute="leading" secondItem="1lz-5a-CAs" secondAttribute="leading" id="N1O-Lb-MFL"/>
+                            <constraint firstItem="gdK-mj-4Fv" firstAttribute="width" secondItem="1lz-5a-CAs" secondAttribute="width" multiplier="0.3" id="Xf0-La-qiC"/>
                             <constraint firstItem="4XB-eH-uhr" firstAttribute="width" secondItem="1lz-5a-CAs" secondAttribute="width" id="amn-BX-pHk"/>
                             <constraint firstAttribute="bottom" secondItem="19C-ZM-o8O" secondAttribute="bottom" id="bYb-Hz-2kT"/>
                             <constraint firstAttribute="trailing" secondItem="19C-ZM-o8O" secondAttribute="trailing" id="fwN-Tp-5wM"/>
@@ -1951,7 +2056,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="GINASIA" id="fnP-Qw-lPp"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="800"/>
+                    <size key="freeformSize" width="320" height="900"/>
                     <connections>
                         <outlet property="KExpandUIView" destination="1xd-fe-3nW" id="R2W-xx-x36"/>
                         <outlet property="KarenUIView" destination="Gsl-YJ-5n2" id="RM2-QA-Vy7"/>
@@ -1966,6 +2071,7 @@
                         <outlet property="mainView" destination="4XB-eH-uhr" id="GfN-ES-ORU"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hQo-Hr-uPr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2341" y="1083"/>
         </scene>
