@@ -1636,20 +1636,32 @@
                         <viewControllerLayoutGuide type="bottom" id="BQ9-RI-3b3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fQa-MJ-HRm">
-                        <rect key="frame" x="0.0" y="64" width="320" height="2036"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="2236"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zAe-jS-A0d">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="2036"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="2236"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qMr-4f-uLX">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2200"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="SfH-Jm-7G3">
-                                                <rect key="frame" x="16" y="20" width="288" height="1960"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gin" translatesAutoresizingMaskIntoConstraints="NO" id="Pc8-vZ-wcN">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="R95-NQ-lOW"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KEYNOTE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAd-dq-ci0">
+                                                <rect key="frame" x="101.5" y="83.5" width="116.5" height="33"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="SfH-Jm-7G3">
+                                                <rect key="frame" x="16" y="220" width="288" height="1960"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZUi-8Z-lHd" userLabel="Beah" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="379"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="400"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Human Rights Activist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="B6k-d9-Xk3">
                                                                 <rect key="frame" x="12" y="41" width="145.5" height="20.5"/>
@@ -1670,14 +1682,14 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Sp1-dZ-8n4">
-                                                                <rect key="frame" x="12" y="69.5" width="144" height="112.5"/>
+                                                                <rect key="frame" x="12" y="69.5" width="144" height="133.5"/>
                                                                 <string key="text">Ishmael Beah, born in Sierra Leone, West Africa, is the New York Times bestselling author of A Long Way Gone, Memoirs of a Boy Soldier and Radiance of Tomorrow, A Novel both published by Farrar Straus &amp; Giroux.</string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="f6m-ea-Pkp">
-                                                                <rect key="frame" x="12" y="186" width="264" height="180.5"/>
+                                                                <rect key="frame" x="12" y="207" width="264" height="180.5"/>
                                                                 <string key="text">His memoir has been published in over 40 languages and was nominated for a Quill Award in the Best Debut Author category for 2007. Time Magazine named the book as one of the Top 10 Nonfiction books of 2007. His work has appeared in the New York Times, New York Times Magazine, Time magazine, International Herald Tribune, Globe &amp; Mail, Rutgers University Press, Vespertine Press, LIT, The Guardian, Parabola magazines and numerous academic journals. Mr. Beah’s keynote will focus on his experiences and his reflections on conflict, war, and healing for our world.   </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                 <nil key="textColor"/>
@@ -1691,6 +1703,7 @@
                                                             <constraint firstItem="d8Z-cY-IeX" firstAttribute="leading" secondItem="Sp1-dZ-8n4" secondAttribute="trailing" constant="8" id="H5k-qs-SJp"/>
                                                             <constraint firstItem="f6m-ea-Pkp" firstAttribute="top" secondItem="Sp1-dZ-8n4" secondAttribute="bottom" constant="4" id="IPG-Re-eff"/>
                                                             <constraint firstItem="B6k-d9-Xk3" firstAttribute="top" secondItem="2hf-IL-xwh" secondAttribute="bottom" id="Iqe-gv-c3O"/>
+                                                            <constraint firstAttribute="height" constant="400" id="O6X-9b-sd5"/>
                                                             <constraint firstItem="B6k-d9-Xk3" firstAttribute="leading" secondItem="ZUi-8Z-lHd" secondAttribute="leading" constant="12" id="OJz-kt-lYo"/>
                                                             <constraint firstItem="Sp1-dZ-8n4" firstAttribute="top" secondItem="B6k-d9-Xk3" secondAttribute="bottom" constant="8" id="Xm4-g4-cXR"/>
                                                             <constraint firstItem="d8Z-cY-IeX" firstAttribute="top" secondItem="ZUi-8Z-lHd" secondAttribute="top" constant="12" id="Z1d-Oc-2sa"/>
@@ -1702,7 +1715,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N3X-Fe-1Fz" userLabel="Dalglish" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="395" width="288" height="379.5"/>
+                                                        <rect key="frame" x="0.0" y="416" width="288" height="325"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Humanitarian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="e8P-3V-7Iu">
                                                                 <rect key="frame" x="12" y="41" width="89.5" height="20.5"/>
@@ -1723,14 +1736,14 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="mdm-4j-zVq">
-                                                                <rect key="frame" x="12" y="69.5" width="144" height="115"/>
+                                                                <rect key="frame" x="12" y="69.5" width="144" height="91.5"/>
                                                                 <string key="text">Peter Dalglish is the senior advisor for UN-Habitat Afghanistan and has served as the chief technical advisor for the United Nations.</string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="4yt-MO-5dm">
-                                                                <rect key="frame" x="12" y="188.5" width="264" height="178.5"/>
+                                                                <rect key="frame" x="12" y="165" width="264" height="148"/>
                                                                 <string key="text">He is the founder of Street Kids International, co-founder of Schools Without Borders and a founding board member of Ashoka Canada. He is a member of the Order of Canada. Mr. Dalglish is a passionate believer in how each person can make a difference in our world and his keynote will help all delegates reflect on how they can truly engage with an issue in a way that makes our world a better place. </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                 <nil key="textColor"/>
@@ -1752,10 +1765,11 @@
                                                             <constraint firstItem="Rm3-6d-hDs" firstAttribute="leading" secondItem="mdm-4j-zVq" secondAttribute="trailing" constant="8" id="fp4-vR-sFW"/>
                                                             <constraint firstItem="e8P-3V-7Iu" firstAttribute="top" secondItem="4bv-ic-AnY" secondAttribute="bottom" id="q7z-MN-ky8"/>
                                                             <constraint firstAttribute="trailing" secondItem="Rm3-6d-hDs" secondAttribute="trailing" constant="12" id="u2a-WB-b6I"/>
+                                                            <constraint firstAttribute="height" constant="325" id="vup-My-4dv"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jOv-o2-9Wo" userLabel="Wijsen" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="790.5" width="288" height="379"/>
+                                                        <rect key="frame" x="0.0" y="757" width="288" height="400"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teenagers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="hJ9-Ti-Ld5">
                                                                 <rect key="frame" x="12" y="69.5" width="69" height="20.5"/>
@@ -1776,14 +1790,14 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="BTn-JM-hbD">
-                                                                <rect key="frame" x="12" y="98" width="144" height="84"/>
+                                                                <rect key="frame" x="12" y="98" width="144" height="105.5"/>
                                                                 <string key="text">Two teenage sisters have taken a stand against pollution in Bali – and they’ve convinced the government to ban plastic bags by the year 2018. </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="2XA-bF-bRL">
-                                                                <rect key="frame" x="12" y="186" width="264" height="180.5"/>
+                                                                <rect key="frame" x="12" y="207.5" width="264" height="180.5"/>
                                                                 <string key="text">The island suffers from a crushing plastic pollution problem, so Isabel and Melati Wijsen decided to take action and start Bye Bye Plastic Bags to mobilize other kids and adults to work toward a cleaner Bali. To achieve the goal, the girls have organized beach clean-ups, put on a fashion show, given a TED talk, gone on a hunger strike, and met with the UN Secretary General. Their keynote will focus on what they’ve done so far and on why they believe so passionately in their cause.</string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                 <nil key="textColor"/>
@@ -1801,6 +1815,7 @@
                                                             <constraint firstItem="hJ9-Ti-Ld5" firstAttribute="leading" secondItem="jOv-o2-9Wo" secondAttribute="leading" constant="12" id="Tg0-HT-miK"/>
                                                             <constraint firstItem="2XA-bF-bRL" firstAttribute="leading" secondItem="jOv-o2-9Wo" secondAttribute="leading" constant="12" id="Uil-6V-Z9y"/>
                                                             <constraint firstItem="zsR-5F-OsU" firstAttribute="leading" secondItem="BTn-JM-hbD" secondAttribute="trailing" constant="8" id="Y0I-ws-DsB"/>
+                                                            <constraint firstAttribute="height" constant="400" id="ZAF-ns-xtH"/>
                                                             <constraint firstItem="zsR-5F-OsU" firstAttribute="top" secondItem="jOv-o2-9Wo" secondAttribute="top" constant="12" id="cdW-ul-Lw4"/>
                                                             <constraint firstItem="n5N-Ri-kUf" firstAttribute="leading" secondItem="jOv-o2-9Wo" secondAttribute="leading" constant="12" id="foU-dZ-FRr"/>
                                                             <constraint firstAttribute="trailing" secondItem="2XA-bF-bRL" secondAttribute="trailing" constant="12" id="nIL-2b-4HN"/>
@@ -1809,7 +1824,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pdV-e2-IFc" userLabel="Bedard" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="1185.5" width="288" height="379.5"/>
+                                                        <rect key="frame" x="0.0" y="1173" width="288" height="375"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Executive Director of JUMP!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="I4E-sf-qg8">
                                                                 <rect key="frame" x="12" y="41" width="152" height="41"/>
@@ -1830,14 +1845,14 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Justin is the executive director of the Jump! Foundation, a non-profit social enterprise focused on leadership development. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="d3q-ka-3gq">
-                                                                <rect key="frame" x="12" y="90" width="144" height="92.5"/>
+                                                                <rect key="frame" x="12" y="90" width="144" height="88.5"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="3xW-i2-vTn">
-                                                                <rect key="frame" x="12" y="186.5" width="264" height="180.5"/>
-                                                                <mutableString key="text">Justin has a strong passion for community development and educational innovation, and he is recognized for his commitment to youth programs around the world.  Justin has filled his life with adventure guiding, organizational consulting, leadership facilitation, community development, and time playing in the wilderness. He is a co-founder of the JUMP! Foundation and has been a key driving force behind JUMP’s growth and development since 2006. Justin’s keynote address will be an interactive experience. Get ready to be active during this session!</mutableString>
+                                                                <rect key="frame" x="12" y="182.5" width="264" height="180.5"/>
+                                                                <string key="text">Justin has a strong passion for community development and educational innovation, and he is recognized for his commitment to youth programs around the world.  Justin has filled his life with adventure guiding, organizational consulting, leadership facilitation, community development, and time playing in the wilderness. He is a co-founder of the JUMP! Foundation and has been a key driving force behind JUMP’s growth and development since 2006. Justin’s keynote address will be an interactive experience. Get ready to be active during this session!</string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -1854,6 +1869,7 @@
                                                             <constraint firstItem="Iaa-Ha-loo" firstAttribute="leading" secondItem="d3q-ka-3gq" secondAttribute="trailing" constant="8" id="PiW-Hh-nMc"/>
                                                             <constraint firstItem="3h1-Vy-f5E" firstAttribute="leading" secondItem="pdV-e2-IFc" secondAttribute="leading" constant="12" id="cch-kk-tKa"/>
                                                             <constraint firstItem="d3q-ka-3gq" firstAttribute="leading" secondItem="pdV-e2-IFc" secondAttribute="leading" constant="12" id="dYU-ha-DEu"/>
+                                                            <constraint firstAttribute="height" constant="375" id="gAf-mw-aqI"/>
                                                             <constraint firstAttribute="trailing" secondItem="3xW-i2-vTn" secondAttribute="trailing" constant="12" id="iYA-dK-FeJ"/>
                                                             <constraint firstItem="I4E-sf-qg8" firstAttribute="leading" secondItem="pdV-e2-IFc" secondAttribute="leading" constant="12" id="kde-s9-ntM"/>
                                                             <constraint firstItem="3h1-Vy-f5E" firstAttribute="top" secondItem="pdV-e2-IFc" secondAttribute="top" constant="12" id="qGE-a8-aYc"/>
@@ -1862,7 +1878,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yKh-Ee-FCG" userLabel="Phuc" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="1581" width="288" height="379"/>
+                                                        <rect key="frame" x="0.0" y="1564" width="288" height="396"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photographer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="1cc-XB-YZK">
                                                                 <rect key="frame" x="12" y="41" width="93" height="20.5"/>
@@ -1883,14 +1899,14 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ajm-3W-LeP">
-                                                                <rect key="frame" x="12" y="69.5" width="144" height="129"/>
+                                                                <rect key="frame" x="12" y="69.5" width="144" height="146"/>
                                                                 <string key="text">For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred. </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="b13-NF-Fvh">
-                                                                <rect key="frame" x="12" y="202.5" width="264" height="164"/>
+                                                                <rect key="frame" x="12" y="219.5" width="264" height="164"/>
                                                                 <string key="text">The scars that covered 65 percent of her body were not only disfiguring – making her believe no one would ever love her – they hurt. A lot. For the past 20 years, Phuc has traveled the world telling her story of hope borne out of despair. Her passion for peaceful resolutions to conflict in our world is inspiring. Kim is the girl who was captured in a famous 1972 photograph that brought the world's attention to the horrors of the war in Vietnam. </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                 <nil key="textColor"/>
@@ -1919,10 +1935,15 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="DAd-dq-ci0" firstAttribute="centerY" secondItem="Pc8-vZ-wcN" secondAttribute="centerY" id="8dG-2C-Ahe"/>
+                                            <constraint firstAttribute="trailing" secondItem="Pc8-vZ-wcN" secondAttribute="trailing" id="BLV-rU-On8"/>
                                             <constraint firstAttribute="bottom" secondItem="SfH-Jm-7G3" secondAttribute="bottom" constant="20" id="HnS-zr-jxd"/>
-                                            <constraint firstItem="SfH-Jm-7G3" firstAttribute="top" secondItem="qMr-4f-uLX" secondAttribute="top" constant="20" id="Ske-KJ-eZ9"/>
                                             <constraint firstAttribute="trailing" secondItem="SfH-Jm-7G3" secondAttribute="trailing" constant="16" id="UMB-8d-pP5"/>
-                                            <constraint firstAttribute="height" constant="2000" id="kqm-js-pRF"/>
+                                            <constraint firstItem="Pc8-vZ-wcN" firstAttribute="leading" secondItem="qMr-4f-uLX" secondAttribute="leading" id="aFG-aW-eIV"/>
+                                            <constraint firstItem="Pc8-vZ-wcN" firstAttribute="top" secondItem="qMr-4f-uLX" secondAttribute="top" id="fo8-qu-sxB"/>
+                                            <constraint firstItem="DAd-dq-ci0" firstAttribute="centerX" secondItem="Pc8-vZ-wcN" secondAttribute="centerX" id="gTH-B8-7Sr"/>
+                                            <constraint firstItem="SfH-Jm-7G3" firstAttribute="top" secondItem="Pc8-vZ-wcN" secondAttribute="bottom" constant="20" id="kYk-X7-5CD"/>
+                                            <constraint firstAttribute="height" constant="2200" id="kqm-js-pRF"/>
                                             <constraint firstItem="SfH-Jm-7G3" firstAttribute="leading" secondItem="qMr-4f-uLX" secondAttribute="leading" constant="16" id="oLn-YC-op0"/>
                                         </constraints>
                                     </view>
@@ -1951,7 +1972,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Speakers and Panels" id="dj5-gC-2f2"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="2100"/>
+                    <size key="freeformSize" width="320" height="2300"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzl-it-cYy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
