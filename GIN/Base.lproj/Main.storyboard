@@ -1111,6 +1111,21 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <segue destination="JDR-WJ-eV2" kind="show" id="xTg-72-Jvg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eip-gK-aCU" userLabel="Upper Building Button">
+                                <rect key="frame" x="116" y="154" width="75" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="Jjz-lz-LO4" kind="show" id="OWL-EV-OcG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyh-IW-hIs" userLabel="Intermediate Building Button 1 ">
+                                <rect key="frame" x="211" y="355" width="75" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="luW-X5-3F5" userLabel="Intermediate Building Button 2">
+                                <rect key="frame" x="211" y="287" width="38" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -1223,7 +1238,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <scene sceneID="SL6-y5-F7U">
             <objects>
                 <tableViewController id="JDR-WJ-eV2" customClass="LocationSearch" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="CVW-L4-3ew" customClass="Loca">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="CVW-L4-3ew" customClass="Loca">
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -5332,5 +5347,8 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="yangs dumplings" width="515" height="346"/>
         <image name="yu garden" width="1200" height="798"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="aw8-rH-SAa"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
