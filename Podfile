@@ -7,7 +7,5 @@ target 'CISSMUN' do
 
   # Pods for CISSMUN
 
-  pod ‘Firebase/Core’
-  pod ‘Firebase/Database’  
 
 end

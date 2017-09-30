@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Firebase
 import UserNotifications
 
 @UIApplicationMain
@@ -17,9 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-        FirebaseApp.configure()
-        
+                
         // Setting appearances/formatting for navigation bar
         let attrs = [
             NSForegroundColorAttributeName: UIColor.white,
@@ -35,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Load user conference
         loadConference()
         
-        registerForPushNotifications()
+        //registerForPushNotifications()
         
         return true
     }
