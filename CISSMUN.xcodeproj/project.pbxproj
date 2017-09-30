@@ -464,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CISSMUN.entitlements;
 				DEVELOPMENT_TEAM = NB52NRZ5D5;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GIN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cissdev.cissmun;
@@ -479,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CISSMUN.entitlements;
 				DEVELOPMENT_TEAM = NB52NRZ5D5;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GIN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cissdev.cissmun;

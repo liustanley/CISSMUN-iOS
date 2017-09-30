@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Black</string>
+            <string>Avenir-Book</string>
+            <string>Avenir-BookOblique</string>
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Light</string>
+            <string>Avenir-LightOblique</string>
+            <string>Avenir-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Tab Bar Controller-->
         <scene sceneID="Xtk-cI-4Yw">
@@ -84,7 +95,6 @@
                     <tabBarItem key="tabBarItem" title="Home" image="icons8-Home " selectedImage="icons8-Home Filled " id="4J1-Bj-imc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="b8j-nk-SsN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.1176470588" green="0.1215686275" blue="0.1176470588" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
@@ -104,7 +114,6 @@
                     <tabBarItem key="tabBarItem" title="Keynote" image="icons8-Presentation " selectedImage="icons8-Presentation Filled " id="CSx-ZK-mBH"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="Ojx-PW-rwB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.1176470588" green="0.1215686275" blue="0.1176470588" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
@@ -124,7 +133,6 @@
                     <tabBarItem key="tabBarItem" title="Schedule" image="icons8-Schedule " selectedImage="icons8-Schedule Filled " id="A1n-9e-Tsy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" translucent="NO" id="wsp-oh-f6C">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.1176470588" green="0.1215686275" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
@@ -146,7 +154,7 @@
                         <viewControllerLayoutGuide type="bottom" id="1b2-1n-d4O"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JNw-7d-SQE">
-                        <rect key="frame" x="0.0" y="64" width="320" height="1286"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1286"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u45-hu-it5">
@@ -1636,7 +1644,7 @@
                         <viewControllerLayoutGuide type="bottom" id="BQ9-RI-3b3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fQa-MJ-HRm">
-                        <rect key="frame" x="0.0" y="64" width="320" height="2236"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="2236"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zAe-jS-A0d">
@@ -1987,7 +1995,7 @@
                         <viewControllerLayoutGuide type="bottom" id="06w-Xv-DNj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1lz-5a-CAs">
-                        <rect key="frame" x="0.0" y="64" width="320" height="836"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="836"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="19C-ZM-o8O">
