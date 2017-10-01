@@ -2314,9 +2314,11 @@
                         <outlet property="KarenUIView" destination="Gsl-YJ-5n2" id="RM2-QA-Vy7"/>
                         <outlet property="LExpandUIView" destination="OJD-Ja-ivv" id="K5Z-zg-XYu"/>
                         <outlet property="LavenderUIView" destination="JcT-cG-SpY" id="pEa-ES-eQ3"/>
+                        <outlet property="kBody" destination="nby-Ir-KnB" id="dIQ-5m-qAC"/>
                         <outlet property="kHeader" destination="jQ7-tS-oBD" id="E02-sl-8jo"/>
                         <outlet property="kMoreImage" destination="abZ-yY-91X" id="xKq-gf-rDn"/>
                         <outlet property="kMoreText" destination="yDx-vw-Wmb" id="ukE-gU-2Dq"/>
+                        <outlet property="lBody" destination="SJJ-hi-tDA" id="pfW-oj-xOd"/>
                         <outlet property="lHeader" destination="fxp-EJ-EIg" id="Xvi-8d-ujL"/>
                         <outlet property="lMoreImage" destination="8Uz-Z2-3qJ" id="ETz-ab-3b5"/>
                         <outlet property="lMoreText" destination="OSY-6J-lhF" id="RtO-Wx-btG"/>
