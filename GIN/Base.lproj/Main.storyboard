@@ -1078,6 +1078,15 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <segue destination="3U4-L5-i7V" kind="show" id="nrO-ZU-JAX"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on each building on the map to zoom in." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yt7-kU-Fa0">
+                                <rect key="frame" x="87.666666666666686" y="130" width="239" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="KKx-V9-8DP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0yN-ay-cqc">
                                 <rect key="frame" x="-210" y="0.0" width="200" height="672"/>
                                 <subviews>
@@ -1176,15 +1185,6 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <constraint firstItem="Uo2-tJ-3pP" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="leading" id="rVr-If-ggX"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on each building on the map to zoom in." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yt7-kU-Fa0">
-                                <rect key="frame" x="87.666666666666686" y="130" width="239" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="KKx-V9-8DP"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
