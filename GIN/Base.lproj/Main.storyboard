@@ -1116,7 +1116,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Search" id="yD5-bf-zzb">
                             <connections>
-                                <segue destination="JDR-WJ-eV2" kind="show" id="wAw-8x-q4j"/>
+                                <segue destination="IQM-Sr-j9g" kind="show" id="oaM-xq-hk7"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -1198,23 +1198,33 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
             </objects>
             <point key="canvasLocation" x="-3093.4782608695655" y="-413.72282608695656"/>
         </scene>
-        <!--Location Search-->
-        <scene sceneID="SL6-y5-F7U">
+        <!--Search-->
+        <scene sceneID="Dkf-VO-QdT">
             <objects>
-                <tableViewController id="JDR-WJ-eV2" customClass="LocationSearch" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="CVW-L4-3ew" customClass="Loca">
+                <tableViewController title="Search" id="IQM-Sr-j9g" customClass="LocationSearch" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="rCy-5j-ioV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KLa-PI-J6F">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KLa-PI-J6F" id="uJA-dj-HNO">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="JDR-WJ-eV2" id="Tzb-mS-btw"/>
-                            <outlet property="delegate" destination="JDR-WJ-eV2" id="KmQ-Mh-MsA"/>
+                            <outlet property="dataSource" destination="IQM-Sr-j9g" id="ofH-zy-eSG"/>
+                            <outlet property="delegate" destination="IQM-Sr-j9g" id="uWY-SK-cIU"/>
                         </connections>
                     </tableView>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GcK-ui-3gP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="umy-Jl-9DU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3956" y="275"/>
+            <point key="canvasLocation" x="-4283" y="256"/>
         </scene>
         <!--Intermediate Building (MS)-->
         <scene sceneID="x3b-0u-qCX">
