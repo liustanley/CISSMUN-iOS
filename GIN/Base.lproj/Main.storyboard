@@ -982,7 +982,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
             </objects>
             <point key="canvasLocation" x="900" y="1203.1484257871066"/>
         </scene>
-        <!--Map-->
+        <!--Campus Map-->
         <scene sceneID="Z8r-MY-f6S">
             <objects>
                 <viewController id="qtl-lD-hPh" customClass="MapsController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
@@ -994,99 +994,12 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" placeholder="Search Your Current Location" translatesAutoresizingMaskIntoConstraints="NO" id="m8X-DL-4Z4">
-                                <rect key="frame" x="13" y="8" width="388" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="YBs-19-cqh"/>
-                                </constraints>
-                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
-                                <scopeButtonTitles>
-                                    <string>Title</string>
-                                    <string>Title</string>
-                                </scopeButtonTitles>
-                            </searchBar>
-                            <searchBar contentMode="redraw" placeholder="Search Your Destination" translatesAutoresizingMaskIntoConstraints="NO" id="OsS-Vg-2iP">
-                                <rect key="frame" x="13" y="54" width="388" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="t0I-Cr-WOr"/>
-                                </constraints>
-                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
-                            </searchBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ConcordiaMap" translatesAutoresizingMaskIntoConstraints="NO" id="ibE-yA-kBj">
-                                <rect key="frame" x="12" y="159" width="398" height="503"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="ConcordiaMap" translatesAutoresizingMaskIntoConstraints="NO" id="ibE-yA-kBj">
+                                <rect key="frame" x="12" y="87" width="398" height="575"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="398" id="HnG-qd-eOp"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dvw-k4-Y7h">
-                                <rect key="frame" x="184" y="92" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="90b-fj-Bap"/>
-                                    <constraint firstAttribute="width" constant="46" id="DPD-CQ-naR"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="JDR-WJ-eV2" kind="show" id="xTg-72-Jvg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eip-gK-aCU" userLabel="Upper Building Button">
-                                <rect key="frame" x="116" y="154" width="75" height="91"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="Jjz-lz-LO4" kind="show" id="OWL-EV-OcG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyh-IW-hIs" userLabel="Intermediate Building Button 1 ">
-                                <rect key="frame" x="211" y="355" width="75" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="mcV-MX-kjh" kind="show" id="cuS-cT-Zpj"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="luW-X5-3F5" userLabel="Intermediate Building Button 2">
-                                <rect key="frame" x="211" y="287" width="38" height="78"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="mcV-MX-kjh" kind="show" id="7Cp-mr-NiT"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTH-aA-vbm" userLabel="Lower Building Button">
-                                <rect key="frame" x="294" y="287" width="47" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="BEF-lz-9QA" kind="show" id="opl-0h-82N"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqk-nL-W3N" userLabel="Phoenix Center Button 1">
-                                <rect key="frame" x="136" y="246" width="46" height="119"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="uNY-mp-DFV" kind="show" id="e3j-4v-D2t"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vst-tu-MRG" userLabel="Phoenix Center Button 2">
-                                <rect key="frame" x="102" y="276" width="36" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="uNY-mp-DFV" kind="show" id="O22-HO-Kvr"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dh6-cO-7LT" userLabel="Rittman Center Button">
-                                <rect key="frame" x="61" y="378" width="60" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="3U4-L5-i7V" kind="show" id="nrO-ZU-JAX"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on each building on the map to zoom in." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yt7-kU-Fa0">
-                                <rect key="frame" x="87.666666666666686" y="130" width="239" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="KKx-V9-8DP"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0yN-ay-cqc">
                                 <rect key="frame" x="-210" y="0.0" width="200" height="672"/>
                                 <subviews>
@@ -1190,27 +1103,19 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <constraints>
                             <constraint firstItem="0yN-ay-cqc" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" id="0O6-Tp-X15"/>
                             <constraint firstItem="f0c-41-mFQ" firstAttribute="top" secondItem="ibE-yA-kBj" secondAttribute="bottom" constant="10" id="0xQ-8h-0jA"/>
-                            <constraint firstItem="m8X-DL-4Z4" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="8" id="98O-0O-TSU"/>
                             <constraint firstItem="0yN-ay-cqc" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="-210" id="FKR-vJ-MwU"/>
-                            <constraint firstItem="Dvw-k4-Y7h" firstAttribute="centerX" secondItem="2zI-H3-Oo9" secondAttribute="centerX" id="Lv4-ie-xYK"/>
-                            <constraint firstItem="m8X-DL-4Z4" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="13" id="OrM-ke-cGu"/>
-                            <constraint firstAttribute="trailing" secondItem="ibE-yA-kBj" secondAttribute="trailingMargin" constant="12" id="P5w-RR-rYn"/>
-                            <constraint firstItem="Yt7-kU-Fa0" firstAttribute="top" secondItem="Dvw-k4-Y7h" secondAttribute="bottom" constant="8" id="aYb-ox-Map"/>
-                            <constraint firstItem="ibE-yA-kBj" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="12" id="d8v-2W-UKq"/>
-                            <constraint firstAttribute="trailing" secondItem="OsS-Vg-2iP" secondAttribute="trailing" constant="13" id="foQ-gA-pVS"/>
-                            <constraint firstItem="Dvw-k4-Y7h" firstAttribute="top" secondItem="OsS-Vg-2iP" secondAttribute="bottom" constant="8" id="hqg-Kg-NY6"/>
-                            <constraint firstItem="OsS-Vg-2iP" firstAttribute="top" secondItem="m8X-DL-4Z4" secondAttribute="bottom" constant="16" id="kVI-KO-jdn"/>
-                            <constraint firstItem="OsS-Vg-2iP" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="13" id="l4i-gu-kYX"/>
                             <constraint firstAttribute="bottom" secondItem="0yN-ay-cqc" secondAttribute="bottom" id="nII-r0-8te"/>
-                            <constraint firstItem="Yt7-kU-Fa0" firstAttribute="centerX" secondItem="2zI-H3-Oo9" secondAttribute="centerX" id="oAE-vC-l7V"/>
-                            <constraint firstItem="ibE-yA-kBj" firstAttribute="top" secondItem="Yt7-kU-Fa0" secondAttribute="bottom" constant="8" id="rBg-ht-Oht"/>
-                            <constraint firstAttribute="trailing" secondItem="m8X-DL-4Z4" secondAttribute="trailing" constant="13" id="vJT-9G-iaT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Map" id="D3c-Zg-9cX">
+                    <navigationItem key="navigationItem" title="Campus Map" id="D3c-Zg-9cX">
                         <barButtonItem key="leftBarButtonItem" image="Image" id="sjY-RW-OOf">
                             <connections>
                                 <action selector="openMenu:" destination="qtl-lD-hPh" id="5iv-EY-1s7"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Search" id="yD5-bf-zzb">
+                            <connections>
+                                <segue destination="JDR-WJ-eV2" kind="show" id="wAw-8x-q4j"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -5402,12 +5307,5 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="yangs dumplings" width="515" height="346"/>
         <image name="yu garden" width="1200" height="798"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="nrO-ZU-JAX"/>
-        <segue reference="e3j-4v-D2t"/>
-        <segue reference="opl-0h-82N"/>
-        <segue reference="fOn-aP-dVJ"/>
-        <segue reference="aw8-rH-SAa"/>
-    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
