@@ -20,15 +20,15 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.searchController = UISearchController(searchResultsController: self.resultsController)
-        self.tableView.tableHeaderView = self.searchController.searchBar
-        self.searchController.searchResultsUpdater = self
-        self.resultsController.tableView.dataSource = self
-        self.resultsController.tableView.delegate = self
-        self.searchController.dimsBackgroundDuringPresentation = false
+        searchController = UISearchController(searchResultsController: resultsController)
+        tableView.tableHeaderView = searchController.searchBar
+        searchController.searchResultsUpdater = self
+        resultsController.tableView.dataSource = self
+        resultsController.tableView.delegate = self
+        searchController.dimsBackgroundDuringPresentation = false
         definesPresentationContext = true
-        self.searchController.hidesNavigationBarDuringPresentation = false
-        searchController.searchBar.barTintColor = UIColor.black
+        //searchController.hidesNavigationBarDuringPresentation = false
+        //searchController.searchBar.barTintColor = UIColor.black
     }
 
         
@@ -53,11 +53,11 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
     
         override  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 
-        if tableView == self.tableView{
-            return self.array.count
+        if tableView == resultsController.tableView{
+            return filtered.count
         }
         else {
-            return self.filtered.count
+            return array.count
         }
  
     }
@@ -65,11 +65,11 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
         override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
     
-        if tableView == self.tableView{
-            cell.textLabel?.text = array[indexPath.row]
+        if tableView == resultsController.tableView{
+            cell.textLabel?.text = filtered[indexPath.row]
         }
         else {
-            cell.textLabel?.text = filtered[indexPath.row]
+            cell.textLabel?.text = array[indexPath.row]
         }
         return cell
     }
