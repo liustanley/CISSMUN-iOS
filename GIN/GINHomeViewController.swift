@@ -97,25 +97,21 @@ class GINHomeViewController: UIViewController {
     
     @IBAction func expandKaren(_ sender: Any) {
         let expandHeight = LExpandUIView.frame.size.height
-//
-//        if isLavender {
-//            KExpandUIView.frame.origin.y += expandHeight
-//        }
-//
-//        KarenUIView.layoutIfNeeded()
-//
-//        isKaren = true
         
         kMoreText.fadeOut(0.2)
         kMoreImage.fadeOut(0.2)
         
-        KExpandUIView.frame.origin.y -= 145
+        if !isLavender {
+            KExpandUIView.frame.origin.y -= 145
+        }
+        
         UIView.animate(withDuration: 0.25, animations: {
             self.KExpandUIView.alpha = 1.0
-            self.KExpandUIView.frame.origin.y += 145
             
             if self.isLavender {
                 self.KExpandUIView.frame.origin.y += expandHeight
+            } else {
+                self.KExpandUIView.frame.origin.y += 145
             }
             self.KarenUIView.layoutIfNeeded()
         }, completion: { (finished: Bool) in
@@ -129,21 +125,8 @@ class GINHomeViewController: UIViewController {
     @IBAction func lessKaren(_ sender: Any) {
         let expandHeight = LExpandUIView.frame.size.height
         
-//        kMoreText.isHidden = false
-//        kMoreImage.isHidden = false
-//        KExpandUIView.isHidden = true
-//        kHeader.isHidden = true
-//
-//        if isLavender {
-//            KExpandUIView.frame.origin.y -= expandHeight
-//        }
-//
-//        KarenUIView.layoutIfNeeded()
-//
-//        isKaren = false
-//
-        
         kBody.fadeOut(0.2)
+        
         kHeader.fadeOut(0.2, delay: 0.0, completion: { (finished: Bool) in
             UIView.animate(withDuration: 0.25, animations: {
                 self.KExpandUIView.frame.origin.y -= 145
