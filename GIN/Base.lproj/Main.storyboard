@@ -9,7 +9,6 @@
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -1115,18 +1114,11 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <action selector="openMenu:" destination="qtl-lD-hPh" id="5iv-EY-1s7"/>
                             </connections>
                         </barButtonItem>
-                        <rightBarButtonItems>
-                            <barButtonItem title="Search" id="yD5-bf-zzb">
-                                <connections>
-                                    <segue destination="IQM-Sr-j9g" kind="show" id="oaM-xq-hk7"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem title="QR " id="gFR-gm-IRb">
-                                <connections>
-                                    <segue destination="qbd-4e-8sR" kind="show" id="UZw-Ao-OYZ"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" title="Search" id="yD5-bf-zzb">
+                            <connections>
+                                <segue destination="IQM-Sr-j9g" kind="show" id="oaM-xq-hk7"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="667"/>
                     <connections>
@@ -1215,11 +1207,11 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <viewControllerLayoutGuide type="bottom" id="oIq-QD-RJf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JaH-dQ-CzC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nuS-Ib-Uh2">
-                                <rect key="frame" x="47" y="176" width="320" height="320"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="realcodesquare" translatesAutoresizingMaskIntoConstraints="NO" id="nuS-Ib-Uh2">
+                                <rect key="frame" x="47" y="208" width="320" height="320"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="0CH-bN-sYm"/>
                                     <constraint firstAttribute="height" constant="320" id="Puk-Hf-88x"/>
@@ -1232,6 +1224,9 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                             <constraint firstItem="nuS-Ib-Uh2" firstAttribute="centerX" secondItem="JaH-dQ-CzC" secondAttribute="centerX" id="MrI-F7-0lY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="square" destination="nuS-Ib-Uh2" id="Bmj-ye-UwX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QVm-7D-Qp0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5349,6 +5344,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="lost heaven" width="549" height="367"/>
         <image name="pearl tower" width="3456" height="4608"/>
         <image name="pizza express" width="700" height="466"/>
+        <image name="realcodesquare" width="300" height="300"/>
         <image name="shanghai" width="1000" height="667"/>
         <image name="shanghai tower" width="1024" height="768"/>
         <image name="taco bell" width="1500" height="1000"/>

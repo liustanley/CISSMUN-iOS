@@ -1858,7 +1858,17 @@
                             <constraint firstItem="KSX-9v-4X7" firstAttribute="width" secondItem="WBa-dS-Xzo" secondAttribute="width" multiplier="0.3" id="t95-rv-b2k"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="CISSMUN IX" id="cux-Dv-t4z"/>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="Jeo-5I-ReY"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="CISSMUN IX" id="cux-Dv-t4z">
+                        <barButtonItem key="rightBarButtonItem" title="QR" id="2nz-tK-fKw">
+                            <connections>
+                                <segue destination="wZb-aT-bgG" kind="show" id="ykp-84-r8G"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="800"/>
                     <connections>
@@ -1881,6 +1891,40 @@
             </objects>
             <point key="canvasLocation" x="-520" y="1949"/>
         </scene>
+        <!--Code View Controller-->
+        <scene sceneID="ySj-Bk-Xm3">
+            <objects>
+                <viewController id="wZb-aT-bgG" customClass="QRCodeViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="enF-8q-1q6"/>
+                        <viewControllerLayoutGuide type="bottom" id="DtV-Yg-try"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qTC-sa-tqS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="realcodesquare" translatesAutoresizingMaskIntoConstraints="NO" id="aQ5-db-OoS">
+                                <rect key="frame" x="27.5" y="141.5" width="320" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="Gbl-wX-7La"/>
+                                    <constraint firstAttribute="height" constant="320" id="pvd-WK-jVX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aQ5-db-OoS" firstAttribute="centerX" secondItem="qTC-sa-tqS" secondAttribute="centerX" id="LXw-gb-eFv"/>
+                            <constraint firstItem="aQ5-db-OoS" firstAttribute="centerY" secondItem="qTC-sa-tqS" secondAttribute="centerY" id="js0-8c-RJr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="square" destination="aQ5-db-OoS" id="hwx-sA-Jmt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GfR-HS-AfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1087" y="1854"/>
+        </scene>
     </scenes>
     <resources>
         <image name="expand arrow filled" width="100" height="100"/>
@@ -1898,6 +1942,7 @@
         <image name="lavender_leeanne" width="121" height="121"/>
         <image name="paulson_erik" width="121" height="121"/>
         <image name="procedure" width="2592" height="1728"/>
+        <image name="realcodesquare" width="300" height="300"/>
         <image name="welcome" width="1000" height="707"/>
     </resources>
 </document>
