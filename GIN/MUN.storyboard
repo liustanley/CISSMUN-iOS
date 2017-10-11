@@ -1918,7 +1918,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="square" destination="aQ5-db-OoS" id="hwx-sA-Jmt"/>
+                        <outlet property="square" destination="aQ5-db-OoS" id="fEk-TJ-1pQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GfR-HS-AfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
