@@ -42,6 +42,7 @@ class QRCodeViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
         video = AVCaptureVideoPreviewLayer(session: session)
         video.frame = view.layer.bounds
         view.layer.addSublayer(video)
+        self.view.bringSubview(toFront: square)
         session.startRunning()
     }
     
