@@ -9,6 +9,7 @@
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -1114,11 +1115,18 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <action selector="openMenu:" destination="qtl-lD-hPh" id="5iv-EY-1s7"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Search" id="yD5-bf-zzb">
-                            <connections>
-                                <segue destination="IQM-Sr-j9g" kind="show" id="oaM-xq-hk7"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Search" id="yD5-bf-zzb">
+                                <connections>
+                                    <segue destination="IQM-Sr-j9g" kind="show" id="oaM-xq-hk7"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="QR " id="gFR-gm-IRb">
+                                <connections>
+                                    <segue destination="qbd-4e-8sR" kind="show" id="UZw-Ao-OYZ"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="667"/>
                     <connections>
@@ -1197,6 +1205,37 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mZE-Ur-ReI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3093.4782608695655" y="-413.72282608695656"/>
+        </scene>
+        <!--Code View Controller-->
+        <scene sceneID="V8z-sJ-PlU">
+            <objects>
+                <viewController id="qbd-4e-8sR" customClass="QRCodeViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3nv-F5-Z8b"/>
+                        <viewControllerLayoutGuide type="bottom" id="oIq-QD-RJf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JaH-dQ-CzC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nuS-Ib-Uh2">
+                                <rect key="frame" x="47" y="176" width="320" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="0CH-bN-sYm"/>
+                                    <constraint firstAttribute="height" constant="320" id="Puk-Hf-88x"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nuS-Ib-Uh2" firstAttribute="centerY" secondItem="JaH-dQ-CzC" secondAttribute="centerY" id="BTm-4a-rwa"/>
+                            <constraint firstItem="nuS-Ib-Uh2" firstAttribute="centerX" secondItem="JaH-dQ-CzC" secondAttribute="centerX" id="MrI-F7-0lY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QVm-7D-Qp0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5217.3913043478269" y="502.98913043478262"/>
         </scene>
         <!--Search-->
         <scene sceneID="Dkf-VO-QdT">
