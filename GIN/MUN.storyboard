@@ -1862,7 +1862,7 @@
                         <barButtonItem title="Item" id="Jeo-5I-ReY"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="CISSMUN IX" id="cux-Dv-t4z">
-                        <barButtonItem key="rightBarButtonItem" title="QR" id="2nz-tK-fKw">
+                        <barButtonItem key="rightBarButtonItem" image="icons8-QR Code-26" id="2nz-tK-fKw">
                             <connections>
                                 <segue destination="wZb-aT-bgG" kind="show" id="ykp-84-r8G"/>
                             </connections>
@@ -1891,10 +1891,10 @@
             </objects>
             <point key="canvasLocation" x="-520" y="1949"/>
         </scene>
-        <!--Code View Controller-->
+        <!--QR Code Scanner-->
         <scene sceneID="ySj-Bk-Xm3">
             <objects>
-                <viewController id="wZb-aT-bgG" customClass="QRCodeViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="QR Code Scanner" id="wZb-aT-bgG" customClass="QRCodeViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="enF-8q-1q6"/>
                         <viewControllerLayoutGuide type="bottom" id="DtV-Yg-try"/>
@@ -1937,6 +1937,7 @@
         <image name="icons8-Map Marker Filled " width="25" height="25"/>
         <image name="icons8-More " width="25" height="25"/>
         <image name="icons8-More Filled " width="25" height="25"/>
+        <image name="icons8-QR Code-26" width="26" height="26"/>
         <image name="icons8-Schedule " width="25" height="25"/>
         <image name="icons8-Schedule Filled " width="25" height="25"/>
         <image name="lavender_leeanne" width="121" height="121"/>
