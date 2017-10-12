@@ -1114,7 +1114,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <action selector="openMenu:" destination="qtl-lD-hPh" id="5iv-EY-1s7"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Search" id="yD5-bf-zzb">
+                        <barButtonItem key="rightBarButtonItem" image="icons8-Search-26" id="yD5-bf-zzb">
                             <connections>
                                 <segue destination="IQM-Sr-j9g" kind="show" id="oaM-xq-hk7"/>
                             </connections>
@@ -5304,6 +5304,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="ginger" width="450" height="450"/>
         <image name="haidilao" width="550" height="412"/>
         <image name="icons8-Menu 2-64" width="64" height="64"/>
+        <image name="icons8-Search-26" width="26" height="26"/>
         <image name="icons8-Star Empty" width="40" height="40"/>
         <image name="icons8-Star Filled" width="40" height="40"/>
         <image name="icons8-Star Half Empty" width="40" height="40"/>
