@@ -13,6 +13,7 @@
 		9A07ED481F126D7C00BDA478 /* GIN.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A07ED471F126D7C00BDA478 /* GIN.storyboard */; };
 		9A07ED4A1F12765400BDA478 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07ED491F12765400BDA478 /* MoreViewController.swift */; };
 		9A168C551F2CE7CF001685AD /* DiningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A168C541F2CE7CF001685AD /* DiningViewController.swift */; };
+		9A18B86C1F8387240009407D /* ConstraintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A18B86B1F8387240009407D /* ConstraintExtension.swift */; };
 		9A4378621F80002300375C34 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4378611F80002300375C34 /* UIViewExtensions.swift */; };
 		9A6C0EC01F2485A700094667 /* AttractionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C0EBF1F2485A700094667 /* AttractionsViewController.swift */; };
 		9A9FC04C1ED5D165006E95A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FC04B1ED5D165006E95A1 /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 		9A07ED491F12765400BDA478 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		9A1266B5D9127F6EEA5670FF /* Pods-CISSMUN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CISSMUN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CISSMUN/Pods-CISSMUN.debug.xcconfig"; sourceTree = "<group>"; };
 		9A168C541F2CE7CF001685AD /* DiningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiningViewController.swift; sourceTree = "<group>"; };
+		9A18B86B1F8387240009407D /* ConstraintExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintExtension.swift; sourceTree = "<group>"; };
 		9A4378611F80002300375C34 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		9A6C0EBF1F2485A700094667 /* AttractionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionsViewController.swift; sourceTree = "<group>"; };
 		9A9FC0481ED5D165006E95A1 /* CISSMUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CISSMUN.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 				9A168C541F2CE7CF001685AD /* DiningViewController.swift */,
 				9AE297EA1F599232000AF9C7 /* DropShadow.swift */,
 				9A4378611F80002300375C34 /* UIViewExtensions.swift */,
+				9A18B86B1F8387240009407D /* ConstraintExtension.swift */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				9AC54D2E1EE84B3700E87B88 /* MapViewController.swift in Sources */,
 				7D4501BB1F5FE32500432283 /* LocationSearch.swift in Sources */,
 				9A9FC04E1ED5D165006E95A1 /* MUNScheduleViewController.swift in Sources */,
+				9A18B86C1F8387240009407D /* ConstraintExtension.swift in Sources */,
 				F3636E111F58FD40008702BB /* PCViewController.swift in Sources */,
 				9AC54D321EE84BB900E87B88 /* GINHomeViewController.swift in Sources */,
 				9AE297EB1F599232000AF9C7 /* DropShadow.swift in Sources */,

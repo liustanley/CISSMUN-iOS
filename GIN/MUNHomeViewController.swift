@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MUNHomeViewController: UIViewController {
+class MUNHomeViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var mainView: UIView!
     
@@ -26,6 +26,10 @@ class MUNHomeViewController: UIViewController {
     @IBOutlet weak var kHeader: UILabel!
     @IBOutlet weak var kBody: UILabel!
     
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    
     var isPaulson = false
     var isKatherine = false
     
@@ -39,11 +43,47 @@ class MUNHomeViewController: UIViewController {
         kHeader.alpha = 0.0
         kBody.alpha = 0.0
         
+        scrollView.delegate = self
+        
+        self.automaticallyAdjustsScrollViewInsets = false
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        
+        let offsetY = scrollView.contentOffset.y
+        
+        if offsetY < 0
+        {
+            imageView.frame.size.height = -offsetY
+        }
+        else
+        {
+            imageView.frame.size.height = imageView.frame.size.height
+        }
+        //        else if offsetY == 0
+        //        {
+        //            imageView.frame.size.height = 200
+        //        }
+        //        else if offsetY < 200
+        //        {
+        //            imageView.frame.size.height = 200 - offsetY
+        //        }
+    }
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        let imageHeight = imageView.frame.height
+        
+        let newOrigin = CGPoint(x: 0, y: 0)
+        
+        scrollView.contentOffset = newOrigin
+        scrollView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     }
 
     @IBAction func expandPaulson(_ sender: Any) {
