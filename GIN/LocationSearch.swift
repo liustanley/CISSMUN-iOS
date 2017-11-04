@@ -65,17 +65,18 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
     }
     
         override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
-            
     
         if tableView == resultsController.tableView{
+             let cell = UITableViewCell()
             cell.textLabel?.text = filtered[indexPath.row]
+            return cell
         }
         else {
+             let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
             cell.textLabel?.text = array[indexPath.row]
+            return cell
         }
-        return cell
+        
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
