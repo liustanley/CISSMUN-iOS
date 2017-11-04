@@ -35,6 +35,7 @@
 		F3636E111F58FD40008702BB /* PCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3636E101F58FD40008702BB /* PCViewController.swift */; };
 		F3636E131F59018B008702BB /* RCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3636E121F59018B008702BB /* RCViewController.swift */; };
 		F3636E151F5BD5CE008702BB /* ESViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3636E141F5BD5CE008702BB /* ESViewController.swift */; };
+		F3A350871FAE3264006039F8 /* CellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A350861FAE3264006039F8 /* CellsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		F3636E101F58FD40008702BB /* PCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCViewController.swift; sourceTree = "<group>"; };
 		F3636E121F59018B008702BB /* RCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCViewController.swift; sourceTree = "<group>"; };
 		F3636E141F5BD5CE008702BB /* ESViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESViewController.swift; sourceTree = "<group>"; };
+		F3A350861FAE3264006039F8 /* CellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				9A9FC0511ED5D165006E95A1 /* Main.storyboard */,
+				F3A350861FAE3264006039F8 /* CellsViewController.swift */,
 				7D4501BA1F5FE32500432283 /* LocationSearch.swift */,
 				F3636E121F59018B008702BB /* RCViewController.swift */,
 				F3636E141F5BD5CE008702BB /* ESViewController.swift */,
@@ -321,6 +324,7 @@
 				9A9FC0501ED5D165006E95A1 /* MUNHomeViewController.swift in Sources */,
 				F3636E0F1F58F8D6008702BB /* MSViewController.swift in Sources */,
 				9A4378621F80002300375C34 /* UIViewExtensions.swift in Sources */,
+				F3A350871FAE3264006039F8 /* CellsViewController.swift in Sources */,
 				9A168C551F2CE7CF001685AD /* DiningViewController.swift in Sources */,
 				9AD5687A1EEAB911001D1584 /* WelcomeViewController.swift in Sources */,
 				F3636E131F59018B008702BB /* RCViewController.swift in Sources */,
