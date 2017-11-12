@@ -8,8 +8,7 @@
 
 import UIKit
 
-var array = ["H316/H318, Wittenberg Hall", "PC Lounge","H015A, PE Commons", "H115, HS Gym", "P228, Phoenix Café",  "H227, HS Library", "H233, HS Conference Room", "H329, Business Hub Conference Room", "H405/H406, Augsburg Hall", "P106, PC Gym", "M116, MS Gym", "E111, ES Motor Skills Room", "E322, ES Library", "E122, ES Cafeteria", "R302, Orchestra Room", "PC Commons", "H116, Old Luther", "P230/P231, Jade/Pearl", "P202", "R110, Drama Room", "H117, Makerspace", "H127, Health Room", "R101, Rittman Theatre", "Room #, Costume Room", "MSR?????", "H404", "H403", "P201, New Luther", "H305", "H205", "P106, Phoenix Center Gym", "Classroom next to Jade/Pearl???", "H203", "H204", "H206", "MS and HS classrooms Schools???"
-]
+var array = ["H316/H318, Wittenberg Hall","PC Lounge", "H015A, PE Commons", "H115, HS Gym, ECOSOC", "P228, Phoenix Café", "H227, HS Library, Approval Panel", "H233, HS Conference Room",  "H405/H406, Augsburg Hall, Environmental Committee", "P106, PC Gym", "M116, MS Gym", "E322, ES Library, HRC", "E122, ES Cafeteria", "R302, Orchestra Room", "PC Commons", "H116, Old Luther, ICJ", "P230/P231, Jade/Pearl, CSW", "R110, Costume Room, Secretariat/Hive", "H127, Health Room", "R101, Rittman Theatre", "H305, CISSMUN Vigil", "H404, Spec Conf", "H403, UNPFII", "P201, New Luther, ICC", "H205, Printing", "P106, Phoenix Center Gym, Keynote Speakers", "Classroom next to Jade/Pearl???", "H203", "H204", "H206", "MS and HS classrooms Schools???", "MSR???"]
 
 var images = [#imageLiteral(resourceName: "Wittenberg Hall"), #imageLiteral(resourceName: "PC Lounge")]
 
