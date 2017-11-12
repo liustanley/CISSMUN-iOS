@@ -12,12 +12,14 @@ class CellsViewController: UIViewController {
 
 
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var textView: UILabel!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imageView.image = images[row]
+        textView.text = text[row]
         // Do any additional setup after loading the view.
     }
 

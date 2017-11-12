@@ -1211,14 +1211,29 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4fG-4c-XaF">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="103" width="375" height="500"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Km-FP-cVB">
+                                <rect key="frame" x="116" y="39" width="173" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="MUz-kv-xAr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Km-FP-cVB" firstAttribute="leading" secondItem="32f-uY-0Ji" secondAttribute="leadingMargin" constant="100" id="c7V-Mw-Q3D"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Km-FP-cVB" secondAttribute="trailing" constant="70" id="gPQ-ai-xVg"/>
+                            <constraint firstItem="5Km-FP-cVB" firstAttribute="top" secondItem="Sfj-aB-Pra" secondAttribute="bottom" constant="39" id="oiX-gg-tuj"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="4fG-4c-XaF" id="wAn-pe-Y3R"/>
+                        <outlet property="textView" destination="5Km-FP-cVB" id="VfY-xs-EeQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ed1-Er-wP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
