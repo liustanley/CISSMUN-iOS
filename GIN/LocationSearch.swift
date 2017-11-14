@@ -10,7 +10,7 @@ import UIKit
 
 var array = ["H316/H318, Wittenberg Hall","PC Lounge", "H015A, PE Commons", "H115, HS Gym, ECOSOC", "P228, Phoenix Café", "H227, HS Library, Approval Panel", "H233, HS Conference Room",  "H405/H406, Augsburg Hall, Environmental Committee", "P106, PC Gym", "M116, MS Gym", "E322, ES Library, HRC", "E122, ES Cafeteria", "R302, Orchestra Room", "PC Commons", "H116, Old Luther, ICJ", "P230/P231, Jade/Pearl, CSW", "R110, Costume Room, Secretariat/Hive", "H127, Health Room", "R101, Rittman Theatre", "H305, CISSMUN Vigil", "H404, Spec Conf", "H403, UNPFII", "P201, New Luther, ICC", "H205, Printing", "P106, Phoenix Center Gym, Keynote Speakers", "Classroom next to Jade/Pearl???", "H203", "H204", "H206", "MS and HS classrooms Schools???", "MSR???"]
 
-var images = [#imageLiteral(resourceName: "Wittenberg Hall"), #imageLiteral(resourceName: "PC Lounge")]
+var images = [ #imageLiteral(resourceName: "HS 3rd Floor"), #imageLiteral(resourceName: "HS 2nd Floor")]
 var text = ["3rd Floor, Upper Building","2nd Floor, Upper Building"]
 
 var row = 0

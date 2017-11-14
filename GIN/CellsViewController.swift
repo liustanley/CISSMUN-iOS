@@ -8,18 +8,20 @@
 
 import UIKit
 
-class CellsViewController: UIViewController {
+class CellsViewController: UIViewController, UIScrollViewDelegate {
 
-
+    @IBOutlet weak var scrollView: UIScrollView!
+    
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var textView: UILabel!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        scrollView.delegate = self
         imageView.image = images[row]
-        textView.text = text[row]
+        
+        
         // Do any additional setup after loading the view.
     }
 
@@ -28,6 +30,9 @@ class CellsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+        return imageView
+    }
+  
 
 }
