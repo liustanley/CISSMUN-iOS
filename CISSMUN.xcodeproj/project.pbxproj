@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		449417966BF6BFBB7AB7690C /* Pods_CISSMUN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49887976BF57F2643E21A2ED /* Pods_CISSMUN.framework */; };
 		7D4501BB1F5FE32500432283 /* LocationSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4501BA1F5FE32500432283 /* LocationSearch.swift */; };
+		7D8168191FBB58D000DCC4BC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8168181FBB58D000DCC4BC /* DetailViewController.swift */; };
+		7D81681B1FBB59AA00DCC4BC /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D81681A1FBB59AA00DCC4BC /* Room.swift */; };
 		9A07ED461F126D3500BDA478 /* MUN.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A07ED451F126D3500BDA478 /* MUN.storyboard */; };
 		9A07ED481F126D7C00BDA478 /* GIN.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A07ED471F126D7C00BDA478 /* GIN.storyboard */; };
 		9A07ED4A1F12765400BDA478 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07ED491F12765400BDA478 /* MoreViewController.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		49887976BF57F2643E21A2ED /* Pods_CISSMUN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CISSMUN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4501BA1F5FE32500432283 /* LocationSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearch.swift; sourceTree = "<group>"; };
+		7D8168181FBB58D000DCC4BC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7D81681A1FBB59AA00DCC4BC /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		9A07ED451F126D3500BDA478 /* MUN.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MUN.storyboard; sourceTree = "<group>"; };
 		9A07ED471F126D7C00BDA478 /* GIN.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GIN.storyboard; sourceTree = "<group>"; };
 		9A07ED491F12765400BDA478 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				9A9FC0511ED5D165006E95A1 /* Main.storyboard */,
+				7D8168181FBB58D000DCC4BC /* DetailViewController.swift */,
+				7D81681A1FBB59AA00DCC4BC /* Room.swift */,
 				F3A350861FAE3264006039F8 /* CellsViewController.swift */,
 				7D4501BA1F5FE32500432283 /* LocationSearch.swift */,
 				F3636E121F59018B008702BB /* RCViewController.swift */,
@@ -322,6 +328,8 @@
 			files = (
 				9A07ED4A1F12765400BDA478 /* MoreViewController.swift in Sources */,
 				9A9FC0501ED5D165006E95A1 /* MUNHomeViewController.swift in Sources */,
+				7D81681B1FBB59AA00DCC4BC /* Room.swift in Sources */,
+				7D8168191FBB58D000DCC4BC /* DetailViewController.swift in Sources */,
 				F3636E0F1F58F8D6008702BB /* MSViewController.swift in Sources */,
 				9A4378621F80002300375C34 /* UIViewExtensions.swift in Sources */,
 				F3A350871FAE3264006039F8 /* CellsViewController.swift in Sources */,

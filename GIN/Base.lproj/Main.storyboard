@@ -1198,6 +1198,24 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
             </objects>
             <point key="canvasLocation" x="-3093.4782608695655" y="-413.72282608695656"/>
         </scene>
+        <!--Room Test-->
+        <scene sceneID="Mui-1c-qLy">
+            <objects>
+                <viewController id="EsI-XK-YdB" userLabel="Room Test" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UT9-aF-7Ko"/>
+                        <viewControllerLayoutGuide type="bottom" id="o0U-TN-lVd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MuH-yF-aZl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WQT-4S-AEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4761" y="-631"/>
+        </scene>
         <!--Cells View Controller-->
         <scene sceneID="DcY-lx-2Q2">
             <objects>
@@ -1238,7 +1256,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ed1-Er-wP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4973.188405797102" y="256.38586956521743"/>
+            <point key="canvasLocation" x="-5053" y="190"/>
         </scene>
         <!--Search-->
         <scene sceneID="Dkf-VO-QdT">
@@ -1269,7 +1287,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="umy-Jl-9DU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4283.3333333333339" y="255.57065217391306"/>
+            <point key="canvasLocation" x="-3930" y="133"/>
         </scene>
         <!--Intermediate Building (MS)-->
         <scene sceneID="x3b-0u-qCX">

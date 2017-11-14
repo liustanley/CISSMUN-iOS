@@ -7,8 +7,7 @@
 //
 
 import UIKit
-
-var array = ["H316/H318, Wittenberg Hall","PC Lounge", "H015A, PE Commons", "H115, HS Gym, ECOSOC", "P228, Phoenix Café", "H227, HS Library, Approval Panel", "H233, HS Conference Room",  "H405/H406, Augsburg Hall, Environmental Committee", "P106, PC Gym", "M116, MS Gym", "E322, ES Library, HRC", "E122, ES Cafeteria", "R302, Orchestra Room", "PC Commons", "H116, Old Luther, ICJ", "P230/P231, Jade/Pearl, CSW", "R110, Costume Room, Secretariat/Hive", "H127, Health Room", "R101, Rittman Theatre", "H305, CISSMUN Vigil", "H404, Spec Conf", "H403, UNPFII", "P201, New Luther, ICC", "H205, Printing", "P106, Phoenix Center Gym, Keynote Speakers", "Classroom next to Jade/Pearl???", "H203", "H204", "H206", "MS and HS classrooms Schools???", "MSR???"]
+ var roomies = [Room]()
 
 var images = [#imageLiteral(resourceName: "Wittenberg Hall"), #imageLiteral(resourceName: "PC Lounge")]
 var text = ["3rd Floor, Upper Building","2nd Floor, Upper Building"]
@@ -20,12 +19,45 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
     
     
     
-    var filtered = [String]()
+    var filtered = [Room]()
     var searchController : UISearchController!
     var resultsController = UITableViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        roomies = [
+            Room(roomName:"H316/H318, Wittenberg Hall"),
+            Room(roomName:"PC Lounge"),
+            Room(roomName:"H115, HS Gym, ECOSOC"),
+            Room(roomName:"P228, Phoenix Café"),
+            Room(roomName:"H227, HS Library, Approval Panel"),
+            Room(roomName: "H233, HS Conference Room"),
+            Room(roomName:"H405/H406, Augsburg Hall, Environmental Committee"),
+            Room(roomName:"P106, PC Gym"),
+            Room(roomName:"M116, MS Gym"),
+            Room(roomName:"E322, ES Library, HRC"),
+            Room(roomName:"E122, ES Cafeteria"),
+            Room(roomName:"R302, Orchestra Room"),
+            Room(roomName:"PC Commons"),
+            Room(roomName:"H116, Old Luther, ICJ"),
+            Room(roomName:"P230/P231, Jade/Pearl, CSW"),
+            Room(roomName:"R110, Costume Room, Secretariat/Hive"),
+            Room(roomName:"H127, Health Room"),
+            Room(roomName:"R101, Rittman Theatre"),
+            Room(roomName:"H305, CISSMUN Vigil"),
+            Room(roomName:"H404, Spec Conf"),
+            Room(roomName:"H403, UNPFII"),
+            Room(roomName:"P201, New Luther, ICC"),
+            Room(roomName:"H205, Printing"),
+            Room(roomName:"P106, Phoenix Center Gym, Keynote Speakers"),
+            Room(roomName:"Classroom next to Jade/Pearl???"),
+            Room(roomName:"H203"),
+            Room(roomName:"H204"),
+            Room(roomName:"H206"),
+            Room(roomName:"MS and HS classrooms Schools???"),
+            Room(roomName:"MSR???")
+        ]
+
         
         searchController = UISearchController(searchResultsController: resultsController)
         tableView.tableHeaderView = searchController.searchBar
@@ -41,14 +73,10 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
         
     
     func updateSearchResults(for searchController: UISearchController) {
-        filtered = array.filter{ (array:String) -> Bool in
+        filtered = roomies.filter({(room:Room) -> Bool in
+             return room.roomName.lowercased().contains(self.searchController.searchBar.text!.lowercased())
             
-            if array.lowercased().contains(self.searchController.searchBar.text!.lowercased()){
-                return true
-            } else {
-                return false
-            }
-        }
+        })
         resultsController.tableView.reloadData()
     }
     
@@ -61,7 +89,7 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             return filtered.count
         }
         else {
-            return array.count
+            return roomies.count
         }
  
     }
@@ -70,12 +98,12 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
     
         if tableView == resultsController.tableView{
              let cell = UITableViewCell()
-            cell.textLabel?.text = filtered[indexPath.row]
+            cell.textLabel?.text = filtered[indexPath.row].roomName
             return cell
         }
         else {
              let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
-            cell.textLabel?.text = array[indexPath.row]
+            cell.textLabel?.text = roomies[indexPath.row].roomName
             return cell
         }
         
