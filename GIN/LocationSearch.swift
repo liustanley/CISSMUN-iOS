@@ -7,11 +7,10 @@
 //
 
 import UIKit
- var roomies = [Room]()
 
+var roomies = [Room]()
 var images = [#imageLiteral(resourceName: "Wittenberg Hall"), #imageLiteral(resourceName: "PC Lounge")]
-var text = ["3rd Floor, Upper Building","2nd Floor, Upper Building"]
-
+var text = ["3rd Floor of the Upper Building","2nd Floor of the Upper Building"]
 var row = 0
 
 class LocationSearch: UITableViewController, UISearchResultsUpdating{

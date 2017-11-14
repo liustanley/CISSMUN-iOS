@@ -1210,14 +1210,19 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4fG-4c-XaF">
-                                <rect key="frame" x="0.0" y="103" width="375" height="500"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Km-FP-cVB">
-                                <rect key="frame" x="116" y="39" width="173" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPy-ey-Bw5">
+                                <rect key="frame" x="166" y="20" width="42" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="MUz-kv-xAr"/>
+                                    <constraint firstAttribute="height" constant="21" id="JZf-4c-fhB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U26-bP-A8H">
+                                <rect key="frame" x="166" y="76" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="5ps-Jr-xnm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1226,14 +1231,16 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5Km-FP-cVB" firstAttribute="leading" secondItem="32f-uY-0Ji" secondAttribute="leadingMargin" constant="100" id="c7V-Mw-Q3D"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="5Km-FP-cVB" secondAttribute="trailing" constant="70" id="gPQ-ai-xVg"/>
-                            <constraint firstItem="5Km-FP-cVB" firstAttribute="top" secondItem="Sfj-aB-Pra" secondAttribute="bottom" constant="39" id="oiX-gg-tuj"/>
+                            <constraint firstItem="U26-bP-A8H" firstAttribute="top" secondItem="FPy-ey-Bw5" secondAttribute="bottom" constant="35" id="7Cc-pG-imu"/>
+                            <constraint firstItem="FPy-ey-Bw5" firstAttribute="centerX" secondItem="32f-uY-0Ji" secondAttribute="centerX" id="Kyo-JC-g8b"/>
+                            <constraint firstItem="GB4-go-nDm" firstAttribute="top" secondItem="FPy-ey-Bw5" secondAttribute="bottom" constant="562" id="j1U-QB-t5O"/>
+                            <constraint firstItem="FPy-ey-Bw5" firstAttribute="top" secondItem="Sfj-aB-Pra" secondAttribute="bottom" constant="20" id="jLw-C0-gPz"/>
+                            <constraint firstItem="U26-bP-A8H" firstAttribute="centerX" secondItem="32f-uY-0Ji" secondAttribute="centerX" id="kQp-Nr-vPT"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="4fG-4c-XaF" id="wAn-pe-Y3R"/>
-                        <outlet property="textView" destination="5Km-FP-cVB" id="VfY-xs-EeQ"/>
+                        <outlet property="textView" destination="FPy-ey-Bw5" id="Xj1-0Q-sdL"/>
+                        <outlet property="textViewtwo" destination="U26-bP-A8H" id="8WD-a6-xxL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ed1-Er-wP3" userLabel="First Responder" sceneMemberID="firstResponder"/>

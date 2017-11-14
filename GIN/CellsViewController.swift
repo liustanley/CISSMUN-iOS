@@ -11,15 +11,17 @@ import UIKit
 class CellsViewController: UIViewController {
 
 
-    @IBOutlet weak var imageView: UIImageView!
+    //@IBOutlet weak var imageView: UIImageView!
+    
     @IBOutlet weak var textView: UILabel!
     
-    
+    @IBOutlet weak var textViewtwo: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageView.image = images[row]
-        textView.text = text[row]
+        //imageView.image = images[row]
+        textView.text = roomies[row].roomName
+        textViewtwo.text = "Located on the " + text[row]
         // Do any additional setup after loading the view.
     }
 
