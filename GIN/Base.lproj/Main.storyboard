@@ -1210,39 +1210,41 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="7" translatesAutoresizingMaskIntoConstraints="NO" id="qt8-y1-341">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="qt8-y1-341">
+                                <rect key="frame" x="0.0" y="160.99999999999997" width="375" height="281.33333333333326"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5rA-6s-67E">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4S8-LC-moR">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="281"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="5rA-6s-67E" firstAttribute="leading" secondItem="qt8-y1-341" secondAttribute="leading" id="Et9-Vt-3ns"/>
-                                    <constraint firstAttribute="bottom" secondItem="5rA-6s-67E" secondAttribute="bottom" id="NML-R7-DZR"/>
-                                    <constraint firstItem="5rA-6s-67E" firstAttribute="top" secondItem="qt8-y1-341" secondAttribute="top" id="axi-Cm-RyB"/>
-                                    <constraint firstItem="5rA-6s-67E" firstAttribute="height" secondItem="qt8-y1-341" secondAttribute="height" id="cM0-zs-uw9"/>
-                                    <constraint firstAttribute="trailing" secondItem="5rA-6s-67E" secondAttribute="trailing" id="mD5-Yv-Rd4"/>
-                                    <constraint firstItem="5rA-6s-67E" firstAttribute="width" secondItem="qt8-y1-341" secondAttribute="width" id="vuM-mi-ywc"/>
+                                    <constraint firstItem="4S8-LC-moR" firstAttribute="centerX" secondItem="qt8-y1-341" secondAttribute="centerX" id="6lL-zc-wFJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="4S8-LC-moR" secondAttribute="bottom" id="FJA-uP-ttJ"/>
+                                    <constraint firstItem="4S8-LC-moR" firstAttribute="top" secondItem="qt8-y1-341" secondAttribute="top" id="WYU-e8-hfw"/>
+                                    <constraint firstItem="4S8-LC-moR" firstAttribute="centerY" secondItem="qt8-y1-341" secondAttribute="centerY" id="Wtt-Ba-HGE"/>
+                                    <constraint firstAttribute="trailing" secondItem="4S8-LC-moR" secondAttribute="trailing" id="jx6-Ma-34E"/>
+                                    <constraint firstItem="4S8-LC-moR" firstAttribute="leading" secondItem="qt8-y1-341" secondAttribute="leading" id="sQB-CX-l2a"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="swd-k8-am8" id="Ysy-nB-Hoq"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GB4-go-nDm" firstAttribute="top" secondItem="qt8-y1-341" secondAttribute="bottom" id="bf1-ou-BrL"/>
-                            <constraint firstAttribute="trailing" secondItem="qt8-y1-341" secondAttribute="trailing" id="bgS-vm-6VV"/>
-                            <constraint firstItem="qt8-y1-341" firstAttribute="leading" secondItem="32f-uY-0Ji" secondAttribute="leading" id="cdm-wf-jym"/>
-                            <constraint firstItem="qt8-y1-341" firstAttribute="top" secondItem="Sfj-aB-Pra" secondAttribute="bottom" id="pIo-eP-fqP"/>
+                            <constraint firstItem="qt8-y1-341" firstAttribute="top" secondItem="Sfj-aB-Pra" secondAttribute="bottom" constant="161" id="2dV-Jk-it6"/>
+                            <constraint firstItem="qt8-y1-341" firstAttribute="leading" secondItem="32f-uY-0Ji" secondAttribute="leading" id="WgT-3h-XBW"/>
+                            <constraint firstAttribute="trailing" secondItem="qt8-y1-341" secondAttribute="trailing" id="XlT-DZ-CNQ"/>
+                            <constraint firstItem="GB4-go-nDm" firstAttribute="top" secondItem="qt8-y1-341" secondAttribute="bottom" constant="160.66999999999999" id="kMf-e6-GIO"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="5rA-6s-67E" id="k3r-ek-qVR"/>
                         <outlet property="scrollView" destination="qt8-y1-341" id="tse-4f-KLp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ed1-Er-wP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4973.5" y="255.5"/>
+            <point key="canvasLocation" x="-4974.6376811594209" y="254.75543478260872"/>
         </scene>
         <!--Search-->
         <scene sceneID="Dkf-VO-QdT">
