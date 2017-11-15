@@ -18,10 +18,11 @@ class CellsViewController: UIViewController, UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageView.image = images[row]
+        imageView.image = images[(NSInteger)(roomies[row].floorNumber)]
         scroll.delegate = self
         textView.text = roomies[row].roomName
-        textViewtwo.text = "Located on the " + text[row]
+        textViewtwo.text = "Located on the " + text[ (NSInteger)(roomies[row].floorNumber)  ]
+        //[@"7" intValue];
         // Do any additional setup after loading the view.
     }
 

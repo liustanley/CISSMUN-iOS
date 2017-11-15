@@ -9,4 +9,6 @@
 import Foundation
 struct Room {
     let roomName : String
+    let floorNumber : NSInteger
+    
 }
