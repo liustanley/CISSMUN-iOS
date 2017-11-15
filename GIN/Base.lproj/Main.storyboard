@@ -1228,24 +1228,52 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="8fP-Qf-YfV">
+                                <rect key="frame" x="0.0" y="236.99999999999997" width="375" height="281.33333333333326"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="28n-Gm-Ww5">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="281"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="375" id="L0U-xH-Mas"/>
+                                            <constraint firstAttribute="width" secondItem="28n-Gm-Ww5" secondAttribute="height" multiplier="4:3" id="Y9D-Be-9p6"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="28n-Gm-Ww5" firstAttribute="height" secondItem="8fP-Qf-YfV" secondAttribute="height" id="33K-o2-bbI"/>
+                                    <constraint firstItem="28n-Gm-Ww5" firstAttribute="width" secondItem="8fP-Qf-YfV" secondAttribute="width" id="6Eu-IW-2jP"/>
+                                    <constraint firstItem="28n-Gm-Ww5" firstAttribute="centerX" secondItem="8fP-Qf-YfV" secondAttribute="centerX" id="6k5-Si-Osx"/>
+                                    <constraint firstItem="28n-Gm-Ww5" firstAttribute="leading" secondItem="8fP-Qf-YfV" secondAttribute="leading" id="CBJ-CL-RBn"/>
+                                    <constraint firstItem="28n-Gm-Ww5" firstAttribute="top" secondItem="8fP-Qf-YfV" secondAttribute="top" id="E2Q-Bo-t9r"/>
+                                    <constraint firstAttribute="bottom" secondItem="28n-Gm-Ww5" secondAttribute="bottom" constant="0.33000000000000002" id="Sio-Ff-zzR"/>
+                                    <constraint firstAttribute="width" secondItem="8fP-Qf-YfV" secondAttribute="height" multiplier="4:3" id="mcS-GB-83S"/>
+                                    <constraint firstAttribute="trailing" secondItem="28n-Gm-Ww5" secondAttribute="trailing" id="uoZ-H9-kzR"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="U26-bP-A8H" firstAttribute="top" secondItem="FPy-ey-Bw5" secondAttribute="bottom" constant="35" id="7Cc-pG-imu"/>
+                            <constraint firstItem="8fP-Qf-YfV" firstAttribute="top" secondItem="U26-bP-A8H" secondAttribute="bottom" constant="140" id="9DM-UO-oK5"/>
+                            <constraint firstAttribute="trailing" secondItem="8fP-Qf-YfV" secondAttribute="trailing" id="Dep-Rh-9ry"/>
+                            <constraint firstItem="8fP-Qf-YfV" firstAttribute="leading" secondItem="32f-uY-0Ji" secondAttribute="leading" id="FEK-xv-BU3"/>
                             <constraint firstItem="FPy-ey-Bw5" firstAttribute="centerX" secondItem="32f-uY-0Ji" secondAttribute="centerX" id="Kyo-JC-g8b"/>
+                            <constraint firstItem="8fP-Qf-YfV" firstAttribute="centerX" secondItem="32f-uY-0Ji" secondAttribute="centerX" id="bOE-qR-feN"/>
                             <constraint firstItem="GB4-go-nDm" firstAttribute="top" secondItem="FPy-ey-Bw5" secondAttribute="bottom" constant="562" id="j1U-QB-t5O"/>
                             <constraint firstItem="FPy-ey-Bw5" firstAttribute="top" secondItem="Sfj-aB-Pra" secondAttribute="bottom" constant="20" id="jLw-C0-gPz"/>
                             <constraint firstItem="U26-bP-A8H" firstAttribute="centerX" secondItem="32f-uY-0Ji" secondAttribute="centerX" id="kQp-Nr-vPT"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="28n-Gm-Ww5" id="4W5-TZ-FEa"/>
+                        <outlet property="scroll" destination="8fP-Qf-YfV" id="mT0-dL-ddf"/>
                         <outlet property="textView" destination="FPy-ey-Bw5" id="Xj1-0Q-sdL"/>
                         <outlet property="textViewtwo" destination="U26-bP-A8H" id="8WD-a6-xxL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ed1-Er-wP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5053" y="190"/>
+            <point key="canvasLocation" x="-5054.347826086957" y="189.53804347826087"/>
         </scene>
         <!--Search-->
         <scene sceneID="Dkf-VO-QdT">

@@ -9,7 +9,7 @@
 import UIKit
 
 var roomies = [Room]()
-var images = [#imageLiteral(resourceName: "Wittenberg Hall"), #imageLiteral(resourceName: "PC Lounge")]
+var images = [ #imageLiteral(resourceName: "HS 3rd Floor"), #imageLiteral(resourceName: "HS 2nd Floor") ]
 var text = ["3rd Floor of the Upper Building","2nd Floor of the Upper Building"]
 var row = 0
 

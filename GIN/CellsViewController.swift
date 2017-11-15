@@ -8,18 +8,18 @@
 
 import UIKit
 
-class CellsViewController: UIViewController {
+class CellsViewController: UIViewController, UIScrollViewDelegate {
 
 
-    //@IBOutlet weak var imageView: UIImageView!
-    
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var scroll: UIScrollView!
     @IBOutlet weak var textView: UILabel!
-    
     @IBOutlet weak var textViewtwo: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //imageView.image = images[row]
+        imageView.image = images[row]
+        scroll.delegate = self
         textView.text = roomies[row].roomName
         textViewtwo.text = "Located on the " + text[row]
         // Do any additional setup after loading the view.
@@ -28,6 +28,10 @@ class CellsViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+        return imageView
     }
     
 
