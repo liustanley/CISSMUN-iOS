@@ -1776,26 +1776,46 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jOv-o2-9Wo" userLabel="Wijsen" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="757" width="296" height="400"/>
                                                         <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EAc-c1-BDl" userLabel="Images">
+                                                                <rect key="frame" x="134" y="12" width="150" height="150"/>
+                                                                <subviews>
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Melati 2" translatesAutoresizingMaskIntoConstraints="NO" id="FGO-hU-1bH">
+                                                                        <rect key="frame" x="53" y="43" width="97" height="97"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="FGO-hU-1bH" secondAttribute="height" multiplier="1:1" id="Kap-3H-hFo"/>
+                                                                        </constraints>
+                                                                    </imageView>
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Melati 1" translatesAutoresizingMaskIntoConstraints="NO" id="PuB-bJ-0yx">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="97" height="97"/>
+                                                                    </imageView>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="EAc-c1-BDl" secondAttribute="height" multiplier="1:1" id="9v9-bp-CRQ"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="FGO-hU-1bH" secondAttribute="bottom" constant="10" id="UOO-pO-Pbb"/>
+                                                                    <constraint firstItem="PuB-bJ-0yx" firstAttribute="width" secondItem="FGO-hU-1bH" secondAttribute="width" id="X47-yr-ldu"/>
+                                                                    <constraint firstItem="FGO-hU-1bH" firstAttribute="width" secondItem="EAc-c1-BDl" secondAttribute="width" multiplier="0.65" id="XfS-gy-LJb"/>
+                                                                    <constraint firstItem="PuB-bJ-0yx" firstAttribute="top" secondItem="EAc-c1-BDl" secondAttribute="top" id="YZK-LO-epq"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="FGO-hU-1bH" secondAttribute="trailing" id="bU2-6E-VSZ"/>
+                                                                    <constraint firstItem="PuB-bJ-0yx" firstAttribute="height" secondItem="FGO-hU-1bH" secondAttribute="height" id="j2f-5X-aPa"/>
+                                                                    <constraint firstAttribute="width" constant="150" id="ufu-UL-wR2"/>
+                                                                    <constraint firstItem="PuB-bJ-0yx" firstAttribute="leading" secondItem="EAc-c1-BDl" secondAttribute="leading" id="vwm-L7-7LE"/>
+                                                                </constraints>
+                                                            </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teenagers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="hJ9-Ti-Ld5">
-                                                                <rect key="frame" x="12" y="69.5" width="69" height="20.5"/>
+                                                                <rect key="frame" x="12" y="69.5" width="110" height="20.5"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Melati and Isabel Wijsen" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="n5N-Ri-kUf">
-                                                                <rect key="frame" x="12" y="12" width="160" height="57.5"/>
+                                                                <rect key="frame" x="12" y="12" width="122" height="57.5"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="21"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Beah" translatesAutoresizingMaskIntoConstraints="NO" id="zsR-5F-OsU">
-                                                                <rect key="frame" x="172" y="12" width="112" height="112"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="zsR-5F-OsU" secondAttribute="height" multiplier="1:1" id="sfm-Mr-K66"/>
-                                                                </constraints>
-                                                            </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="BTn-JM-hbD">
-                                                                <rect key="frame" x="12" y="98" width="152" height="122"/>
+                                                                <rect key="frame" x="12" y="98" width="162" height="122"/>
                                                                 <string key="text">Two teenage sisters have taken a stand against pollution in Bali – and they’ve convinced the government to ban plastic bags by the year 2018. </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
@@ -1812,19 +1832,20 @@
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <constraints>
                                                             <constraint firstItem="BTn-JM-hbD" firstAttribute="leading" secondItem="jOv-o2-9Wo" secondAttribute="leading" constant="12" id="6Bb-o9-Ijv"/>
-                                                            <constraint firstAttribute="trailing" secondItem="zsR-5F-OsU" secondAttribute="trailing" constant="12" id="AKN-ru-8vB"/>
+                                                            <constraint firstItem="EAc-c1-BDl" firstAttribute="leading" secondItem="BTn-JM-hbD" secondAttribute="trailing" constant="-40" id="DFi-g6-a7h"/>
                                                             <constraint firstItem="hJ9-Ti-Ld5" firstAttribute="top" secondItem="n5N-Ri-kUf" secondAttribute="bottom" id="JDI-MD-32l"/>
-                                                            <constraint firstItem="zsR-5F-OsU" firstAttribute="leading" secondItem="n5N-Ri-kUf" secondAttribute="trailing" id="KaR-82-Jf9"/>
                                                             <constraint firstItem="n5N-Ri-kUf" firstAttribute="top" secondItem="jOv-o2-9Wo" secondAttribute="top" constant="12" id="MiE-59-bxw"/>
                                                             <constraint firstItem="BTn-JM-hbD" firstAttribute="top" secondItem="hJ9-Ti-Ld5" secondAttribute="bottom" constant="8" id="OiS-3r-SWb"/>
                                                             <constraint firstItem="hJ9-Ti-Ld5" firstAttribute="leading" secondItem="jOv-o2-9Wo" secondAttribute="leading" constant="12" id="Tg0-HT-miK"/>
                                                             <constraint firstItem="2XA-bF-bRL" firstAttribute="leading" secondItem="jOv-o2-9Wo" secondAttribute="leading" constant="12" id="Uil-6V-Z9y"/>
-                                                            <constraint firstItem="zsR-5F-OsU" firstAttribute="leading" secondItem="BTn-JM-hbD" secondAttribute="trailing" constant="8" id="Y0I-ws-DsB"/>
+                                                            <constraint firstItem="EAc-c1-BDl" firstAttribute="top" secondItem="jOv-o2-9Wo" secondAttribute="top" constant="12" id="VeR-ws-Ey7"/>
+                                                            <constraint firstItem="EAc-c1-BDl" firstAttribute="leading" secondItem="hJ9-Ti-Ld5" secondAttribute="trailing" constant="12" id="XRg-7d-cB3"/>
                                                             <constraint firstAttribute="height" constant="400" id="ZAF-ns-xtH"/>
-                                                            <constraint firstItem="zsR-5F-OsU" firstAttribute="top" secondItem="jOv-o2-9Wo" secondAttribute="top" constant="12" id="cdW-ul-Lw4"/>
                                                             <constraint firstItem="n5N-Ri-kUf" firstAttribute="leading" secondItem="jOv-o2-9Wo" secondAttribute="leading" constant="12" id="foU-dZ-FRr"/>
                                                             <constraint firstAttribute="trailing" secondItem="2XA-bF-bRL" secondAttribute="trailing" constant="12" id="nIL-2b-4HN"/>
                                                             <constraint firstAttribute="bottom" secondItem="2XA-bF-bRL" secondAttribute="bottom" constant="12" id="oBq-jj-Tkc"/>
+                                                            <constraint firstItem="EAc-c1-BDl" firstAttribute="leading" secondItem="n5N-Ri-kUf" secondAttribute="trailing" id="r1l-Sm-w0T"/>
+                                                            <constraint firstAttribute="trailing" secondItem="EAc-c1-BDl" secondAttribute="trailing" constant="12" id="sKf-G0-KdT"/>
                                                             <constraint firstItem="2XA-bF-bRL" firstAttribute="top" secondItem="BTn-JM-hbD" secondAttribute="bottom" constant="4" id="xcR-mq-jGG"/>
                                                         </constraints>
                                                     </view>
@@ -1904,14 +1925,14 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ajm-3W-LeP">
-                                                                <rect key="frame" x="12" y="69.5" width="152" height="146"/>
+                                                                <rect key="frame" x="12" y="69.5" width="152" height="146.5"/>
                                                                 <string key="text">For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred. </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="b13-NF-Fvh">
-                                                                <rect key="frame" x="12" y="219.5" width="272" height="164"/>
+                                                                <rect key="frame" x="12" y="220" width="272" height="164"/>
                                                                 <string key="text">The scars that covered 65 percent of her body were not only disfiguring – making her believe no one would ever love her – they hurt. A lot. For the past 20 years, Phuc has traveled the world telling her story of hope borne out of despair. Her passion for peaceful resolutions to conflict in our world is inspiring. Kim is the girl who was captured in a famous 1972 photograph that brought the world's attention to the horrors of the war in Vietnam. </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                                 <nil key="textColor"/>
@@ -1971,7 +1992,6 @@
                             <constraint firstItem="Pc8-vZ-wcN" firstAttribute="top" secondItem="j6j-JZ-V8e" secondAttribute="bottom" id="CqB-Q2-goj"/>
                             <constraint firstItem="v8Z-ty-6dP" firstAttribute="width" secondItem="fQa-MJ-HRm" secondAttribute="width" multiplier="0.35" id="FWk-ca-r3d"/>
                             <constraint firstItem="Iaa-Ha-loo" firstAttribute="width" secondItem="fQa-MJ-HRm" secondAttribute="width" multiplier="0.35" id="RjP-Tg-ob1"/>
-                            <constraint firstItem="zsR-5F-OsU" firstAttribute="width" secondItem="fQa-MJ-HRm" secondAttribute="width" multiplier="0.35" id="Xgd-RZ-oDh"/>
                             <constraint firstItem="zAe-jS-A0d" firstAttribute="leading" secondItem="fQa-MJ-HRm" secondAttribute="leading" id="YYu-6x-NUf"/>
                             <constraint firstItem="qMr-4f-uLX" firstAttribute="width" secondItem="fQa-MJ-HRm" secondAttribute="width" id="dvi-dw-s9k"/>
                             <constraint firstItem="Rm3-6d-hDs" firstAttribute="width" secondItem="fQa-MJ-HRm" secondAttribute="width" multiplier="0.35" id="k1f-yw-bO3"/>
