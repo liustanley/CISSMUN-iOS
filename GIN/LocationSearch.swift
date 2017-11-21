@@ -26,7 +26,7 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
         super.viewDidLoad()
         roomies = [
             Room(roomName:"H316/H318, Wittenberg Hall", floorNumber: 2),
-            Room(roomName:"PC Lounge", floorNumber:2),
+            Room(roomName:"PC Lounge", floorNumber:1),
             Room(roomName:"H115, HS Gym, ECOSOC", floorNumber: 0),
             Room(roomName:"P228, Phoenix Café", floorNumber: 1),
             Room(roomName:"H227, HS Library, Approval Panel", floorNumber: 1),
@@ -110,6 +110,19 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         row = indexPath.row
+        if tableView == resultsController.tableView{
+            DispatchQueue.main.async {
+                self.performSegue(withIdentifier: "segueone", sender: nil)
+            }
+        }
+            /*
+        else {
+            DispatchQueue.main.async {
+                self.performSegue(withIdentifier: "segueone", sender: nil)
+            }
+        }
+        */
+        
     }
     /*
     func tableView(_ tableView: UITableView, didSelectRow indexPath: IndexPath) {

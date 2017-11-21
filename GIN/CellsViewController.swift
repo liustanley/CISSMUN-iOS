@@ -18,6 +18,7 @@ class CellsViewController: UIViewController, UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         imageView.image = images[(NSInteger)(roomies[row].floorNumber)]
         scroll.delegate = self
         textView.text = roomies[row].roomName

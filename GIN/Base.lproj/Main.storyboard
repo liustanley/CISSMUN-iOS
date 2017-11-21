@@ -1273,7 +1273,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ed1-Er-wP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5054.347826086957" y="189.53804347826087"/>
+            <point key="canvasLocation" x="-5178" y="153"/>
         </scene>
         <!--Search-->
         <scene sceneID="Dkf-VO-QdT">
@@ -1292,7 +1292,18 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="swd-k8-am8" kind="show" id="fve-k3-7x0"/>
+                                    <segue destination="swd-k8-am8" kind="show" identifier="segueone" id="fve-k3-7x0"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="celltwo" id="N7a-VU-a0E">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="N7a-VU-a0E" id="d4V-IQ-mIU">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="EPI-Hz-m9c" kind="show" identifier="seguetwo" id="p1d-v7-keR"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -5358,6 +5369,83 @@ The cost of buses to and from the airport/train station will be borne by the vis
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nda-0t-uNQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-39" y="-383"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yRC-wc-6YT">
+            <objects>
+                <viewController id="EPI-Hz-m9c" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1JE-zk-dFF"/>
+                        <viewControllerLayoutGuide type="bottom" id="yrV-8N-2mh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yh2-S7-JnX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WcM-qC-2Fj">
+                                <rect key="frame" x="166.66666666666666" y="20" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="290-CH-bhA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atQ-Tr-QtZ">
+                                <rect key="frame" x="166.66666666666666" y="76" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Dab-Iv-POh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="ZhI-Rw-vYN">
+                                <rect key="frame" x="0.0" y="236.99999999999997" width="375" height="281.33333333333326"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="82h-qa-wT3">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="281"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="375" id="meq-hF-Ktl"/>
+                                            <constraint firstAttribute="width" secondItem="82h-qa-wT3" secondAttribute="height" multiplier="4:3" id="u5y-J2-RkM"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="82h-qa-wT3" firstAttribute="top" secondItem="ZhI-Rw-vYN" secondAttribute="top" id="5d6-fG-lt6"/>
+                                    <constraint firstItem="82h-qa-wT3" firstAttribute="height" secondItem="ZhI-Rw-vYN" secondAttribute="height" id="6dm-8O-Q7H"/>
+                                    <constraint firstAttribute="width" secondItem="ZhI-Rw-vYN" secondAttribute="height" multiplier="4:3" id="NFB-LB-GZZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="82h-qa-wT3" secondAttribute="trailing" id="S9I-nr-KFJ"/>
+                                    <constraint firstItem="82h-qa-wT3" firstAttribute="width" secondItem="ZhI-Rw-vYN" secondAttribute="width" id="WKF-NQ-nwd"/>
+                                    <constraint firstItem="82h-qa-wT3" firstAttribute="centerX" secondItem="ZhI-Rw-vYN" secondAttribute="centerX" id="fLx-yq-t9I"/>
+                                    <constraint firstItem="82h-qa-wT3" firstAttribute="leading" secondItem="ZhI-Rw-vYN" secondAttribute="leading" id="p1i-Ko-7qo"/>
+                                    <constraint firstAttribute="bottom" secondItem="82h-qa-wT3" secondAttribute="bottom" constant="0.33000000000000002" id="ypO-Wf-fkM"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yrV-8N-2mh" firstAttribute="top" secondItem="WcM-qC-2Fj" secondAttribute="bottom" constant="562" id="6w6-ZU-vKE"/>
+                            <constraint firstItem="ZhI-Rw-vYN" firstAttribute="top" secondItem="atQ-Tr-QtZ" secondAttribute="bottom" constant="140" id="NK9-zE-60b"/>
+                            <constraint firstItem="ZhI-Rw-vYN" firstAttribute="centerX" secondItem="Yh2-S7-JnX" secondAttribute="centerX" id="TgS-CJ-I21"/>
+                            <constraint firstItem="atQ-Tr-QtZ" firstAttribute="top" secondItem="WcM-qC-2Fj" secondAttribute="bottom" constant="35" id="Vxf-zD-px5"/>
+                            <constraint firstItem="ZhI-Rw-vYN" firstAttribute="leading" secondItem="Yh2-S7-JnX" secondAttribute="leading" id="Yva-9C-FrS"/>
+                            <constraint firstAttribute="trailing" secondItem="ZhI-Rw-vYN" secondAttribute="trailing" id="duf-sF-Eqs"/>
+                            <constraint firstItem="WcM-qC-2Fj" firstAttribute="centerX" secondItem="Yh2-S7-JnX" secondAttribute="centerX" id="fhz-zP-d3N"/>
+                            <constraint firstItem="WcM-qC-2Fj" firstAttribute="top" secondItem="1JE-zk-dFF" secondAttribute="bottom" constant="20" id="uRi-XQ-Xq6"/>
+                            <constraint firstItem="atQ-Tr-QtZ" firstAttribute="centerX" secondItem="Yh2-S7-JnX" secondAttribute="centerX" id="wEC-Z4-6Ug"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="82h-qa-wT3" id="wr4-b5-G45"/>
+                        <outlet property="scroll" destination="ZhI-Rw-vYN" id="Ncg-nl-jkO"/>
+                        <outlet property="textView" destination="WcM-qC-2Fj" id="qGb-rq-cMa"/>
+                        <outlet property="textViewtwo" destination="atQ-Tr-QtZ" id="DDu-d7-gPa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A1I-Ca-My1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4561" y="507"/>
         </scene>
     </scenes>
     <resources>
