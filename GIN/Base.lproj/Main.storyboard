@@ -185,7 +185,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <!--Contact-->
         <scene sceneID="9A9-Kw-aoG">
             <objects>
-                <viewController title="Contact" id="hv0-qk-WNs" sceneMemberID="viewController">
+                <viewController title="Contact" id="hv0-qk-WNs" customClass="MUNHomeViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PX2-cf-lGI"/>
                         <viewControllerLayoutGuide type="bottom" id="OSW-k3-qdQ"/>
@@ -769,11 +769,8 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                                     </view>
                                                 </subviews>
                                             </stackView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="contact" translatesAutoresizingMaskIntoConstraints="NO" id="VS0-4y-rFY">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="contact" translatesAutoresizingMaskIntoConstraints="NO" id="VS0-4y-rFY">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="200" id="zKi-4V-Nyr"/>
-                                                </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXe-JK-H35">
                                                 <rect key="frame" x="98" y="84" width="125" height="33"/>
@@ -796,13 +793,14 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="f0k-sb-E9R" secondAttribute="trailing" constant="16" id="65S-SQ-qpr"/>
                                             <constraint firstItem="JW0-ao-Ej2" firstAttribute="leading" secondItem="vrS-NI-dTc" secondAttribute="leading" constant="16" id="6hm-do-TlL"/>
+                                            <constraint firstAttribute="bottom" secondItem="VS0-4y-rFY" secondAttribute="bottom" priority="999" constant="800" id="9zd-8w-yUK"/>
                                             <constraint firstAttribute="trailing" secondItem="JW0-ao-Ej2" secondAttribute="trailing" constant="16" id="E0N-cu-Bba"/>
                                             <constraint firstItem="YXe-JK-H35" firstAttribute="centerY" secondItem="VS0-4y-rFY" secondAttribute="centerY" id="Nx3-fJ-8fr"/>
                                             <constraint firstAttribute="bottom" secondItem="JW0-ao-Ej2" secondAttribute="bottom" constant="16" id="Oi4-As-N8R"/>
+                                            <constraint firstItem="f0k-sb-E9R" firstAttribute="top" secondItem="vrS-NI-dTc" secondAttribute="top" priority="999" constant="216" id="P6n-R0-sxL"/>
                                             <constraint firstAttribute="height" constant="1000" id="ZQh-qw-RDt"/>
                                             <constraint firstItem="YXe-JK-H35" firstAttribute="centerX" secondItem="VS0-4y-rFY" secondAttribute="centerX" id="bih-lS-KsB"/>
-                                            <constraint firstItem="f0k-sb-E9R" firstAttribute="top" secondItem="VS0-4y-rFY" secondAttribute="bottom" constant="16" id="cfb-QW-uxe"/>
-                                            <constraint firstItem="VS0-4y-rFY" firstAttribute="top" secondItem="vrS-NI-dTc" secondAttribute="top" id="cqn-mN-cCj"/>
+                                            <constraint firstItem="f0k-sb-E9R" firstAttribute="top" secondItem="VS0-4y-rFY" secondAttribute="bottom" priority="999" constant="16" id="cfb-QW-uxe"/>
                                             <constraint firstAttribute="trailing" secondItem="VS0-4y-rFY" secondAttribute="trailing" id="hlk-Pd-kcJ"/>
                                             <constraint firstItem="f0k-sb-E9R" firstAttribute="leading" secondItem="vrS-NI-dTc" secondAttribute="leading" constant="16" id="niY-Mf-XEt"/>
                                             <constraint firstItem="JW0-ao-Ej2" firstAttribute="top" secondItem="f0k-sb-E9R" secondAttribute="bottom" constant="16" id="tFo-Nb-XGG"/>
@@ -821,6 +819,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4cl-Qp-lD1" firstAttribute="top" secondItem="PX2-cf-lGI" secondAttribute="bottom" id="2cC-1C-KpO"/>
+                            <constraint firstItem="VS0-4y-rFY" firstAttribute="top" secondItem="PX2-cf-lGI" secondAttribute="bottom" id="5K1-uG-Cu6"/>
                             <constraint firstItem="vrS-NI-dTc" firstAttribute="width" secondItem="DaI-fe-HSO" secondAttribute="width" id="Yke-6O-j6I"/>
                             <constraint firstItem="4cl-Qp-lD1" firstAttribute="leading" secondItem="DaI-fe-HSO" secondAttribute="leading" id="aeq-rt-UKL"/>
                             <constraint firstAttribute="trailing" secondItem="4cl-Qp-lD1" secondAttribute="trailing" id="ohb-aa-S63"/>
@@ -829,6 +828,10 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1100"/>
+                    <connections>
+                        <outlet property="imageView" destination="VS0-4y-rFY" id="aPT-ad-Npy"/>
+                        <outlet property="scrollView" destination="4cl-Qp-lD1" id="UzS-wy-oyA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jka-R0-lhY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
