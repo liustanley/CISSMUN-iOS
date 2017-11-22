@@ -3491,7 +3491,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIa-Gx-gSi" userLabel="Menu">
                                                                 <rect key="frame" x="277" y="6" width="25" height="25"/>
-                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d10378374-Reviews-Yang_s_Fried_Dumplings_Dongfang_Mingzhu-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="406-1408 Lujiazui Ring Road"/>
+                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d10378374-Reviews-Yang_s_Fried_Dumplings_Dongfang_Mingzhu-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="555 Biyun Rd"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="sIa-Gx-gSi" secondAttribute="height" multiplier="1:1" id="NVb-Ff-dhF"/>
                                                                     <constraint firstAttribute="height" constant="25" id="u2Z-l2-zWR"/>
@@ -3542,7 +3542,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                     <constraint firstAttribute="width" secondItem="ruv-kZ-QpV" secondAttribute="height" multiplier="1:1" id="j8X-2g-pNS"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chicken" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CO5-54-I2I">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fried Chicken" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CO5-54-I2I">
                                                                 <rect key="frame" x="93" y="7.9999999999999982" width="180" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
@@ -3589,13 +3589,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mexican, Fast Food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFa-B5-OhK">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taiwanese, Fast Food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFa-B5-OhK">
                                                                 <rect key="frame" x="93" y="50.333333333333343" width="203" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Lujiazui" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jg-X4-2XF">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Carrefour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jg-X4-2XF">
                                                                 <rect key="frame" x="93" y="69.666666666666657" width="203" height="15.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -3660,54 +3660,19 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="P0q-h1-JEB" userLabel="Star Filled">
-                                                                <rect key="frame" x="93" y="31.333333333333314" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="15" id="IEX-28-a8Z"/>
-                                                                    <constraint firstAttribute="width" secondItem="P0q-h1-JEB" secondAttribute="height" multiplier="1:1" id="oiJ-77-M3U"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="jEK-Nc-9st" userLabel="Star Filled">
-                                                                <rect key="frame" x="110" y="31.333333333333314" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="15" id="Bu7-wi-uVH"/>
-                                                                    <constraint firstAttribute="width" secondItem="jEK-Nc-9st" secondAttribute="height" multiplier="1:1" id="pkW-f7-bbU"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="LMr-w7-8HW" userLabel="Star Filled">
-                                                                <rect key="frame" x="127" y="31.333333333333314" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="15" id="6Hq-kd-8vy"/>
-                                                                    <constraint firstAttribute="width" secondItem="LMr-w7-8HW" secondAttribute="height" multiplier="1:1" id="gzY-xL-mfB"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="5gB-CA-gmc" userLabel="Star Filled">
-                                                                <rect key="frame" x="144" y="31.333333333333314" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="15" id="aCb-4B-uRo"/>
-                                                                    <constraint firstAttribute="width" secondItem="5gB-CA-gmc" secondAttribute="height" multiplier="1:1" id="xCk-mk-ZJe"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Empty" translatesAutoresizingMaskIntoConstraints="NO" id="RN4-sk-nr2" userLabel="Star Empty">
-                                                                <rect key="frame" x="161" y="31.333333333333314" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="RN4-sk-nr2" secondAttribute="height" multiplier="1:1" id="9VS-lm-WqV"/>
-                                                                    <constraint firstAttribute="width" constant="15" id="pUH-rp-rX5"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ez5-S9-TLk">
-                                                                <rect key="frame" x="180" y="32.333333333333314" width="120" height="13.666666666666664"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Reviews Available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ez5-S9-TLk">
+                                                                <rect key="frame" x="93" y="32.333333333333314" width="95" height="13.666666666666664"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asian, Taiwanese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vf-di-N7j">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taiwanese, Tea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vf-di-N7j">
                                                                 <rect key="frame" x="93" y="50.333333333333314" width="203" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Jing'an" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3UC-kM-PJC">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Carrefour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3UC-kM-PJC">
                                                                 <rect key="frame" x="93" y="69.666666666666686" width="203" height="15.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -3715,7 +3680,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0N-eS-Ks4" userLabel="Menu">
                                                                 <rect key="frame" x="277" y="6" width="25" height="25"/>
-                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d8837071-Reviews-Taoyuan_Village_Jing_an_Temple-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="406-1408 Lujiazui Ring Road"/>
+                                                                <accessibility key="accessibilityConfiguration" hint="http://www.yidiandiantea.com/" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="555 Biyun Rd"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="25" id="D2X-Je-WAP"/>
                                                                     <constraint firstAttribute="width" secondItem="Y0N-eS-Ks4" secondAttribute="height" multiplier="1:1" id="MAI-uC-D7q"/>
@@ -3729,36 +3694,138 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <constraints>
                                                             <constraint firstItem="DPk-xZ-uUI" firstAttribute="leading" secondItem="Tu7-oS-0w1" secondAttribute="leading" constant="8" id="1aQ-Il-BL9"/>
-                                                            <constraint firstItem="5gB-CA-gmc" firstAttribute="top" secondItem="L4E-bG-45x" secondAttribute="bottom" constant="4" id="1jg-BC-eSN"/>
                                                             <constraint firstItem="ez5-S9-TLk" firstAttribute="top" secondItem="L4E-bG-45x" secondAttribute="bottom" constant="5" id="34N-7P-mvh"/>
-                                                            <constraint firstItem="P0q-h1-JEB" firstAttribute="leading" secondItem="DPk-xZ-uUI" secondAttribute="trailing" constant="8" id="3Yv-Ze-alJ"/>
-                                                            <constraint firstAttribute="trailing" secondItem="ez5-S9-TLk" secondAttribute="trailing" constant="4" id="47q-Ca-gDs"/>
-                                                            <constraint firstItem="jEK-Nc-9st" firstAttribute="leading" secondItem="P0q-h1-JEB" secondAttribute="trailing" constant="2" id="6dF-J0-fR0"/>
+                                                            <constraint firstItem="ez5-S9-TLk" firstAttribute="leading" secondItem="DPk-xZ-uUI" secondAttribute="trailing" constant="8" id="5wz-Db-tvT"/>
                                                             <constraint firstItem="DPk-xZ-uUI" firstAttribute="top" secondItem="Tu7-oS-0w1" secondAttribute="top" constant="8" id="9pP-XT-ckg"/>
-                                                            <constraint firstItem="LMr-w7-8HW" firstAttribute="top" secondItem="L4E-bG-45x" secondAttribute="bottom" constant="4" id="AK0-G4-Yo5"/>
                                                             <constraint firstAttribute="bottom" secondItem="DPk-xZ-uUI" secondAttribute="bottom" constant="8" id="GVI-oG-7mj"/>
-                                                            <constraint firstItem="LMr-w7-8HW" firstAttribute="leading" secondItem="jEK-Nc-9st" secondAttribute="trailing" constant="2" id="Kvz-du-ayc"/>
                                                             <constraint firstAttribute="trailing" secondItem="5vf-di-N7j" secondAttribute="trailing" constant="8" id="MQr-lJ-Ryd"/>
                                                             <constraint firstAttribute="trailing" secondItem="Y0N-eS-Ks4" secondAttribute="trailing" constant="2" id="ObY-MY-1T9"/>
                                                             <constraint firstItem="5vf-di-N7j" firstAttribute="leading" secondItem="DPk-xZ-uUI" secondAttribute="trailing" constant="8" id="Va1-f8-N2T"/>
-                                                            <constraint firstItem="5gB-CA-gmc" firstAttribute="leading" secondItem="LMr-w7-8HW" secondAttribute="trailing" constant="2" id="XlM-w6-qsB"/>
+                                                            <constraint firstItem="3UC-kM-PJC" firstAttribute="bottom" secondItem="DPk-xZ-uUI" secondAttribute="bottom" id="b09-TF-4g5"/>
                                                             <constraint firstAttribute="trailing" secondItem="3UC-kM-PJC" secondAttribute="trailing" constant="8" id="b7M-gq-TWy"/>
-                                                            <constraint firstItem="5vf-di-N7j" firstAttribute="top" secondItem="LMr-w7-8HW" secondAttribute="bottom" constant="4" id="doI-ZH-MLg"/>
-                                                            <constraint firstItem="RN4-sk-nr2" firstAttribute="top" secondItem="L4E-bG-45x" secondAttribute="bottom" constant="4" id="eaR-Bn-iyo"/>
-                                                            <constraint firstItem="ez5-S9-TLk" firstAttribute="leading" secondItem="RN4-sk-nr2" secondAttribute="trailing" constant="4" id="fUC-7z-Ps0"/>
-                                                            <constraint firstItem="P0q-h1-JEB" firstAttribute="top" secondItem="L4E-bG-45x" secondAttribute="bottom" constant="4" id="gbl-9x-V4K"/>
-                                                            <constraint firstItem="jEK-Nc-9st" firstAttribute="top" secondItem="L4E-bG-45x" secondAttribute="bottom" constant="4" id="mLp-y9-FKo"/>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ez5-S9-TLk" secondAttribute="trailing" constant="20" symbolic="YES" id="dvP-Gi-Wed"/>
                                                             <constraint firstItem="3UC-kM-PJC" firstAttribute="top" secondItem="5vf-di-N7j" secondAttribute="bottom" id="mfR-9C-2Zj"/>
                                                             <constraint firstItem="L4E-bG-45x" firstAttribute="top" secondItem="Tu7-oS-0w1" secondAttribute="top" constant="8" id="pVH-gQ-9NV"/>
-                                                            <constraint firstItem="RN4-sk-nr2" firstAttribute="leading" secondItem="5gB-CA-gmc" secondAttribute="trailing" constant="2" id="pbp-LQ-4bY"/>
                                                             <constraint firstItem="3UC-kM-PJC" firstAttribute="leading" secondItem="DPk-xZ-uUI" secondAttribute="trailing" constant="8" id="rE1-J4-rD6"/>
                                                             <constraint firstItem="Y0N-eS-Ks4" firstAttribute="top" secondItem="Tu7-oS-0w1" secondAttribute="top" constant="6" id="rcQ-fb-ptt"/>
                                                             <constraint firstItem="L4E-bG-45x" firstAttribute="leading" secondItem="DPk-xZ-uUI" secondAttribute="trailing" constant="8" id="w6K-nl-yLO"/>
                                                             <constraint firstItem="Y0N-eS-Ks4" firstAttribute="leading" secondItem="L4E-bG-45x" secondAttribute="trailing" constant="4" id="wDE-t7-XUn"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5s-Bs-13b" userLabel="ChiChi Sushi">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Caq-fS-ABe" userLabel="NY Pizza">
                                                         <rect key="frame" x="0.0" y="297" width="304" height="93"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nypizza" translatesAutoresizingMaskIntoConstraints="NO" id="yNo-c0-RTv">
+                                                                <rect key="frame" x="8" y="8" width="77" height="77"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="yNo-c0-RTv" secondAttribute="height" multiplier="1:1" id="XE7-rv-gXj"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New York Style Pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQo-gF-cnj">
+                                                                <rect key="frame" x="93" y="7.9999999999999982" width="180" height="19.333333333333329"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="47X-LR-KmS" userLabel="Star Filled">
+                                                                <rect key="frame" x="93" y="31.333333333333314" width="15" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="15" id="Gvn-83-4A3"/>
+                                                                    <constraint firstAttribute="width" secondItem="47X-LR-KmS" secondAttribute="height" multiplier="1:1" id="e4b-43-Xwf"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="3gu-xj-E3W" userLabel="Star Filled">
+                                                                <rect key="frame" x="110" y="31.333333333333314" width="15" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="15" id="i2f-J8-5cd"/>
+                                                                    <constraint firstAttribute="width" secondItem="3gu-xj-E3W" secondAttribute="height" multiplier="1:1" id="mUR-fF-agn"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="vms-b1-1TH" userLabel="Star Filled">
+                                                                <rect key="frame" x="127" y="31.333333333333314" width="15" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="vms-b1-1TH" secondAttribute="height" multiplier="1:1" id="AUv-v6-Plc"/>
+                                                                    <constraint firstAttribute="width" constant="15" id="PoT-hM-3iK"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="CSo-lz-kvb" userLabel="Star Filled">
+                                                                <rect key="frame" x="144" y="31.333333333333314" width="15" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="15" id="lUn-9L-zou"/>
+                                                                    <constraint firstAttribute="width" secondItem="CSo-lz-kvb" secondAttribute="height" multiplier="1:1" id="zx1-a2-nkV"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Empty" translatesAutoresizingMaskIntoConstraints="NO" id="J0E-Ym-3oB" userLabel="Star Half Filled">
+                                                                <rect key="frame" x="161" y="31.333333333333314" width="15" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="15" id="fDB-Vp-hKH"/>
+                                                                    <constraint firstAttribute="width" secondItem="J0E-Ym-3oB" secondAttribute="height" multiplier="1:1" id="nKW-Cj-ddV"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5f-IP-qki">
+                                                                <rect key="frame" x="180" y="32.333333333333314" width="120" height="13.666666666666664"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Italian, Pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHj-Fz-O2c">
+                                                                <rect key="frame" x="93" y="50.333333333333314" width="203" height="19.333333333333329"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Jinqiao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0RX-qD-py5">
+                                                                <rect key="frame" x="93" y="69.666666666666686" width="203" height="15.333333333333329"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
+                                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtA-KB-AD9" userLabel="Menu">
+                                                                <rect key="frame" x="277" y="6" width="25" height="25"/>
+                                                                <accessibility key="accessibilityConfiguration" hint="https://en.tripadvisor.com.hk/Restaurant_Review-g308272-d4805848-Reviews-New_York_Style_Pizza_Huamu_Road-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="336 Hongfeng Rd"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="KtA-KB-AD9" secondAttribute="height" multiplier="1:1" id="juP-28-6V0"/>
+                                                                    <constraint firstAttribute="height" constant="25" id="r6p-AZ-TRw"/>
+                                                                </constraints>
+                                                                <state key="normal" title="Button" image="icons8-Menu 2-64"/>
+                                                                <connections>
+                                                                    <action selector="expandMenuWithSender:" destination="C5Z-wF-pIU" eventType="touchUpInside" id="0qD-zn-VFy"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstItem="J0E-Ym-3oB" firstAttribute="leading" secondItem="CSo-lz-kvb" secondAttribute="trailing" constant="2" id="0xb-h7-GBO"/>
+                                                            <constraint firstItem="CSo-lz-kvb" firstAttribute="top" secondItem="xQo-gF-cnj" secondAttribute="bottom" constant="4" id="4qp-BX-MpY"/>
+                                                            <constraint firstAttribute="trailing" secondItem="uHj-Fz-O2c" secondAttribute="trailing" constant="8" id="6w3-MB-Ola"/>
+                                                            <constraint firstItem="xQo-gF-cnj" firstAttribute="top" secondItem="Caq-fS-ABe" secondAttribute="top" constant="8" id="8F6-Cx-vNe"/>
+                                                            <constraint firstItem="CSo-lz-kvb" firstAttribute="leading" secondItem="vms-b1-1TH" secondAttribute="trailing" constant="2" id="8No-F0-LAo"/>
+                                                            <constraint firstItem="uHj-Fz-O2c" firstAttribute="leading" secondItem="yNo-c0-RTv" secondAttribute="trailing" constant="8" id="AMo-q0-WEC"/>
+                                                            <constraint firstItem="3gu-xj-E3W" firstAttribute="top" secondItem="xQo-gF-cnj" secondAttribute="bottom" constant="4" id="DiQ-GV-eX6"/>
+                                                            <constraint firstItem="I5f-IP-qki" firstAttribute="top" secondItem="xQo-gF-cnj" secondAttribute="bottom" constant="5" id="GkR-WI-ia8"/>
+                                                            <constraint firstAttribute="bottom" secondItem="yNo-c0-RTv" secondAttribute="bottom" constant="8" id="JLM-Xo-VSu"/>
+                                                            <constraint firstItem="I5f-IP-qki" firstAttribute="leading" secondItem="J0E-Ym-3oB" secondAttribute="trailing" constant="4" id="LUB-54-jHy"/>
+                                                            <constraint firstAttribute="trailing" secondItem="0RX-qD-py5" secondAttribute="trailing" constant="8" id="MmW-1Q-eTg"/>
+                                                            <constraint firstItem="0RX-qD-py5" firstAttribute="top" secondItem="uHj-Fz-O2c" secondAttribute="bottom" id="N7s-Lc-XJI"/>
+                                                            <constraint firstItem="0RX-qD-py5" firstAttribute="leading" secondItem="yNo-c0-RTv" secondAttribute="trailing" constant="8" id="NCF-rF-Mva"/>
+                                                            <constraint firstItem="vms-b1-1TH" firstAttribute="top" secondItem="xQo-gF-cnj" secondAttribute="bottom" constant="4" id="ODE-DY-wHZ"/>
+                                                            <constraint firstItem="KtA-KB-AD9" firstAttribute="top" secondItem="Caq-fS-ABe" secondAttribute="top" constant="6" id="PTQ-yd-YAK"/>
+                                                            <constraint firstItem="J0E-Ym-3oB" firstAttribute="top" secondItem="xQo-gF-cnj" secondAttribute="bottom" constant="4" id="Teu-4y-8yG"/>
+                                                            <constraint firstItem="yNo-c0-RTv" firstAttribute="top" secondItem="Caq-fS-ABe" secondAttribute="top" constant="8" id="UNJ-ht-7xm"/>
+                                                            <constraint firstItem="47X-LR-KmS" firstAttribute="top" secondItem="xQo-gF-cnj" secondAttribute="bottom" constant="4" id="W2j-N2-WUE"/>
+                                                            <constraint firstItem="vms-b1-1TH" firstAttribute="leading" secondItem="3gu-xj-E3W" secondAttribute="trailing" constant="2" id="Zo7-5U-5kJ"/>
+                                                            <constraint firstItem="47X-LR-KmS" firstAttribute="leading" secondItem="yNo-c0-RTv" secondAttribute="trailing" constant="8" id="exR-d3-3OM"/>
+                                                            <constraint firstItem="KtA-KB-AD9" firstAttribute="leading" secondItem="xQo-gF-cnj" secondAttribute="trailing" constant="4" id="oVc-4M-v8C"/>
+                                                            <constraint firstAttribute="trailing" secondItem="KtA-KB-AD9" secondAttribute="trailing" constant="2" id="pps-sT-Kt2"/>
+                                                            <constraint firstItem="3gu-xj-E3W" firstAttribute="leading" secondItem="47X-LR-KmS" secondAttribute="trailing" constant="2" id="rkp-p0-HjT"/>
+                                                            <constraint firstItem="yNo-c0-RTv" firstAttribute="leading" secondItem="Caq-fS-ABe" secondAttribute="leading" constant="8" id="t0D-mg-NS7"/>
+                                                            <constraint firstItem="uHj-Fz-O2c" firstAttribute="top" secondItem="vms-b1-1TH" secondAttribute="bottom" constant="4" id="x4I-WO-gIV"/>
+                                                            <constraint firstItem="xQo-gF-cnj" firstAttribute="leading" secondItem="yNo-c0-RTv" secondAttribute="trailing" constant="8" id="xVa-Zs-PbE"/>
+                                                            <constraint firstAttribute="trailing" secondItem="I5f-IP-qki" secondAttribute="trailing" constant="4" id="znT-7d-FB2"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5s-Bs-13b" userLabel="ChiChi Sushi">
+                                                        <rect key="frame" x="0.0" y="396" width="304" height="93"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chichi" translatesAutoresizingMaskIntoConstraints="NO" id="5Ds-tl-A9t">
                                                                 <rect key="frame" x="8" y="8" width="77" height="77"/>
@@ -3766,68 +3833,33 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                     <constraint firstAttribute="width" secondItem="5Ds-tl-A9t" secondAttribute="height" multiplier="1:1" id="YYE-Xk-hi6"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ChiChi Sushi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecd-zd-n03">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chi-Chi Sushi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecd-zd-n03">
                                                                 <rect key="frame" x="93" y="7.9999999999999982" width="180" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="vQJ-dP-7qz" userLabel="Star Filled">
-                                                                <rect key="frame" x="93" y="31.333333333333314" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="vQJ-dP-7qz" secondAttribute="height" multiplier="1:1" id="2Wo-4l-JDk"/>
-                                                                    <constraint firstAttribute="width" constant="15" id="Ag1-fD-kXL"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="gh7-2Y-obU" userLabel="Star Filled">
-                                                                <rect key="frame" x="110" y="31.333333333333314" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="15" id="5up-AS-CuR"/>
-                                                                    <constraint firstAttribute="width" secondItem="gh7-2Y-obU" secondAttribute="height" multiplier="1:1" id="dnR-25-vrg"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="l0X-fB-HLy" userLabel="Star Filled">
-                                                                <rect key="frame" x="127" y="31.333333333333314" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="l0X-fB-HLy" secondAttribute="height" multiplier="1:1" id="4NU-NX-bu4"/>
-                                                                    <constraint firstAttribute="width" constant="15" id="d7A-hs-26Y"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="RBo-3j-0gu" userLabel="Star Filled">
-                                                                <rect key="frame" x="144" y="31.333333333333314" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="15" id="4Lt-Sb-ABm"/>
-                                                                    <constraint firstAttribute="width" secondItem="RBo-3j-0gu" secondAttribute="height" multiplier="1:1" id="61i-VU-H2u"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Empty" translatesAutoresizingMaskIntoConstraints="NO" id="wQM-k8-x3N" userLabel="Star Empty">
-                                                                <rect key="frame" x="161" y="31.333333333333314" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="wQM-k8-x3N" secondAttribute="height" multiplier="1:1" id="IZ7-kL-AJT"/>
-                                                                    <constraint firstAttribute="width" constant="15" id="ZbP-YS-m2p"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Review" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CG2-dz-SYQ">
-                                                                <rect key="frame" x="180" y="32.333333333333314" width="120" height="13.666666666666664"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Reviews Available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CG2-dz-SYQ">
+                                                                <rect key="frame" x="93" y="32.333333333333314" width="95" height="13.666666666666664"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asian, Korean" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="If2-nV-8hX">
-                                                                <rect key="frame" x="93" y="50.333333333333314" width="203" height="19.333333333333329"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Japanese, Sushi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="If2-nV-8hX">
+                                                                <rect key="frame" x="93" y="51" width="203" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Yangpu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6X-qt-vdP">
-                                                                <rect key="frame" x="93" y="69.666666666666686" width="203" height="15.333333333333329"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$ - Jinqiao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6X-qt-vdP">
+                                                                <rect key="frame" x="93" y="70.333333333333371" width="203" height="15.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5m3-H9-VaV" userLabel="Menu">
                                                                 <rect key="frame" x="277" y="6" width="25" height="25"/>
-                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d10668498-Reviews-BiQi_Ya_Korean_ZhaJi_Pizza_HuangXing_Road-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="406-1408 Lujiazui Ring Road"/>
+                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d10668498-Reviews-BiQi_Ya_Korean_ZhaJi_Pizza_HuangXing_Road-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="633 Biyun Road"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="25" id="LTJ-A2-6fW"/>
                                                                     <constraint firstAttribute="width" secondItem="5m3-H9-VaV" secondAttribute="height" multiplier="1:1" id="chE-Sm-9ot"/>
@@ -3840,37 +3872,27 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <constraints>
-                                                            <constraint firstItem="vQJ-dP-7qz" firstAttribute="leading" secondItem="5Ds-tl-A9t" secondAttribute="trailing" constant="8" id="4Xn-S1-Mia"/>
-                                                            <constraint firstItem="gh7-2Y-obU" firstAttribute="leading" secondItem="vQJ-dP-7qz" secondAttribute="trailing" constant="2" id="4sg-7v-kvI"/>
-                                                            <constraint firstAttribute="trailing" secondItem="CG2-dz-SYQ" secondAttribute="trailing" constant="4" id="5cd-EQ-xfg"/>
                                                             <constraint firstItem="CG2-dz-SYQ" firstAttribute="top" secondItem="ecd-zd-n03" secondAttribute="bottom" constant="5" id="CZu-mT-vMw"/>
-                                                            <constraint firstItem="If2-nV-8hX" firstAttribute="top" secondItem="l0X-fB-HLy" secondAttribute="bottom" constant="4" id="Cgn-ho-PUB"/>
                                                             <constraint firstItem="5m3-H9-VaV" firstAttribute="leading" secondItem="ecd-zd-n03" secondAttribute="trailing" constant="4" id="DWm-zu-ZEK"/>
                                                             <constraint firstItem="If2-nV-8hX" firstAttribute="leading" secondItem="5Ds-tl-A9t" secondAttribute="trailing" constant="8" id="Edd-YH-ff4"/>
-                                                            <constraint firstItem="vQJ-dP-7qz" firstAttribute="top" secondItem="ecd-zd-n03" secondAttribute="bottom" constant="4" id="Fxc-ML-e9D"/>
-                                                            <constraint firstItem="RBo-3j-0gu" firstAttribute="top" secondItem="ecd-zd-n03" secondAttribute="bottom" constant="4" id="GZL-Sk-CjA"/>
                                                             <constraint firstAttribute="trailing" secondItem="5m3-H9-VaV" secondAttribute="trailing" constant="2" id="Hrz-8O-hDh"/>
-                                                            <constraint firstItem="CG2-dz-SYQ" firstAttribute="leading" secondItem="wQM-k8-x3N" secondAttribute="trailing" constant="4" id="Il9-J6-8iM"/>
                                                             <constraint firstItem="5m3-H9-VaV" firstAttribute="top" secondItem="H5s-Bs-13b" secondAttribute="top" constant="6" id="IyE-4j-SP5"/>
-                                                            <constraint firstItem="wQM-k8-x3N" firstAttribute="leading" secondItem="RBo-3j-0gu" secondAttribute="trailing" constant="2" id="KxE-iy-7rM"/>
-                                                            <constraint firstItem="wQM-k8-x3N" firstAttribute="top" secondItem="ecd-zd-n03" secondAttribute="bottom" constant="4" id="P1v-ql-mQs"/>
-                                                            <constraint firstItem="RBo-3j-0gu" firstAttribute="leading" secondItem="l0X-fB-HLy" secondAttribute="trailing" constant="2" id="PgR-uh-RCN"/>
                                                             <constraint firstItem="5Ds-tl-A9t" firstAttribute="leading" secondItem="H5s-Bs-13b" secondAttribute="leading" constant="8" id="QmV-md-Voi"/>
                                                             <constraint firstItem="M6X-qt-vdP" firstAttribute="leading" secondItem="5Ds-tl-A9t" secondAttribute="trailing" constant="8" id="SBR-Gf-SPd"/>
+                                                            <constraint firstItem="CG2-dz-SYQ" firstAttribute="leading" secondItem="5Ds-tl-A9t" secondAttribute="trailing" constant="8" id="SKb-Hz-eic"/>
                                                             <constraint firstItem="5Ds-tl-A9t" firstAttribute="top" secondItem="H5s-Bs-13b" secondAttribute="top" constant="8" id="V0w-wm-dFE"/>
-                                                            <constraint firstItem="gh7-2Y-obU" firstAttribute="top" secondItem="ecd-zd-n03" secondAttribute="bottom" constant="4" id="chi-Ha-bnf"/>
                                                             <constraint firstAttribute="trailing" secondItem="M6X-qt-vdP" secondAttribute="trailing" constant="8" id="cvn-BJ-fMS"/>
+                                                            <constraint firstItem="M6X-qt-vdP" firstAttribute="bottom" secondItem="5Ds-tl-A9t" secondAttribute="bottom" id="faN-Hi-mLJ"/>
                                                             <constraint firstItem="ecd-zd-n03" firstAttribute="top" secondItem="H5s-Bs-13b" secondAttribute="top" constant="8" id="gzH-qO-vdz"/>
                                                             <constraint firstAttribute="trailing" secondItem="If2-nV-8hX" secondAttribute="trailing" constant="8" id="iby-ar-DQv"/>
                                                             <constraint firstItem="M6X-qt-vdP" firstAttribute="top" secondItem="If2-nV-8hX" secondAttribute="bottom" id="lbo-DT-c2e"/>
                                                             <constraint firstItem="ecd-zd-n03" firstAttribute="leading" secondItem="5Ds-tl-A9t" secondAttribute="trailing" constant="8" id="m73-LU-8nF"/>
-                                                            <constraint firstItem="l0X-fB-HLy" firstAttribute="leading" secondItem="gh7-2Y-obU" secondAttribute="trailing" constant="2" id="qRm-4g-Kny"/>
-                                                            <constraint firstItem="l0X-fB-HLy" firstAttribute="top" secondItem="ecd-zd-n03" secondAttribute="bottom" constant="4" id="qzO-kG-8z4"/>
                                                             <constraint firstAttribute="bottom" secondItem="5Ds-tl-A9t" secondAttribute="bottom" constant="8" id="rZM-P2-9h7"/>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CG2-dz-SYQ" secondAttribute="trailing" constant="20" symbolic="YES" id="sVo-aR-FVf"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="53A-tQ-zr7" userLabel="Udon">
-                                                        <rect key="frame" x="0.0" y="396" width="304" height="93"/>
+                                                        <rect key="frame" x="0.0" y="495" width="304" height="93"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Udon &amp; Tempura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97m-YK-Xjq">
                                                                 <rect key="frame" x="93" y="7.9999999999999982" width="180" height="19.333333333333329"/>
@@ -3879,61 +3901,61 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="EIa-8x-rv8" userLabel="Star Filled">
-                                                                <rect key="frame" x="93" y="31.333333333333314" width="15" height="15"/>
+                                                                <rect key="frame" x="93" y="31.333333333333371" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="EIa-8x-rv8" secondAttribute="height" multiplier="1:1" id="VcF-iW-b8a"/>
                                                                     <constraint firstAttribute="width" constant="15" id="Y8E-JW-rsO"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="qvk-22-9fI" userLabel="Star Filled">
-                                                                <rect key="frame" x="110" y="31.333333333333314" width="15" height="15"/>
+                                                                <rect key="frame" x="110" y="31.333333333333371" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="qvk-22-9fI" secondAttribute="height" multiplier="1:1" id="0uM-P6-eYx"/>
                                                                     <constraint firstAttribute="width" constant="15" id="zco-4X-kMB"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="eLd-tv-MyV" userLabel="Star Filled">
-                                                                <rect key="frame" x="127" y="31.333333333333314" width="15" height="15"/>
+                                                                <rect key="frame" x="127" y="31.333333333333371" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="15" id="eSn-qC-Lsk"/>
                                                                     <constraint firstAttribute="width" secondItem="eLd-tv-MyV" secondAttribute="height" multiplier="1:1" id="riu-mw-pms"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="QzF-WX-w7x" userLabel="Star Filled">
-                                                                <rect key="frame" x="144" y="31.333333333333314" width="15" height="15"/>
+                                                                <rect key="frame" x="144" y="31.333333333333371" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="QzF-WX-w7x" secondAttribute="height" multiplier="1:1" id="DpU-42-JJR"/>
                                                                     <constraint firstAttribute="width" constant="15" id="R8Z-jZ-8na"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Empty" translatesAutoresizingMaskIntoConstraints="NO" id="24M-nW-eN6" userLabel="Star Empty">
-                                                                <rect key="frame" x="161" y="31.333333333333314" width="15" height="15"/>
+                                                                <rect key="frame" x="161" y="31.333333333333371" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="15" id="hI2-lg-LhR"/>
                                                                     <constraint firstAttribute="width" secondItem="24M-nW-eN6" secondAttribute="height" multiplier="1:1" id="jfq-DU-H67"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Stt-xl-wEP">
-                                                                <rect key="frame" x="180" y="32.333333333333314" width="120" height="13.666666666666664"/>
+                                                                <rect key="frame" x="180" y="32.333333333333371" width="120" height="13.666666666666664"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="European, Soups" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJY-L6-qMg">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Japanese, Noodles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJY-L6-qMg">
                                                                 <rect key="frame" x="93" y="50.333333333333371" width="203" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ - Century Park" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7z-sr-sqF">
-                                                                <rect key="frame" x="93" y="69.666666666666629" width="203" height="15.333333333333329"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$ - Carrefour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7z-sr-sqF">
+                                                                <rect key="frame" x="93" y="69" width="203" height="15.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIF-oq-W4y" userLabel="Menu">
                                                                 <rect key="frame" x="277" y="6" width="25" height="25"/>
-                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d10585972-Reviews-Urban_Soup_Kitchen_Kerry_Cheng-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="406-1408 Lujiazui Ring Road"/>
+                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d10585972-Reviews-Urban_Soup_Kitchen_Kerry_Cheng-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="555 Biyun Rd"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="sIF-oq-W4y" secondAttribute="height" multiplier="1:1" id="552-tZ-wXC"/>
                                                                     <constraint firstAttribute="height" constant="25" id="ZSy-9m-DMu"/>
@@ -3981,118 +4003,6 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                             <constraint firstItem="EIa-8x-rv8" firstAttribute="leading" secondItem="QMv-ef-XW8" secondAttribute="trailing" constant="8" id="yai-6P-fnU"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Caq-fS-ABe" userLabel="NY Pizza">
-                                                        <rect key="frame" x="0.0" y="495" width="304" height="93"/>
-                                                        <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nypizza" translatesAutoresizingMaskIntoConstraints="NO" id="yNo-c0-RTv">
-                                                                <rect key="frame" x="8" y="8" width="77" height="77"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="yNo-c0-RTv" secondAttribute="height" multiplier="1:1" id="XE7-rv-gXj"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NY Pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQo-gF-cnj">
-                                                                <rect key="frame" x="93" y="7.9999999999999982" width="180" height="19.333333333333329"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="47X-LR-KmS" userLabel="Star Filled">
-                                                                <rect key="frame" x="93" y="31.333333333333371" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="15" id="Gvn-83-4A3"/>
-                                                                    <constraint firstAttribute="width" secondItem="47X-LR-KmS" secondAttribute="height" multiplier="1:1" id="e4b-43-Xwf"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="3gu-xj-E3W" userLabel="Star Filled">
-                                                                <rect key="frame" x="110" y="31.333333333333371" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="15" id="i2f-J8-5cd"/>
-                                                                    <constraint firstAttribute="width" secondItem="3gu-xj-E3W" secondAttribute="height" multiplier="1:1" id="mUR-fF-agn"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="vms-b1-1TH" userLabel="Star Filled">
-                                                                <rect key="frame" x="127" y="31.333333333333371" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="vms-b1-1TH" secondAttribute="height" multiplier="1:1" id="AUv-v6-Plc"/>
-                                                                    <constraint firstAttribute="width" constant="15" id="PoT-hM-3iK"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Filled" translatesAutoresizingMaskIntoConstraints="NO" id="CSo-lz-kvb" userLabel="Star Filled">
-                                                                <rect key="frame" x="144" y="31.333333333333371" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="15" id="lUn-9L-zou"/>
-                                                                    <constraint firstAttribute="width" secondItem="CSo-lz-kvb" secondAttribute="height" multiplier="1:1" id="zx1-a2-nkV"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Empty" translatesAutoresizingMaskIntoConstraints="NO" id="J0E-Ym-3oB" userLabel="Star Half Filled">
-                                                                <rect key="frame" x="161" y="31.333333333333371" width="15" height="15"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" constant="15" id="fDB-Vp-hKH"/>
-                                                                    <constraint firstAttribute="width" secondItem="J0E-Ym-3oB" secondAttribute="height" multiplier="1:1" id="nKW-Cj-ddV"/>
-                                                                </constraints>
-                                                            </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5f-IP-qki">
-                                                                <rect key="frame" x="180" y="32.333333333333371" width="120" height="13.666666666666664"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Italian, Pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHj-Fz-O2c">
-                                                                <rect key="frame" x="93" y="50.333333333333371" width="203" height="19.333333333333329"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$-$$$ - Shanghai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0RX-qD-py5">
-                                                                <rect key="frame" x="93" y="69.666666666666629" width="203" height="15.333333333333329"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
-                                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtA-KB-AD9" userLabel="Menu">
-                                                                <rect key="frame" x="277" y="6" width="25" height="25"/>
-                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d7381848-Reviews-Pizza_Express_IFC-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="406-1408 Lujiazui Ring Road"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="KtA-KB-AD9" secondAttribute="height" multiplier="1:1" id="juP-28-6V0"/>
-                                                                    <constraint firstAttribute="height" constant="25" id="r6p-AZ-TRw"/>
-                                                                </constraints>
-                                                                <state key="normal" title="Button" image="icons8-Menu 2-64"/>
-                                                                <connections>
-                                                                    <action selector="expandMenuWithSender:" destination="C5Z-wF-pIU" eventType="touchUpInside" id="0qD-zn-VFy"/>
-                                                                </connections>
-                                                            </button>
-                                                        </subviews>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                        <constraints>
-                                                            <constraint firstItem="J0E-Ym-3oB" firstAttribute="leading" secondItem="CSo-lz-kvb" secondAttribute="trailing" constant="2" id="0xb-h7-GBO"/>
-                                                            <constraint firstItem="CSo-lz-kvb" firstAttribute="top" secondItem="xQo-gF-cnj" secondAttribute="bottom" constant="4" id="4qp-BX-MpY"/>
-                                                            <constraint firstAttribute="trailing" secondItem="uHj-Fz-O2c" secondAttribute="trailing" constant="8" id="6w3-MB-Ola"/>
-                                                            <constraint firstItem="xQo-gF-cnj" firstAttribute="top" secondItem="Caq-fS-ABe" secondAttribute="top" constant="8" id="8F6-Cx-vNe"/>
-                                                            <constraint firstItem="CSo-lz-kvb" firstAttribute="leading" secondItem="vms-b1-1TH" secondAttribute="trailing" constant="2" id="8No-F0-LAo"/>
-                                                            <constraint firstItem="uHj-Fz-O2c" firstAttribute="leading" secondItem="yNo-c0-RTv" secondAttribute="trailing" constant="8" id="AMo-q0-WEC"/>
-                                                            <constraint firstItem="3gu-xj-E3W" firstAttribute="top" secondItem="xQo-gF-cnj" secondAttribute="bottom" constant="4" id="DiQ-GV-eX6"/>
-                                                            <constraint firstItem="I5f-IP-qki" firstAttribute="top" secondItem="xQo-gF-cnj" secondAttribute="bottom" constant="5" id="GkR-WI-ia8"/>
-                                                            <constraint firstAttribute="bottom" secondItem="yNo-c0-RTv" secondAttribute="bottom" constant="8" id="JLM-Xo-VSu"/>
-                                                            <constraint firstItem="I5f-IP-qki" firstAttribute="leading" secondItem="J0E-Ym-3oB" secondAttribute="trailing" constant="4" id="LUB-54-jHy"/>
-                                                            <constraint firstAttribute="trailing" secondItem="0RX-qD-py5" secondAttribute="trailing" constant="8" id="MmW-1Q-eTg"/>
-                                                            <constraint firstItem="0RX-qD-py5" firstAttribute="top" secondItem="uHj-Fz-O2c" secondAttribute="bottom" id="N7s-Lc-XJI"/>
-                                                            <constraint firstItem="0RX-qD-py5" firstAttribute="leading" secondItem="yNo-c0-RTv" secondAttribute="trailing" constant="8" id="NCF-rF-Mva"/>
-                                                            <constraint firstItem="vms-b1-1TH" firstAttribute="top" secondItem="xQo-gF-cnj" secondAttribute="bottom" constant="4" id="ODE-DY-wHZ"/>
-                                                            <constraint firstItem="KtA-KB-AD9" firstAttribute="top" secondItem="Caq-fS-ABe" secondAttribute="top" constant="6" id="PTQ-yd-YAK"/>
-                                                            <constraint firstItem="J0E-Ym-3oB" firstAttribute="top" secondItem="xQo-gF-cnj" secondAttribute="bottom" constant="4" id="Teu-4y-8yG"/>
-                                                            <constraint firstItem="yNo-c0-RTv" firstAttribute="top" secondItem="Caq-fS-ABe" secondAttribute="top" constant="8" id="UNJ-ht-7xm"/>
-                                                            <constraint firstItem="47X-LR-KmS" firstAttribute="top" secondItem="xQo-gF-cnj" secondAttribute="bottom" constant="4" id="W2j-N2-WUE"/>
-                                                            <constraint firstItem="vms-b1-1TH" firstAttribute="leading" secondItem="3gu-xj-E3W" secondAttribute="trailing" constant="2" id="Zo7-5U-5kJ"/>
-                                                            <constraint firstItem="47X-LR-KmS" firstAttribute="leading" secondItem="yNo-c0-RTv" secondAttribute="trailing" constant="8" id="exR-d3-3OM"/>
-                                                            <constraint firstItem="KtA-KB-AD9" firstAttribute="leading" secondItem="xQo-gF-cnj" secondAttribute="trailing" constant="4" id="oVc-4M-v8C"/>
-                                                            <constraint firstAttribute="trailing" secondItem="KtA-KB-AD9" secondAttribute="trailing" constant="2" id="pps-sT-Kt2"/>
-                                                            <constraint firstItem="3gu-xj-E3W" firstAttribute="leading" secondItem="47X-LR-KmS" secondAttribute="trailing" constant="2" id="rkp-p0-HjT"/>
-                                                            <constraint firstItem="yNo-c0-RTv" firstAttribute="leading" secondItem="Caq-fS-ABe" secondAttribute="leading" constant="8" id="t0D-mg-NS7"/>
-                                                            <constraint firstItem="uHj-Fz-O2c" firstAttribute="top" secondItem="vms-b1-1TH" secondAttribute="bottom" constant="4" id="x4I-WO-gIV"/>
-                                                            <constraint firstItem="xQo-gF-cnj" firstAttribute="leading" secondItem="yNo-c0-RTv" secondAttribute="trailing" constant="8" id="xVa-Zs-PbE"/>
-                                                            <constraint firstAttribute="trailing" secondItem="I5f-IP-qki" secondAttribute="trailing" constant="4" id="znT-7d-FB2"/>
-                                                        </constraints>
-                                                    </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IPM-29-V0D" userLabel="Blue Frog">
                                                         <rect key="frame" x="0.0" y="594" width="304" height="93"/>
                                                         <subviews>
@@ -4136,34 +4046,34 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                     <constraint firstAttribute="width" constant="15" id="jYY-rk-HDE"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Half Empty" translatesAutoresizingMaskIntoConstraints="NO" id="qsL-T6-2kI" userLabel="Star Half Filled">
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-Star Empty" translatesAutoresizingMaskIntoConstraints="NO" id="qsL-T6-2kI" userLabel="Star Half Filled">
                                                                 <rect key="frame" x="161" y="31.333333333333371" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="15" id="03h-FR-ltj"/>
                                                                     <constraint firstAttribute="width" secondItem="qsL-T6-2kI" secondAttribute="height" multiplier="1:1" id="sIy-qU-0NW"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="514 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJK-6D-btG">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="48 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJK-6D-btG">
                                                                 <rect key="frame" x="180" y="32.333333333333371" width="120" height="13.666666666666664"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chinese, Taiwanese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPQ-rV-zy7">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="American" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPQ-rV-zy7">
                                                                 <rect key="frame" x="93" y="50.333333333333371" width="203" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$-$$$ - Lujiazui" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDk-qg-cjT">
-                                                                <rect key="frame" x="93" y="69.666666666666629" width="203" height="15.333333333333329"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$-$$$ - Jinqiao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDk-qg-cjT">
+                                                                <rect key="frame" x="93" y="69" width="203" height="15.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hcy-jk-fcD" userLabel="Menu">
                                                                 <rect key="frame" x="277" y="6" width="25" height="25"/>
-                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d2687479-Reviews-Din_Tai_Fung_Super_Brand_Mall-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="168 Lujiazui West Road"/>
+                                                                <accessibility key="accessibilityConfiguration" hint="https://en.tripadvisor.com.hk/Restaurant_Review-g308272-d3450452-Reviews-Blue_Frog_Jinqiao-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="633 Biyun Road"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="25" id="ZWk-VK-j98"/>
                                                                     <constraint firstAttribute="width" secondItem="Hcy-jk-fcD" secondAttribute="height" multiplier="1:1" id="l1h-gM-0Li"/>
@@ -4255,19 +4165,19 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                     <constraint firstAttribute="width" constant="15" id="ZE2-SI-XQC"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2,120 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjQ-mo-fMY">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjQ-mo-fMY">
                                                                 <rect key="frame" x="180" y="32.333333333333371" width="120" height="13.666666666666664"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="10"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chinese, Yunnan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yej-EA-Pgc">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cafe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yej-EA-Pgc">
                                                                 <rect key="frame" x="93" y="50.333333333333371" width="203" height="19.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$-$$$ - Former French Concession" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpQ-Tg-e5q">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$-$$$ - Jinqiao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpQ-Tg-e5q">
                                                                 <rect key="frame" x="93" y="69.666666666666629" width="203" height="15.333333333333329"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="11"/>
                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -4275,7 +4185,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ka5-IV-HAI" userLabel="Menu">
                                                                 <rect key="frame" x="277" y="6" width="25" height="25"/>
-                                                                <accessibility key="accessibilityConfiguration" hint="https://www.tripadvisor.com/Restaurant_Review-g308272-d1218734-Reviews-Lost_Heaven-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="38 Gaoyou Rd, Xuhui Qu"/>
+                                                                <accessibility key="accessibilityConfiguration" hint="https://en.tripadvisor.com.hk/Restaurant_Review-g308272-d3390460-Reviews-Starbucks_BiYun_Road-Shanghai.html" identifier="http://maps.apple.com/?daddr=Yang's+Fried+Dumplings" label="633 Biyun Road"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="Ka5-IV-HAI" secondAttribute="height" multiplier="1:1" id="WMG-li-0JN"/>
                                                                     <constraint firstAttribute="height" constant="25" id="iMN-1d-o5V"/>

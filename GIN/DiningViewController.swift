@@ -22,7 +22,7 @@ class DiningViewController: UIViewController {
     }
     
     @IBAction func expandMenu(sender: UIButton) {
-        let mapURL = URL(string: sender.accessibilityIdentifier!)!
+//        let mapURL = URL(string: sender.accessibilityIdentifier!)!
         let webURL = URL(string: sender.accessibilityHint!)!
         
         let alertController = UIAlertController(title: sender.accessibilityLabel, message: nil, preferredStyle: .actionSheet)
@@ -32,10 +32,10 @@ class DiningViewController: UIViewController {
         }
         alertController.addAction(cancelAction)
         
-        let mapsAction = UIAlertAction(title: "Open in Maps", style: .default) { action in
-            UIApplication.shared.open(mapURL, options: [:], completionHandler: nil)
-        }
-        alertController.addAction(mapsAction)
+//        let mapsAction = UIAlertAction(title: "Open in Maps", style: .default) { action in
+//            UIApplication.shared.open(mapURL, options: [:], completionHandler: nil)
+//        }
+//        alertController.addAction(mapsAction)
         
         let copyAction = UIAlertAction(title: "Copy Address to Clipboard", style: .default) { action in
             UIPasteboard.general.string = sender.accessibilityLabel!
