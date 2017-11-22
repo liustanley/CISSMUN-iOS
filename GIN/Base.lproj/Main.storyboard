@@ -1093,7 +1093,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="Kue-cV-4iS">
-                                <rect key="frame" x="5" y="37" width="365" height="528"/>
+                                <rect key="frame" x="5" y="15" width="365" height="528"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ConcordiaMap" translatesAutoresizingMaskIntoConstraints="NO" id="MaU-Sy-tzj">
                                         <rect key="frame" x="0.0" y="0.0" width="365" height="528"/>
@@ -1117,14 +1117,13 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="0yN-ay-cqc" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" id="0O6-Tp-X15"/>
-                            <constraint firstItem="Kue-cV-4iS" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="trailing" constant="15" id="5fV-tV-CnR"/>
+                            <constraint firstItem="Kue-cV-4iS" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="trailing" constant="15" id="Ah2-NB-bPV"/>
                             <constraint firstItem="0yN-ay-cqc" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="-210" id="FKR-vJ-MwU"/>
-                            <constraint firstAttribute="trailing" secondItem="Kue-cV-4iS" secondAttribute="trailing" constant="5" id="XL3-BF-ZBk"/>
-                            <constraint firstItem="Kue-cV-4iS" firstAttribute="centerY" secondItem="2zI-H3-Oo9" secondAttribute="centerY" id="bNj-rH-eR9"/>
-                            <constraint firstItem="f0c-41-mFQ" firstAttribute="top" secondItem="Kue-cV-4iS" secondAttribute="bottom" constant="38" id="bxA-J7-eys"/>
-                            <constraint firstItem="Kue-cV-4iS" firstAttribute="centerX" secondItem="2zI-H3-Oo9" secondAttribute="centerX" id="dA6-oJ-R69"/>
-                            <constraint firstItem="Kue-cV-4iS" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="37" id="luV-h1-j5r"/>
+                            <constraint firstItem="Kue-cV-4iS" firstAttribute="centerX" secondItem="2zI-H3-Oo9" secondAttribute="centerX" id="Wlr-AG-0sm"/>
+                            <constraint firstItem="f0c-41-mFQ" firstAttribute="top" secondItem="Kue-cV-4iS" secondAttribute="bottom" constant="60" id="biQ-oR-jmm"/>
+                            <constraint firstItem="Kue-cV-4iS" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="15" id="jI8-2v-gkF"/>
                             <constraint firstAttribute="bottom" secondItem="0yN-ay-cqc" secondAttribute="bottom" id="nII-r0-8te"/>
+                            <constraint firstAttribute="trailing" secondItem="Kue-cV-4iS" secondAttribute="trailing" constant="5" id="qmT-On-gYO"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Campus Map" id="D3c-Zg-9cX">
