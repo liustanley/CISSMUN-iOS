@@ -1131,11 +1131,13 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                     </view>
                     <navigationItem key="navigationItem" title="Campus Map" id="D3c-Zg-9cX">
                         <barButtonItem key="leftBarButtonItem" image="Image" id="sjY-RW-OOf">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="openMenu:" destination="qtl-lD-hPh" id="5iv-EY-1s7"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="icons8-Search-26" id="yD5-bf-zzb">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <segue destination="IQM-Sr-j9g" kind="show" id="oaM-xq-hk7"/>
                             </connections>
@@ -1199,7 +1201,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.95332068204879761" green="0.93767982721328735" blue="0.91243642568588257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="dYS-6J-vQx" firstAttribute="trailing" secondItem="dLk-Bc-gBl" secondAttribute="trailingMargin" id="28H-oQ-rO5"/>
                             <constraint firstItem="RnO-3X-2vO" firstAttribute="leading" secondItem="dLk-Bc-gBl" secondAttribute="leadingMargin" constant="95" id="8QN-8a-KKK"/>
@@ -1233,26 +1235,23 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPy-ey-Bw5">
-                                <rect key="frame" x="166" y="20" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPy-ey-Bw5">
+                                <rect key="frame" x="19" y="20" width="337" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="JZf-4c-fhB"/>
+                                    <constraint firstAttribute="height" constant="42" id="yXv-A1-4Eq"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U26-bP-A8H">
-                                <rect key="frame" x="166" y="76" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="5ps-Jr-xnm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U26-bP-A8H">
+                                <rect key="frame" x="31" y="92" width="313" height="19.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="8fP-Qf-YfV">
-                                <rect key="frame" x="0.0" y="236.99999999999997" width="375" height="281.33333333333326"/>
+                                <rect key="frame" x="0.0" y="194.33333333333334" width="375" height="281.33333333333326"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="28n-Gm-Ww5">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="281"/>
@@ -1274,17 +1273,21 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.93725490196078431" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="U26-bP-A8H" firstAttribute="top" secondItem="FPy-ey-Bw5" secondAttribute="bottom" constant="35" id="7Cc-pG-imu"/>
-                            <constraint firstItem="8fP-Qf-YfV" firstAttribute="top" secondItem="U26-bP-A8H" secondAttribute="bottom" constant="140" id="9DM-UO-oK5"/>
+                            <constraint firstItem="U26-bP-A8H" firstAttribute="leading" secondItem="32f-uY-0Ji" secondAttribute="leadingMargin" constant="15" id="1P1-ff-yhn"/>
+                            <constraint firstItem="U26-bP-A8H" firstAttribute="top" secondItem="FPy-ey-Bw5" secondAttribute="bottom" constant="30" id="7Cc-pG-imu"/>
+                            <constraint firstItem="FPy-ey-Bw5" firstAttribute="leading" secondItem="32f-uY-0Ji" secondAttribute="leadingMargin" constant="3" id="89i-RH-fLx"/>
+                            <constraint firstItem="8fP-Qf-YfV" firstAttribute="top" secondItem="U26-bP-A8H" secondAttribute="bottom" constant="83" id="9DM-UO-oK5"/>
+                            <constraint firstItem="FPy-ey-Bw5" firstAttribute="top" secondItem="Sfj-aB-Pra" secondAttribute="bottom" constant="20" id="9fk-dt-U7y"/>
                             <constraint firstAttribute="trailing" secondItem="8fP-Qf-YfV" secondAttribute="trailing" id="Dep-Rh-9ry"/>
                             <constraint firstItem="8fP-Qf-YfV" firstAttribute="leading" secondItem="32f-uY-0Ji" secondAttribute="leading" id="FEK-xv-BU3"/>
                             <constraint firstItem="FPy-ey-Bw5" firstAttribute="centerX" secondItem="32f-uY-0Ji" secondAttribute="centerX" id="Kyo-JC-g8b"/>
                             <constraint firstItem="8fP-Qf-YfV" firstAttribute="centerX" secondItem="32f-uY-0Ji" secondAttribute="centerX" id="bOE-qR-feN"/>
-                            <constraint firstItem="GB4-go-nDm" firstAttribute="top" secondItem="FPy-ey-Bw5" secondAttribute="bottom" constant="562" id="j1U-QB-t5O"/>
-                            <constraint firstItem="FPy-ey-Bw5" firstAttribute="top" secondItem="Sfj-aB-Pra" secondAttribute="bottom" constant="20" id="jLw-C0-gPz"/>
+                            <constraint firstItem="GB4-go-nDm" firstAttribute="top" secondItem="FPy-ey-Bw5" secondAttribute="bottom" constant="541" id="j1U-QB-t5O"/>
                             <constraint firstItem="U26-bP-A8H" firstAttribute="centerX" secondItem="32f-uY-0Ji" secondAttribute="centerX" id="kQp-Nr-vPT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="U26-bP-A8H" secondAttribute="trailing" constant="15" id="l3l-Tm-BEG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FPy-ey-Bw5" secondAttribute="trailing" constant="3" id="rJg-QO-kFP"/>
                         </constraints>
                     </view>
                     <connections>
@@ -1296,7 +1299,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ed1-Er-wP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5178" y="153"/>
+            <point key="canvasLocation" x="-5695" y="-176"/>
         </scene>
         <!--Search-->
         <scene sceneID="Dkf-VO-QdT">
@@ -1381,7 +1384,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.95332068204879761" green="0.93767982721328735" blue="0.91243642568588257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="gi7-20-ck0" secondAttribute="trailing" id="3ZO-ha-QDi"/>
                             <constraint firstItem="Y7A-Ya-OYs" firstAttribute="leading" secondItem="8Oq-UC-aMr" secondAttribute="leadingMargin" constant="89" id="FCA-eT-cBf"/>
@@ -1445,7 +1448,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.96899396181106567" green="0.95329660177230835" blue="0.93221032619476318" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="spK-tj-6YB" firstAttribute="leading" secondItem="e7z-Gx-pqv" secondAttribute="leadingMargin" constant="69" id="9qT-Ij-8Rc"/>
                             <constraint firstItem="7Tx-WM-qNP" firstAttribute="leading" secondItem="e7z-Gx-pqv" secondAttribute="leadingMargin" id="ILO-BM-eh2"/>
@@ -1505,7 +1508,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.95332068204879761" green="0.93767982721328735" blue="0.91243642568588257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="kVM-Vm-RMC" firstAttribute="leading" secondItem="d8o-9Z-Ydd" secondAttribute="leadingMargin" constant="82" id="1qP-ik-zuk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kVM-Vm-RMC" secondAttribute="trailing" constant="83" id="EGK-38-2eU"/>
@@ -1570,7 +1573,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.93725490196078431" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="O2B-mZ-VTa" firstAttribute="top" secondItem="taL-3G-mfV" secondAttribute="bottom" constant="25" id="8WW-aa-3Ml"/>
                             <constraint firstAttribute="trailing" secondItem="QAg-cF-prX" secondAttribute="trailing" id="BO9-0M-IBa"/>
@@ -3343,6 +3346,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="Ip3-d5-EPg">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.11764705882352941" green="0.12156862745098039" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -5315,26 +5319,23 @@ The cost of buses to and from the airport/train station will be borne by the vis
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WcM-qC-2Fj">
-                                <rect key="frame" x="166.66666666666666" y="20" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WcM-qC-2Fj">
+                                <rect key="frame" x="19" y="20" width="337" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="290-CH-bhA"/>
+                                    <constraint firstAttribute="height" constant="42" id="Vz9-zc-1Ss"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atQ-Tr-QtZ">
-                                <rect key="frame" x="166.66666666666666" y="76" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Dab-Iv-POh"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atQ-Tr-QtZ">
+                                <rect key="frame" x="31" y="92" width="313" height="19.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="ZhI-Rw-vYN">
-                                <rect key="frame" x="0.0" y="236.99999999999997" width="375" height="281.33333333333326"/>
+                                <rect key="frame" x="0.0" y="194.33333333333334" width="375" height="281.33333333333326"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="82h-qa-wT3">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="281"/>
@@ -5356,14 +5357,18 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.93725490196078431" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="yrV-8N-2mh" firstAttribute="top" secondItem="WcM-qC-2Fj" secondAttribute="bottom" constant="562" id="6w6-ZU-vKE"/>
-                            <constraint firstItem="ZhI-Rw-vYN" firstAttribute="top" secondItem="atQ-Tr-QtZ" secondAttribute="bottom" constant="140" id="NK9-zE-60b"/>
+                            <constraint firstItem="yrV-8N-2mh" firstAttribute="top" secondItem="WcM-qC-2Fj" secondAttribute="bottom" constant="541" id="6w6-ZU-vKE"/>
+                            <constraint firstItem="atQ-Tr-QtZ" firstAttribute="leading" secondItem="Yh2-S7-JnX" secondAttribute="leadingMargin" constant="15" id="BV4-6j-N6x"/>
+                            <constraint firstItem="ZhI-Rw-vYN" firstAttribute="top" secondItem="atQ-Tr-QtZ" secondAttribute="bottom" constant="83" id="NK9-zE-60b"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="atQ-Tr-QtZ" secondAttribute="trailing" constant="15" id="Ovs-f2-0jz"/>
                             <constraint firstItem="ZhI-Rw-vYN" firstAttribute="centerX" secondItem="Yh2-S7-JnX" secondAttribute="centerX" id="TgS-CJ-I21"/>
-                            <constraint firstItem="atQ-Tr-QtZ" firstAttribute="top" secondItem="WcM-qC-2Fj" secondAttribute="bottom" constant="35" id="Vxf-zD-px5"/>
+                            <constraint firstItem="atQ-Tr-QtZ" firstAttribute="top" secondItem="WcM-qC-2Fj" secondAttribute="bottom" constant="30" id="Vxf-zD-px5"/>
+                            <constraint firstItem="WcM-qC-2Fj" firstAttribute="leading" secondItem="Yh2-S7-JnX" secondAttribute="leadingMargin" constant="3" id="W0u-wb-Dnq"/>
                             <constraint firstItem="ZhI-Rw-vYN" firstAttribute="leading" secondItem="Yh2-S7-JnX" secondAttribute="leading" id="Yva-9C-FrS"/>
                             <constraint firstAttribute="trailing" secondItem="ZhI-Rw-vYN" secondAttribute="trailing" id="duf-sF-Eqs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WcM-qC-2Fj" secondAttribute="trailing" constant="3" id="feA-re-h0z"/>
                             <constraint firstItem="WcM-qC-2Fj" firstAttribute="centerX" secondItem="Yh2-S7-JnX" secondAttribute="centerX" id="fhz-zP-d3N"/>
                             <constraint firstItem="WcM-qC-2Fj" firstAttribute="top" secondItem="1JE-zk-dFF" secondAttribute="bottom" constant="20" id="uRi-XQ-Xq6"/>
                             <constraint firstItem="atQ-Tr-QtZ" firstAttribute="centerX" secondItem="Yh2-S7-JnX" secondAttribute="centerX" id="wEC-Z4-6Ug"/>
@@ -5378,7 +5383,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A1I-Ca-My1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4561" y="507"/>
+            <point key="canvasLocation" x="-4693" y="-631"/>
         </scene>
     </scenes>
     <resources>
