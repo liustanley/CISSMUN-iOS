@@ -1471,7 +1471,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBH-DX-87d">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="950"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="925"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gin" translatesAutoresizingMaskIntoConstraints="NO" id="ZeT-pl-cfa">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
@@ -1482,7 +1482,7 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fue-q3-mA4" userLabel="Paulson" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fue-q3-mA4" userLabel="Lavender" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
                                                 <rect key="frame" x="12" y="216" width="296" height="335"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIN Director" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="7bY-3G-19r">
@@ -1543,7 +1543,7 @@
                                                     <constraint firstItem="mWn-E1-biw" firstAttribute="top" secondItem="6CE-Xk-WXK" secondAttribute="bottom" constant="8" id="xfU-oq-rjo"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18r-xT-91t" userLabel="Katherine" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18r-xT-91t" userLabel="Karen" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
                                                 <rect key="frame" x="12" y="561" width="296" height="345"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIN Student Head" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="6cv-pS-Y3d">
@@ -1621,7 +1621,7 @@
                                             <constraint firstItem="18r-xT-91t" firstAttribute="leading" secondItem="OBH-DX-87d" secondAttribute="leading" constant="12" id="iQZ-9U-yhj"/>
                                             <constraint firstItem="fue-q3-mA4" firstAttribute="leading" secondItem="OBH-DX-87d" secondAttribute="leading" constant="12" id="icr-c4-laN"/>
                                             <constraint firstItem="2iE-H5-WQ5" firstAttribute="leading" secondItem="ZeT-pl-cfa" secondAttribute="leading" id="nKR-hw-cqY"/>
-                                            <constraint firstAttribute="height" constant="950" id="r53-ZB-rWB"/>
+                                            <constraint firstAttribute="height" constant="925" id="r53-ZB-rWB"/>
                                         </constraints>
                                     </view>
                                 </subviews>
