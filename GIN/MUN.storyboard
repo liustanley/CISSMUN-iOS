@@ -89,74 +89,6 @@
             </objects>
             <point key="canvasLocation" x="-518" y="352"/>
         </scene>
-        <!--Procedure-->
-        <scene sceneID="2EC-Gm-qEW">
-            <objects>
-                <viewController id="GIA-k5-P9h" userLabel="Procedure" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ak3-Oc-gcM"/>
-                        <viewControllerLayoutGuide type="bottom" id="Lgr-1J-jh5"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="jTV-iP-cKa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1936"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Am-vW-LJZ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1936"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2D7-d0-YrT">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2000"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="procedure" translatesAutoresizingMaskIntoConstraints="NO" id="q1c-MF-x8I">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="200" id="9cn-ig-ZZY"/>
-                                                </constraints>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROCEDURES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANC-sF-z7f">
-                                                <rect key="frame" x="79" y="84" width="163" height="33"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.97280138729999999" green="0.96108514069999995" blue="0.94418889279999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstItem="q1c-MF-x8I" firstAttribute="centerY" secondItem="ANC-sF-z7f" secondAttribute="centerY" id="0iS-nX-na4"/>
-                                            <constraint firstAttribute="trailing" secondItem="q1c-MF-x8I" secondAttribute="trailing" id="LBV-HI-JUy"/>
-                                            <constraint firstItem="q1c-MF-x8I" firstAttribute="top" secondItem="2D7-d0-YrT" secondAttribute="top" id="PKU-DG-kaL"/>
-                                            <constraint firstAttribute="height" constant="2000" id="n2d-83-OSy"/>
-                                            <constraint firstItem="q1c-MF-x8I" firstAttribute="centerX" secondItem="ANC-sF-z7f" secondAttribute="centerX" id="q7i-zl-2Kh"/>
-                                            <constraint firstItem="q1c-MF-x8I" firstAttribute="leading" secondItem="2D7-d0-YrT" secondAttribute="leading" id="qZv-Ds-CEJ"/>
-                                            <constraint firstItem="q1c-MF-x8I" firstAttribute="leading" secondItem="2D7-d0-YrT" secondAttribute="leading" id="t2o-xm-8Vm"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="2D7-d0-YrT" firstAttribute="leading" secondItem="7Am-vW-LJZ" secondAttribute="leading" id="VqB-NB-nj6"/>
-                                    <constraint firstAttribute="trailing" secondItem="2D7-d0-YrT" secondAttribute="trailing" id="eRJ-YX-2Pj"/>
-                                    <constraint firstAttribute="bottom" secondItem="2D7-d0-YrT" secondAttribute="bottom" id="kAJ-mm-3oU"/>
-                                    <constraint firstItem="2D7-d0-YrT" firstAttribute="top" secondItem="7Am-vW-LJZ" secondAttribute="top" id="kJE-ip-9n3"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="7Am-vW-LJZ" secondAttribute="trailing" id="Fdk-JU-U2I"/>
-                            <constraint firstItem="7Am-vW-LJZ" firstAttribute="top" secondItem="Ak3-Oc-gcM" secondAttribute="bottom" id="Wbq-cm-abW"/>
-                            <constraint firstAttribute="bottom" secondItem="7Am-vW-LJZ" secondAttribute="bottom" id="Xi7-Sp-yDp"/>
-                            <constraint firstItem="7Am-vW-LJZ" firstAttribute="leading" secondItem="jTV-iP-cKa" secondAttribute="leading" id="dr6-CE-T5S"/>
-                            <constraint firstItem="2D7-d0-YrT" firstAttribute="width" secondItem="jTV-iP-cKa" secondAttribute="width" id="y2A-7d-BAv"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="LRT-VZ-zDB"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="2000"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tov-nT-Svb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1371" y="-1190"/>
-        </scene>
         <!--Schedule Navigation-->
         <scene sceneID="Dpv-rD-Z1G">
             <objects>
@@ -1524,7 +1456,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="GIA-k5-P9h" kind="relationship" relationship="rootViewController" id="Nqu-AN-NAq"/>
+                        <segue destination="eMz-Fv-PD9" kind="relationship" relationship="rootViewController" id="9e9-eq-KbJ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6C-gK-BoU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1776,6 +1708,891 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GfR-HS-AfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1087" y="1854"/>
+        </scene>
+        <!--Procedure-->
+        <scene sceneID="FMl-dB-MSi">
+            <objects>
+                <viewController id="eMz-Fv-PD9" userLabel="Procedure" customClass="GINKeynoteViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0TC-WM-qlP"/>
+                        <viewControllerLayoutGuide type="bottom" id="7uk-lH-0uV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dNC-zC-z33">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1836"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q9c-pP-FTZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1836"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ZJ-xt-Pji">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1750"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="procedure" translatesAutoresizingMaskIntoConstraints="NO" id="1H6-ZF-JcZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROCEDURE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJe-95-ySI">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9NB-di-GbM">
+                                                <rect key="frame" x="0.0" y="216" width="320" height="1518"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7K-tI-RSQ" userLabel="Cover Page">
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czk-WX-4aW">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Cover Page">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EF-3s-slf">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="czk-WX-4aW" firstAttribute="top" secondItem="t7K-tI-RSQ" secondAttribute="top" id="C55-7f-i7m"/>
+                                                            <constraint firstItem="czk-WX-4aW" firstAttribute="leading" secondItem="t7K-tI-RSQ" secondAttribute="leading" id="GrX-T3-rRW"/>
+                                                            <constraint firstAttribute="trailing" secondItem="czk-WX-4aW" secondAttribute="trailing" id="LHx-PP-crD"/>
+                                                            <constraint firstAttribute="bottom" secondItem="czk-WX-4aW" secondAttribute="bottom" constant="1" id="WD8-ix-arl"/>
+                                                            <constraint firstAttribute="trailing" secondItem="0EF-3s-slf" secondAttribute="trailing" constant="16" id="aJG-ln-jhS"/>
+                                                            <constraint firstItem="0EF-3s-slf" firstAttribute="centerY" secondItem="t7K-tI-RSQ" secondAttribute="centerY" id="djJ-YV-uWG"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ob-BK-025" userLabel="Student Officer Roster">
+                                                        <rect key="frame" x="0.0" y="54.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LND-Fg-E0f">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Student Officer Roster">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1T5-UK-hV6">
+                                                                <rect key="frame" x="291" y="11.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="LND-Fg-E0f" secondAttribute="trailing" id="D7S-tS-HFv"/>
+                                                            <constraint firstAttribute="trailing" secondItem="1T5-UK-hV6" secondAttribute="trailing" constant="16" id="O2b-Nj-alg"/>
+                                                            <constraint firstItem="1T5-UK-hV6" firstAttribute="centerY" secondItem="1Ob-BK-025" secondAttribute="centerY" id="W1i-it-2Mb"/>
+                                                            <constraint firstItem="LND-Fg-E0f" firstAttribute="leading" secondItem="1Ob-BK-025" secondAttribute="leading" id="bPR-MG-rOV"/>
+                                                            <constraint firstAttribute="bottom" secondItem="LND-Fg-E0f" secondAttribute="bottom" constant="1" id="bnf-NK-8nJ"/>
+                                                            <constraint firstItem="LND-Fg-E0f" firstAttribute="top" secondItem="1Ob-BK-025" secondAttribute="top" id="tua-Op-IR6"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pdC-7M-9dD" userLabel="Preparatory Meeting Guidelines">
+                                                        <rect key="frame" x="0.0" y="109" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ri4-1O-tNB">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Preparatory Meeting Guidelines">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e77-QH-Sex">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="e77-QH-Sex" secondAttribute="trailing" constant="16" id="3Ml-Rj-xIx"/>
+                                                            <constraint firstItem="e77-QH-Sex" firstAttribute="centerY" secondItem="pdC-7M-9dD" secondAttribute="centerY" id="4JE-SS-gcy"/>
+                                                            <constraint firstAttribute="trailing" secondItem="ri4-1O-tNB" secondAttribute="trailing" id="fOK-dS-xPJ"/>
+                                                            <constraint firstItem="ri4-1O-tNB" firstAttribute="leading" secondItem="pdC-7M-9dD" secondAttribute="leading" id="qII-Yp-Itn"/>
+                                                            <constraint firstItem="ri4-1O-tNB" firstAttribute="top" secondItem="pdC-7M-9dD" secondAttribute="top" id="rv5-X3-iq1"/>
+                                                            <constraint firstAttribute="bottom" secondItem="ri4-1O-tNB" secondAttribute="bottom" constant="1" id="yO9-LP-PTS"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tMe-PO-x4M" userLabel="CISSMUN Rules of Procedure">
+                                                        <rect key="frame" x="0.0" y="163.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmD-GJ-i7b">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   CISSMUN Rules of Procedure">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urR-r4-oiC">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="NmD-GJ-i7b" secondAttribute="trailing" id="CNf-Th-lYk"/>
+                                                            <constraint firstItem="NmD-GJ-i7b" firstAttribute="top" secondItem="tMe-PO-x4M" secondAttribute="top" id="GMU-QU-SgN"/>
+                                                            <constraint firstItem="urR-r4-oiC" firstAttribute="centerY" secondItem="tMe-PO-x4M" secondAttribute="centerY" id="S0v-u3-8cB"/>
+                                                            <constraint firstAttribute="bottom" secondItem="NmD-GJ-i7b" secondAttribute="bottom" constant="1" id="eid-Mc-vIL"/>
+                                                            <constraint firstItem="NmD-GJ-i7b" firstAttribute="leading" secondItem="tMe-PO-x4M" secondAttribute="leading" id="fe0-02-2s8"/>
+                                                            <constraint firstAttribute="trailing" secondItem="urR-r4-oiC" secondAttribute="trailing" constant="16" id="rFP-l0-SX5"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mzp-Ux-W7T">
+                                                        <rect key="frame" x="0.0" y="218" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wE7-TS-Yrp">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Quorum">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5X-aE-0Ra">
+                                                                <rect key="frame" x="291" y="11.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="wE7-TS-Yrp" firstAttribute="top" secondItem="mzp-Ux-W7T" secondAttribute="top" id="8cb-6G-pcc"/>
+                                                            <constraint firstAttribute="bottom" secondItem="wE7-TS-Yrp" secondAttribute="bottom" constant="1" id="IxU-tE-6tr"/>
+                                                            <constraint firstItem="W5X-aE-0Ra" firstAttribute="centerY" secondItem="mzp-Ux-W7T" secondAttribute="centerY" id="KrB-Ff-7xh"/>
+                                                            <constraint firstAttribute="trailing" secondItem="W5X-aE-0Ra" secondAttribute="trailing" constant="16" id="fFE-98-0Hp"/>
+                                                            <constraint firstItem="wE7-TS-Yrp" firstAttribute="leading" secondItem="mzp-Ux-W7T" secondAttribute="leading" id="iIT-1U-gCN"/>
+                                                            <constraint firstAttribute="trailing" secondItem="wE7-TS-Yrp" secondAttribute="trailing" id="ieD-0U-cWP"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Quorum</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DUH-iK-5IX">
+                                                        <rect key="frame" x="0.0" y="272.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3C-PZ-qZw">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Roll Call">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKY-th-Eyz">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="u3C-PZ-qZw" firstAttribute="top" secondItem="DUH-iK-5IX" secondAttribute="top" id="AZ8-An-SHA"/>
+                                                            <constraint firstItem="QKY-th-Eyz" firstAttribute="centerY" secondItem="DUH-iK-5IX" secondAttribute="centerY" id="ES6-mj-LB3"/>
+                                                            <constraint firstItem="u3C-PZ-qZw" firstAttribute="leading" secondItem="DUH-iK-5IX" secondAttribute="leading" id="PhK-u0-mC0"/>
+                                                            <constraint firstAttribute="bottom" secondItem="u3C-PZ-qZw" secondAttribute="bottom" constant="1" id="U13-aP-woX"/>
+                                                            <constraint firstAttribute="trailing" secondItem="QKY-th-Eyz" secondAttribute="trailing" constant="16" id="acK-s1-tuu"/>
+                                                            <constraint firstAttribute="trailing" secondItem="u3C-PZ-qZw" secondAttribute="trailing" id="oiB-OT-uDf"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Roll Call</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g4t-Ux-ySz">
+                                                        <rect key="frame" x="0.0" y="327" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ye6-wc-gV0">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Responsibilities of All Delegates">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdK-GE-ji2">
+                                                                <rect key="frame" x="291" y="11.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="ye6-wc-gV0" firstAttribute="leading" secondItem="g4t-Ux-ySz" secondAttribute="leading" id="74f-Aq-PjW"/>
+                                                            <constraint firstItem="ye6-wc-gV0" firstAttribute="top" secondItem="g4t-Ux-ySz" secondAttribute="top" id="Omm-Hi-3A7"/>
+                                                            <constraint firstAttribute="bottom" secondItem="ye6-wc-gV0" secondAttribute="bottom" constant="1" id="U9n-uc-zho"/>
+                                                            <constraint firstItem="QdK-GE-ji2" firstAttribute="centerY" secondItem="g4t-Ux-ySz" secondAttribute="centerY" id="j6l-BT-mYn"/>
+                                                            <constraint firstAttribute="trailing" secondItem="QdK-GE-ji2" secondAttribute="trailing" constant="16" id="o8b-Fl-vW4"/>
+                                                            <constraint firstAttribute="trailing" secondItem="ye6-wc-gV0" secondAttribute="trailing" id="qXx-Cq-zbl"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Responsibilities of All Delegates</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ML5-LF-OMQ">
+                                                        <rect key="frame" x="0.0" y="381.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwe-x7-L0U">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Rising to Points">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8A-aK-36A">
+                                                                <rect key="frame" x="291" y="11.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="Iwe-x7-L0U" firstAttribute="leading" secondItem="ML5-LF-OMQ" secondAttribute="leading" id="0B4-8N-LVd"/>
+                                                            <constraint firstAttribute="trailing" secondItem="T8A-aK-36A" secondAttribute="trailing" constant="16" id="7js-Pe-M8W"/>
+                                                            <constraint firstItem="T8A-aK-36A" firstAttribute="centerY" secondItem="ML5-LF-OMQ" secondAttribute="centerY" id="B2m-Yk-DVb"/>
+                                                            <constraint firstAttribute="trailing" secondItem="Iwe-x7-L0U" secondAttribute="trailing" id="Gay-9N-mTu"/>
+                                                            <constraint firstItem="Iwe-x7-L0U" firstAttribute="top" secondItem="ML5-LF-OMQ" secondAttribute="top" id="gos-lZ-8hP"/>
+                                                            <constraint firstAttribute="bottom" secondItem="Iwe-x7-L0U" secondAttribute="bottom" constant="1" id="nJ3-R7-ZFP"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Rising to Points</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ogU-AE-ehU">
+                                                        <rect key="frame" x="0.0" y="436" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMm-wj-gjO">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Putting Forth Motions">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDP-Hy-Sje">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="GMm-wj-gjO" firstAttribute="top" secondItem="ogU-AE-ehU" secondAttribute="top" id="PjV-cH-q38"/>
+                                                            <constraint firstAttribute="trailing" secondItem="UDP-Hy-Sje" secondAttribute="trailing" constant="16" id="PpH-0c-JG9"/>
+                                                            <constraint firstAttribute="bottom" secondItem="GMm-wj-gjO" secondAttribute="bottom" constant="1" id="bfw-IQ-g8t"/>
+                                                            <constraint firstAttribute="trailing" secondItem="GMm-wj-gjO" secondAttribute="trailing" id="jI8-nM-iZr"/>
+                                                            <constraint firstItem="GMm-wj-gjO" firstAttribute="leading" secondItem="ogU-AE-ehU" secondAttribute="leading" id="oD3-7s-tBd"/>
+                                                            <constraint firstItem="UDP-Hy-Sje" firstAttribute="centerY" secondItem="ogU-AE-ehU" secondAttribute="centerY" id="qgs-J1-zjh"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Putting Forth Motions</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kqS-9H-Wkz">
+                                                        <rect key="frame" x="0.0" y="490.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oct-M8-ph1">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Objection to the Main Motion">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vb8-4O-sHd">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="oct-M8-ph1" firstAttribute="leading" secondItem="kqS-9H-Wkz" secondAttribute="leading" id="82D-9C-FAY"/>
+                                                            <constraint firstAttribute="trailing" secondItem="oct-M8-ph1" secondAttribute="trailing" id="Csh-45-8Oc"/>
+                                                            <constraint firstItem="oct-M8-ph1" firstAttribute="top" secondItem="kqS-9H-Wkz" secondAttribute="top" id="KAG-tJ-kt8"/>
+                                                            <constraint firstAttribute="trailing" secondItem="Vb8-4O-sHd" secondAttribute="trailing" constant="16" id="c7P-HD-ve9"/>
+                                                            <constraint firstItem="Vb8-4O-sHd" firstAttribute="centerY" secondItem="kqS-9H-Wkz" secondAttribute="centerY" id="hYK-O0-326"/>
+                                                            <constraint firstAttribute="bottom" secondItem="oct-M8-ph1" secondAttribute="bottom" constant="1" id="uV1-9j-E5p"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Objection to the Main Motion</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mHl-Xd-8dP">
+                                                        <rect key="frame" x="0.0" y="545" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltq-xn-MXA">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Withdrawing a Resolution">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O3w-kH-kCi">
+                                                                <rect key="frame" x="291" y="11.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="ltq-xn-MXA" secondAttribute="bottom" constant="1" id="QXD-ko-bbQ"/>
+                                                            <constraint firstAttribute="trailing" secondItem="O3w-kH-kCi" secondAttribute="trailing" constant="16" id="Uhz-bz-I2g"/>
+                                                            <constraint firstItem="O3w-kH-kCi" firstAttribute="centerY" secondItem="mHl-Xd-8dP" secondAttribute="centerY" id="bbK-no-ZO2"/>
+                                                            <constraint firstItem="ltq-xn-MXA" firstAttribute="top" secondItem="mHl-Xd-8dP" secondAttribute="top" id="caf-ef-WrH"/>
+                                                            <constraint firstAttribute="trailing" secondItem="ltq-xn-MXA" secondAttribute="trailing" id="h1l-ip-xJf"/>
+                                                            <constraint firstItem="ltq-xn-MXA" firstAttribute="leading" secondItem="mHl-Xd-8dP" secondAttribute="leading" id="yeR-pj-6vr"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Withdrawing a Resolution</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LcA-5l-TTB">
+                                                        <rect key="frame" x="0.0" y="599.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dks-6p-Yuf">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                                <state key="normal" title="   Yielding the Floor to Other Delegations">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogL-MJ-djg">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="ogL-MJ-djg" secondAttribute="trailing" constant="16" id="2pH-d6-e62"/>
+                                                            <constraint firstItem="dks-6p-Yuf" firstAttribute="top" secondItem="LcA-5l-TTB" secondAttribute="top" id="F7D-Tb-KzM"/>
+                                                            <constraint firstItem="ogL-MJ-djg" firstAttribute="centerY" secondItem="LcA-5l-TTB" secondAttribute="centerY" id="Jju-AW-DNW"/>
+                                                            <constraint firstAttribute="bottom" secondItem="dks-6p-Yuf" secondAttribute="bottom" constant="1" id="TcF-G1-YKm"/>
+                                                            <constraint firstItem="dks-6p-Yuf" firstAttribute="leading" secondItem="LcA-5l-TTB" secondAttribute="leading" id="gFH-eS-dVT"/>
+                                                            <constraint firstAttribute="trailing" secondItem="dks-6p-Yuf" secondAttribute="trailing" id="yQD-Lj-B0F"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Yielding the Floor to Other Delegations</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FtY-b5-uMt">
+                                                        <rect key="frame" x="0.0" y="654" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIw-SP-dOD">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Amendment of the First Degree">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yoa-YV-0yH">
+                                                                <rect key="frame" x="291" y="11.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="Yoa-YV-0yH" secondAttribute="trailing" constant="16" id="B23-kU-7XZ"/>
+                                                            <constraint firstItem="LIw-SP-dOD" firstAttribute="top" secondItem="FtY-b5-uMt" secondAttribute="top" id="BdU-iK-hTh"/>
+                                                            <constraint firstAttribute="trailing" secondItem="LIw-SP-dOD" secondAttribute="trailing" id="PE3-dk-Mmw"/>
+                                                            <constraint firstItem="LIw-SP-dOD" firstAttribute="leading" secondItem="FtY-b5-uMt" secondAttribute="leading" id="PpG-t2-EBz"/>
+                                                            <constraint firstItem="Yoa-YV-0yH" firstAttribute="centerY" secondItem="FtY-b5-uMt" secondAttribute="centerY" id="diy-K0-3xM"/>
+                                                            <constraint firstAttribute="bottom" secondItem="LIw-SP-dOD" secondAttribute="bottom" constant="1" id="s9B-Ns-0Fl"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Amendment of the First Degree</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="15r-Sp-gUZ">
+                                                        <rect key="frame" x="0.0" y="708.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUi-gW-11b">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Amendment of the Second Degree">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vM-Nb-YoD">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="9vM-Nb-YoD" secondAttribute="trailing" constant="16" id="0Ed-ep-qqa"/>
+                                                            <constraint firstItem="vUi-gW-11b" firstAttribute="top" secondItem="15r-Sp-gUZ" secondAttribute="top" id="B4W-ar-CoQ"/>
+                                                            <constraint firstAttribute="bottom" secondItem="vUi-gW-11b" secondAttribute="bottom" constant="1" id="E5M-2b-Oh7"/>
+                                                            <constraint firstAttribute="trailing" secondItem="vUi-gW-11b" secondAttribute="trailing" id="Qap-1T-IY9"/>
+                                                            <constraint firstItem="9vM-Nb-YoD" firstAttribute="centerY" secondItem="15r-Sp-gUZ" secondAttribute="centerY" id="bFi-I0-hPH"/>
+                                                            <constraint firstItem="vUi-gW-11b" firstAttribute="leading" secondItem="15r-Sp-gUZ" secondAttribute="leading" id="h71-cA-wit"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Amendment of the Second Degree</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lVp-Dk-4T9">
+                                                        <rect key="frame" x="0.0" y="763" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0w-h9-sMt">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Voting">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqz-Gk-7Wf">
+                                                                <rect key="frame" x="291" y="11.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="S0w-h9-sMt" firstAttribute="leading" secondItem="lVp-Dk-4T9" secondAttribute="leading" id="7h5-eJ-9c5"/>
+                                                            <constraint firstItem="wqz-Gk-7Wf" firstAttribute="centerY" secondItem="lVp-Dk-4T9" secondAttribute="centerY" id="BcV-TC-dOa"/>
+                                                            <constraint firstAttribute="bottom" secondItem="S0w-h9-sMt" secondAttribute="bottom" constant="1" id="TJk-47-VhF"/>
+                                                            <constraint firstAttribute="trailing" secondItem="S0w-h9-sMt" secondAttribute="trailing" id="UAj-cl-wfy"/>
+                                                            <constraint firstItem="S0w-h9-sMt" firstAttribute="top" secondItem="lVp-Dk-4T9" secondAttribute="top" id="YYj-dI-E30"/>
+                                                            <constraint firstAttribute="trailing" secondItem="wqz-Gk-7Wf" secondAttribute="trailing" constant="16" id="tbZ-0L-sGm"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Voting</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hCD-Rz-U6u" userLabel="    Policy Statements and Right to Explain Vote">
+                                                        <rect key="frame" x="0.0" y="817.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4r-eh-fhv">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                                                                <state key="normal" title="    Policy Statements and Right to Explain Vote">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ue-I3-gZc">
+                                                                <rect key="frame" x="291" y="11.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="c4r-eh-fhv" firstAttribute="leading" secondItem="hCD-Rz-U6u" secondAttribute="leading" id="5Wz-e6-S1S"/>
+                                                            <constraint firstAttribute="trailing" secondItem="6ue-I3-gZc" secondAttribute="trailing" constant="16" id="A74-K0-yzb"/>
+                                                            <constraint firstAttribute="bottom" secondItem="c4r-eh-fhv" secondAttribute="bottom" constant="1" id="Nox-b3-yHj"/>
+                                                            <constraint firstItem="c4r-eh-fhv" firstAttribute="top" secondItem="hCD-Rz-U6u" secondAttribute="top" id="WWl-a6-wjT"/>
+                                                            <constraint firstItem="6ue-I3-gZc" firstAttribute="centerY" secondItem="hCD-Rz-U6u" secondAttribute="centerY" id="wf8-LE-ICh"/>
+                                                            <constraint firstAttribute="trailing" secondItem="c4r-eh-fhv" secondAttribute="trailing" id="z8A-jG-sDz"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cLd-e1-TKt">
+                                                        <rect key="frame" x="0.0" y="872" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44j-WI-y1d">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Note-passing">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fr3-pN-8Pi">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="44j-WI-y1d" secondAttribute="bottom" constant="1" id="K1T-Bv-mem"/>
+                                                            <constraint firstItem="44j-WI-y1d" firstAttribute="top" secondItem="cLd-e1-TKt" secondAttribute="top" id="Krt-On-NLk"/>
+                                                            <constraint firstItem="Fr3-pN-8Pi" firstAttribute="centerY" secondItem="cLd-e1-TKt" secondAttribute="centerY" id="MzH-SV-bzR"/>
+                                                            <constraint firstItem="44j-WI-y1d" firstAttribute="leading" secondItem="cLd-e1-TKt" secondAttribute="leading" id="roO-hv-4Rv"/>
+                                                            <constraint firstAttribute="trailing" secondItem="44j-WI-y1d" secondAttribute="trailing" id="udP-UT-5IB"/>
+                                                            <constraint firstAttribute="trailing" secondItem="Fr3-pN-8Pi" secondAttribute="trailing" constant="16" id="xHU-4k-3gc"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Note-passing</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oVA-pw-0js" userLabel="Chairing at CISSMUN">
+                                                        <rect key="frame" x="0.0" y="926.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eu4-3Q-TKL">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Chairing at CISSMUN">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EE4-01-nhO">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="eu4-3Q-TKL" firstAttribute="top" secondItem="oVA-pw-0js" secondAttribute="top" id="EUM-62-07d"/>
+                                                            <constraint firstItem="EE4-01-nhO" firstAttribute="centerY" secondItem="oVA-pw-0js" secondAttribute="centerY" id="Ivw-IE-V8a"/>
+                                                            <constraint firstAttribute="bottom" secondItem="eu4-3Q-TKL" secondAttribute="bottom" constant="1" id="OCr-uc-HNA"/>
+                                                            <constraint firstAttribute="trailing" secondItem="eu4-3Q-TKL" secondAttribute="trailing" id="UAw-Cv-Vgc"/>
+                                                            <constraint firstAttribute="trailing" secondItem="EE4-01-nhO" secondAttribute="trailing" constant="16" id="VaY-0e-waI"/>
+                                                            <constraint firstItem="eu4-3Q-TKL" firstAttribute="leading" secondItem="oVA-pw-0js" secondAttribute="leading" id="a9M-KF-VSc"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IiD-0v-pwZ">
+                                                        <rect key="frame" x="0.0" y="981" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qm-7q-oJa">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   General Chairing Style">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiR-pR-4lM">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="WiR-pR-4lM" firstAttribute="centerY" secondItem="IiD-0v-pwZ" secondAttribute="centerY" id="8PM-vI-X0r"/>
+                                                            <constraint firstItem="2Qm-7q-oJa" firstAttribute="leading" secondItem="IiD-0v-pwZ" secondAttribute="leading" id="Ino-bS-fOd"/>
+                                                            <constraint firstAttribute="trailing" secondItem="WiR-pR-4lM" secondAttribute="trailing" constant="16" id="Psg-eF-qiV"/>
+                                                            <constraint firstAttribute="trailing" secondItem="2Qm-7q-oJa" secondAttribute="trailing" id="aVl-Ou-ZXp"/>
+                                                            <constraint firstItem="2Qm-7q-oJa" firstAttribute="top" secondItem="IiD-0v-pwZ" secondAttribute="top" id="s2E-Xq-USW"/>
+                                                            <constraint firstAttribute="bottom" secondItem="2Qm-7q-oJa" secondAttribute="bottom" constant="1" id="sNE-vN-O9n"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	General Chairing Style</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhX-qb-hmz">
+                                                        <rect key="frame" x="0.0" y="1035.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtS-ds-Dit">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Cooperation with the Co-chairs">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTq-XJ-vJU">
+                                                                <rect key="frame" x="291" y="10.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="qtS-ds-Dit" secondAttribute="trailing" id="Gi1-Oh-WDt"/>
+                                                            <constraint firstAttribute="trailing" secondItem="ZTq-XJ-vJU" secondAttribute="trailing" constant="16" id="NjM-XN-A0l"/>
+                                                            <constraint firstAttribute="bottom" secondItem="qtS-ds-Dit" secondAttribute="bottom" constant="1" id="Yhz-pf-uff"/>
+                                                            <constraint firstItem="ZTq-XJ-vJU" firstAttribute="centerY" secondItem="nhX-qb-hmz" secondAttribute="centerY" id="acF-R2-okj"/>
+                                                            <constraint firstItem="qtS-ds-Dit" firstAttribute="top" secondItem="nhX-qb-hmz" secondAttribute="top" id="bJO-Al-S5e"/>
+                                                            <constraint firstItem="qtS-ds-Dit" firstAttribute="leading" secondItem="nhX-qb-hmz" secondAttribute="leading" id="zbb-Va-lcQ"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Cooperation with the Co-chairs</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iZA-lt-wcX">
+                                                        <rect key="frame" x="0.0" y="1090" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PeV-fU-SQ0">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Planning Your Time">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZI-iG-dAg">
+                                                                <rect key="frame" x="291" y="11.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="PeV-fU-SQ0" firstAttribute="top" secondItem="iZA-lt-wcX" secondAttribute="top" id="0iX-UH-7Rx"/>
+                                                            <constraint firstItem="PeV-fU-SQ0" firstAttribute="leading" secondItem="iZA-lt-wcX" secondAttribute="leading" id="4FH-GW-9cT"/>
+                                                            <constraint firstItem="1ZI-iG-dAg" firstAttribute="centerY" secondItem="iZA-lt-wcX" secondAttribute="centerY" id="DSd-TM-aTV"/>
+                                                            <constraint firstAttribute="bottom" secondItem="PeV-fU-SQ0" secondAttribute="bottom" constant="1" id="eFD-2V-GK6"/>
+                                                            <constraint firstAttribute="trailing" secondItem="PeV-fU-SQ0" secondAttribute="trailing" id="hPg-qg-bpi"/>
+                                                            <constraint firstAttribute="trailing" secondItem="1ZI-iG-dAg" secondAttribute="trailing" constant="16" id="zUj-cg-fzg"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Planning Your Time</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T0X-HA-GVr">
+                                                        <rect key="frame" x="0.0" y="1144.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2SF-8a-OSM">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   C-strategy">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHX-Dy-8WT">
+                                                                <rect key="frame" x="291" y="11.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="dHX-Dy-8WT" secondAttribute="trailing" constant="16" id="2aq-rH-8Jn"/>
+                                                            <constraint firstAttribute="bottom" secondItem="2SF-8a-OSM" secondAttribute="bottom" constant="1" id="2cI-QA-11c"/>
+                                                            <constraint firstItem="2SF-8a-OSM" firstAttribute="leading" secondItem="T0X-HA-GVr" secondAttribute="leading" id="DPK-rC-sdU"/>
+                                                            <constraint firstAttribute="trailing" secondItem="2SF-8a-OSM" secondAttribute="trailing" id="eDd-nb-gP2"/>
+                                                            <constraint firstItem="2SF-8a-OSM" firstAttribute="top" secondItem="T0X-HA-GVr" secondAttribute="top" id="idX-1e-dZJ"/>
+                                                            <constraint firstItem="dHX-Dy-8WT" firstAttribute="centerY" secondItem="T0X-HA-GVr" secondAttribute="centerY" id="pUt-eC-qOZ"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	C-strategy</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsY-sI-GMK">
+                                                        <rect key="frame" x="0.0" y="1199" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5R-PC-Og6">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                                                <state key="normal" title="   Collaborating with the Administrative Staff">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFK-v5-gqA">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="AFK-v5-gqA" firstAttribute="centerY" secondItem="bsY-sI-GMK" secondAttribute="centerY" id="27O-1H-FnZ"/>
+                                                            <constraint firstItem="t5R-PC-Og6" firstAttribute="leading" secondItem="bsY-sI-GMK" secondAttribute="leading" id="45W-rn-deH"/>
+                                                            <constraint firstAttribute="trailing" secondItem="AFK-v5-gqA" secondAttribute="trailing" constant="16" id="BS9-Jk-jYh"/>
+                                                            <constraint firstItem="t5R-PC-Og6" firstAttribute="top" secondItem="bsY-sI-GMK" secondAttribute="top" id="Ec5-BD-xgd"/>
+                                                            <constraint firstAttribute="trailing" secondItem="t5R-PC-Og6" secondAttribute="trailing" id="Eqg-3b-rso"/>
+                                                            <constraint firstAttribute="bottom" secondItem="t5R-PC-Og6" secondAttribute="bottom" constant="1" id="tRA-CO-RbW"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Collaborating with the Administrative Staff</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vx2-V1-ZPO">
+                                                        <rect key="frame" x="0.0" y="1253.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOf-f4-rb7">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Chairing Stock Phrases">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOw-94-pTM">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="TOf-f4-rb7" secondAttribute="trailing" id="PfM-ne-OD3"/>
+                                                            <constraint firstItem="TOf-f4-rb7" firstAttribute="top" secondItem="Vx2-V1-ZPO" secondAttribute="top" id="Yfv-X0-RwM"/>
+                                                            <constraint firstItem="yOw-94-pTM" firstAttribute="centerY" secondItem="Vx2-V1-ZPO" secondAttribute="centerY" id="hIl-3G-7SP"/>
+                                                            <constraint firstItem="TOf-f4-rb7" firstAttribute="leading" secondItem="Vx2-V1-ZPO" secondAttribute="leading" id="lEW-7Q-cQ8"/>
+                                                            <constraint firstAttribute="bottom" secondItem="TOf-f4-rb7" secondAttribute="bottom" constant="1" id="sES-dl-BXa"/>
+                                                            <constraint firstAttribute="trailing" secondItem="yOw-94-pTM" secondAttribute="trailing" constant="16" id="tN2-Qp-xbC"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Chairing Stock Phrases</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tMn-gf-7dJ" userLabel="Cover Page">
+                                                        <rect key="frame" x="0.0" y="1308" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ba3-nr-xrl">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Common Challenging Cases">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPu-8C-ZFr">
+                                                                <rect key="frame" x="291" y="12" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="Ba3-nr-xrl" secondAttribute="bottom" constant="1" id="O6W-4p-5qt"/>
+                                                            <constraint firstAttribute="trailing" secondItem="cPu-8C-ZFr" secondAttribute="trailing" constant="16" id="cPn-Z2-QZR"/>
+                                                            <constraint firstItem="Ba3-nr-xrl" firstAttribute="leading" secondItem="tMn-gf-7dJ" secondAttribute="leading" id="gep-QB-bHo"/>
+                                                            <constraint firstAttribute="trailing" secondItem="Ba3-nr-xrl" secondAttribute="trailing" id="nfT-z1-su8"/>
+                                                            <constraint firstItem="cPu-8C-ZFr" firstAttribute="centerY" secondItem="tMn-gf-7dJ" secondAttribute="centerY" id="nwh-tw-qmu"/>
+                                                            <constraint firstItem="Ba3-nr-xrl" firstAttribute="top" secondItem="tMn-gf-7dJ" secondAttribute="top" id="weF-EA-Raf"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hgS-h2-ggv">
+                                                        <rect key="frame" x="0.0" y="1362.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPR-LJ-tqe">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                                <state key="normal" title="   Appendices">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsj-yz-H7u">
+                                                                <rect key="frame" x="291" y="11.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="xsj-yz-H7u" secondAttribute="trailing" constant="16" id="0Wc-k8-opj"/>
+                                                            <constraint firstItem="xsj-yz-H7u" firstAttribute="centerY" secondItem="hgS-h2-ggv" secondAttribute="centerY" id="3Aj-cF-eqR"/>
+                                                            <constraint firstAttribute="trailing" secondItem="OPR-LJ-tqe" secondAttribute="trailing" id="EWw-i5-WbB"/>
+                                                            <constraint firstItem="OPR-LJ-tqe" firstAttribute="top" secondItem="hgS-h2-ggv" secondAttribute="top" id="S5D-2L-dqT"/>
+                                                            <constraint firstItem="OPR-LJ-tqe" firstAttribute="leading" secondItem="hgS-h2-ggv" secondAttribute="leading" id="nW9-q4-76q"/>
+                                                            <constraint firstAttribute="bottom" secondItem="OPR-LJ-tqe" secondAttribute="bottom" constant="1" id="tiX-4d-5IH"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Appendices</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C0d-58-WhX">
+                                                        <rect key="frame" x="0.0" y="1417" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMK-KK-jPo">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                                <state key="normal" title="   Appendix I: THIMUN Rules of Procedure">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd7-vZ-QoJ">
+                                                                <rect key="frame" x="291" y="11.5" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="kd7-vZ-QoJ" secondAttribute="trailing" constant="16" id="35D-SQ-Ek6"/>
+                                                            <constraint firstItem="jMK-KK-jPo" firstAttribute="top" secondItem="C0d-58-WhX" secondAttribute="top" id="7c9-f2-iYX"/>
+                                                            <constraint firstAttribute="trailing" secondItem="jMK-KK-jPo" secondAttribute="trailing" id="7do-ap-fqQ"/>
+                                                            <constraint firstAttribute="bottom" secondItem="jMK-KK-jPo" secondAttribute="bottom" constant="1" id="9OR-rf-cTF"/>
+                                                            <constraint firstItem="kd7-vZ-QoJ" firstAttribute="centerY" secondItem="C0d-58-WhX" secondAttribute="centerY" id="FbH-5a-AJH"/>
+                                                            <constraint firstItem="jMK-KK-jPo" firstAttribute="leading" secondItem="C0d-58-WhX" secondAttribute="leading" id="vVh-SU-ayS"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Appendix I: THIMUN Rules of Procedure</string>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KMs-wi-VZ8">
+                                                        <rect key="frame" x="0.0" y="1471.5" width="320" height="46.5"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="na9-bc-sRe">
+                                                                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                                                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                                                <state key="normal" title="   Appendix II: United Nations Charter">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZk-pf-wYu">
+                                                                <rect key="frame" x="291" y="11" width="13" height="24"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="sZk-pf-wYu" secondAttribute="trailing" constant="16" id="alA-be-rc1"/>
+                                                            <constraint firstItem="na9-bc-sRe" firstAttribute="top" secondItem="KMs-wi-VZ8" secondAttribute="top" id="cKV-p7-YRG"/>
+                                                            <constraint firstAttribute="trailing" secondItem="na9-bc-sRe" secondAttribute="trailing" id="iYb-VH-reW"/>
+                                                            <constraint firstItem="sZk-pf-wYu" firstAttribute="centerY" secondItem="KMs-wi-VZ8" secondAttribute="centerY" id="qnK-vs-SbK"/>
+                                                            <constraint firstAttribute="bottom" secondItem="na9-bc-sRe" secondAttribute="bottom" constant="1" id="s4J-FC-rJK"/>
+                                                            <constraint firstItem="na9-bc-sRe" firstAttribute="leading" secondItem="KMs-wi-VZ8" secondAttribute="leading" id="yF6-Ab-DeJ"/>
+                                                        </constraints>
+                                                        <string key="userLabel">	Appendix II: United Nations Charter</string>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.96078431369999995" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="CJe-95-ySI" firstAttribute="bottom" secondItem="1H6-ZF-JcZ" secondAttribute="bottom" id="4vf-GQ-QbE"/>
+                                            <constraint firstItem="CJe-95-ySI" firstAttribute="trailing" secondItem="1H6-ZF-JcZ" secondAttribute="trailing" id="6pg-ZT-WIG"/>
+                                            <constraint firstItem="9NB-di-GbM" firstAttribute="leading" secondItem="4ZJ-xt-Pji" secondAttribute="leading" id="7dn-wc-PG2"/>
+                                            <constraint firstAttribute="trailing" secondItem="9NB-di-GbM" secondAttribute="trailing" id="Oi2-aN-E4Q"/>
+                                            <constraint firstAttribute="bottom" secondItem="1H6-ZF-JcZ" secondAttribute="bottom" constant="1550" id="QGK-XG-pFG"/>
+                                            <constraint firstItem="9NB-di-GbM" firstAttribute="top" secondItem="4ZJ-xt-Pji" secondAttribute="top" constant="216" id="SHU-V5-Cun"/>
+                                            <constraint firstItem="CJe-95-ySI" firstAttribute="leading" secondItem="1H6-ZF-JcZ" secondAttribute="leading" id="XQa-5m-ZSq"/>
+                                            <constraint firstItem="CJe-95-ySI" firstAttribute="top" secondItem="1H6-ZF-JcZ" secondAttribute="top" id="XrG-fr-Gtq"/>
+                                            <constraint firstAttribute="trailing" secondItem="1H6-ZF-JcZ" secondAttribute="trailing" id="ZCy-cv-I76"/>
+                                            <constraint firstAttribute="bottom" secondItem="9NB-di-GbM" secondAttribute="bottom" constant="16" id="hNe-8U-KFo"/>
+                                            <constraint firstItem="1H6-ZF-JcZ" firstAttribute="leading" secondItem="4ZJ-xt-Pji" secondAttribute="leading" id="j7Z-tE-Klt"/>
+                                            <constraint firstAttribute="height" constant="1750" id="krt-5V-UD7"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="4ZJ-xt-Pji" secondAttribute="bottom" id="3d1-uL-0cb"/>
+                                    <constraint firstItem="4ZJ-xt-Pji" firstAttribute="top" secondItem="Q9c-pP-FTZ" secondAttribute="top" id="bP2-jd-JN8"/>
+                                    <constraint firstItem="4ZJ-xt-Pji" firstAttribute="leading" secondItem="Q9c-pP-FTZ" secondAttribute="leading" id="c3B-hc-9E5"/>
+                                    <constraint firstAttribute="trailing" secondItem="4ZJ-xt-Pji" secondAttribute="trailing" id="eFH-Ck-zQ6"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="4ZJ-xt-Pji" firstAttribute="width" secondItem="dNC-zC-z33" secondAttribute="width" id="LxB-22-xJx"/>
+                            <constraint firstAttribute="bottom" secondItem="Q9c-pP-FTZ" secondAttribute="bottom" id="NIa-J5-yaY"/>
+                            <constraint firstItem="1H6-ZF-JcZ" firstAttribute="top" secondItem="0TC-WM-qlP" secondAttribute="bottom" id="Rci-Ga-JwM"/>
+                            <constraint firstAttribute="trailing" secondItem="Q9c-pP-FTZ" secondAttribute="trailing" id="cY1-7G-aTo"/>
+                            <constraint firstItem="Q9c-pP-FTZ" firstAttribute="leading" secondItem="dNC-zC-z33" secondAttribute="leading" id="dI6-EQ-o1W"/>
+                            <constraint firstItem="Q9c-pP-FTZ" firstAttribute="top" secondItem="0TC-WM-qlP" secondAttribute="bottom" id="zzx-97-Cl0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Student Officer Manual" id="9G3-dC-dJG"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="1900"/>
+                    <connections>
+                        <outlet property="imageView" destination="1H6-ZF-JcZ" id="tM3-vV-HKg"/>
+                        <outlet property="scrollView" destination="Q9c-pP-FTZ" id="vzk-sv-6kH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aR8-hY-SAt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1333" y="-1371"/>
         </scene>
     </scenes>
     <resources>
