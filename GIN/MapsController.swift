@@ -8,9 +8,10 @@
 
 import UIKit
 
-class MapsController: UIViewController {
+class MapsController: UIViewController, UIScrollViewDelegate {
     
-
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var menuView: UIView!
     @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     
@@ -18,7 +19,9 @@ class MapsController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+        
+        scrollView.delegate = self
+        
         menuView.layer.shadowOpacity = 1;
         menuView.layer.shadowRadius = 6;
        
@@ -40,4 +43,10 @@ class MapsController: UIViewController {
         
     }
 
+    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+        return imageView
+    }
+    
+    
+    
 }
