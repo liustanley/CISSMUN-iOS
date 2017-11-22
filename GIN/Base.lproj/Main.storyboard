@@ -994,9 +994,6 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ConcordiaMap" translatesAutoresizingMaskIntoConstraints="NO" id="ibE-yA-kBj">
-                                <rect key="frame" x="5" y="15" width="365" height="528"/>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0yN-ay-cqc">
                                 <rect key="frame" x="-210" y="0.0" width="200" height="603"/>
                                 <subviews>
@@ -1095,16 +1092,38 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <constraint firstItem="Uo2-tJ-3pP" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="leading" id="rVr-If-ggX"/>
                                 </constraints>
                             </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="Kue-cV-4iS">
+                                <rect key="frame" x="5" y="37" width="365" height="528"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ConcordiaMap" translatesAutoresizingMaskIntoConstraints="NO" id="MaU-Sy-tzj">
+                                        <rect key="frame" x="0.0" y="0.0" width="365" height="528"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="width" secondItem="Kue-cV-4iS" secondAttribute="width" id="01C-Bj-HM8"/>
+                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="centerX" secondItem="Kue-cV-4iS" secondAttribute="centerX" id="0Fp-J5-NDv"/>
+                                    <constraint firstAttribute="width" constant="365" id="6AF-YT-jB8"/>
+                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="top" secondItem="Kue-cV-4iS" secondAttribute="top" id="AlB-tI-F7W"/>
+                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="height" secondItem="Kue-cV-4iS" secondAttribute="height" id="E7z-fR-dun"/>
+                                    <constraint firstAttribute="bottom" secondItem="MaU-Sy-tzj" secondAttribute="bottom" id="J2k-Cx-O59"/>
+                                    <constraint firstAttribute="bottom" secondItem="MaU-Sy-tzj" secondAttribute="bottom" id="O7P-zY-V3o"/>
+                                    <constraint firstAttribute="trailing" secondItem="MaU-Sy-tzj" secondAttribute="trailing" id="gj4-Fj-oVR"/>
+                                    <constraint firstAttribute="height" constant="528" id="oz9-NF-5L6"/>
+                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="centerY" secondItem="Kue-cV-4iS" secondAttribute="centerY" id="sbz-d5-DZU"/>
+                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="leading" secondItem="Kue-cV-4iS" secondAttribute="leading" id="syW-M8-SON"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="0yN-ay-cqc" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" id="0O6-Tp-X15"/>
-                            <constraint firstItem="ibE-yA-kBj" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="5" id="Bj5-Xc-Orl"/>
+                            <constraint firstItem="Kue-cV-4iS" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="trailing" constant="15" id="5fV-tV-CnR"/>
                             <constraint firstItem="0yN-ay-cqc" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="-210" id="FKR-vJ-MwU"/>
-                            <constraint firstItem="f0c-41-mFQ" firstAttribute="top" secondItem="ibE-yA-kBj" secondAttribute="bottom" constant="60" id="NVD-1G-eJ9"/>
-                            <constraint firstItem="ibE-yA-kBj" firstAttribute="centerX" secondItem="2zI-H3-Oo9" secondAttribute="centerX" id="Sj3-ar-Oze"/>
-                            <constraint firstAttribute="trailing" secondItem="ibE-yA-kBj" secondAttribute="trailing" constant="5" id="lCD-Cz-sPo"/>
-                            <constraint firstItem="ibE-yA-kBj" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="15" id="nF7-fo-PkT"/>
+                            <constraint firstAttribute="trailing" secondItem="Kue-cV-4iS" secondAttribute="trailing" constant="5" id="XL3-BF-ZBk"/>
+                            <constraint firstItem="Kue-cV-4iS" firstAttribute="centerY" secondItem="2zI-H3-Oo9" secondAttribute="centerY" id="bNj-rH-eR9"/>
+                            <constraint firstItem="f0c-41-mFQ" firstAttribute="top" secondItem="Kue-cV-4iS" secondAttribute="bottom" constant="38" id="bxA-J7-eys"/>
+                            <constraint firstItem="Kue-cV-4iS" firstAttribute="centerX" secondItem="2zI-H3-Oo9" secondAttribute="centerX" id="dA6-oJ-R69"/>
+                            <constraint firstItem="Kue-cV-4iS" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="37" id="luV-h1-j5r"/>
                             <constraint firstAttribute="bottom" secondItem="0yN-ay-cqc" secondAttribute="bottom" id="nII-r0-8te"/>
                         </constraints>
                     </view>
@@ -1122,13 +1141,15 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                     </navigationItem>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="667"/>
                     <connections>
+                        <outlet property="imageView" destination="MaU-Sy-tzj" id="tfy-gf-JQN"/>
                         <outlet property="leadingConstraint" destination="FKR-vJ-MwU" id="O3N-BU-CSR"/>
                         <outlet property="menuView" destination="0yN-ay-cqc" id="OeW-k1-Qrw"/>
+                        <outlet property="scrollView" destination="Kue-cV-4iS" id="153-Yy-RU2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ic-o8-BDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3928.985507246377" y="1128.2608695652175"/>
+            <point key="canvasLocation" x="-3929.7101449275365" y="1127.8532608695652"/>
         </scene>
         <!--Upper Building (HS)-->
         <scene sceneID="tPP-YK-nEI">
