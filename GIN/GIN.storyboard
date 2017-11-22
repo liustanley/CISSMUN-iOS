@@ -1544,7 +1544,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18r-xT-91t" userLabel="Karen" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                <rect key="frame" x="12" y="561" width="296" height="345"/>
+                                                <rect key="frame" x="12" y="567" width="296" height="345"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIN Student Head" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="6cv-pS-Y3d">
                                                         <rect key="frame" x="12" y="18" width="176" height="20"/>
@@ -1617,7 +1617,7 @@
                                             <constraint firstItem="2iE-H5-WQ5" firstAttribute="bottom" secondItem="ZeT-pl-cfa" secondAttribute="bottom" id="Ojh-S9-i5V"/>
                                             <constraint firstAttribute="bottom" secondItem="ZeT-pl-cfa" secondAttribute="bottom" priority="999" constant="750" id="S8B-Pd-bdH"/>
                                             <constraint firstItem="fue-q3-mA4" firstAttribute="top" secondItem="OBH-DX-87d" secondAttribute="top" constant="216" id="VQt-Aj-4yd"/>
-                                            <constraint firstItem="18r-xT-91t" firstAttribute="top" secondItem="fue-q3-mA4" secondAttribute="bottom" constant="10" id="Z8G-gz-WKT"/>
+                                            <constraint firstItem="18r-xT-91t" firstAttribute="top" secondItem="fue-q3-mA4" secondAttribute="bottom" constant="16" id="Z8G-gz-WKT"/>
                                             <constraint firstItem="18r-xT-91t" firstAttribute="leading" secondItem="OBH-DX-87d" secondAttribute="leading" constant="12" id="iQZ-9U-yhj"/>
                                             <constraint firstItem="fue-q3-mA4" firstAttribute="leading" secondItem="OBH-DX-87d" secondAttribute="leading" constant="12" id="icr-c4-laN"/>
                                             <constraint firstItem="2iE-H5-WQ5" firstAttribute="leading" secondItem="ZeT-pl-cfa" secondAttribute="leading" id="nKR-hw-cqY"/>

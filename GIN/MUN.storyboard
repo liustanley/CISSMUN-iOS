@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -31,7 +31,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Zkg-Ma-wmi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="epY-Nt-9F2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -50,7 +50,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bec-GP-VrN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Kao-Uc-Ujv">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1463,7 +1463,7 @@
                                                     <constraint firstAttribute="trailing" secondItem="dgv-Dz-eqN" secondAttribute="trailing" id="uGU-wh-aWv"/>
                                                 </constraints>
                                             </stackView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0yT-8w-7ld">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0yT-8w-7ld">
                                                 <rect key="frame" x="16" y="1909" width="288" height="75"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="75" id="vBu-my-AHD"/>
@@ -1620,7 +1620,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tjo-7E-Fy0" userLabel="Katherine" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                <rect key="frame" x="12" y="561" width="296" height="345"/>
+                                                <rect key="frame" x="12" y="567" width="296" height="345"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secretary General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="jQ7-wX-9Jn">
                                                         <rect key="frame" x="12" y="18" width="176" height="20"/>
@@ -1683,7 +1683,7 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="Tjo-7E-Fy0" firstAttribute="top" secondItem="rsC-er-Ta4" secondAttribute="bottom" constant="10" id="Bs9-DF-2y5"/>
+                                            <constraint firstItem="Tjo-7E-Fy0" firstAttribute="top" secondItem="rsC-er-Ta4" secondAttribute="bottom" constant="16" id="Bs9-DF-2y5"/>
                                             <constraint firstItem="rsC-er-Ta4" firstAttribute="top" secondItem="a0f-6h-b5d" secondAttribute="bottom" priority="999" constant="16" id="DXn-YK-YoS"/>
                                             <constraint firstItem="3o9-Xs-JpD" firstAttribute="top" secondItem="a0f-6h-b5d" secondAttribute="top" id="F1Z-wp-b2W"/>
                                             <constraint firstItem="3o9-Xs-JpD" firstAttribute="bottom" secondItem="a0f-6h-b5d" secondAttribute="bottom" id="FP1-UH-Gkc"/>
@@ -1752,11 +1752,11 @@
                         <viewControllerLayoutGuide type="bottom" id="DtV-Yg-try"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qTC-sa-tqS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="realcodesquare" translatesAutoresizingMaskIntoConstraints="NO" id="aQ5-db-OoS">
-                                <rect key="frame" x="27.5" y="141.5" width="320" height="320"/>
+                                <rect key="frame" x="0.0" y="48" width="320" height="320"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="Gbl-wX-7La"/>
                                     <constraint firstAttribute="height" constant="320" id="pvd-WK-jVX"/>
