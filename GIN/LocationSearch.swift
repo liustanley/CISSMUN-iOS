@@ -15,6 +15,7 @@ var row = 0
 
 class LocationSearch: UITableViewController, UISearchResultsUpdating{
 
+    
     var filtered = [Room]()
     var searchController : UISearchController!
     var resultsController = UITableViewController()

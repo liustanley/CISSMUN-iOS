@@ -8,11 +8,15 @@
 
 import UIKit
 
+var HSController = HSViewController.self
+
 class HSViewController: UIViewController {
     
     
     @IBOutlet weak var HSB1: UIImageView!
     @IBOutlet weak var Controller: UISegmentedControl!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

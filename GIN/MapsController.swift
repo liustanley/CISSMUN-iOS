@@ -15,6 +15,73 @@ class MapsController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var menuView: UIView!
     @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     
+    @IBAction func expandingMenu(_ sender: Any) {
+        
+        let alertController = UIAlertController(title: (sender as AnyObject).accessibilityLabel, message: (sender as AnyObject).accessibilityHint, preferredStyle: .actionSheet)
+        
+        let HSAction = UIAlertAction(title: "Upper Building", style: .default) { action in
+            
+            DispatchQueue.main.async {
+                self.performSegue(withIdentifier: "one", sender: nil)
+            }
+
+            //imageView.addSubview(controller)
+
+            
+            //MapsController.addChildViewController(HSViewController)
+            
+            //addSubview( HSViewController )
+            
+        }
+        alertController.addAction(HSAction)
+        
+        let MSAction = UIAlertAction(title: "Intermediate Building", style: .default) { action in
+            //UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            
+            DispatchQueue.main.async {
+                self.performSegue(withIdentifier: "two", sender: nil)
+            }
+        }
+        alertController.addAction(MSAction)
+        
+        let ESAction = UIAlertAction(title: "Lower Building", style: .default) { action in
+            //UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            DispatchQueue.main.async {
+                self.performSegue(withIdentifier: "three", sender: nil)
+            }
+        }
+        
+        alertController.addAction(ESAction)
+        
+        let RCAction = UIAlertAction(title: "Rittmann Center", style: .default) { action in
+            //UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            DispatchQueue.main.async {
+                self.performSegue(withIdentifier: "five", sender: nil)
+            }
+        }
+        alertController.addAction(RCAction);
+        
+        let PCAction = UIAlertAction(title: "PC Center", style: .default) { action in
+            //UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            DispatchQueue.main.async {
+                self.performSegue(withIdentifier: "four", sender: nil)
+            }
+        }
+        
+        alertController.addAction(PCAction)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { action in
+            // ...
+        }
+        alertController.addAction(cancelAction)
+        
+        
+        self.present(alertController, animated: true) {
+            // ...
+        }
+        
+    }
+    
     var menuShowing = false;
     
     override func viewDidLoad() {

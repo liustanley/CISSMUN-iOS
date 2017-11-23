@@ -985,7 +985,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
             </objects>
             <point key="canvasLocation" x="900" y="1203.1484257871066"/>
         </scene>
-        <!--Campus Map-->
+        <!--Maps Controller-->
         <scene sceneID="Z8r-MY-f6S">
             <objects>
                 <viewController id="qtl-lD-hPh" customClass="MapsController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
@@ -997,6 +997,27 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="Kue-cV-4iS">
+                                <rect key="frame" x="5" y="15" width="365" height="528"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MaU-Sy-tzj">
+                                        <rect key="frame" x="0.0" y="0.0" width="365" height="528"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="width" secondItem="Kue-cV-4iS" secondAttribute="width" id="01C-Bj-HM8"/>
+                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="centerX" secondItem="Kue-cV-4iS" secondAttribute="centerX" id="0Fp-J5-NDv"/>
+                                    <constraint firstAttribute="width" constant="365" id="6AF-YT-jB8"/>
+                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="top" secondItem="Kue-cV-4iS" secondAttribute="top" id="AlB-tI-F7W"/>
+                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="height" secondItem="Kue-cV-4iS" secondAttribute="height" id="E7z-fR-dun"/>
+                                    <constraint firstAttribute="bottom" secondItem="MaU-Sy-tzj" secondAttribute="bottom" id="J2k-Cx-O59"/>
+                                    <constraint firstAttribute="bottom" secondItem="MaU-Sy-tzj" secondAttribute="bottom" id="O7P-zY-V3o"/>
+                                    <constraint firstAttribute="trailing" secondItem="MaU-Sy-tzj" secondAttribute="trailing" id="gj4-Fj-oVR"/>
+                                    <constraint firstAttribute="height" constant="528" id="oz9-NF-5L6"/>
+                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="centerY" secondItem="Kue-cV-4iS" secondAttribute="centerY" id="sbz-d5-DZU"/>
+                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="leading" secondItem="Kue-cV-4iS" secondAttribute="leading" id="syW-M8-SON"/>
+                                </constraints>
+                            </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0yN-ay-cqc">
                                 <rect key="frame" x="-210" y="0.0" width="200" height="603"/>
                                 <subviews>
@@ -1025,7 +1046,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         </constraints>
                                         <state key="normal" title="Upper Building"/>
                                         <connections>
-                                            <segue destination="Jjz-lz-LO4" kind="show" id="aw8-rH-SAa"/>
+                                            <segue destination="Jjz-lz-LO4" kind="show" identifier="one" id="aw8-rH-SAa"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtH-BR-BPE">
@@ -1035,7 +1056,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         </constraints>
                                         <state key="normal" title="Intermediate Building"/>
                                         <connections>
-                                            <segue destination="mcV-MX-kjh" kind="show" id="fOn-aP-dVJ"/>
+                                            <segue destination="mcV-MX-kjh" kind="show" identifier="two" id="fOn-aP-dVJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRW-c3-RIa">
@@ -1045,7 +1066,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         </constraints>
                                         <state key="normal" title="Lower Building"/>
                                         <connections>
-                                            <segue destination="BEF-lz-9QA" kind="show" id="4nA-NQ-mGE"/>
+                                            <segue destination="BEF-lz-9QA" kind="show" identifier="three" id="4nA-NQ-mGE"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEe-Ck-R8y">
@@ -1055,7 +1076,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         </constraints>
                                         <state key="normal" title="Phoenix Center"/>
                                         <connections>
-                                            <segue destination="uNY-mp-DFV" kind="show" id="59o-3u-Nu6"/>
+                                            <segue destination="uNY-mp-DFV" kind="show" identifier="four" id="59o-3u-Nu6"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4o-WQ-goS">
@@ -1065,7 +1086,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         </constraints>
                                         <state key="normal" title="Rittman Center"/>
                                         <connections>
-                                            <segue destination="3U4-L5-i7V" kind="show" id="0e1-bs-rdY"/>
+                                            <segue destination="3U4-L5-i7V" kind="show" identifier="five" id="0e1-bs-rdY"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1095,27 +1116,6 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <constraint firstItem="Uo2-tJ-3pP" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="leading" id="rVr-If-ggX"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="Kue-cV-4iS">
-                                <rect key="frame" x="5" y="15" width="365" height="528"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ConcordiaMap" translatesAutoresizingMaskIntoConstraints="NO" id="MaU-Sy-tzj">
-                                        <rect key="frame" x="0.0" y="0.0" width="365" height="528"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="width" secondItem="Kue-cV-4iS" secondAttribute="width" id="01C-Bj-HM8"/>
-                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="centerX" secondItem="Kue-cV-4iS" secondAttribute="centerX" id="0Fp-J5-NDv"/>
-                                    <constraint firstAttribute="width" constant="365" id="6AF-YT-jB8"/>
-                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="top" secondItem="Kue-cV-4iS" secondAttribute="top" id="AlB-tI-F7W"/>
-                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="height" secondItem="Kue-cV-4iS" secondAttribute="height" id="E7z-fR-dun"/>
-                                    <constraint firstAttribute="bottom" secondItem="MaU-Sy-tzj" secondAttribute="bottom" id="J2k-Cx-O59"/>
-                                    <constraint firstAttribute="bottom" secondItem="MaU-Sy-tzj" secondAttribute="bottom" id="O7P-zY-V3o"/>
-                                    <constraint firstAttribute="trailing" secondItem="MaU-Sy-tzj" secondAttribute="trailing" id="gj4-Fj-oVR"/>
-                                    <constraint firstAttribute="height" constant="528" id="oz9-NF-5L6"/>
-                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="centerY" secondItem="Kue-cV-4iS" secondAttribute="centerY" id="sbz-d5-DZU"/>
-                                    <constraint firstItem="MaU-Sy-tzj" firstAttribute="leading" secondItem="Kue-cV-4iS" secondAttribute="leading" id="syW-M8-SON"/>
-                                </constraints>
-                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -1129,13 +1129,24 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                             <constraint firstAttribute="trailing" secondItem="Kue-cV-4iS" secondAttribute="trailing" constant="5" id="qmT-On-gYO"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Campus Map" id="D3c-Zg-9cX">
+                    <navigationItem key="navigationItem" id="D3c-Zg-9cX">
+                        <nil key="title"/>
                         <barButtonItem key="leftBarButtonItem" image="Image" id="sjY-RW-OOf">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="openMenu:" destination="qtl-lD-hPh" id="5iv-EY-1s7"/>
                             </connections>
                         </barButtonItem>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9kh-Hk-gMw">
+                            <rect key="frame" x="96.666666666666686" y="7" width="182" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Concordia Campus Map ▼">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="expandingMenu:" destination="qtl-lD-hPh" eventType="touchUpInside" id="4zl-XP-N56"/>
+                            </connections>
+                        </button>
                         <barButtonItem key="rightBarButtonItem" image="icons8-Search-26" id="yD5-bf-zzb">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
@@ -1183,6 +1194,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                 </segments>
                                 <connections>
                                     <action selector="ChangePhoto:" destination="Jjz-lz-LO4" eventType="valueChanged" id="6aI-pT-q2Y"/>
+                                    <action selector="HSController:" destination="Okt-iW-VUc" eventType="valueChanged" id="2Hb-oM-OcI"/>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High School Floors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RnO-3X-2vO">
@@ -1220,6 +1232,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mZE-Ur-ReI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Okt-iW-VUc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-3093.4782608695655" y="-413.72282608695656"/>
         </scene>
@@ -5389,7 +5402,6 @@ The cost of buses to and from the airport/train station will be borne by the vis
     <resources>
         <image name="1354592945_Concordia" width="450" height="375"/>
         <image name="ConcordiaLogo" width="458" height="456"/>
-        <image name="ConcordiaMap" width="600" height="575"/>
         <image name="ES 1" width="842" height="596"/>
         <image name="HS B1" width="720" height="540"/>
         <image name="Image" width="26" height="26"/>
