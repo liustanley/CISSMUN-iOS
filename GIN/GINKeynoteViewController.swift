@@ -30,17 +30,10 @@ class GINKeynoteViewController: UIViewController, UIScrollViewDelegate {
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         
-        let offsetY = scrollView.contentOffset.y
+        imageView.frame.size.height = imageView.frame.size.height
         
-        if offsetY < 0
-        {
-            imageView.frame.size.height = -offsetY
-        }
-        else
-        {
-            imageView.frame.size.height = imageView.frame.size.height
-        }
     }
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
