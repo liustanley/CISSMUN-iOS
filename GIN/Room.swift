@@ -9,7 +9,9 @@
 import Foundation
 struct Room {
     let roomName : String
-    let floorNumber : NSInteger
+    let floorNumber : String
+    //basically the floor description lmao
+    let floorMap: String
     //let permNum: NSInteger
     
 }
