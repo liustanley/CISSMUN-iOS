@@ -1,21 +1,13 @@
-//
-//  SecondViewController.swift
-//  GIN
-//
-//  Created by Stanley Liu on 5/24/17.
-//  Copyright © 2017 Stanley Liu. All rights reserved.
-//
-
 import UIKit
+import WebKit
 
-class GINKeynoteViewController: UIViewController, UIScrollViewDelegate {
+class MUNProcedureViewController: UIViewController, UIScrollViewDelegate, UIWebViewDelegate {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         scrollView.delegate = self
         
@@ -23,13 +15,14 @@ class GINKeynoteViewController: UIViewController, UIScrollViewDelegate {
         
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    @IBAction func openPDF(_ sender: UIButton) {
+        let pdfVC = storyboard?.instantiateViewController(withIdentifier: "pdfviewer") as! MUNPDFViewController
+        pdfVC.stringPassed = sender.accessibilityIdentifier!
+        navigationController?.pushViewController(pdfVC, animated: true)
+            
+        }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        
         imageView.frame.size.height = imageView.frame.size.height
         
     }
@@ -42,7 +35,7 @@ class GINKeynoteViewController: UIViewController, UIScrollViewDelegate {
         scrollView.contentOffset = newOrigin
         scrollView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     }
-    
 }
+    
 
 
