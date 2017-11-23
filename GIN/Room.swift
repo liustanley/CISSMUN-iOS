@@ -10,5 +10,6 @@ import Foundation
 struct Room {
     let roomName : String
     let floorNumber : NSInteger
+    //let permNum: NSInteger
     
 }
