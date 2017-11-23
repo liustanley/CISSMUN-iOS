@@ -15,23 +15,40 @@ class CellsViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var scroll: UIScrollView!
     @IBOutlet weak var textView: UILabel!
     @IBOutlet weak var textViewtwo: UILabel!
-    @IBOutlet weak var roomImageView: UIImageView!
-    
+    @IBOutlet weak var imageView: UIImageView!
+    var num = 0
+   
+
+   
     override func viewDidLoad() {
         super.viewDidLoad()
- 
+        textViewtwo.text = roomies[rowNum].floorNumber
+        scroll.delegate = self
+        imageView.image = UIImage(named: roomies[rowNum].floorMap)
+        textView.text = roomies[rowNum].roomName
+  
         
-       roomImageView.image =  UIImage(named: roomies[row].floorMap)
+        /*imageView.image =  UIImage(named: roomies[row].floorMap)
+        scroll.delegate = self
+        textView.text = roomies[row].roomName
+        textViewtwo.text =  roomies[row].floorNumber
+        
+        
+      
+        
+       
+        
+     /*  roomImageView.image =  UIImage(named: roomies[row].floorMap)
         scroll.delegate = self
         textView.text = roomies[row].roomName
         textViewtwo.text =  roomies[row].floorNumber 
-        
+        */
        
-       
-      /*  imageView.image = images[(NSInteger)(roomies[row].floorNumber)]
+      /*
+        imageView.image = UIImage(named: roomies[row].floorMap)
         scroll.delegate = self
         textView.text = roomies[row].roomName
-        textViewtwo.text = "Located on the " + text[ (NSInteger)(roomies[row].floorNumber)  ]
+        textViewtwo.text = roomies[row].floorNumber*/
         //[@"7" intValue];
         // Do any additional setup after loading the view.*/
     }
@@ -42,7 +59,7 @@ class CellsViewController: UIViewController, UIScrollViewDelegate {
     }
     
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
-        return roomImageView
+        return imageView
     }
     
 

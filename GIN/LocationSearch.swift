@@ -11,7 +11,67 @@ import UIKit
 var roomies = [Room]()
 var images = [ #imageLiteral(resourceName: "HS 1"),#imageLiteral(resourceName: "HS 2"), #imageLiteral(resourceName: "HS 3"),#imageLiteral(resourceName: "HS 4"),#imageLiteral(resourceName: "HS 5"),#imageLiteral(resourceName: "HS 6"),  #imageLiteral(resourceName: "1st Floor Intermediate"), #imageLiteral(resourceName: "2nd Floor Intermediate"),  #imageLiteral(resourceName: "ES 1st Floor"), #imageLiteral(resourceName: "ES 2nd Floor"), #imageLiteral(resourceName: "ES 3rd Floor"), #imageLiteral(resourceName: "ES 4th Floor"), #imageLiteral(resourceName: "1st Floor Rittmann"), #imageLiteral(resourceName: "2nd Floor Rittmann"), #imageLiteral(resourceName: "3rd Floor Rittmann"), #imageLiteral(resourceName: "4th Floor Rittmann"), #imageLiteral(resourceName: "1st Floor Phoenix"), #imageLiteral(resourceName: "2nd Floor Phoenix"), #imageLiteral(resourceName: "HS B1")]
 var text = ["1st Floor of the Upper Building","2nd Floor of the Upper Building","3rd Floor of the Upper Building","4th Floor of the Upper Building","5th Floor of the Upper Building","6th Floor of the Upper Building","1st Floor of the Intermediate Building","2nd Floor of the Intermediate Building","1st Floor of the Lower Building","2nd Floor of the Lower Building","3rd Floor of the Lower Building","4th Floor of the Lower Building","1st Floor of the Rittmann","2nd Floor of the Rittmann","3rd Floor of the Rittmann","4th Floor of the Rittmann","1st Floor of the Phoenix Center","2nd Floor of the Phoenix Center","Basement of the Upper Building"] //HS to MS to ES to RT to Phoenix Center  0-18
-var row = 0
+var row = ""
+var rowNum = 0
+
+var roro = ["GA4, Wittenberg Hall (H316/H318)", "GA3, PC Lounge",
+    "ECOSOC, HS Gym (H115)",
+    "P228, Phoenix Café",
+    "Approval Panel, HS Library (H227)",
+    "H233, HS Conference Room",
+    "Environmental, Augsburg Hall (H405/H406)",
+    "GA6, MS Gym (M116)",
+    "HRC, ES Library (E322)","E122, ES Cafeteria",
+    "SC, Orchestra Room (R302)",
+    "Cafeteria",
+    "ICJ (H116)",
+    "CSW, Jade/Pearl (P230/P231)",
+    "Secretariat/Hive, Costume Room (P135)",
+"Advis. Panel, Health Room (H127)",
+"R101, Rittmann Theatre",
+"CISSMUN Vigil (H305)",
+"Spec Conf (H404)",
+"UNPFII (H403)",
+"ICC, New Luther (P201)",
+"Printing (H205)",
+"Keynote Speakers, Phoenix Center Gym (P106)",
+"Classroom next to Jade/Pearl???",
+"H203",
+"H204",
+"H206", "MS and HS classrooms Schools???",
+"Disarmament, Motor Skills Room",
+"GA1, PE Commons",
+"P232",
+"P233",
+"P234",
+"P202",
+"P203",
+"P204",
+"M101, MS Reception",
+"M104",
+"M105",
+"M106",
+"M107",
+"M108",
+"M109",
+"M110", "M201",
+"M204",
+"M205",
+"M206",
+"M207",
+"M208",
+"M209",
+"M210",
+"M211",
+"M223",
+"P133",
+"P134",
+"P135",
+"H118",
+"H216",
+"H306",
+"H304",
+"H303"]
 
 class LocationSearch: UITableViewController, UISearchResultsUpdating{
 
@@ -24,13 +84,14 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
         roomies = [
             Room(roomName:"GA4, Wittenberg Hall (H316/H318)", floorNumber: text[2], floorMap: "HS 3"),
             Room(roomName:"GA3, PC Lounge", floorNumber: text[1], floorMap: "HS 2"),
-            Room(roomName:"ECOSOC, HS Gym (H115)", floorNumber: text[0], floorMap: "HS 3"),
+            Room(roomName:"ECOSOC, HS Gym (H115)", floorNumber: text[0], floorMap: "HS 1"),
             Room(roomName:"P228, Phoenix Café", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"Approval Panel, HS Library (H227)", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"H233, HS Conference Room", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"Environmental, Augsburg Hall (H405/H406)", floorNumber: text[3], floorMap: "HS 4"),
-            Room(roomName:"GA6, MS Gym (M116)", floorNumber: text[7], floorMap: "MS 1"),
+            Room(roomName:"GA6, MS Gym (M116)", floorNumber: text[6], floorMap: "MS 1"),
             Room(roomName:"HRC, ES Library (E322)", floorNumber: text[10], floorMap: "ES 3"),
+            
             Room(roomName:"E122, ES Cafeteria", floorNumber: text[8], floorMap: "ES 1"),
             Room(roomName:"SC, Orchestra Room (R302)", floorNumber: text[14], floorMap: "R 3"),
             Room(roomName:"Cafeteria", floorNumber: text[16], floorMap: "PC 1"),
@@ -38,6 +99,7 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             Room(roomName:"CSW, Jade/Pearl (P230/P231)", floorNumber: text[17], floorMap: "PC 2"),
             Room(roomName:"Secretariat/Hive, Costume Room (P135)", floorNumber: text[16], floorMap: "PC 1"),
             Room(roomName:"Advis. Panel, Health Room (H127)", floorNumber: text[0], floorMap: "HS 1"),
+            
             Room(roomName:"R101, Rittmann Theatre", floorNumber: text[12], floorMap: "R 1"),
             Room(roomName:"CISSMUN Vigil (H305)", floorNumber: text[2], floorMap: "HS 3"),
             Room(roomName:"Spec Conf (H404)", floorNumber: text[3], floorMap: "HS 4"),
@@ -49,6 +111,7 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             Room(roomName:"H203", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"H204", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"H206", floorNumber: text[1], floorMap: "HS 2"),
+            
             Room(roomName:"MS and HS classrooms Schools???", floorNumber: text[0], floorMap: "HS 1"),
             Room(roomName:"Disarmament, Motor Skills Room",floorNumber: text[8], floorMap: "ES 1"),
             
@@ -69,6 +132,7 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             Room(roomName:"M108",floorNumber: text[6], floorMap: "MS 1"),
             Room(roomName:"M109",floorNumber: text[6], floorMap: "MS 1"),
             Room(roomName:"M110",floorNumber: text[6], floorMap: "MS 1"),
+            
             Room(roomName:"M201",floorNumber: text[7], floorMap: "MS 2"),
             Room(roomName:"M204",floorNumber: text[7], floorMap: "MS 2"),
             Room(roomName:"M205",floorNumber: text[7], floorMap: "MS 2"),
@@ -139,9 +203,20 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
         }
         
     }
+    func isFiltering() -> Bool {
+        return searchController.isActive
+    }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        row = indexPath.row
+       
+        let indexPath = tableView.indexPathForSelectedRow //optional, to get from any UIButton for example
+        
+        let currentCell = tableView.cellForRow(at: indexPath!) as! UITableViewCell
+        
+        row = currentCell.textLabel!.text!
+        
+        rowNum =  roro.index(of: row)!
+    
         if tableView == resultsController.tableView{
             DispatchQueue.main.async {
                 self.performSegue(withIdentifier: "segueone", sender: nil)
