@@ -942,7 +942,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KaY-QK-0Rm">
                                         <rect key="frame" x="0.0" y="504" width="414" height="168"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gin" translatesAutoresizingMaskIntoConstraints="NO" id="lEb-Qq-A4b">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="lEb-Qq-A4b">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="168"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9Z-ax-ZtX">
@@ -4742,7 +4742,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jh7-dI-Sm1" userLabel="Jing'an Temple">
                                                         <rect key="frame" x="0.0" y="571.33333333333337" width="320" height="143"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jing’an Temple" translatesAutoresizingMaskIntoConstraints="NO" id="QAU-aa-cFk">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jing'an temple" translatesAutoresizingMaskIntoConstraints="NO" id="QAU-aa-cFk">
                                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jing’an Temple (静安寺)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8T0-Bk-rCP">
@@ -5138,7 +5138,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NU6-wU-KgL" userLabel="Jing'an Temple">
                                                         <rect key="frame" x="0.0" y="571.33333333333337" width="320" height="143"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jing’an Temple" translatesAutoresizingMaskIntoConstraints="NO" id="vep-6G-RlU">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jing'an temple" translatesAutoresizingMaskIntoConstraints="NO" id="vep-6G-RlU">
                                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jing’an Temple (静安寺)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80e-HM-jlw">
@@ -5404,23 +5404,21 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="ES 1" width="842" height="596"/>
         <image name="HS B1" width="720" height="540"/>
         <image name="Image" width="26" height="26"/>
-        <image name="Jing’an Temple" width="1280" height="819"/>
         <image name="MS 1" width="720" height="540"/>
         <image name="PC 1" width="720" height="540"/>
         <image name="R 1" width="720" height="540"/>
         <image name="biqiya placeholder" width="337" height="450"/>
         <image name="bluefrog" width="1923" height="1080"/>
-        <image name="bund" width="2560" height="1440"/>
+        <image name="bund" width="2048" height="1266"/>
         <image name="chichi" width="1923" height="1080"/>
         <image name="chicken" width="1923" height="1080"/>
         <image name="concordia" width="1500" height="1125"/>
-        <image name="contact" width="1920" height="1275"/>
+        <image name="contact" width="750" height="500"/>
         <image name="dintaifung" width="550" height="412"/>
         <image name="disney" width="5501" height="3559"/>
         <image name="expand arrow" width="100" height="100"/>
         <image name="expand arrow filled" width="100" height="100"/>
         <image name="french concession" width="750" height="422"/>
-        <image name="gin" width="1000" height="665"/>
         <image name="ginger" width="450" height="450"/>
         <image name="haidilao" width="550" height="412"/>
         <image name="icons8-Menu 2-64" width="64" height="64"/>
@@ -5428,12 +5426,14 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="icons8-Star Empty" width="40" height="40"/>
         <image name="icons8-Star Filled" width="40" height="40"/>
         <image name="icons8-Star Half Empty" width="40" height="40"/>
+        <image name="jing'an temple" width="2048" height="1365"/>
         <image name="lost heaven" width="549" height="367"/>
         <image name="nypizza" width="1923" height="1080"/>
-        <image name="pearl tower" width="3456" height="4608"/>
+        <image name="pearl tower" width="2048" height="1365"/>
         <image name="pizza express" width="700" height="466"/>
+        <image name="settings" width="750" height="500"/>
         <image name="shanghai" width="1000" height="667"/>
-        <image name="shanghai tower" width="1024" height="768"/>
+        <image name="shanghai tower" width="3456" height="5184"/>
         <image name="starbuck" width="1080" height="1923"/>
         <image name="taco bell" width="1500" height="1000"/>
         <image name="taoyuan village" width="800" height="533"/>
@@ -5442,7 +5442,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="yangs" width="1923" height="1080"/>
         <image name="yangs dumplings" width="515" height="346"/>
         <image name="yidiandian" width="1923" height="1080"/>
-        <image name="yu garden" width="1200" height="798"/>
+        <image name="yu garden" width="2048" height="1365"/>
     </resources>
     <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
