@@ -998,7 +998,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="Kue-cV-4iS">
-                                <rect key="frame" x="0.66666666666665719" y="50" width="375" height="450"/>
+                                <rect key="frame" x="0.66666666666665719" y="128" width="375" height="450"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ConcordiaMap" translatesAutoresizingMaskIntoConstraints="NO" id="MaU-Sy-tzj">
                                         <rect key="frame" x="0.0" y="0.33333333333334281" width="375" height="412.66666666666663"/>
@@ -1115,14 +1115,23 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                     <constraint firstItem="Uo2-tJ-3pP" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="leading" id="rVr-If-ggX"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Concordia Campus Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opS-r0-Vh4">
+                                <rect key="frame" x="24" y="24" width="327" height="33"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="0yN-ay-cqc" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" id="0O6-Tp-X15"/>
                             <constraint firstItem="0yN-ay-cqc" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leading" constant="-210" id="FKR-vJ-MwU"/>
                             <constraint firstItem="Kue-cV-4iS" firstAttribute="centerX" secondItem="2zI-H3-Oo9" secondAttribute="centerX" id="Jqc-BI-79J"/>
-                            <constraint firstItem="Kue-cV-4iS" firstAttribute="top" secondItem="2zI-H3-Oo9" secondAttribute="top" constant="50" id="gaM-tQ-SGb"/>
+                            <constraint firstItem="opS-r0-Vh4" firstAttribute="top" secondItem="3mG-bv-JqH" secondAttribute="bottom" constant="24" id="RE6-fe-r8B"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="opS-r0-Vh4" secondAttribute="trailing" constant="8" id="eqa-Bl-ueE"/>
                             <constraint firstAttribute="bottom" secondItem="0yN-ay-cqc" secondAttribute="bottom" id="nII-r0-8te"/>
+                            <constraint firstItem="opS-r0-Vh4" firstAttribute="leading" secondItem="2zI-H3-Oo9" secondAttribute="leadingMargin" constant="8" id="pZV-Le-4wi"/>
+                            <constraint firstItem="f0c-41-mFQ" firstAttribute="top" secondItem="Kue-cV-4iS" secondAttribute="bottom" constant="25" id="vwb-wF-Kb5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="D3c-Zg-9cX">
