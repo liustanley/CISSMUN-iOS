@@ -15,63 +15,65 @@ var row = ""
 var rowNum = 0
 
 var roro = ["GA4, Wittenberg Hall (H316/H318)", "GA3, PC Lounge",
-    "ECOSOC, HS Gym (H115)",
-    "P228, Phoenix Café",
-    "Approval Panel, HS Library (H227)",
-    "H233, HS Conference Room",
-    "Environmental, Augsburg Hall (H405/H406)",
-    "GA6, MS Gym (M116)",
-    "HRC, ES Library (E322)","E122, ES Cafeteria",
-    "SC, Orchestra Room (R302)",
-    "Cafeteria",
-    "ICJ (H116)",
-    "CSW, Jade/Pearl (P230/P231)",
-    "Secretariat/Hive, Costume Room (P135)",
-"Advis. Panel, Health Room (H127)",
-"R101, Rittmann Theatre",
-"CISSMUN Vigil (H305)",
-"Spec Conf (H404)",
-"UNPFII (H403)",
-"ICC, New Luther (P201)",
-"Printing (H205)",
-"Keynote Speakers, Phoenix Center Gym (P106)",
-"Classroom next to Jade/Pearl???",
-"H203",
-"H204",
-"H206", "MS and HS classrooms Schools???",
-"Disarmament, Motor Skills Room",
-"GA1, PE Commons",
-"P232",
-"P233",
-"P234",
-"P202",
-"P203",
-"P204",
-"M101, MS Reception",
-"M104",
-"M105",
-"M106",
-"M107",
-"M108",
-"M109",
-"M110", "M201",
-"M204",
-"M205",
-"M206",
-"M207",
-"M208",
-"M209",
-"M210",
-"M211",
-"M223",
-"P133",
-"P134",
-"P135",
-"H118",
-"H216",
-"H306",
-"H304",
-"H303"]
+            "ECOSOC, HS Gym (H115)",
+            "P228, Phoenix Café",
+            "Approval Panel, HS Library (H227)",
+            "H233, HS Conference Room",
+            "Environmental, Augsburg Hall (H405/H406)",
+            "GA6, MS Gym (M116)",
+            "HRC, ES Library (E322)",
+            "E122, ES Cafeteria",
+            "SC, Orchestra Room (R302)",
+            "Cafeteria",
+            "ICJ (H116)",
+            "CSW, Jade/Pearl (P230/P231)",
+            "Secretariat/Hive, Costume Room (P135)",
+            "Advis. Panel, Health Room (H127)",
+            "R101, Rittmann Theatre",
+            "CISSMUN Vigil (H305)",
+            "Spec Conf (H404)",
+            "UNPFII (H403)",
+            "ICC, New Luther (P201)",
+            "Printing (H205)",
+            "Keynote Speakers",
+            "Phoenix Center Gym (P106)",
+            "H203",
+            "H204",
+            "H206",
+            "Disarmament, Motor Skills Room",
+            "GA1, PE Commons",
+            "P232",
+            "P233",
+            "P234",
+            "P202",
+            "P203",
+            "P204",
+            "M101, MS Reception",
+            "M104",
+            "M105",
+            "M106",
+            "M107",
+            "M108",
+            "M109",
+            "M110",
+            "M201",
+            "M204",
+            "M205",
+            "M206",
+            "M207",
+            "M208",
+            "M209",
+            "M210",
+            "M211",
+            "M223",
+            "P133",
+            "P134",
+            //"P135",
+    "H118",
+    "H216",
+    "H306",
+    "H304",
+    "H303”"]
 
 class LocationSearch: UITableViewController, UISearchResultsUpdating{
 
@@ -107,12 +109,12 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             Room(roomName:"ICC, New Luther (P201)", floorNumber: text[17], floorMap: "PC 2"),
             Room(roomName:"Printing (H205)", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"Keynote Speakers, Phoenix Center Gym (P106)", floorNumber: text[16], floorMap: "PC 1"),
-            Room(roomName:"Classroom next to Jade/Pearl???", floorNumber: text[17], floorMap: "PC 2"),
+            //Room(roomName:"Classroom next to Jade/Pearl???", floorNumber: text[17], floorMap: "PC 2"),
             Room(roomName:"H203", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"H204", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"H206", floorNumber: text[1], floorMap: "HS 2"),
             
-            Room(roomName:"MS and HS classrooms Schools???", floorNumber: text[0], floorMap: "HS 1"),
+            //Room(roomName:"MS and HS classrooms Schools???", floorNumber: text[0], floorMap: "HS 1"),
             Room(roomName:"Disarmament, Motor Skills Room",floorNumber: text[8], floorMap: "ES 1"),
             
             Room(roomName:"GA1, PE Commons", floorNumber: text[18], floorMap: "HS B1"),
@@ -145,24 +147,27 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             Room(roomName:"M223",floorNumber: text[7], floorMap: "MS 2"),
             Room(roomName:"P133",floorNumber: text[16], floorMap: "PC 1"),
             Room(roomName:"P134",floorNumber: text[16], floorMap: "PC 1"),
-            Room(roomName:"P135",floorNumber: text[16], floorMap: "PC 1"),
+            //Room(roomName:"P135",floorNumber: text[16], floorMap: "PC 1"),
             Room(roomName:"H118",floorNumber: text[0], floorMap: "HS 1"),
             Room(roomName:"H216", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"H306", floorNumber: text[2], floorMap: "HS 3"),
             Room(roomName:"H304", floorNumber: text[2], floorMap: "HS 3"),
             Room(roomName:"H303", floorNumber: text[2], floorMap: "HS 3"),
+            //Room(roomName:"P135", floorNumber: text[16], floorMap: "PC 1")
         ]
 
         
         searchController = UISearchController(searchResultsController: resultsController)
         tableView.tableHeaderView = searchController.searchBar
         searchController.searchResultsUpdater = self
+        resultsController.tableView.backgroundView?.backgroundColor = UIColor(red: 248, green: 245, blue: 241, alpha: 1.0)
         resultsController.tableView.dataSource = self
         resultsController.tableView.delegate = self
         searchController.dimsBackgroundDuringPresentation = false
         definesPresentationContext = true
         searchController.hidesNavigationBarDuringPresentation = false
-        //searchController.searchBar.barTintColor = UIColor.black
+        //searchController.searchBar.barTintColor = UIColor.black 248 245 241
+        
     }
 
         
@@ -194,14 +199,18 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
         if tableView == resultsController.tableView{
              let cell = UITableViewCell()
             cell.textLabel?.text = filtered[indexPath.row].roomName
+            cell.textLabel?.font = UIFont(name: "Avenir", size: 15)
+
             return cell
         }
         else {
              let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
             cell.textLabel?.text = roomies[indexPath.row].roomName
+            cell.textLabel?.font = UIFont(name: "Avenir", size: 15)
             return cell
         }
         
+            
     }
     func isFiltering() -> Bool {
         return searchController.isActive
