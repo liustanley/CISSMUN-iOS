@@ -45,7 +45,7 @@
         <!--More-->
         <scene sceneID="O96-Sa-jg7">
             <objects>
-                <viewController id="Zkv-yl-XCj" customClass="MoreViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Zkv-yl-XCj" customClass="SpaghettiViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="025-r2-QFG"/>
                         <viewControllerLayoutGuide type="bottom" id="bec-GP-VrN"/>

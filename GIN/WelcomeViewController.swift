@@ -13,6 +13,8 @@ class WelcomeViewController: UIViewController {
     @IBOutlet weak var CISSMUN: UIButton!
     @IBOutlet weak var GINASIA: UIButton!
     
+    var conference = ""
+    
     override func viewDidLoad() {
         
         //Adjust button appearance
@@ -35,20 +37,35 @@ class WelcomeViewController: UIViewController {
     
     @IBAction func chooseMUN(_ sender: Any) {
         UserDefaults.standard.set(true, forKey: "myConference")
+        conference = "MUN"
+        //passConference()
+        let moreVC = storyboard?.instantiateViewController(withIdentifier: "MoreScreen") as! MoreScreenViewController
+        moreVC.confPassed = conference
         
-        let storyboard = UIStoryboard(name: "MUN", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "MUN") as UIViewController
+        let story = UIStoryboard(name: "MUN", bundle: nil)
+        let controller = story.instantiateViewController(withIdentifier: "MUN") as UIViewController
         
         self.present(controller, animated: true, completion: nil)
+        
     }
 
     @IBAction func chooseGIN(_ sender: Any) {
         UserDefaults.standard.set(false, forKey: "myConference")
+        conference = "GIN"
+        
         
         let storyboard = UIStoryboard(name: "GIN", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "GIN") as UIViewController
         
         self.present(controller, animated: true, completion: nil)
+        
+    }
+    
+    func passConference() {
+        let moreVC = storyboard?.instantiateViewController(withIdentifier: "MoreScreen") as! MoreScreenViewController
+        moreVC.confPassed = conference
+        print(conference)
+        print(moreVC.confPassed)
     }
     
     /*

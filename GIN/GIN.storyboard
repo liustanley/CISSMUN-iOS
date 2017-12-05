@@ -72,7 +72,7 @@
         <!--More-->
         <scene sceneID="8OI-dy-EUc">
             <objects>
-                <viewController id="J91-I6-PVO" customClass="MoreViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="J91-I6-PVO" customClass="SpaghettiViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ccc-CP-8VY"/>
                         <viewControllerLayoutGuide type="bottom" id="fJZ-iD-euU"/>
