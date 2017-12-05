@@ -10,10 +10,35 @@ import UIKit
 
 class MapsController: UIViewController, UIScrollViewDelegate {
     
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var menuView: UIView!
-    @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var segments: UISegmentedControl!
+    
+    @IBOutlet weak var images: UIImageView!
+    @IBAction func changedsegments(_ sender: UISegmentedControl) {
+        
+        if segments.selectedSegmentIndex == 0{
+            images.image = UIImage(named: "HS B1");
+        }
+        if segments.selectedSegmentIndex == 1{
+            images.image = UIImage(named: "HS 1");
+        }
+        if segments.selectedSegmentIndex == 2{
+            images.image = UIImage(named: "HS 2");
+        }
+        if segments.selectedSegmentIndex == 3{
+            images.image = UIImage(named: "HS 3");
+        }
+        if segments.selectedSegmentIndex == 4{
+            images.image = UIImage(named: "HS 4");
+        }
+        if segments.selectedSegmentIndex == 5{
+            images.image = UIImage(named: "HS 5");
+        }
+        if segments.selectedSegmentIndex == 6{
+            images.image = UIImage(named: "HS 6");
+        }
+        
+    }
     
     @IBAction func action(_ sender: Any) {
         
@@ -23,10 +48,18 @@ class MapsController: UIViewController, UIScrollViewDelegate {
         
         let HSAction = UIAlertAction(title: "Upper Building", style: .default) { action in
             
-            DispatchQueue.main.async {
-                self.performSegue(withIdentifier: "one", sender: nil)
-            }
+           // DispatchQueue.main.async {
+              //  self.performSegue(withIdentifier: "one", sender: nil)
+           // }
+                       self.segments.frame = CGRect(x: 50, y: 100, width: 300, height: 30)
+           
+            self.segments.insertSegment(withTitle: "first", at: 0, animated: false)
+            self.segments.selectedSegmentIndex = 0
+            //self.segments.addTarget(self, action: Selector(("segmentedControlAction:")), for: .valueChanged)
             
+            
+            
+            //self.view.addSubview(segmentedControl)
             //UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
         alertController.addAction(HSAction)
@@ -75,38 +108,20 @@ class MapsController: UIViewController, UIScrollViewDelegate {
         }
         
     }
-    var menuShowing = false;
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scrollView.delegate = self
-        
-        menuView.layer.shadowOpacity = 1;
-        menuView.layer.shadowRadius = 6;
-       
+        //scrollView.delegate = self
         
     }
     
-    @IBAction func openMenu(_ sender: Any) {
-        
-        if(menuShowing){
-        leadingConstraint.constant = -210;
-            UIView.animate(withDuration: 0.3, animations: {self.view.layoutIfNeeded()})
-        }
-        else {
-        leadingConstraint.constant = 0;
-        UIView.animate(withDuration: 0.3, animations: {self.view.layoutIfNeeded()})
-        }
-        
-        menuShowing = !menuShowing;
-        
-    }
-
+   /*
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
         return imageView
     }
-    
+    */
     
     
 }
