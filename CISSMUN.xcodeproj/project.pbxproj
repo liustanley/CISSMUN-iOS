@@ -38,7 +38,6 @@
 		9AE0A3291EE92AAC0078144B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE0A3281EE92AAC0078144B /* SettingsTableViewController.swift */; };
 		9AE297EB1F599232000AF9C7 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE297EA1F599232000AF9C7 /* DropShadow.swift */; };
 		9AFA21511EE9264C006E677E /* GINKeynoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA21501EE9264C006E677E /* GINKeynoteViewController.swift */; };
-		F3508CEA1F8E8E95009394AB /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3508CE91F8E8E95009394AB /* QRCodeViewController.swift */; };
 		F36119A51F2F37FD00213B63 /* MapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36119A41F2F37FD00213B63 /* MapsController.swift */; };
 		F3636E0D1F5055F5008702BB /* HSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3636E0C1F5055F5008702BB /* HSViewController.swift */; };
 		F3636E0F1F58F8D6008702BB /* MSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3636E0E1F58F8D6008702BB /* MSViewController.swift */; };
@@ -85,7 +84,6 @@
 		9AE297EA1F599232000AF9C7 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 		9AFA21501EE9264C006E677E /* GINKeynoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINKeynoteViewController.swift; sourceTree = "<group>"; };
 		B5064B5A05590B1DB590E1CF /* Pods-CISSMUN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CISSMUN.release.xcconfig"; path = "Pods/Target Support Files/Pods-CISSMUN/Pods-CISSMUN.release.xcconfig"; sourceTree = "<group>"; };
-		F3508CE91F8E8E95009394AB /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 		F36119A41F2F37FD00213B63 /* MapsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsController.swift; sourceTree = "<group>"; };
 		F3636E0C1F5055F5008702BB /* HSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSViewController.swift; sourceTree = "<group>"; };
 		F3636E0E1F58F8D6008702BB /* MSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSViewController.swift; sourceTree = "<group>"; };
@@ -194,7 +192,6 @@
 			isa = PBXGroup;
 			children = (
 				9A6B51A41FC6B289005D71D5 /* PDFs */,
-				F3508CE91F8E8E95009394AB /* QRCodeViewController.swift */,
 				9A07ED451F126D3500BDA478 /* MUN.storyboard */,
 				9A9FC04D1ED5D165006E95A1 /* MUNScheduleViewController.swift */,
 				9ACDEE2B1FC6C160003BFE42 /* MUNPDFViewController.swift */,
@@ -384,7 +381,6 @@
 				9A3336681FC679BD005C4A24 /* MUNProcedureViewController.swift in Sources */,
 				9A9FC04E1ED5D165006E95A1 /* MUNScheduleViewController.swift in Sources */,
 				F3636E111F58FD40008702BB /* PCViewController.swift in Sources */,
-				F3508CEA1F8E8E95009394AB /* QRCodeViewController.swift in Sources */,
 				9AC54D321EE84BB900E87B88 /* GINHomeViewController.swift in Sources */,
 				9AE297EB1F599232000AF9C7 /* DropShadow.swift in Sources */,
 				F3636E151F5BD5CE008702BB /* ESViewController.swift in Sources */,
