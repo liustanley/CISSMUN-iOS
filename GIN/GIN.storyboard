@@ -1648,9 +1648,7 @@
                     <toolbarItems>
                         <barButtonItem title="Item" id="yq1-s3-QMM"/>
                     </toolbarItems>
-                    <navigationItem key="navigationItem" title="GINASIA" id="uzg-i4-Toq">
-                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="fEN-mw-W1z"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="GINASIA" id="uzg-i4-Toq"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1100"/>

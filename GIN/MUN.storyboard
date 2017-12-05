@@ -1658,13 +1658,7 @@
                     <toolbarItems>
                         <barButtonItem title="Item" id="Jeo-5I-ReY"/>
                     </toolbarItems>
-                    <navigationItem key="navigationItem" title="CISSMUN IX" id="cux-Dv-t4z">
-                        <barButtonItem key="rightBarButtonItem" image="icons8-QR Code-26" id="2nz-tK-fKw">
-                            <connections>
-                                <segue destination="wZb-aT-bgG" kind="show" id="ykp-84-r8G"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="CISSMUN IX" id="cux-Dv-t4z"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1100"/>
@@ -1676,40 +1670,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Me-SD-ARP" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-519" y="2178"/>
-        </scene>
-        <!--QR Code Scanner-->
-        <scene sceneID="ySj-Bk-Xm3">
-            <objects>
-                <viewController title="QR Code Scanner" id="wZb-aT-bgG" customClass="QRCodeViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="enF-8q-1q6"/>
-                        <viewControllerLayoutGuide type="bottom" id="DtV-Yg-try"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="qTC-sa-tqS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="realcodesquare" translatesAutoresizingMaskIntoConstraints="NO" id="aQ5-db-OoS">
-                                <rect key="frame" x="27.5" y="141.5" width="320" height="320"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="Gbl-wX-7La"/>
-                                    <constraint firstAttribute="height" constant="320" id="pvd-WK-jVX"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="aQ5-db-OoS" firstAttribute="centerX" secondItem="qTC-sa-tqS" secondAttribute="centerX" id="LXw-gb-eFv"/>
-                            <constraint firstItem="aQ5-db-OoS" firstAttribute="centerY" secondItem="qTC-sa-tqS" secondAttribute="centerY" id="js0-8c-RJr"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="square" destination="aQ5-db-OoS" id="fEk-TJ-1pQ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GfR-HS-AfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1087" y="1854"/>
         </scene>
         <!--Procedure-->
         <scene sceneID="FMl-dB-MSi">
@@ -1758,7 +1718,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EF-3s-slf">
                                                                 <rect key="frame" x="291" y="12" width="13" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -1790,7 +1750,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1T5-UK-hV6">
                                                                 <rect key="frame" x="291" y="12.5" width="13" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -1822,7 +1782,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e77-QH-Sex">
                                                                 <rect key="frame" x="291" y="12.5" width="13" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -1854,7 +1814,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urR-r4-oiC">
                                                                 <rect key="frame" x="291" y="12.5" width="13" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -1886,7 +1846,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EE4-01-nhO">
                                                                 <rect key="frame" x="291" y="13" width="13" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -1918,7 +1878,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd7-vZ-QoJ">
                                                                 <rect key="frame" x="291" y="12" width="13" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -1951,7 +1911,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZk-pf-wYu">
                                                                 <rect key="frame" x="291" y="13.5" width="13" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
-                                                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -2169,13 +2129,11 @@ Secretary-General</string>
         <image name="icons8-Map Marker Filled " width="25" height="25"/>
         <image name="icons8-More " width="25" height="25"/>
         <image name="icons8-More Filled " width="25" height="25"/>
-        <image name="icons8-QR Code-26" width="26" height="26"/>
         <image name="icons8-Schedule " width="25" height="25"/>
         <image name="icons8-Schedule Filled " width="25" height="25"/>
         <image name="lavender_leeanne" width="121" height="121"/>
         <image name="paulson_erik" width="121" height="121"/>
         <image name="procedure" width="2592" height="1728"/>
-        <image name="realcodesquare" width="300" height="300"/>
         <image name="transparentmun" width="394" height="401"/>
         <image name="welcome" width="1000" height="707"/>
     </resources>
