@@ -22,7 +22,7 @@ class MoreScreenViewController: UIViewController {
     
     @IBAction func openContact(_ sender: Any) {
         
-        if conference == "MUN" {
+        if (UserDefaults.standard.object(forKey: "myConference") as? Bool)! {
             let controller = storyboard?.instantiateViewController(withIdentifier: "MUNContact")
             navigationController?.pushViewController(controller!, animated: true)
 
