@@ -44,6 +44,7 @@
 		F3636E131F59018B008702BB /* RCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3636E121F59018B008702BB /* RCViewController.swift */; };
 		F3636E151F5BD5CE008702BB /* ESViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3636E141F5BD5CE008702BB /* ESViewController.swift */; };
 		F3A350871FAE3264006039F8 /* CellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A350861FAE3264006039F8 /* CellsViewController.swift */; };
+		F3A3C93C1FD842F1000B5199 /* AcknowledgementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A3C93B1FD842F1000B5199 /* AcknowledgementsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		F3636E121F59018B008702BB /* RCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCViewController.swift; sourceTree = "<group>"; };
 		F3636E141F5BD5CE008702BB /* ESViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESViewController.swift; sourceTree = "<group>"; };
 		F3A350861FAE3264006039F8 /* CellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsViewController.swift; sourceTree = "<group>"; };
+		F3A3C93B1FD842F1000B5199 /* AcknowledgementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				9A9FC0511ED5D165006E95A1 /* Main.storyboard */,
+				F3A3C93B1FD842F1000B5199 /* AcknowledgementsViewController.swift */,
 				7D8168181FBB58D000DCC4BC /* DetailViewController.swift */,
 				7D81681A1FBB59AA00DCC4BC /* Room.swift */,
 				F3A350861FAE3264006039F8 /* CellsViewController.swift */,
@@ -295,6 +298,7 @@
 				7D81681B1FBB59AA00DCC4BC /* Room.swift in Sources */,
 				7D8168191FBB58D000DCC4BC /* DetailViewController.swift in Sources */,
 				F3636E0F1F58F8D6008702BB /* MSViewController.swift in Sources */,
+				F3A3C93C1FD842F1000B5199 /* AcknowledgementsViewController.swift in Sources */,
 				9A4378621F80002300375C34 /* UIViewExtensions.swift in Sources */,
 				9ACDEE2C1FC6C160003BFE42 /* MUNPDFViewController.swift in Sources */,
 				F3A350871FAE3264006039F8 /* CellsViewController.swift in Sources */,
