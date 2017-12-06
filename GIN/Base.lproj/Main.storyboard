@@ -192,7 +192,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                         <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <connections>
-                                            <segue destination="3f4-IS-hGE" kind="show" id="z4B-MY-lAK"/>
+                                            <segue destination="3f4-IS-hGE" kind="show" id="TWP-Ig-okH"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -220,12 +220,227 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                     <view key="view" contentMode="scaleToFill" id="AD9-oo-LsQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pictures:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sr1-jj-8OA">
+                                <rect key="frame" x="16" y="40" width="80.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="yFZ-wD-H1b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bernd Thaller - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13n-ob-cdO">
+                                <rect key="frame" x="16" y="71" width="95.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Y8e-R1-1Tn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ku-p6-cDT">
+                                <rect key="frame" x="112.5" y="71" width="33" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="YIR-4R-5Ej"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <state key="normal" title="Bund">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Bund:" destination="ccF-0d-WmF" eventType="touchUpInside" id="Dva-ex-Ce9"/>
+                                    <action selector="Button1:" destination="ccF-0d-WmF" eventType="touchUpInside" id="2EE-MU-Yst"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mojobaron - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGF-hP-LHq">
+                                <rect key="frame" x="16" y="102" width="81" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Vp1-w0-Z5O"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="k0K-Jq-DqI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bt4-Pd-9jy">
+                                <rect key="frame" x="97.5" y="102" width="66" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="cCB-JX-4UN"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="sAE-Cc-K1G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <state key="normal" title="Yu Garden">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button1:" destination="ccF-0d-WmF" eventType="touchUpInside" id="TVL-Q3-nbs"/>
+                                    <action selector="YuGarden:" destination="ccF-0d-WmF" eventType="touchUpInside" id="X21-Ms-5cn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thomas Kelley - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOo-f5-1gy">
+                                <rect key="frame" x="16" y="133" width="102.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="5Af-k8-jIA"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="M4k-tc-Xor"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="a3t-j1-SFy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVU-dQ-bdH">
+                                <rect key="frame" x="119.5" y="133" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Eah-np-cIh"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="f5Q-kY-orU"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="tOF-gh-LXA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <state key="normal" title="Disney">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button1:" destination="ccF-0d-WmF" eventType="touchUpInside" id="NBY-Zd-NiM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alexander Synaptic - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTM-W2-XWo">
+                                <rect key="frame" x="16" y="164" width="132" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="IK6-P0-eZ4"/>
+                                    <constraint firstAttribute="height" constant="21" id="k6z-3q-y6X"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="wKj-Fe-a09"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="zdX-XJ-VS5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYD-B0-ITP">
+                                <rect key="frame" x="148.5" y="164" width="95" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="GXy-9Z-0Av"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="SEG-Sx-wME"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="nML-cq-r6w"/>
+                                    <constraint firstAttribute="height" constant="21" id="qQl-gH-H6J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <state key="normal" title="Jing'an Temple">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button1:" destination="ccF-0d-WmF" eventType="touchUpInside" id="XdS-6C-fFE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mikeric - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oti-t5-fZu">
+                                <rect key="frame" x="16" y="195" width="57" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="7yK-H1-uvo"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="aHi-m7-BVr"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="kTJ-gR-gO1"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="o4P-dg-oYo"/>
+                                    <constraint firstAttribute="height" constant="21" id="wQ9-EY-MdZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynh-FR-FCG">
+                                <rect key="frame" x="74" y="195" width="72" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="Xfw-yo-Cij"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="ZzX-EM-r8V"/>
+                                    <constraint firstAttribute="height" constant="21" id="bwR-Lf-JdO"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="kgH-n5-m5c"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="pmB-r5-LAm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <state key="normal" title="Pearl Tower">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button1:" destination="ccF-0d-WmF" eventType="touchUpInside" id="n7G-FS-XF7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wang Xi - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHV-yq-FA5">
+                                <rect key="frame" x="16" y="226" width="64" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="68d-zS-6Ky"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="PoO-fS-7lZ"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="agZ-NQ-J8K"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="c1z-Im-zHd"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="f6b-lc-Khh"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="j4d-dR-Zwi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgV-IX-uTx">
+                                <rect key="frame" x="81" y="226" width="99" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="EHJ-So-Le2"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="EKZ-Dk-Oxa"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="ILL-oi-Ud8"/>
+                                    <constraint firstAttribute="height" constant="21" id="Vpm-ia-htz"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="tam-Ac-jRB"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="wq4-mY-NaL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <state key="normal" title="Shanghai Tower">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button1:" destination="ccF-0d-WmF" eventType="touchUpInside" id="4ch-0T-xx8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Icons:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FyS-r3-fSM">
+                                <rect key="frame" x="16" y="287" width="54" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3BZ-4x-Opk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="lOo-f5-1gy" firstAttribute="leading" secondItem="AD9-oo-LsQ" secondAttribute="leadingMargin" id="1lo-th-qTx"/>
+                            <constraint firstItem="13n-ob-cdO" firstAttribute="leading" secondItem="AD9-oo-LsQ" secondAttribute="leadingMargin" id="2Ps-CJ-8Qe"/>
+                            <constraint firstItem="sVU-dQ-bdH" firstAttribute="top" secondItem="Bt4-Pd-9jy" secondAttribute="bottom" constant="10" id="3ND-aC-eaa"/>
+                            <constraint firstItem="rGF-hP-LHq" firstAttribute="top" secondItem="13n-ob-cdO" secondAttribute="bottom" constant="10" id="4xU-Xo-NQg"/>
+                            <constraint firstItem="ynh-FR-FCG" firstAttribute="top" secondItem="GTM-W2-XWo" secondAttribute="bottom" constant="10" id="65A-hy-x0S"/>
+                            <constraint firstItem="13n-ob-cdO" firstAttribute="top" secondItem="sr1-jj-8OA" secondAttribute="bottom" constant="10" id="6Ak-vo-ytD"/>
+                            <constraint firstItem="oti-t5-fZu" firstAttribute="top" secondItem="GTM-W2-XWo" secondAttribute="bottom" constant="10" id="89o-RU-ORW"/>
+                            <constraint firstItem="RYD-B0-ITP" firstAttribute="leading" secondItem="GTM-W2-XWo" secondAttribute="trailing" constant="1" id="8VX-u0-Rdd"/>
+                            <constraint firstItem="ynh-FR-FCG" firstAttribute="leading" secondItem="oti-t5-fZu" secondAttribute="trailing" constant="1" id="9Fl-yJ-UkF"/>
+                            <constraint firstItem="sr1-jj-8OA" firstAttribute="top" secondItem="lMB-rP-Wmn" secondAttribute="bottom" constant="40" id="Br2-mT-ATm"/>
+                            <constraint firstItem="YHV-yq-FA5" firstAttribute="leading" secondItem="AD9-oo-LsQ" secondAttribute="leadingMargin" id="Dbi-yB-J94"/>
+                            <constraint firstItem="FyS-r3-fSM" firstAttribute="top" secondItem="YHV-yq-FA5" secondAttribute="bottom" constant="40" id="No7-NV-9Gp"/>
+                            <constraint firstItem="RYD-B0-ITP" firstAttribute="top" secondItem="sVU-dQ-bdH" secondAttribute="bottom" constant="10" id="OmH-hU-9MH"/>
+                            <constraint firstItem="7Ku-p6-cDT" firstAttribute="top" secondItem="lMB-rP-Wmn" secondAttribute="bottom" constant="71" id="TPY-eu-1wC"/>
+                            <constraint firstItem="Bt4-Pd-9jy" firstAttribute="top" secondItem="13n-ob-cdO" secondAttribute="bottom" constant="10" id="Tf3-kE-sdV"/>
+                            <constraint firstItem="rGF-hP-LHq" firstAttribute="leading" secondItem="AD9-oo-LsQ" secondAttribute="leadingMargin" id="VGe-Bz-TZP"/>
+                            <constraint firstItem="sVU-dQ-bdH" firstAttribute="leading" secondItem="lOo-f5-1gy" secondAttribute="trailing" constant="1" id="W59-Wd-aAe"/>
+                            <constraint firstItem="Bt4-Pd-9jy" firstAttribute="leading" secondItem="rGF-hP-LHq" secondAttribute="trailing" constant="1" id="XB6-nH-5zR"/>
+                            <constraint firstItem="GTM-W2-XWo" firstAttribute="leading" secondItem="AD9-oo-LsQ" secondAttribute="leadingMargin" id="YWc-XY-9qu"/>
+                            <constraint firstItem="CgV-IX-uTx" firstAttribute="leading" secondItem="YHV-yq-FA5" secondAttribute="trailing" constant="1" id="Zwc-Ui-De5"/>
+                            <constraint firstItem="FyS-r3-fSM" firstAttribute="leading" secondItem="AD9-oo-LsQ" secondAttribute="leadingMargin" id="icu-d8-miU"/>
+                            <constraint firstItem="7Ku-p6-cDT" firstAttribute="leading" secondItem="13n-ob-cdO" secondAttribute="trailing" constant="1" id="jKc-Cw-yKm"/>
+                            <constraint firstItem="GTM-W2-XWo" firstAttribute="top" secondItem="lOo-f5-1gy" secondAttribute="bottom" constant="10" id="jTP-6V-IUl"/>
+                            <constraint firstItem="sr1-jj-8OA" firstAttribute="leading" secondItem="AD9-oo-LsQ" secondAttribute="leadingMargin" id="lHl-zx-aVb"/>
+                            <constraint firstItem="oti-t5-fZu" firstAttribute="leading" secondItem="AD9-oo-LsQ" secondAttribute="leadingMargin" id="lp5-FF-9kb"/>
+                            <constraint firstItem="lOo-f5-1gy" firstAttribute="top" secondItem="rGF-hP-LHq" secondAttribute="bottom" constant="10" id="m1w-R2-ViK"/>
+                            <constraint firstItem="YHV-yq-FA5" firstAttribute="top" secondItem="oti-t5-fZu" secondAttribute="bottom" constant="10" id="rhC-gO-swz"/>
+                            <constraint firstItem="CgV-IX-uTx" firstAttribute="top" secondItem="ynh-FR-FCG" secondAttribute="bottom" constant="10" id="y3T-jq-WSV"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gEq-fA-pw0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ccF-0d-WmF" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1345" y="2769"/>
+            <point key="canvasLocation" x="-1346.4000000000001" y="2768.3658170914546"/>
         </scene>
         <!--Contact-->
         <scene sceneID="9A9-Kw-aoG">
@@ -1702,14 +1917,14 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AuC-FT-Wzz">
-                                                <rect key="frame" x="0.0" y="428" width="375" height="52"/>
+                                                <rect key="frame" x="0.0" y="427.5" width="375" height="52"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="xUA-sH-NS4"/>
                                                 </constraints>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKa-ly-2xR">
-                                                <rect key="frame" x="0.0" y="429" width="375" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKa-ly-2xR">
+                                                <rect key="frame" x="0.0" y="430" width="375" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="e4Y-9n-hLG"/>
@@ -4398,7 +4613,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P6o-8l-Kyr" userLabel="Disneyland">
                                                         <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disney" translatesAutoresizingMaskIntoConstraints="NO" id="WrL-oT-HNZ">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kerry" translatesAutoresizingMaskIntoConstraints="NO" id="WrL-oT-HNZ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kerry Parkside (浦东嘉里城)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MP0-bO-4vi">
@@ -4446,7 +4661,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G5a-wk-HJq" userLabel="The Bund">
                                                         <rect key="frame" x="0.0" y="143" width="320" height="142.5"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bund" translatesAutoresizingMaskIntoConstraints="NO" id="3Po-CU-f3B">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Science and Tech" translatesAutoresizingMaskIntoConstraints="NO" id="3Po-CU-f3B">
                                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="142.5"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Science Museum (科技馆)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nks-65-kXy">
@@ -4494,7 +4709,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NBJ-N8-zhH" userLabel="French Concession">
                                                         <rect key="frame" x="0.0" y="285.5" width="320" height="143"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="french concession" translatesAutoresizingMaskIntoConstraints="NO" id="Fnt-05-rsE">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fake Market" translatesAutoresizingMaskIntoConstraints="NO" id="Fnt-05-rsE">
                                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Fake Market (上海科技馆)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lxQ-rR-Sta">
@@ -5848,11 +6063,14 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="ConcordiaLogo" width="458" height="456"/>
         <image name="ConcordiaMap" width="600" height="575"/>
         <image name="ES 1" width="842" height="596"/>
+        <image name="Fake Market" width="550" height="366"/>
         <image name="HS B1" width="720" height="540"/>
         <image name="Image" width="26" height="26"/>
+        <image name="Kerry" width="1280" height="853"/>
         <image name="MS 1" width="720" height="540"/>
         <image name="PC 1" width="720" height="540"/>
         <image name="R 1" width="720" height="540"/>
+        <image name="Science and Tech" width="1512" height="850"/>
         <image name="biqiya placeholder" width="337" height="450"/>
         <image name="bluefrog" width="1923" height="1080"/>
         <image name="bund" width="2048" height="1266"/>
