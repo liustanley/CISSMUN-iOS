@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		449417966BF6BFBB7AB7690C /* Pods_CISSMUN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49887976BF57F2643E21A2ED /* Pods_CISSMUN.framework */; };
 		7D4501BB1F5FE32500432283 /* LocationSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4501BA1F5FE32500432283 /* LocationSearch.swift */; };
 		7D8168191FBB58D000DCC4BC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8168181FBB58D000DCC4BC /* DetailViewController.swift */; };
 		7D81681B1FBB59AA00DCC4BC /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D81681A1FBB59AA00DCC4BC /* Room.swift */; };
@@ -27,7 +26,6 @@
 		9A9FC0581ED5D165006E95A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9FC0561ED5D165006E95A1 /* LaunchScreen.storyboard */; };
 		9AC54D2E1EE84B3700E87B88 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC54D2D1EE84B3700E87B88 /* MapViewController.swift */; };
 		9AC54D321EE84BB900E87B88 /* GINHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC54D311EE84BB900E87B88 /* GINHomeViewController.swift */; };
-		9AC642131EEED18100B43215 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AC642121EEED18100B43215 /* GoogleService-Info.plist */; };
 		9ACDEE2C1FC6C160003BFE42 /* MUNPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEE2B1FC6C160003BFE42 /* MUNPDFViewController.swift */; };
 		9ACDEE2E1FC7092B003BFE42 /* Student Officer Roster.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDEE2D1FC7092B003BFE42 /* Student Officer Roster.pdf */; };
 		9ACDEE341FC70B5D003BFE42 /* CISSMUN Rules of Procedure.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDEE2F1FC70B5C003BFE42 /* CISSMUN Rules of Procedure.pdf */; };
@@ -49,14 +47,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		49887976BF57F2643E21A2ED /* Pods_CISSMUN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CISSMUN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4501BA1F5FE32500432283 /* LocationSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearch.swift; sourceTree = "<group>"; };
 		7D8168181FBB58D000DCC4BC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7D81681A1FBB59AA00DCC4BC /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		9A07ED451F126D3500BDA478 /* MUN.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MUN.storyboard; sourceTree = "<group>"; };
 		9A07ED471F126D7C00BDA478 /* GIN.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GIN.storyboard; sourceTree = "<group>"; };
 		9A07ED491F12765400BDA478 /* MoreScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreScreenViewController.swift; sourceTree = "<group>"; };
-		9A1266B5D9127F6EEA5670FF /* Pods-CISSMUN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CISSMUN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CISSMUN/Pods-CISSMUN.debug.xcconfig"; sourceTree = "<group>"; };
 		9A168C541F2CE7CF001685AD /* DiningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiningViewController.swift; sourceTree = "<group>"; };
 		9A3336671FC679BD005C4A24 /* MUNProcedureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUNProcedureViewController.swift; sourceTree = "<group>"; };
 		9A4378611F80002300375C34 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
@@ -72,7 +68,6 @@
 		9A9FC0591ED5D165006E95A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AC54D2D1EE84B3700E87B88 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9AC54D311EE84BB900E87B88 /* GINHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINHomeViewController.swift; sourceTree = "<group>"; };
-		9AC642121EEED18100B43215 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9ACDEE2B1FC6C160003BFE42 /* MUNPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUNPDFViewController.swift; sourceTree = "<group>"; };
 		9ACDEE2D1FC7092B003BFE42 /* Student Officer Roster.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Student Officer Roster.pdf"; sourceTree = "<group>"; };
 		9ACDEE2F1FC70B5C003BFE42 /* CISSMUN Rules of Procedure.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CISSMUN Rules of Procedure.pdf"; sourceTree = "<group>"; };
@@ -85,7 +80,6 @@
 		9AE0A3281EE92AAC0078144B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		9AE297EA1F599232000AF9C7 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 		9AFA21501EE9264C006E677E /* GINKeynoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINKeynoteViewController.swift; sourceTree = "<group>"; };
-		B5064B5A05590B1DB590E1CF /* Pods-CISSMUN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CISSMUN.release.xcconfig"; path = "Pods/Target Support Files/Pods-CISSMUN/Pods-CISSMUN.release.xcconfig"; sourceTree = "<group>"; };
 		F36119A41F2F37FD00213B63 /* MapsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsController.swift; sourceTree = "<group>"; };
 		F3636E0C1F5055F5008702BB /* HSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSViewController.swift; sourceTree = "<group>"; };
 		F3636E0E1F58F8D6008702BB /* MSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSViewController.swift; sourceTree = "<group>"; };
@@ -100,22 +94,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449417966BF6BFBB7AB7690C /* Pods_CISSMUN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E5908D1674FBF47CE6BC239 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9A1266B5D9127F6EEA5670FF /* Pods-CISSMUN.debug.xcconfig */,
-				B5064B5A05590B1DB590E1CF /* Pods-CISSMUN.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		9A07ED4B1F127ABE00BDA478 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +145,6 @@
 			children = (
 				9A9FC04A1ED5D165006E95A1 /* CISSMUN */,
 				9A9FC0491ED5D165006E95A1 /* Products */,
-				5E5908D1674FBF47CE6BC239 /* Pods */,
 				A6E38419470B913C2224E8A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -185,7 +168,6 @@
 				9A9FC0541ED5D165006E95A1 /* Assets.xcassets */,
 				9A9FC0561ED5D165006E95A1 /* LaunchScreen.storyboard */,
 				9A9FC0591ED5D165006E95A1 /* Info.plist */,
-				9AC642121EEED18100B43215 /* GoogleService-Info.plist */,
 			);
 			name = CISSMUN;
 			path = GIN;
@@ -217,7 +199,6 @@
 		A6E38419470B913C2224E8A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				49887976BF57F2643E21A2ED /* Pods_CISSMUN.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,12 +210,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A9FC05C1ED5D166006E95A1 /* Build configuration list for PBXNativeTarget "CISSMUN" */;
 			buildPhases = (
-				95BF4BF04762C8BA2BEEDA21 /* [CP] Check Pods Manifest.lock */,
 				9A9FC0441ED5D165006E95A1 /* Sources */,
 				9A9FC0451ED5D165006E95A1 /* Frameworks */,
 				9A9FC0461ED5D165006E95A1 /* Resources */,
-				A1DA95D5CE7CB79E4878D00F /* [CP] Embed Pods Frameworks */,
-				1ABDF408915B0CDF506E302C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,7 +274,6 @@
 				9ACDEE381FC70B5D003BFE42 /* Chairing at CISSMUN.pdf in Resources */,
 				9ACDEE341FC70B5D003BFE42 /* CISSMUN Rules of Procedure.pdf in Resources */,
 				9A9FC0581ED5D165006E95A1 /* LaunchScreen.storyboard in Resources */,
-				9AC642131EEED18100B43215 /* GoogleService-Info.plist in Resources */,
 				9A07ED461F126D3500BDA478 /* MUN.storyboard in Resources */,
 				9A9FC0551ED5D165006E95A1 /* Assets.xcassets in Resources */,
 				9ACDEE3B1FC710E1003BFE42 /* Appendix I- THIMUN Rules of Procedure.pdf in Resources */,
@@ -307,60 +284,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1ABDF408915B0CDF506E302C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CISSMUN/Pods-CISSMUN-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		95BF4BF04762C8BA2BEEDA21 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CISSMUN-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A1DA95D5CE7CB79E4878D00F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CISSMUN/Pods-CISSMUN-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PDFReader/PDFReader.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFReader.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CISSMUN/Pods-CISSMUN-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A9FC0441ED5D165006E95A1 /* Sources */ = {
@@ -384,7 +307,6 @@
 				9A3336681FC679BD005C4A24 /* MUNProcedureViewController.swift in Sources */,
 				9A9FC04E1ED5D165006E95A1 /* MUNScheduleViewController.swift in Sources */,
 				F3636E111F58FD40008702BB /* PCViewController.swift in Sources */,
-				F3508CEA1F8E8E95009394AB /* QRCodeViewController.swift in Sources */,
 				9A9B61341FD69BC2004772FF /* SpaghettiViewController.swift in Sources */,
 				9AC54D321EE84BB900E87B88 /* GINHomeViewController.swift in Sources */,
 				9AE297EB1F599232000AF9C7 /* DropShadow.swift in Sources */,
@@ -526,7 +448,6 @@
 		};
 		9A9FC05D1ED5D166006E95A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A1266B5D9127F6EEA5670FF /* Pods-CISSMUN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CISSMUN.entitlements;
@@ -542,7 +463,6 @@
 		};
 		9A9FC05E1ED5D166006E95A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5064B5A05590B1DB590E1CF /* Pods-CISSMUN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CISSMUN.entitlements;
