@@ -175,8 +175,8 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acknowledements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wy-YU-byZ">
-                                                    <rect key="frame" x="21" y="11" width="140" height="22"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acknowledgements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wy-YU-byZ">
+                                                    <rect key="frame" x="21" y="11" width="150" height="22"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -191,6 +191,9 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                         <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <segue destination="3f4-IS-hGE" kind="show" id="z4B-MY-lAK"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -205,6 +208,24 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LzR-nJ-m0u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-473" y="2047"/>
+        </scene>
+        <!--Acknowledgements-->
+        <scene sceneID="wrB-IZ-FFy">
+            <objects>
+                <viewController title="Acknowledgements" id="3f4-IS-hGE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lMB-rP-Wmn"/>
+                        <viewControllerLayoutGuide type="bottom" id="ptD-oa-uHf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AD9-oo-LsQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gEq-fA-pw0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1345" y="2769"/>
         </scene>
         <!--Contact-->
         <scene sceneID="9A9-Kw-aoG">
