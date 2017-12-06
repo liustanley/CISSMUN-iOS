@@ -10,11 +10,9 @@ import UIKit
 
 class MoreScreenViewController: UIViewController {
     
-    var confPassed = "MUN"
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(confPassed)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,19 +21,15 @@ class MoreScreenViewController: UIViewController {
     }
     
     @IBAction func openContact(_ sender: Any) {
-        if confPassed == "MUN" {
+        
+        if conference == "MUN" {
             let controller = storyboard?.instantiateViewController(withIdentifier: "MUNContact")
-            //let moreVC = storyboard?.instantiateViewController(withIdentifier: "More")
-            //self.present(controller!, animated: true, completion: nil)
-            //self.show(controller!, sender: moreVC)
             navigationController?.pushViewController(controller!, animated: true)
-            print(confPassed)
 
             
         } else {
             let controller = storyboard?.instantiateViewController(withIdentifier: "GINContact")
-            self.present(controller!, animated: true, completion: nil)
-            print(confPassed)
+            navigationController?.pushViewController(controller!, animated: true)
         }
     }
     
