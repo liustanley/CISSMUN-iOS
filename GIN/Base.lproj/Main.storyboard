@@ -737,7 +737,7 @@ The CISSMUN IX and GINAsia 2018 App Development Team</string>
         <!--More-->
         <scene sceneID="wC7-SQ-z6n">
             <objects>
-                <viewController storyboardIdentifier="MoreScreen" id="yFK-AK-Xcg" customClass="MoreScreenViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="MoreScreen" storyboardIdentifier="MoreScreen" id="yFK-AK-Xcg" customClass="MoreScreenViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ib1-It-le7"/>
                         <viewControllerLayoutGuide type="bottom" id="m75-dv-Ovc"/>

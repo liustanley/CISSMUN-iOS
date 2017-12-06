@@ -8,13 +8,13 @@
 
 import UIKit
 
+var conference = ""
+
 class WelcomeViewController: UIViewController {
     
     @IBOutlet weak var CISSMUN: UIButton!
     @IBOutlet weak var GINASIA: UIButton!
-    
-    var conference = ""
-    
+        
     override func viewDidLoad() {
         
         //Adjust button appearance
@@ -36,12 +36,8 @@ class WelcomeViewController: UIViewController {
     }
     
     @IBAction func chooseMUN(_ sender: Any) {
-        UserDefaults.standard.set(true, forKey: "myConference")
         conference = "MUN"
-        //passConference()
-        let moreVC = storyboard?.instantiateViewController(withIdentifier: "MoreScreen") as! MoreScreenViewController
-        moreVC.confPassed = conference
-        
+        UserDefaults.standard.set(true, forKey: "myConference")
         let story = UIStoryboard(name: "MUN", bundle: nil)
         let controller = story.instantiateViewController(withIdentifier: "MUN") as UIViewController
         
@@ -50,9 +46,8 @@ class WelcomeViewController: UIViewController {
     }
 
     @IBAction func chooseGIN(_ sender: Any) {
-        UserDefaults.standard.set(false, forKey: "myConference")
         conference = "GIN"
-        
+        UserDefaults.standard.set(false, forKey: "myConference")
         
         let storyboard = UIStoryboard(name: "GIN", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "GIN") as UIViewController
@@ -61,21 +56,4 @@ class WelcomeViewController: UIViewController {
         
     }
     
-    func passConference() {
-        let moreVC = storyboard?.instantiateViewController(withIdentifier: "MoreScreen") as! MoreScreenViewController
-        moreVC.confPassed = conference
-        print(conference)
-        print(moreVC.confPassed)
-    }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
