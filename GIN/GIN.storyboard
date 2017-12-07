@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -1094,7 +1094,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="2236"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qMr-4f-uLX">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2250"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gin" translatesAutoresizingMaskIntoConstraints="NO" id="Pc8-vZ-wcN">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
@@ -1106,7 +1106,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="SfH-Jm-7G3">
-                                                <rect key="frame" x="12" y="220" width="296" height="1960"/>
+                                                <rect key="frame" x="12" y="220" width="296" height="2018"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZUi-8Z-lHd" userLabel="Beah" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="296" height="400"/>
@@ -1130,16 +1130,16 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Sp1-dZ-8n4">
-                                                                <rect key="frame" x="12" y="69.5" width="152" height="133.5"/>
+                                                                <rect key="frame" x="12" y="69.5" width="152" height="122.5"/>
                                                                 <string key="text">Ishmael Beah, born in Sierra Leone, West Africa, is the New York Times bestselling author of A Long Way Gone, Memoirs of a Boy Soldier and Radiance of Tomorrow, A Novel both published by Farrar Straus &amp; Giroux.</string>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="f6m-ea-Pkp">
-                                                                <rect key="frame" x="12" y="207" width="272" height="180.5"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="f6m-ea-Pkp">
+                                                                <rect key="frame" x="12" y="196" width="272" height="191.5"/>
                                                                 <string key="text">His memoir has been published in over 40 languages and was nominated for a Quill Award in the Best Debut Author category for 2007. Time Magazine named the book as one of the Top 10 Nonfiction books of 2007. His work has appeared in the New York Times, New York Times Magazine, Time magazine, International Herald Tribune, Globe &amp; Mail, Rutgers University Press, Vespertine Press, LIT, The Guardian, Parabola magazines and numerous academic journals. Mr. Beah’s keynote will focus on his experiences and his reflections on conflict, war, and healing for our world.   </string>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -1184,16 +1184,16 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="mdm-4j-zVq">
-                                                                <rect key="frame" x="12" y="69.5" width="152" height="91.5"/>
+                                                                <rect key="frame" x="12" y="69.5" width="152" height="105.5"/>
                                                                 <string key="text">Peter Dalglish is the senior advisor for UN-Habitat Afghanistan and has served as the chief technical advisor for the United Nations.</string>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="4yt-MO-5dm">
-                                                                <rect key="frame" x="12" y="165" width="272" height="148"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="4yt-MO-5dm">
+                                                                <rect key="frame" x="12" y="179" width="272" height="134"/>
                                                                 <string key="text">He is the founder of Street Kids International, co-founder of Schools Without Borders and a founding board member of Ashoka Canada. He is a member of the Order of Canada. Mr. Dalglish is a passionate believer in how each person can make a difference in our world and his keynote will help all delegates reflect on how they can truly engage with an issue in a way that makes our world a better place. </string>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -1258,16 +1258,16 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="BTn-JM-hbD">
-                                                                <rect key="frame" x="12" y="98" width="162" height="122"/>
+                                                                <rect key="frame" x="12" y="98" width="162" height="113.5"/>
                                                                 <string key="text">Two teenage sisters have taken a stand against pollution in Bali – and they’ve convinced the government to ban plastic bags by the year 2018. </string>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="2XA-bF-bRL">
-                                                                <rect key="frame" x="12" y="224" width="272" height="164"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="2XA-bF-bRL">
+                                                                <rect key="frame" x="12" y="215.5" width="272" height="172.5"/>
                                                                 <string key="text">The island suffers from a crushing plastic pollution problem, so Isabel and Melati Wijsen decided to take action and start Bye Bye Plastic Bags to mobilize other kids and adults to work toward a cleaner Bali. To achieve the goal, the girls have organized beach clean-ups, put on a fashion show, given a TED talk, gone on a hunger strike, and met with the UN Secretary General. Their keynote will focus on what they’ve done so far and on why they believe so passionately in their cause.</string>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -1314,15 +1314,15 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Justin is the executive director of the Jump! Foundation, a non-profit social enterprise focused on leadership development. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="d3q-ka-3gq">
-                                                                <rect key="frame" x="12" y="90" width="152" height="88.5"/>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                                <rect key="frame" x="12" y="90" width="152" height="81.5"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="3xW-i2-vTn">
-                                                                <rect key="frame" x="12" y="182.5" width="272" height="180.5"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="3xW-i2-vTn">
+                                                                <rect key="frame" x="12" y="171.5" width="272" height="191.5"/>
                                                                 <string key="text">Justin has a strong passion for community development and educational innovation, and he is recognized for his commitment to youth programs around the world.  Justin has filled his life with adventure guiding, organizational consulting, leadership facilitation, community development, and time playing in the wilderness. He is a co-founder of the JUMP! Foundation and has been a key driving force behind JUMP’s growth and development since 2006. Justin’s keynote address will be an interactive experience. Get ready to be active during this session!</string>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -1343,11 +1343,11 @@
                                                             <constraint firstItem="I4E-sf-qg8" firstAttribute="leading" secondItem="pdV-e2-IFc" secondAttribute="leading" constant="12" id="kde-s9-ntM"/>
                                                             <constraint firstItem="3h1-Vy-f5E" firstAttribute="top" secondItem="pdV-e2-IFc" secondAttribute="top" constant="12" id="qGE-a8-aYc"/>
                                                             <constraint firstItem="Iaa-Ha-loo" firstAttribute="leading" secondItem="I4E-sf-qg8" secondAttribute="trailing" id="tR8-9R-j96"/>
-                                                            <constraint firstItem="3xW-i2-vTn" firstAttribute="top" secondItem="d3q-ka-3gq" secondAttribute="bottom" constant="4" id="tvd-VJ-TFs"/>
+                                                            <constraint firstItem="3xW-i2-vTn" firstAttribute="top" secondItem="d3q-ka-3gq" secondAttribute="bottom" id="tvd-VJ-TFs"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yKh-Ee-FCG" userLabel="Phuc" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="1564" width="296" height="396"/>
+                                                        <rect key="frame" x="0.0" y="1564" width="296" height="454"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photographer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="1cc-XB-YZK">
                                                                 <rect key="frame" x="12" y="41" width="93" height="20.5"/>
@@ -1367,17 +1367,17 @@
                                                                     <constraint firstAttribute="width" secondItem="v8Z-ty-6dP" secondAttribute="height" multiplier="1:1" id="OLU-46-aTQ"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ajm-3W-LeP">
-                                                                <rect key="frame" x="12" y="69.5" width="152" height="146.5"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ajm-3W-LeP">
+                                                                <rect key="frame" x="12" y="70" width="152" height="183.5"/>
                                                                 <string key="text">For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred. </string>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="b13-NF-Fvh">
-                                                                <rect key="frame" x="12" y="220" width="272" height="164"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="b13-NF-Fvh">
+                                                                <rect key="frame" x="12" y="257.5" width="272" height="184.5"/>
                                                                 <string key="text">The scars that covered 65 percent of her body were not only disfiguring – making her believe no one would ever love her – they hurt. A lot. For the past 20 years, Phuc has traveled the world telling her story of hope borne out of despair. Her passion for peaceful resolutions to conflict in our world is inspiring. Kim is the girl who was captured in a famous 1972 photograph that brought the world's attention to the horrors of the war in Vietnam. </string>
-                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -1400,9 +1400,6 @@
                                                         </constraints>
                                                     </view>
                                                 </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="1960" id="fwN-it-QCd"/>
-                                                </constraints>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1414,10 +1411,11 @@
                                             <constraint firstAttribute="trailing" secondItem="SfH-Jm-7G3" secondAttribute="trailing" constant="12" id="UMB-8d-pP5"/>
                                             <constraint firstItem="Pc8-vZ-wcN" firstAttribute="leading" secondItem="qMr-4f-uLX" secondAttribute="leading" id="aFG-aW-eIV"/>
                                             <constraint firstItem="DAd-dq-ci0" firstAttribute="trailing" secondItem="Pc8-vZ-wcN" secondAttribute="trailing" id="gNU-Ud-9yq"/>
-                                            <constraint firstAttribute="height" constant="2200" id="kqm-js-pRF"/>
+                                            <constraint firstAttribute="height" constant="2250" id="kqm-js-pRF"/>
                                             <constraint firstItem="DAd-dq-ci0" firstAttribute="top" secondItem="Pc8-vZ-wcN" secondAttribute="top" id="m5z-aL-W6O"/>
+                                            <constraint firstAttribute="bottom" secondItem="SfH-Jm-7G3" secondAttribute="bottom" constant="12" id="mmr-jM-jfS"/>
                                             <constraint firstItem="SfH-Jm-7G3" firstAttribute="leading" secondItem="qMr-4f-uLX" secondAttribute="leading" constant="12" id="oLn-YC-op0"/>
-                                            <constraint firstAttribute="bottom" secondItem="Pc8-vZ-wcN" secondAttribute="bottom" priority="999" constant="2000" id="u2d-Rd-NKV"/>
+                                            <constraint firstAttribute="bottom" secondItem="Pc8-vZ-wcN" secondAttribute="bottom" priority="999" constant="2050" id="u2d-Rd-NKV"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1510,16 +1508,16 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="752" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="mWn-E1-biw">
-                                                        <rect key="frame" x="12" y="76" width="184" height="102.5"/>
+                                                        <rect key="frame" x="12" y="76" width="184" height="109.5"/>
                                                         <string key="text">I am a high school English teacher and a Global Issues Network advisor, and I am passionate about making the world a better place!</string>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="eX1-sk-xQJ">
-                                                        <rect key="frame" x="12" y="182.5" width="272" height="140.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="eX1-sk-xQJ">
+                                                        <rect key="frame" x="12" y="189.5" width="272" height="133.5"/>
                                                         <string key="text">I believe that if we all work together, we can achieve great things in regards to our planet and its people and that the future can be bright. I have been working with GIN for 11 years and have attended conferences worldwide, led 3 groups in different countries and hosted 2 conferences. Let's channel our energy to make some change!</string>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -1570,17 +1568,17 @@
                                                             <constraint firstAttribute="width" secondItem="Sy9-Wc-qOS" secondAttribute="height" multiplier="1:1" id="KKp-1o-hAi"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ybd-Rf-GY5" userLabel="KHeader">
-                                                        <rect key="frame" x="12" y="76" width="168" height="123"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ybd-Rf-GY5" userLabel="KHeader">
+                                                        <rect key="frame" x="12" y="76" width="168" height="109.5"/>
                                                         <string key="text">I am currently in 11th grade and I am passionate about leading a sustainable life and making choices that benefit the environment.</string>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="jDV-RJ-z7E">
-                                                        <rect key="frame" x="12" y="203" width="272" height="130"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="jDV-RJ-z7E">
+                                                        <rect key="frame" x="12" y="189.5" width="272" height="143.5"/>
                                                         <string key="text">I have been in GIN for 4 years and have led it for 2 years now.  This year’s conference theme, “A Place to Stand,” resonates with me a lot because of personal experiences and beliefs. However, I know everybody has a different interpretation of this theme, so where do you stand in this world? I hope you discover answers to this question as you listen to the amazing keynote speakers and changemaker panels!</string>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>

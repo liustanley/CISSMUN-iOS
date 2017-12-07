@@ -53,12 +53,11 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0q-6n-62l">
-                                <rect key="frame" x="16" y="357" width="343" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stanley Liu, Edward Huang, Tanya Lai, and Katrina Tsang" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0q-6n-62l">
+                                <rect key="frame" x="16" y="357" width="343" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="yNp-qw-hF1"/>
+                                    <constraint firstAttribute="height" constant="20" id="yNp-qw-hF1"/>
                                 </constraints>
-                                <string key="text">Jessica Chen, Edward Huang, Tanya Lai, Stanley Liu, Roland Rao, Jonathan Serbent, Aaron Tsang, Katrina Tsang, Ethan Wang, and Samuel Yang</string>
                                 <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="11"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -71,7 +70,7 @@
                                 <string key="text">After eleven long months, we are proud to present you with the product of all our hard work: the one and only CISSMUN IX/GINAsia 2018 app. We hope that you enjoy the app and find it of great use throughout these three days of the conference. Have fun at these conferences and find a place to stand.
 
 Sincerely,
-The CISSMUN IX and GINAsia 2018 App Development Team</string>
+The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -4191,7 +4190,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l0Y-dW-AKY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4411.875" y="1204.2253521126761"/>
+            <point key="canvasLocation" x="4409" y="1159"/>
         </scene>
         <!--Dining-->
         <scene sceneID="yVm-Up-7gX">
