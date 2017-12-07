@@ -68,12 +68,11 @@ var roro = ["GA4, Wittenberg Hall (H316/H318)", "GA3, PC Lounge",
             "M223",
             "P133",
             "P134",
-            //"P135",
     "H118",
     "H216",
     "H306",
     "H304",
-    "H303”"]
+    "H303"]
 
 class LocationSearch: UITableViewController, UISearchResultsUpdating{
 
@@ -83,14 +82,19 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if(UserDefaults.standard.object(forKey: "myConference") as? Bool == true) {
         roomies = [
+            //Room for Student Offs.
+            //Room for Admin
+            //Room for Grown-ups
             Room(roomName:"GA4, Wittenberg Hall (H316/H318)", floorNumber: text[2], floorMap: "HS 3"),
             Room(roomName:"GA3, PC Lounge", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"ECOSOC, HS Gym (H115)", floorNumber: text[0], floorMap: "HS 1"),
             Room(roomName:"P228, Phoenix Café", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"Approval Panel, HS Library (H227)", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"H233, HS Conference Room", floorNumber: text[1], floorMap: "HS 2"),
-            Room(roomName:"Environmental, Augsburg Hall (H405/H406)", floorNumber: text[3], floorMap: "HS 4"),
+            Room(roomName:"Environment, Augsburg Hall (H405/H406)", floorNumber: text[3], floorMap: "HS 4"),
             Room(roomName:"GA6, MS Gym (M116)", floorNumber: text[6], floorMap: "MS 1"),
             Room(roomName:"HRC, ES Library (E322)", floorNumber: text[10], floorMap: "ES 3"),
             
@@ -101,60 +105,89 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             Room(roomName:"CSW, Jade/Pearl (P230/P231)", floorNumber: text[17], floorMap: "PC 2"),
             Room(roomName:"Secretariat/Hive, Costume Room (P135)", floorNumber: text[16], floorMap: "PC 1"),
             Room(roomName:"Advis. Panel, Health Room (H127)", floorNumber: text[0], floorMap: "HS 1"),
-            
-            Room(roomName:"R101, Rittmann Theatre", floorNumber: text[12], floorMap: "R 1"),
+            Room(roomName:"Rittmann Theatre (R101)", floorNumber: text[12], floorMap: "R 1"),
             Room(roomName:"CISSMUN Vigil (H305)", floorNumber: text[2], floorMap: "HS 3"),
             Room(roomName:"Spec Conf (H404)", floorNumber: text[3], floorMap: "HS 4"),
             Room(roomName:"UNPFII (H403)", floorNumber: text[3], floorMap: "HS 4"),
             Room(roomName:"ICC, New Luther (P201)", floorNumber: text[17], floorMap: "PC 2"),
             Room(roomName:"Printing (H205)", floorNumber: text[1], floorMap: "HS 2"),
-            Room(roomName:"Keynote Speakers, Phoenix Center Gym (P106)", floorNumber: text[16], floorMap: "PC 1"),
-            //Room(roomName:"Classroom next to Jade/Pearl???", floorNumber: text[17], floorMap: "PC 2"),
-            Room(roomName:"H203", floorNumber: text[1], floorMap: "HS 2"),
-            Room(roomName:"H204", floorNumber: text[1], floorMap: "HS 2"),
-            Room(roomName:"H206", floorNumber: text[1], floorMap: "HS 2"),
-            
-            //Room(roomName:"MS and HS classrooms Schools???", floorNumber: text[0], floorMap: "HS 1"),
+            Room(roomName:"Keynotes, Phoenix Center Gym (P106)", floorNumber: text[16], floorMap: "PC 1"),
+            Room(roomName:"H205", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"Disarmament, Motor Skills Room",floorNumber: text[8], floorMap: "ES 1"),
-            
             Room(roomName:"GA1, PE Commons", floorNumber: text[18], floorMap: "HS B1"),
+            ]
+        }
             
+        else if ( UserDefaults.standard.object(forKey: "myConference") as? Bool == false) {
             
-            Room(roomName:"P232",floorNumber: text[17], floorMap: "PC 2"),
-            Room(roomName:"P233",floorNumber: text[17], floorMap: "PC 2"),
-            Room(roomName:"P234",floorNumber: text[17], floorMap: "PC 2"),
-            Room(roomName:"P202",floorNumber: text[17], floorMap: "PC 2"),
-            Room(roomName:"P203",floorNumber: text[17], floorMap: "PC 2"),
-            Room(roomName:"P204",floorNumber: text[17], floorMap: "PC 2"),
-            Room(roomName:"M101, MS Reception",floorNumber: text[6], floorMap: "MS 1"),
-            Room(roomName:"M104",floorNumber: text[6], floorMap: "MS 1"),
-            Room(roomName:"M105",floorNumber: text[6], floorMap: "MS 1"),
-            Room(roomName:"M106",floorNumber: text[6], floorMap: "MS 1"),
-            Room(roomName:"M107",floorNumber: text[6], floorMap: "MS 1"),
-            Room(roomName:"M108",floorNumber: text[6], floorMap: "MS 1"),
-            Room(roomName:"M109",floorNumber: text[6], floorMap: "MS 1"),
-            Room(roomName:"M110",floorNumber: text[6], floorMap: "MS 1"),
+            roomies = [
+                Room(roomName:"Wittenberg Hall (H316/H318)", floorNumber: text[2], floorMap: "HS 3"),
+                Room(roomName:"PC Lounge", floorNumber: text[1], floorMap: "HS 2"),
+                Room(roomName:"HS Gym (H115)", floorNumber: text[0], floorMap: "HS 1"),
+                Room(roomName:"Phoenix Café (P228)", floorNumber: text[1], floorMap: "HS 2"),
+                Room(roomName:"HS Library (H227)", floorNumber: text[1], floorMap: "HS 2"),
+                Room(roomName:"HS Conference Room", floorNumber: text[1], floorMap: "HS 2"),
+                Room(roomName:"Augsburg Hall (H405/H406)", floorNumber: text[3], floorMap: "HS 4"),
+                Room(roomName:"MS Gym (M116)", floorNumber: text[6], floorMap: "MS 1"),
+                Room(roomName:"ES Library (E322)", floorNumber: text[10], floorMap: "ES 3"),
+                Room(roomName:"ES Cafeteria", floorNumber: text[8], floorMap: "ES 1"),
+                Room(roomName:"Orchestra Room (R302)", floorNumber: text[14], floorMap: "R 3"),
+                Room(roomName:"PC Cafeteria", floorNumber: text[16], floorMap: "PC 1"),
+                Room(roomName:"H116", floorNumber: text[0], floorMap: "HS 1"),
+                Room(roomName:"Jade/Pearl (P230/P231)", floorNumber: text[17], floorMap: "PC 2"),
+                Room(roomName:"Costume Room (P135)", floorNumber: text[16], floorMap: "PC 1"),
+                Room(roomName:"Health Room (H127)", floorNumber: text[0], floorMap: "HS 1"),
+                Room(roomName:"Rittmann Theatre (R101)", floorNumber: text[12], floorMap: "R 1"),
+                Room(roomName:"H305", floorNumber: text[2], floorMap: "HS 3"),
+                Room(roomName:"H404", floorNumber: text[3], floorMap: "HS 4"),
+                Room(roomName:"H403", floorNumber: text[3], floorMap: "HS 4"),
+                Room(roomName:"New Luther (P201)", floorNumber: text[17], floorMap: "PC 2"),
+                Room(roomName:"H205", floorNumber: text[1], floorMap: "HS 2"),
+                Room(roomName:"Phoenix Center Gym (P106)", floorNumber: text[16], floorMap: "PC 1"),
+                
+                //Room(roomName:"MS and HS classrooms Schools???", floorNumber: text[0], floorMap: "HS 1"),
+                Room(roomName:"Motor Skills Room",floorNumber: text[8], floorMap: "ES 1"),
+                
+                Room(roomName:"PE Commons", floorNumber: text[18], floorMap: "HS B1"),
+                
+                
+                Room(roomName:"P232",floorNumber: text[17], floorMap: "PC 2"),
+                Room(roomName:"P233",floorNumber: text[17], floorMap: "PC 2"),
+                Room(roomName:"P234",floorNumber: text[17], floorMap: "PC 2"),
+                Room(roomName:"P202",floorNumber: text[17], floorMap: "PC 2"),
+                Room(roomName:"P203",floorNumber: text[17], floorMap: "PC 2"),
+                Room(roomName:"P204",floorNumber: text[17], floorMap: "PC 2"),
+                Room(roomName:"M101, MS Reception",floorNumber: text[6], floorMap: "MS 1"),
+                Room(roomName:"M104",floorNumber: text[6], floorMap: "MS 1"),
+                Room(roomName:"M105",floorNumber: text[6], floorMap: "MS 1"),
+                Room(roomName:"M106",floorNumber: text[6], floorMap: "MS 1"),
+                Room(roomName:"M107",floorNumber: text[6], floorMap: "MS 1"),
+                Room(roomName:"M108",floorNumber: text[6], floorMap: "MS 1"),
+                Room(roomName:"M109",floorNumber: text[6], floorMap: "MS 1"),
+                Room(roomName:"M110",floorNumber: text[6], floorMap: "MS 1"),
+                
+                Room(roomName:"M201",floorNumber: text[7], floorMap: "MS 2"),
+                Room(roomName:"M204",floorNumber: text[7], floorMap: "MS 2"),
+                Room(roomName:"M205",floorNumber: text[7], floorMap: "MS 2"),
+                Room(roomName:"M206",floorNumber: text[7], floorMap: "MS 2"),
+                Room(roomName:"M207",floorNumber: text[7], floorMap: "MS 2"),
+                Room(roomName:"M208",floorNumber: text[7], floorMap: "MS 2"),
+                Room(roomName:"M209",floorNumber: text[7], floorMap: "MS 2"),
+                Room(roomName:"M210",floorNumber: text[7], floorMap: "MS 2"),
+                Room(roomName:"M211",floorNumber: text[7], floorMap: "MS 2"),
+                Room(roomName:"M223",floorNumber: text[7], floorMap: "MS 2"),
+                Room(roomName:"P133",floorNumber: text[16], floorMap: "PC 1"),
+                Room(roomName:"P134",floorNumber: text[16], floorMap: "PC 1"),
+                Room(roomName:"H118",floorNumber: text[0], floorMap: "HS 1"),
+                Room(roomName:"H216", floorNumber: text[1], floorMap: "HS 2"),
+                Room(roomName:"H306", floorNumber: text[2], floorMap: "HS 3"),
+                Room(roomName:"H304", floorNumber: text[2], floorMap: "HS 3"),
+                Room(roomName:"H303", floorNumber: text[2], floorMap: "HS 3"),
+                Room(roomName:"H203", floorNumber: text[1], floorMap: "HS 2"),
+                Room(roomName:"H204", floorNumber: text[1], floorMap: "HS 2"),
+                Room(roomName:"H206", floorNumber: text[1], floorMap: "HS 2"), ]
             
-            Room(roomName:"M201",floorNumber: text[7], floorMap: "MS 2"),
-            Room(roomName:"M204",floorNumber: text[7], floorMap: "MS 2"),
-            Room(roomName:"M205",floorNumber: text[7], floorMap: "MS 2"),
-            Room(roomName:"M206",floorNumber: text[7], floorMap: "MS 2"),
-            Room(roomName:"M207",floorNumber: text[7], floorMap: "MS 2"),
-            Room(roomName:"M208",floorNumber: text[7], floorMap: "MS 2"),
-            Room(roomName:"M209",floorNumber: text[7], floorMap: "MS 2"),
-            Room(roomName:"M210",floorNumber: text[7], floorMap: "MS 2"),
-            Room(roomName:"M211",floorNumber: text[7], floorMap: "MS 2"),
-            Room(roomName:"M223",floorNumber: text[7], floorMap: "MS 2"),
-            Room(roomName:"P133",floorNumber: text[16], floorMap: "PC 1"),
-            Room(roomName:"P134",floorNumber: text[16], floorMap: "PC 1"),
-            //Room(roomName:"P135",floorNumber: text[16], floorMap: "PC 1"),
-            Room(roomName:"H118",floorNumber: text[0], floorMap: "HS 1"),
-            Room(roomName:"H216", floorNumber: text[1], floorMap: "HS 2"),
-            Room(roomName:"H306", floorNumber: text[2], floorMap: "HS 3"),
-            Room(roomName:"H304", floorNumber: text[2], floorMap: "HS 3"),
-            Room(roomName:"H303", floorNumber: text[2], floorMap: "HS 3"),
-            //Room(roomName:"P135", floorNumber: text[16], floorMap: "PC 1")
-        ]
+        }
 
         
         searchController = UISearchController(searchResultsController: resultsController)
