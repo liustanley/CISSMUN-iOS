@@ -1996,7 +1996,7 @@
                                     <constraint firstAttribute="height" constant="1" id="Ono-w3-mJi"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISSMUN Eighth Annual Session" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="o97-1D-C0x">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISSMUN Ninth Annual Session" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="o97-1D-C0x">
                                 <rect key="frame" x="32" y="71" width="170" height="46.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -2099,7 +2099,7 @@ Secretary-General</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LQt-9Q-EpL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-95" y="-1216"/>
+            <point key="canvasLocation" x="391" y="-1217"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Crd-Jc-FmE">
@@ -2117,7 +2117,7 @@ Secretary-General</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bje-Zb-JUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="388" y="-1217"/>
+            <point key="canvasLocation" x="1530" y="-1217"/>
         </scene>
     </scenes>
     <resources>
