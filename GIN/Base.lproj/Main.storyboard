@@ -36,60 +36,85 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1354592945_Concordia" translatesAutoresizingMaskIntoConstraints="NO" id="Xa4-6J-1fa">
-                                <rect key="frame" x="87.5" y="-10" width="200" height="167"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Xa4-6J-1fa" secondAttribute="height" multiplier="6:5" id="4xK-6r-Ebw"/>
-                                    <constraint firstAttribute="width" constant="200" id="zoj-Al-46y"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISSMUN 1.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Wi-F9-a7i">
-                                <rect key="frame" x="125.5" y="142" width="124" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="124" id="I59-Z0-oSH"/>
-                                    <constraint firstAttribute="height" constant="30" id="Sdg-Pm-nN8"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stanley Liu, Edward Huang, Tanya Lai, and Katrina Tsang" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0q-6n-62l">
-                                <rect key="frame" x="16" y="357" width="343" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="yNp-qw-hF1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="11"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKK-Uf-3Wp">
-                                <rect key="frame" x="16" y="182" width="343" height="175"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="175" id="WKH-D0-Kbr"/>
-                                </constraints>
-                                <string key="text">After eleven long months, we are proud to present you with the product of all our hard work: the one and only CISSMUN IX/GINAsia 2018 app. We hope that you enjoy the app and find it of great use throughout these three days of the conference. Have fun at these conferences and find a place to stand.
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NKv-YA-mzp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bx-de-RcF">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1354592945_Concordia" translatesAutoresizingMaskIntoConstraints="NO" id="dx9-xD-tG6">
+                                                <rect key="frame" x="88" y="0.0" width="200" height="167"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="GdK-as-dyy"/>
+                                                    <constraint firstAttribute="width" secondItem="dx9-xD-tG6" secondAttribute="height" multiplier="6:5" id="Vd9-m2-wlq"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISSMUN 1.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODP-fQ-dzj">
+                                                <rect key="frame" x="126" y="152" width="124" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="WMW-aw-9dX"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="124" id="tDq-QI-MDY"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stanley Liu, Edward Huang, Tanya Lai, and Katrina Tsang" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNT-PI-vQl">
+                                                <rect key="frame" x="16" y="367" width="343" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="MQi-CK-Esq"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Noq-yq-bT6">
+                                                <rect key="frame" x="16" y="192" width="343" height="175"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="175" id="aSo-mb-LfB"/>
+                                                </constraints>
+                                                <string key="text">After eleven long months, we are proud to present you with the product of all our hard work: the one and only CISSMUN IX/GINAsia 2018 app. We hope that you enjoy the app and find it of great use throughout these three days of the conference. Have fun at these conferences and find a place to stand.
 
 Sincerely,
 The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <string key="userLabel">After eleven long months, we are proud to present you with the product of all our hard work: the one and only CISSMUN IX/GINAsia 2018 app. We hope that you enjoy the app and find it of great use throughout these three days of the conference. Have fun at these conferences and find a place to stand.  Sincerely, The CISSMUN IX and GINAsia 2018 App Development Team</string>
-                            </label>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <string key="userLabel">After eleven long months, we are proud to present you with the product of all our hard work: the one and only CISSMUN IX/GINAsia 2018 app. We hope that you enjoy the app and find it of great use throughout these three days of the conference. Have fun at these conferences and find a place to stand.  Sincerely, The CISSMUN IX and GINAsia 2018 App Development Team</string>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.96078431369999995" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="Noq-yq-bT6" firstAttribute="leading" secondItem="3bx-de-RcF" secondAttribute="leading" constant="16" id="0bU-Sx-cv0"/>
+                                            <constraint firstItem="ODP-fQ-dzj" firstAttribute="centerX" secondItem="3bx-de-RcF" secondAttribute="centerX" id="IDO-ue-5lt"/>
+                                            <constraint firstItem="ZNT-PI-vQl" firstAttribute="leading" secondItem="3bx-de-RcF" secondAttribute="leading" constant="16" id="T3b-gp-8Fv"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZNT-PI-vQl" secondAttribute="trailing" constant="16" id="U1f-q6-IcJ"/>
+                                            <constraint firstItem="dx9-xD-tG6" firstAttribute="centerX" secondItem="3bx-de-RcF" secondAttribute="centerX" id="W20-Zk-W8L"/>
+                                            <constraint firstItem="dx9-xD-tG6" firstAttribute="top" secondItem="3bx-de-RcF" secondAttribute="top" id="XGt-TD-Ykx"/>
+                                            <constraint firstItem="ODP-fQ-dzj" firstAttribute="top" secondItem="dx9-xD-tG6" secondAttribute="bottom" constant="-15" id="dQ3-d0-XwJ"/>
+                                            <constraint firstAttribute="height" constant="603" id="gNG-Kc-TRC"/>
+                                            <constraint firstItem="ZNT-PI-vQl" firstAttribute="top" secondItem="Noq-yq-bT6" secondAttribute="bottom" id="o2P-8i-LIg"/>
+                                            <constraint firstItem="Noq-yq-bT6" firstAttribute="top" secondItem="ODP-fQ-dzj" secondAttribute="bottom" constant="10" id="qEq-Ot-MMg"/>
+                                            <constraint firstItem="Noq-yq-bT6" firstAttribute="centerX" secondItem="3bx-de-RcF" secondAttribute="centerX" id="tAg-nq-an1"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Noq-yq-bT6" secondAttribute="trailing" constant="16" id="w7z-eL-Tly"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="3bx-de-RcF" secondAttribute="bottom" id="0bY-4X-037"/>
+                                    <constraint firstAttribute="trailing" secondItem="3bx-de-RcF" secondAttribute="trailing" id="44J-z5-6Jj"/>
+                                    <constraint firstItem="3bx-de-RcF" firstAttribute="leading" secondItem="NKv-YA-mzp" secondAttribute="leading" id="sPI-Ag-Fc2"/>
+                                    <constraint firstItem="3bx-de-RcF" firstAttribute="top" secondItem="NKv-YA-mzp" secondAttribute="top" id="w9n-cC-bq9"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="r0q-6n-62l" firstAttribute="leading" secondItem="5Bu-UR-80R" secondAttribute="leading" constant="16" id="5O3-pg-a3f"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SKK-Uf-3Wp" secondAttribute="trailing" constant="16" id="7zH-lM-Kx1"/>
-                            <constraint firstItem="2Wi-F9-a7i" firstAttribute="centerX" secondItem="5Bu-UR-80R" secondAttribute="centerX" id="Ajw-6Y-Gyg"/>
-                            <constraint firstAttribute="trailing" secondItem="r0q-6n-62l" secondAttribute="trailing" constant="16" id="Cg7-ef-usV"/>
-                            <constraint firstItem="SKK-Uf-3Wp" firstAttribute="top" secondItem="2Wi-F9-a7i" secondAttribute="bottom" constant="10" id="KQd-ds-hHO"/>
-                            <constraint firstItem="2Wi-F9-a7i" firstAttribute="top" secondItem="Xa4-6J-1fa" secondAttribute="bottom" constant="-15" id="LF8-SU-FnX"/>
-                            <constraint firstItem="SKK-Uf-3Wp" firstAttribute="centerX" secondItem="5Bu-UR-80R" secondAttribute="centerX" id="PwF-aZ-I2s"/>
-                            <constraint firstItem="Xa4-6J-1fa" firstAttribute="top" secondItem="T7d-8J-jAs" secondAttribute="bottom" constant="-10" id="UDj-k2-5MT"/>
-                            <constraint firstItem="r0q-6n-62l" firstAttribute="top" secondItem="SKK-Uf-3Wp" secondAttribute="bottom" id="cpq-45-Zyh"/>
-                            <constraint firstItem="Xa4-6J-1fa" firstAttribute="centerX" secondItem="5Bu-UR-80R" secondAttribute="centerX" id="dgO-f7-eGX"/>
-                            <constraint firstItem="SKK-Uf-3Wp" firstAttribute="leading" secondItem="5Bu-UR-80R" secondAttribute="leading" constant="16" id="e0k-GO-Tjx"/>
+                            <constraint firstAttribute="trailing" secondItem="NKv-YA-mzp" secondAttribute="trailing" id="JVl-uC-gyC"/>
+                            <constraint firstItem="3bx-de-RcF" firstAttribute="width" secondItem="5Bu-UR-80R" secondAttribute="width" id="RY5-fU-yDi"/>
+                            <constraint firstItem="NKv-YA-mzp" firstAttribute="top" secondItem="T7d-8J-jAs" secondAttribute="bottom" id="XSZ-Nz-3kr"/>
+                            <constraint firstAttribute="bottom" secondItem="NKv-YA-mzp" secondAttribute="bottom" id="fEg-lP-mhb"/>
+                            <constraint firstItem="NKv-YA-mzp" firstAttribute="leading" secondItem="5Bu-UR-80R" secondAttribute="leading" id="flc-SL-6UI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="About" id="Mzy-Pz-ZZ5"/>
@@ -701,8 +726,10 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                             <constraint firstItem="VlT-wz-xZu" firstAttribute="leading" secondItem="sqs-ur-HQ0" secondAttribute="leading" id="Aio-z9-JHx"/>
                                                                             <constraint firstAttribute="bottom" secondItem="Yho-gg-oPB" secondAttribute="bottom" id="BnN-IF-Wsl"/>
                                                                             <constraint firstItem="qdV-5e-88B" firstAttribute="height" secondItem="sqs-ur-HQ0" secondAttribute="height" multiplier="0.5" constant="1" id="IbM-Jg-wJG"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qdV-5e-88B" secondAttribute="trailing" constant="20" symbolic="YES" id="RlQ-Co-OHA"/>
                                                                             <constraint firstItem="VlT-wz-xZu" firstAttribute="height" secondItem="sqs-ur-HQ0" secondAttribute="height" multiplier="0.5" id="dzv-2v-h1Z"/>
                                                                             <constraint firstAttribute="bottom" secondItem="VlT-wz-xZu" secondAttribute="bottom" id="kOo-d0-EJX"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="VlT-wz-xZu" secondAttribute="trailing" constant="20" symbolic="YES" id="oor-lI-LOT"/>
                                                                             <constraint firstItem="Yho-gg-oPB" firstAttribute="width" secondItem="sqs-ur-HQ0" secondAttribute="width" multiplier="0.5" constant="1" id="unU-7U-cFt"/>
                                                                             <constraint firstAttribute="trailing" secondItem="Yho-gg-oPB" secondAttribute="trailing" id="v62-vk-gLC"/>
                                                                             <constraint firstItem="qdV-5e-88B" firstAttribute="leading" secondItem="sqs-ur-HQ0" secondAttribute="leading" id="xsj-td-E4j"/>
@@ -736,12 +763,14 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <constraints>
                                                                             <constraint firstItem="g0g-Mm-eEJ" firstAttribute="leading" secondItem="4rw-oX-21h" secondAttribute="leading" id="2Ym-sV-4Gv"/>
                                                                             <constraint firstItem="07x-QY-YB5" firstAttribute="leading" secondItem="4rw-oX-21h" secondAttribute="leading" id="4bl-kB-P4w"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="g0g-Mm-eEJ" secondAttribute="trailing" constant="20" symbolic="YES" id="89M-AM-Aqz"/>
                                                                             <constraint firstAttribute="bottom" secondItem="rNR-1b-SVh" secondAttribute="bottom" id="Qau-xA-tXM"/>
                                                                             <constraint firstItem="g0g-Mm-eEJ" firstAttribute="top" secondItem="4rw-oX-21h" secondAttribute="top" id="Xl4-my-mbq"/>
                                                                             <constraint firstItem="rNR-1b-SVh" firstAttribute="width" secondItem="4rw-oX-21h" secondAttribute="width" multiplier="0.5" constant="1" id="g4j-oG-Xtg"/>
                                                                             <constraint firstItem="07x-QY-YB5" firstAttribute="height" secondItem="4rw-oX-21h" secondAttribute="height" multiplier="0.5" id="il3-d9-KzL"/>
                                                                             <constraint firstAttribute="bottom" secondItem="07x-QY-YB5" secondAttribute="bottom" id="imI-Bx-nLW"/>
                                                                             <constraint firstItem="g0g-Mm-eEJ" firstAttribute="height" secondItem="4rw-oX-21h" secondAttribute="height" multiplier="0.5" constant="1" id="o2p-Or-P6e"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="07x-QY-YB5" secondAttribute="trailing" constant="20" symbolic="YES" id="qF2-7r-ov6"/>
                                                                             <constraint firstAttribute="trailing" secondItem="rNR-1b-SVh" secondAttribute="trailing" id="rH0-Ez-K7A"/>
                                                                             <constraint firstItem="rNR-1b-SVh" firstAttribute="top" secondItem="4rw-oX-21h" secondAttribute="top" constant="-6" id="tT5-n9-ZLz"/>
                                                                         </constraints>
@@ -772,11 +801,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
                                                                             <constraint firstItem="INn-NL-uN8" firstAttribute="height" secondItem="puX-7R-wbV" secondAttribute="height" multiplier="0.5" constant="1" id="00b-9Q-ASh"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KFI-JD-EEZ" secondAttribute="trailing" constant="20" symbolic="YES" id="2h0-Yj-a4d"/>
                                                                             <constraint firstAttribute="trailing" secondItem="OZa-d1-w5j" secondAttribute="trailing" id="3M5-BZ-fOU"/>
                                                                             <constraint firstItem="INn-NL-uN8" firstAttribute="leading" secondItem="puX-7R-wbV" secondAttribute="leading" id="9uo-Si-b4d"/>
                                                                             <constraint firstItem="OZa-d1-w5j" firstAttribute="width" secondItem="puX-7R-wbV" secondAttribute="width" multiplier="0.5" constant="1" id="DGJ-nA-btX"/>
                                                                             <constraint firstAttribute="bottom" secondItem="OZa-d1-w5j" secondAttribute="bottom" id="EF3-vb-kb0"/>
                                                                             <constraint firstAttribute="bottom" secondItem="KFI-JD-EEZ" secondAttribute="bottom" id="U0i-AX-sRB"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="INn-NL-uN8" secondAttribute="trailing" constant="20" symbolic="YES" id="YvH-oG-Zuv"/>
                                                                             <constraint firstItem="KFI-JD-EEZ" firstAttribute="leading" secondItem="puX-7R-wbV" secondAttribute="leading" id="feL-xV-NfC"/>
                                                                             <constraint firstItem="KFI-JD-EEZ" firstAttribute="height" secondItem="puX-7R-wbV" secondAttribute="height" multiplier="0.5" id="gjr-Ja-bDg"/>
                                                                             <constraint firstItem="INn-NL-uN8" firstAttribute="top" secondItem="puX-7R-wbV" secondAttribute="top" id="iHh-yu-reD"/>
@@ -854,9 +885,11 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                             <constraint firstAttribute="bottom" secondItem="J0g-rY-zGd" secondAttribute="bottom" id="Vcc-pd-bBz"/>
                                                                             <constraint firstAttribute="bottom" secondItem="5Jt-jF-h09" secondAttribute="bottom" id="Y9T-Dh-Pjz"/>
                                                                             <constraint firstItem="5Jt-jF-h09" firstAttribute="top" secondItem="zWr-Pj-Aev" secondAttribute="top" constant="-6" id="Yal-0t-ypi"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="J0g-rY-zGd" secondAttribute="trailing" constant="20" symbolic="YES" id="aI1-U2-AV9"/>
                                                                             <constraint firstItem="8vd-dw-29E" firstAttribute="leading" secondItem="zWr-Pj-Aev" secondAttribute="leading" id="m1b-4V-B9y"/>
                                                                             <constraint firstItem="5Jt-jF-h09" firstAttribute="width" secondItem="zWr-Pj-Aev" secondAttribute="width" multiplier="0.5" constant="1" id="oKo-Mq-zx5"/>
                                                                             <constraint firstItem="J0g-rY-zGd" firstAttribute="height" secondItem="zWr-Pj-Aev" secondAttribute="height" multiplier="0.5" id="p74-r4-6nm"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8vd-dw-29E" secondAttribute="trailing" constant="20" symbolic="YES" id="sYa-jt-hvc"/>
                                                                             <constraint firstItem="J0g-rY-zGd" firstAttribute="leading" secondItem="zWr-Pj-Aev" secondAttribute="leading" id="wYA-JQ-UC3"/>
                                                                         </constraints>
                                                                     </view>
@@ -887,6 +920,8 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <constraints>
                                                                             <constraint firstItem="dpb-he-RzY" firstAttribute="leading" secondItem="l2Y-Lo-58f" secondAttribute="leading" id="1cD-pw-hyy"/>
                                                                             <constraint firstAttribute="trailing" secondItem="FMH-En-aka" secondAttribute="trailing" id="2SQ-1Y-daG"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="uYZ-hK-8fF" secondAttribute="trailing" constant="20" symbolic="YES" id="6Td-QS-Vbz"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dpb-he-RzY" secondAttribute="trailing" constant="20" symbolic="YES" id="Muj-Gb-17u"/>
                                                                             <constraint firstItem="FMH-En-aka" firstAttribute="width" secondItem="l2Y-Lo-58f" secondAttribute="width" multiplier="0.5" constant="1" id="QIe-GA-wlJ"/>
                                                                             <constraint firstAttribute="bottom" secondItem="uYZ-hK-8fF" secondAttribute="bottom" id="bwp-Wa-Fah"/>
                                                                             <constraint firstItem="FMH-En-aka" firstAttribute="top" secondItem="l2Y-Lo-58f" secondAttribute="top" constant="-6" id="ctC-UB-RRw"/>
@@ -924,7 +959,9 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <constraints>
                                                                             <constraint firstItem="Ehh-JZ-0MU" firstAttribute="top" secondItem="pBm-wu-1ha" secondAttribute="top" constant="-6" id="2KO-tj-1xl"/>
                                                                             <constraint firstItem="Zec-bn-Lzw" firstAttribute="height" secondItem="pBm-wu-1ha" secondAttribute="height" multiplier="0.5" constant="1" id="4DW-hc-aYE"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bss-TI-lAG" secondAttribute="trailing" constant="20" symbolic="YES" id="AH9-EE-hOa"/>
                                                                             <constraint firstItem="Zec-bn-Lzw" firstAttribute="top" secondItem="pBm-wu-1ha" secondAttribute="top" id="H0D-U2-VoH"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Zec-bn-Lzw" secondAttribute="trailing" constant="20" symbolic="YES" id="HrT-kD-Txb"/>
                                                                             <constraint firstItem="bss-TI-lAG" firstAttribute="height" secondItem="pBm-wu-1ha" secondAttribute="height" multiplier="0.5" id="af2-AP-5pZ"/>
                                                                             <constraint firstAttribute="bottom" secondItem="Ehh-JZ-0MU" secondAttribute="bottom" id="jkY-KR-Kg1"/>
                                                                             <constraint firstItem="Ehh-JZ-0MU" firstAttribute="width" secondItem="pBm-wu-1ha" secondAttribute="width" multiplier="0.5" constant="1" id="kVb-aP-buV"/>
@@ -960,11 +997,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="trailing" secondItem="ncg-n6-XXq" secondAttribute="trailing" id="390-Sd-oSy"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yqJ-Wr-q4Q" secondAttribute="trailing" constant="20" symbolic="YES" id="3A8-TA-lFf"/>
                                                                             <constraint firstItem="ncg-n6-XXq" firstAttribute="top" secondItem="lPr-eN-wXw" secondAttribute="top" constant="-6" id="9AL-YT-4uf"/>
                                                                             <constraint firstAttribute="bottom" secondItem="yqJ-Wr-q4Q" secondAttribute="bottom" id="KTJ-4c-iqg"/>
                                                                             <constraint firstItem="8ar-Mv-Fpf" firstAttribute="top" secondItem="lPr-eN-wXw" secondAttribute="top" id="VCp-UJ-png"/>
                                                                             <constraint firstItem="8ar-Mv-Fpf" firstAttribute="leading" secondItem="lPr-eN-wXw" secondAttribute="leading" id="ZUs-1G-9hg"/>
                                                                             <constraint firstItem="8ar-Mv-Fpf" firstAttribute="height" secondItem="lPr-eN-wXw" secondAttribute="height" multiplier="0.5" constant="1" id="cLo-Xc-Kha"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8ar-Mv-Fpf" secondAttribute="trailing" constant="20" symbolic="YES" id="eBl-7w-hy6"/>
                                                                             <constraint firstItem="yqJ-Wr-q4Q" firstAttribute="leading" secondItem="lPr-eN-wXw" secondAttribute="leading" id="lum-0l-7fV"/>
                                                                             <constraint firstItem="yqJ-Wr-q4Q" firstAttribute="height" secondItem="lPr-eN-wXw" secondAttribute="height" multiplier="0.5" id="ncq-x6-WHA"/>
                                                                             <constraint firstAttribute="bottom" secondItem="ncg-n6-XXq" secondAttribute="bottom" id="tCk-tj-Otl"/>
@@ -1001,11 +1040,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                             <constraint firstItem="9ka-ac-tKI" firstAttribute="leading" secondItem="L5i-eF-j3y" secondAttribute="leading" id="Jv8-W3-ya4"/>
                                                                             <constraint firstAttribute="trailing" secondItem="OnJ-Je-iKN" secondAttribute="trailing" id="LAN-9j-vPF"/>
                                                                             <constraint firstItem="OnJ-Je-iKN" firstAttribute="top" secondItem="L5i-eF-j3y" secondAttribute="top" constant="-6" id="W9H-GP-hqG"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ghF-EH-Yry" secondAttribute="trailing" constant="20" symbolic="YES" id="Y6w-p1-mQY"/>
                                                                             <constraint firstItem="OnJ-Je-iKN" firstAttribute="width" secondItem="L5i-eF-j3y" secondAttribute="width" multiplier="0.5" constant="1" id="fjh-fX-9Hw"/>
                                                                             <constraint firstItem="ghF-EH-Yry" firstAttribute="leading" secondItem="L5i-eF-j3y" secondAttribute="leading" id="kDB-EX-VeJ"/>
                                                                             <constraint firstItem="ghF-EH-Yry" firstAttribute="top" secondItem="L5i-eF-j3y" secondAttribute="top" id="qkW-nj-mRG"/>
                                                                             <constraint firstAttribute="bottom" secondItem="OnJ-Je-iKN" secondAttribute="bottom" id="uCj-CO-HtP"/>
                                                                             <constraint firstItem="ghF-EH-Yry" firstAttribute="height" secondItem="L5i-eF-j3y" secondAttribute="height" multiplier="0.5" constant="1" id="vUL-cn-mzV"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9ka-ac-tKI" secondAttribute="trailing" constant="20" symbolic="YES" id="ytv-Vl-r75"/>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AJN-Ea-ewp">
@@ -1033,9 +1074,11 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </subviews>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bZd-vk-UdG" secondAttribute="trailing" constant="20" symbolic="YES" id="HQp-Rl-FKL"/>
                                                                             <constraint firstItem="sVb-Tu-1mq" firstAttribute="height" secondItem="AJN-Ea-ewp" secondAttribute="height" multiplier="0.5" id="ORy-6e-aC0"/>
                                                                             <constraint firstAttribute="bottom" secondItem="sVb-Tu-1mq" secondAttribute="bottom" id="Viy-4Y-ie8"/>
                                                                             <constraint firstItem="sVb-Tu-1mq" firstAttribute="leading" secondItem="AJN-Ea-ewp" secondAttribute="leading" id="ZPX-M5-Jzq"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sVb-Tu-1mq" secondAttribute="trailing" constant="20" symbolic="YES" id="asF-hm-9Ao"/>
                                                                             <constraint firstAttribute="bottom" secondItem="jRZ-mJ-Ngx" secondAttribute="bottom" id="eWl-vN-TUJ"/>
                                                                             <constraint firstItem="jRZ-mJ-Ngx" firstAttribute="top" secondItem="AJN-Ea-ewp" secondAttribute="top" constant="-6" id="efg-av-idX"/>
                                                                             <constraint firstItem="bZd-vk-UdG" firstAttribute="height" secondItem="AJN-Ea-ewp" secondAttribute="height" multiplier="0.5" constant="1" id="hnm-fh-c76"/>
@@ -1075,11 +1118,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                             <constraint firstItem="v1E-3i-Ms5" firstAttribute="top" secondItem="Jkb-sv-ij2" secondAttribute="top" id="A5x-eI-G07"/>
                                                                             <constraint firstItem="N7a-sh-6g0" firstAttribute="top" secondItem="Jkb-sv-ij2" secondAttribute="top" constant="-6" id="Ai3-87-3bu"/>
                                                                             <constraint firstItem="v1E-3i-Ms5" firstAttribute="leading" secondItem="Jkb-sv-ij2" secondAttribute="leading" id="Gd3-CH-MJg"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="b6E-eO-z6Q" secondAttribute="trailing" constant="20" symbolic="YES" id="KCd-6f-MCL"/>
                                                                             <constraint firstItem="N7a-sh-6g0" firstAttribute="width" secondItem="Jkb-sv-ij2" secondAttribute="width" multiplier="0.5" constant="1" id="T1I-ZX-gA0"/>
                                                                             <constraint firstItem="b6E-eO-z6Q" firstAttribute="height" secondItem="Jkb-sv-ij2" secondAttribute="height" multiplier="0.5" id="YIM-50-pgD"/>
                                                                             <constraint firstItem="b6E-eO-z6Q" firstAttribute="leading" secondItem="Jkb-sv-ij2" secondAttribute="leading" id="e2h-LR-mIX"/>
                                                                             <constraint firstItem="v1E-3i-Ms5" firstAttribute="height" secondItem="Jkb-sv-ij2" secondAttribute="height" multiplier="0.5" constant="1" id="fmw-RG-6qV"/>
                                                                             <constraint firstAttribute="trailing" secondItem="N7a-sh-6g0" secondAttribute="trailing" id="htd-rD-jaS"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="v1E-3i-Ms5" secondAttribute="trailing" constant="20" symbolic="YES" id="q4q-Oy-Bns"/>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6KS-CO-6u3">
@@ -1111,11 +1156,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                             <constraint firstItem="TKL-TM-Qfo" firstAttribute="leading" secondItem="6KS-CO-6u3" secondAttribute="leading" id="7Em-ce-Wfw"/>
                                                                             <constraint firstItem="TKL-TM-Qfo" firstAttribute="height" secondItem="6KS-CO-6u3" secondAttribute="height" multiplier="0.5" constant="1" id="91N-RF-ojf"/>
                                                                             <constraint firstAttribute="bottom" secondItem="wcs-8e-kV7" secondAttribute="bottom" id="J6h-1O-WDS"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wcs-8e-kV7" secondAttribute="trailing" constant="20" symbolic="YES" id="Na8-Dg-QG7"/>
                                                                             <constraint firstItem="TKL-TM-Qfo" firstAttribute="top" secondItem="6KS-CO-6u3" secondAttribute="top" id="R09-HX-qdK"/>
                                                                             <constraint firstAttribute="trailing" secondItem="gjk-LT-eep" secondAttribute="trailing" id="V6I-1i-PcN"/>
                                                                             <constraint firstItem="gjk-LT-eep" firstAttribute="width" secondItem="6KS-CO-6u3" secondAttribute="width" multiplier="0.5" constant="1" id="c0N-eH-k4L"/>
                                                                             <constraint firstItem="gjk-LT-eep" firstAttribute="top" secondItem="6KS-CO-6u3" secondAttribute="top" constant="-6" id="kOi-1Y-716"/>
                                                                             <constraint firstItem="wcs-8e-kV7" firstAttribute="leading" secondItem="6KS-CO-6u3" secondAttribute="leading" id="kyU-2S-xe8"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TKL-TM-Qfo" secondAttribute="trailing" constant="20" symbolic="YES" id="m86-pd-p0s"/>
                                                                             <constraint firstItem="wcs-8e-kV7" firstAttribute="height" secondItem="6KS-CO-6u3" secondAttribute="height" multiplier="0.5" id="sSb-EN-pXP"/>
                                                                         </constraints>
                                                                     </view>
@@ -1146,10 +1193,12 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <constraints>
                                                                             <constraint firstItem="1Iy-kb-OkE" firstAttribute="leading" secondItem="uKI-c3-pMI" secondAttribute="leading" id="6Bm-0b-UTO"/>
                                                                             <constraint firstAttribute="bottom" secondItem="P2N-WB-qRL" secondAttribute="bottom" id="7Jo-Er-ySi"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1Iy-kb-OkE" secondAttribute="trailing" constant="20" symbolic="YES" id="JIU-1l-V53"/>
                                                                             <constraint firstItem="rv0-al-SUL" firstAttribute="height" secondItem="uKI-c3-pMI" secondAttribute="height" multiplier="0.5" constant="1" id="OfV-xu-JUP"/>
                                                                             <constraint firstAttribute="bottom" secondItem="1Iy-kb-OkE" secondAttribute="bottom" id="RUV-vc-McR"/>
                                                                             <constraint firstItem="P2N-WB-qRL" firstAttribute="width" secondItem="uKI-c3-pMI" secondAttribute="width" multiplier="0.5" constant="1" id="YOK-O5-wwG"/>
                                                                             <constraint firstItem="rv0-al-SUL" firstAttribute="leading" secondItem="uKI-c3-pMI" secondAttribute="leading" id="bCr-LV-beI"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rv0-al-SUL" secondAttribute="trailing" constant="20" symbolic="YES" id="ekf-GD-3RR"/>
                                                                             <constraint firstItem="rv0-al-SUL" firstAttribute="top" secondItem="uKI-c3-pMI" secondAttribute="top" id="g9k-ax-nwz"/>
                                                                             <constraint firstAttribute="trailing" secondItem="P2N-WB-qRL" secondAttribute="trailing" id="pBu-Ou-IGW"/>
                                                                             <constraint firstItem="P2N-WB-qRL" firstAttribute="top" secondItem="uKI-c3-pMI" secondAttribute="top" constant="-6" id="yDx-Ck-Usn"/>
@@ -1181,6 +1230,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </subviews>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HUf-Vk-le5" secondAttribute="trailing" constant="20" symbolic="YES" id="1ts-hx-3by"/>
                                                                             <constraint firstItem="HUf-Vk-le5" firstAttribute="height" secondItem="9jY-9m-gCq" secondAttribute="height" multiplier="0.5" constant="1" id="KuO-rV-znC"/>
                                                                             <constraint firstAttribute="trailing" secondItem="jyF-w9-9ei" secondAttribute="trailing" id="QC5-t0-eZB"/>
                                                                             <constraint firstItem="HUf-Vk-le5" firstAttribute="leading" secondItem="9jY-9m-gCq" secondAttribute="leading" id="XWM-EN-9ts"/>
@@ -1191,6 +1241,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                             <constraint firstItem="jyF-w9-9ei" firstAttribute="top" secondItem="9jY-9m-gCq" secondAttribute="top" constant="-6" id="mLz-pt-vOe"/>
                                                                             <constraint firstItem="E6m-J3-ytZ" firstAttribute="leading" secondItem="9jY-9m-gCq" secondAttribute="leading" id="myu-m5-PrV"/>
                                                                             <constraint firstItem="jyF-w9-9ei" firstAttribute="width" secondItem="9jY-9m-gCq" secondAttribute="width" multiplier="0.5" constant="1" id="uH0-87-BOv"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="E6m-J3-ytZ" secondAttribute="trailing" constant="20" symbolic="YES" id="unF-Yv-eus"/>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tg6-gK-q0L">
@@ -1219,6 +1270,8 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="bottom" secondItem="lYp-xQ-Eqj" secondAttribute="bottom" id="3S0-ii-JPh"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xkE-K6-SBw" secondAttribute="trailing" constant="20" symbolic="YES" id="4mV-Q4-x1K"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Oyw-3f-C4a" secondAttribute="trailing" constant="20" symbolic="YES" id="5BY-0X-scU"/>
                                                                             <constraint firstAttribute="bottom" secondItem="Oyw-3f-C4a" secondAttribute="bottom" id="BJb-zy-8IR"/>
                                                                             <constraint firstItem="Oyw-3f-C4a" firstAttribute="height" secondItem="tg6-gK-q0L" secondAttribute="height" multiplier="0.5" id="D03-TL-Ojk"/>
                                                                             <constraint firstItem="lYp-xQ-Eqj" firstAttribute="top" secondItem="tg6-gK-q0L" secondAttribute="top" constant="-6" id="Hzr-Pa-1hP"/>
@@ -1258,9 +1311,11 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                             <constraint firstItem="7g4-VA-crO" firstAttribute="height" secondItem="XZB-zB-Ysb" secondAttribute="height" multiplier="0.5" id="2w3-WI-wMn"/>
                                                                             <constraint firstItem="7g4-VA-crO" firstAttribute="leading" secondItem="XZB-zB-Ysb" secondAttribute="leading" id="4oO-dd-vaZ"/>
                                                                             <constraint firstItem="mMl-hb-ZPl" firstAttribute="leading" secondItem="XZB-zB-Ysb" secondAttribute="leading" id="9Zs-NY-6Gw"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7g4-VA-crO" secondAttribute="trailing" constant="20" symbolic="YES" id="JUI-yr-oGl"/>
                                                                             <constraint firstItem="Q3V-t8-GWs" firstAttribute="top" secondItem="XZB-zB-Ysb" secondAttribute="top" constant="-6" id="Khx-ru-aTi"/>
                                                                             <constraint firstItem="mMl-hb-ZPl" firstAttribute="height" secondItem="XZB-zB-Ysb" secondAttribute="height" multiplier="0.5" constant="1" id="MTt-QP-VTM"/>
                                                                             <constraint firstItem="mMl-hb-ZPl" firstAttribute="top" secondItem="XZB-zB-Ysb" secondAttribute="top" id="QeM-xH-vXE"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mMl-hb-ZPl" secondAttribute="trailing" constant="20" symbolic="YES" id="YBL-Ef-NKU"/>
                                                                             <constraint firstAttribute="bottom" secondItem="7g4-VA-crO" secondAttribute="bottom" id="b7V-ul-dDn"/>
                                                                             <constraint firstAttribute="trailing" secondItem="Q3V-t8-GWs" secondAttribute="trailing" id="bpq-Ew-mAG"/>
                                                                             <constraint firstItem="Q3V-t8-GWs" firstAttribute="width" secondItem="XZB-zB-Ysb" secondAttribute="width" multiplier="0.5" constant="1" id="rnO-cW-eEH"/>
@@ -1293,12 +1348,14 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
                                                                             <constraint firstItem="gti-Ck-SAe" firstAttribute="height" secondItem="Ey1-sO-TKV" secondAttribute="height" multiplier="0.5" id="Aaq-e5-PTV"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gti-Ck-SAe" secondAttribute="trailing" constant="20" symbolic="YES" id="ApD-E6-aUe"/>
                                                                             <constraint firstItem="BHI-6J-JCJ" firstAttribute="width" secondItem="Ey1-sO-TKV" secondAttribute="width" multiplier="0.5" constant="1" id="J6Q-5e-qfI"/>
                                                                             <constraint firstAttribute="bottom" secondItem="BHI-6J-JCJ" secondAttribute="bottom" id="Pi7-M9-4K2"/>
                                                                             <constraint firstItem="bb8-v2-rz6" firstAttribute="leading" secondItem="Ey1-sO-TKV" secondAttribute="leading" id="Tj0-N1-dYW"/>
                                                                             <constraint firstItem="bb8-v2-rz6" firstAttribute="height" secondItem="Ey1-sO-TKV" secondAttribute="height" multiplier="0.5" constant="1" id="V9g-Ob-FA1"/>
                                                                             <constraint firstItem="BHI-6J-JCJ" firstAttribute="top" secondItem="Ey1-sO-TKV" secondAttribute="top" constant="-6" id="XLb-Kp-qAK"/>
                                                                             <constraint firstAttribute="bottom" secondItem="gti-Ck-SAe" secondAttribute="bottom" id="a8h-e3-VGK"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bb8-v2-rz6" secondAttribute="trailing" constant="20" symbolic="YES" id="b9R-ko-jJm"/>
                                                                             <constraint firstItem="gti-Ck-SAe" firstAttribute="leading" secondItem="Ey1-sO-TKV" secondAttribute="leading" id="cS6-dB-opw"/>
                                                                             <constraint firstAttribute="trailing" secondItem="BHI-6J-JCJ" secondAttribute="trailing" id="uF7-mN-Wlp"/>
                                                                             <constraint firstItem="bb8-v2-rz6" firstAttribute="top" secondItem="Ey1-sO-TKV" secondAttribute="top" id="wfw-hd-242"/>
@@ -1332,6 +1389,8 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                             <constraint firstItem="uad-ub-tar" firstAttribute="height" secondItem="kad-Dp-BBI" secondAttribute="height" multiplier="0.5" constant="1" id="01g-Fn-dld"/>
                                                                             <constraint firstItem="eGr-eg-Igz" firstAttribute="top" secondItem="kad-Dp-BBI" secondAttribute="top" constant="-6" id="9Dx-jJ-fcR"/>
                                                                             <constraint firstItem="eGr-eg-Igz" firstAttribute="width" secondItem="kad-Dp-BBI" secondAttribute="width" multiplier="0.5" constant="1" id="F17-3o-Non"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1YW-Z4-3ho" secondAttribute="trailing" constant="20" symbolic="YES" id="FIN-m8-Csw"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="uad-ub-tar" secondAttribute="trailing" constant="20" symbolic="YES" id="Gyu-Fi-r8N"/>
                                                                             <constraint firstAttribute="trailing" secondItem="eGr-eg-Igz" secondAttribute="trailing" id="Hi1-MN-Yb1"/>
                                                                             <constraint firstItem="uad-ub-tar" firstAttribute="leading" secondItem="kad-Dp-BBI" secondAttribute="leading" id="OeN-MN-BeE"/>
                                                                             <constraint firstItem="1YW-Z4-3ho" firstAttribute="leading" secondItem="kad-Dp-BBI" secondAttribute="leading" id="T0v-ck-jnE"/>
@@ -1371,7 +1430,9 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                             <constraint firstItem="OvT-jj-kza" firstAttribute="top" secondItem="GnX-oO-S21" secondAttribute="top" constant="-6" id="CSQ-YD-re7"/>
                                                                             <constraint firstItem="P6A-93-Dkf" firstAttribute="top" secondItem="GnX-oO-S21" secondAttribute="top" id="GP9-eA-U5Q"/>
                                                                             <constraint firstItem="Nis-Up-hb1" firstAttribute="height" secondItem="GnX-oO-S21" secondAttribute="height" multiplier="0.5" id="NXh-JP-WEt"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Nis-Up-hb1" secondAttribute="trailing" constant="20" symbolic="YES" id="O4p-Io-lVJ"/>
                                                                             <constraint firstAttribute="trailing" secondItem="OvT-jj-kza" secondAttribute="trailing" id="Qw2-10-0Qm"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="P6A-93-Dkf" secondAttribute="trailing" constant="20" symbolic="YES" id="Uly-tJ-wsw"/>
                                                                             <constraint firstItem="P6A-93-Dkf" firstAttribute="height" secondItem="GnX-oO-S21" secondAttribute="height" multiplier="0.5" constant="1" id="VUU-5K-70H"/>
                                                                             <constraint firstAttribute="bottom" secondItem="Nis-Up-hb1" secondAttribute="bottom" id="nSv-FJ-zi6"/>
                                                                             <constraint firstItem="OvT-jj-kza" firstAttribute="width" secondItem="GnX-oO-S21" secondAttribute="width" multiplier="0.5" constant="1" id="pVK-lt-pp3"/>
@@ -1403,7 +1464,9 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </subviews>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                         <constraints>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3ce-Br-0jn" secondAttribute="trailing" constant="20" symbolic="YES" id="26H-lP-GnE"/>
                                                                             <constraint firstItem="vrc-lW-Tyw" firstAttribute="leading" secondItem="aNo-P6-SW5" secondAttribute="leading" id="JVk-yo-Tt3"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vrc-lW-Tyw" secondAttribute="trailing" constant="20" symbolic="YES" id="NYw-g4-xOC"/>
                                                                             <constraint firstAttribute="bottom" secondItem="3ce-Br-0jn" secondAttribute="bottom" id="SOj-D6-Tsx"/>
                                                                             <constraint firstItem="3ce-Br-0jn" firstAttribute="height" secondItem="aNo-P6-SW5" secondAttribute="height" multiplier="0.5" id="UMM-aY-hwT"/>
                                                                             <constraint firstAttribute="trailing" secondItem="tWn-he-d6m" secondAttribute="trailing" id="XfD-xc-j4j"/>
@@ -1446,7 +1509,9 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                             <constraint firstAttribute="bottom" secondItem="FZt-d8-IrA" secondAttribute="bottom" id="GDp-Q4-tgL"/>
                                                                             <constraint firstAttribute="trailing" secondItem="FZt-d8-IrA" secondAttribute="trailing" id="R2o-hL-Sio"/>
                                                                             <constraint firstItem="7Oa-xG-FIr" firstAttribute="leading" secondItem="7XQ-tO-viR" secondAttribute="leading" id="UDB-Ub-hqs"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7Oa-xG-FIr" secondAttribute="trailing" constant="20" symbolic="YES" id="YBF-Le-Ee3"/>
                                                                             <constraint firstItem="7Oa-xG-FIr" firstAttribute="height" secondItem="7XQ-tO-viR" secondAttribute="height" multiplier="0.5" constant="1" id="aYh-XY-6BR"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qm5-3S-7k0" secondAttribute="trailing" constant="20" symbolic="YES" id="fvc-qm-Ook"/>
                                                                             <constraint firstItem="7Oa-xG-FIr" firstAttribute="top" secondItem="7XQ-tO-viR" secondAttribute="top" id="k9H-eT-CHP"/>
                                                                             <constraint firstItem="qm5-3S-7k0" firstAttribute="height" secondItem="7XQ-tO-viR" secondAttribute="height" multiplier="0.5" id="qFe-Li-TjV"/>
                                                                             <constraint firstItem="FZt-d8-IrA" firstAttribute="width" secondItem="7XQ-tO-viR" secondAttribute="width" multiplier="0.5" constant="1" id="w8x-ga-7vC"/>
@@ -1479,6 +1544,8 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <constraints>
                                                                             <constraint firstAttribute="trailing" secondItem="opW-w8-XcH" secondAttribute="trailing" id="4iy-85-fBx"/>
                                                                             <constraint firstItem="zUQ-dk-XAZ" firstAttribute="top" secondItem="HRt-TQ-HaF" secondAttribute="top" id="9Oz-Qe-TjO"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zUQ-dk-XAZ" secondAttribute="trailing" constant="20" symbolic="YES" id="CK8-OM-7vC"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="uj0-8q-xYf" secondAttribute="trailing" constant="20" symbolic="YES" id="Fh0-9n-OZH"/>
                                                                             <constraint firstAttribute="bottom" secondItem="uj0-8q-xYf" secondAttribute="bottom" id="JzC-Cj-zlR"/>
                                                                             <constraint firstItem="zUQ-dk-XAZ" firstAttribute="leading" secondItem="HRt-TQ-HaF" secondAttribute="leading" id="RNT-RQ-rOu"/>
                                                                             <constraint firstItem="opW-w8-XcH" firstAttribute="width" secondItem="HRt-TQ-HaF" secondAttribute="width" multiplier="0.5" constant="1" id="WHd-m4-9Rq"/>
@@ -1521,7 +1588,9 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                             <constraint firstItem="d6m-mp-1lA" firstAttribute="top" secondItem="kEP-z1-lrL" secondAttribute="top" constant="-6" id="Aa8-aP-bTo"/>
                                                                             <constraint firstItem="p8B-VR-KSR" firstAttribute="leading" secondItem="kEP-z1-lrL" secondAttribute="leading" id="Aqq-Ib-dz0"/>
                                                                             <constraint firstAttribute="bottom" secondItem="p8B-VR-KSR" secondAttribute="bottom" id="F7t-Sf-nla"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="p8B-VR-KSR" secondAttribute="trailing" constant="20" symbolic="YES" id="azr-rc-54R"/>
                                                                             <constraint firstItem="d6m-mp-1lA" firstAttribute="width" secondItem="kEP-z1-lrL" secondAttribute="width" multiplier="0.5" constant="1" id="hcp-ds-a1v"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="e21-bL-sF3" secondAttribute="trailing" constant="20" symbolic="YES" id="ppx-QP-6BY"/>
                                                                             <constraint firstItem="p8B-VR-KSR" firstAttribute="height" secondItem="kEP-z1-lrL" secondAttribute="height" multiplier="0.5" id="sZL-kX-zjZ"/>
                                                                             <constraint firstAttribute="trailing" secondItem="d6m-mp-1lA" secondAttribute="trailing" id="wOj-0Y-CZI"/>
                                                                         </constraints>
@@ -1553,7 +1622,9 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         <constraints>
                                                                             <constraint firstItem="ie5-3y-qKQ" firstAttribute="top" secondItem="nao-25-mqz" secondAttribute="top" id="482-6d-Vqo"/>
                                                                             <constraint firstItem="6Ji-IE-rg2" firstAttribute="height" secondItem="nao-25-mqz" secondAttribute="height" multiplier="0.5" id="Ezc-Jh-xXX"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ie5-3y-qKQ" secondAttribute="trailing" constant="20" symbolic="YES" id="H8P-tp-0QJ"/>
                                                                             <constraint firstAttribute="bottom" secondItem="6Ji-IE-rg2" secondAttribute="bottom" id="NCP-KX-htW"/>
+                                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6Ji-IE-rg2" secondAttribute="trailing" constant="20" symbolic="YES" id="Vbd-4z-lnP"/>
                                                                             <constraint firstItem="ie5-3y-qKQ" firstAttribute="leading" secondItem="nao-25-mqz" secondAttribute="leading" id="W1f-27-ei6"/>
                                                                             <constraint firstAttribute="trailing" secondItem="LZI-za-Lc6" secondAttribute="trailing" id="a2y-Hm-Kup"/>
                                                                             <constraint firstItem="LZI-za-Lc6" firstAttribute="width" secondItem="nao-25-mqz" secondAttribute="width" multiplier="0.5" constant="1" id="bQ2-hL-qfv"/>
@@ -2596,14 +2667,14 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AuC-FT-Wzz">
-                                                <rect key="frame" x="0.0" y="427.5" width="375" height="52"/>
+                                                <rect key="frame" x="0.0" y="428.5" width="375" height="52"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="52" id="xUA-sH-NS4"/>
                                                 </constraints>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKa-ly-2xR">
-                                                <rect key="frame" x="0.0" y="430" width="375" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKa-ly-2xR">
+                                                <rect key="frame" x="0.0" y="429" width="375" height="50"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="e4Y-9n-hLG"/>
@@ -2613,7 +2684,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="vLG-1e-YQn" kind="show" id="RVb-VA-3CS"/>
+                                                    <segue destination="QQA-7g-UMO" kind="show" id="Y5r-Gd-tKx"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2A-vs-aKf">
@@ -4135,62 +4206,87 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To/From Shanghai:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glp-My-dez">
-                                <rect key="frame" x="16" y="16" width="343" height="25"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airport Transfers:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJ4-BZ-9SQ">
-                                <rect key="frame" x="16" y="247" width="343" height="24"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBH-uw-2HC">
-                                <rect key="frame" x="16" y="41" width="343" height="190"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="190" id="bI9-wX-hWA"/>
-                                </constraints>
-                                <string key="text">Shanghai is served by two international airports with daily flights from many Chinese cities, most Asian capitals and many other American and European destinations. Shanghai is also a major hub for China’s high-speed rail network, with efficient service from Beijing, Hong Kong and many other cities.
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WIo-Mn-v0n">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lsG-4s-HHR">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="602"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To/From Shanghai:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glp-My-dez">
+                                                <rect key="frame" x="16" y="16" width="343" height="25"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBH-uw-2HC">
+                                                <rect key="frame" x="16" y="41" width="343" height="150"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="bI9-wX-hWA"/>
+                                                </constraints>
+                                                <string key="text">Shanghai is served by two international airports with daily flights from many Chinese cities, most Asian capitals and many other American and European destinations. Shanghai is also a major hub for China’s high-speed rail network, with efficient service from Beijing, Hong Kong and many other cities.
 Schools are expected to make their own travel arrangements, but please feel free to contact us if you require assistance in obtaining the necessary entrance visas.</string>
-                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GjC-Nf-zoc">
-                                <rect key="frame" x="16" y="271" width="343" height="225"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="225" id="12C-oK-J5a"/>
-                                </constraints>
-                                <string key="text">The CISSMUN administrative staff will arrange a bus transfer (on arrival and/or departure) from Pudong or Hongqiao airport, or from any of the Shanghai Railway stations, for any school that requires it. Please fill out the Arrival/Departure form (available at https://www.cissmun.org/arrivaldeparture-form/) to communicate your numbers and specific travel details.
+                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airport Transfers:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJ4-BZ-9SQ">
+                                                <rect key="frame" x="16" y="207" width="343" height="24"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GjC-Nf-zoc">
+                                                <rect key="frame" x="16" y="231" width="343" height="225"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="225" id="12C-oK-J5a"/>
+                                                </constraints>
+                                                <string key="text">The CISSMUN administrative staff will arrange a bus transfer (on arrival and/or departure) from Pudong or Hongqiao airport, or from any of the Shanghai Railway stations, for any school that requires it. Please fill out the Arrival/Departure form (available at https://www.cissmun.org/arrivaldeparture-form/) to communicate your numbers and specific travel details.
 The cost of buses to and from the airport/train station will be borne by the visiting schools, and will be included with the conference registration fees on your school’s CISSMUN invoice. That cost is RMB 900.00 or USD 130.00 each way.</string>
-                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                            </textView>
+                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.96078431369999995" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="gBH-uw-2HC" secondAttribute="trailing" constant="16" id="0bd-aK-LYA"/>
+                                            <constraint firstItem="wJ4-BZ-9SQ" firstAttribute="top" secondItem="gBH-uw-2HC" secondAttribute="bottom" constant="16" id="5zY-O1-5dB"/>
+                                            <constraint firstItem="gBH-uw-2HC" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="Dll-o1-8ri"/>
+                                            <constraint firstItem="wJ4-BZ-9SQ" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="HT0-hD-8jb"/>
+                                            <constraint firstItem="gBH-uw-2HC" firstAttribute="top" secondItem="glp-My-dez" secondAttribute="bottom" id="MV6-uh-8Fm"/>
+                                            <constraint firstItem="glp-My-dez" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="Mnb-Wj-eDn"/>
+                                            <constraint firstAttribute="trailing" secondItem="GjC-Nf-zoc" secondAttribute="trailing" constant="16" id="Zcf-z5-ijJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="wJ4-BZ-9SQ" secondAttribute="trailing" constant="16" id="ep0-bK-dGj"/>
+                                            <constraint firstItem="GjC-Nf-zoc" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="mHn-W8-8JY"/>
+                                            <constraint firstAttribute="height" constant="602" id="oxo-Rb-Agn"/>
+                                            <constraint firstItem="glp-My-dez" firstAttribute="top" secondItem="lsG-4s-HHR" secondAttribute="top" constant="16" id="sOL-ip-DJx"/>
+                                            <constraint firstAttribute="trailing" secondItem="glp-My-dez" secondAttribute="trailing" constant="16" id="sxe-KD-cIH"/>
+                                            <constraint firstItem="GjC-Nf-zoc" firstAttribute="top" secondItem="wJ4-BZ-9SQ" secondAttribute="bottom" id="ufP-2j-aq1"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="lsG-4s-HHR" secondAttribute="bottom" id="IpC-iX-7Nf"/>
+                                    <constraint firstItem="lsG-4s-HHR" firstAttribute="top" secondItem="WIo-Mn-v0n" secondAttribute="top" id="sug-j8-d3f"/>
+                                    <constraint firstAttribute="trailing" secondItem="lsG-4s-HHR" secondAttribute="trailing" id="uIC-cl-hme"/>
+                                    <constraint firstItem="lsG-4s-HHR" firstAttribute="leading" secondItem="WIo-Mn-v0n" secondAttribute="leading" id="wpd-JT-QiD"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="gBH-uw-2HC" firstAttribute="top" secondItem="glp-My-dez" secondAttribute="bottom" id="CPP-IW-0Jy"/>
-                            <constraint firstItem="GjC-Nf-zoc" firstAttribute="trailing" secondItem="7yA-qk-FWT" secondAttribute="trailingMargin" id="F9I-1w-GU4"/>
-                            <constraint firstItem="wJ4-BZ-9SQ" firstAttribute="top" secondItem="gBH-uw-2HC" secondAttribute="bottom" constant="16" id="LP0-bb-q8d"/>
-                            <constraint firstItem="GjC-Nf-zoc" firstAttribute="leading" secondItem="7yA-qk-FWT" secondAttribute="leadingMargin" id="MOS-Qc-ucb"/>
-                            <constraint firstItem="wJ4-BZ-9SQ" firstAttribute="trailing" secondItem="7yA-qk-FWT" secondAttribute="trailingMargin" id="SQq-dw-kHo"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="glp-My-dez" secondAttribute="trailing" id="Xw2-kg-lBI"/>
-                            <constraint firstItem="glp-My-dez" firstAttribute="leading" secondItem="7yA-qk-FWT" secondAttribute="leadingMargin" id="fpP-QF-56s"/>
-                            <constraint firstItem="glp-My-dez" firstAttribute="top" secondItem="Gch-s5-dof" secondAttribute="bottom" constant="16" id="hmG-bB-3Ua"/>
-                            <constraint firstItem="gBH-uw-2HC" firstAttribute="leading" secondItem="7yA-qk-FWT" secondAttribute="leadingMargin" id="i7i-bS-ezy"/>
-                            <constraint firstItem="wJ4-BZ-9SQ" firstAttribute="leading" secondItem="7yA-qk-FWT" secondAttribute="leadingMargin" id="nk1-2m-Bte"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gBH-uw-2HC" secondAttribute="trailing" id="peX-EG-LBU"/>
-                            <constraint firstItem="GjC-Nf-zoc" firstAttribute="top" secondItem="wJ4-BZ-9SQ" secondAttribute="bottom" id="ysT-xx-wHm"/>
+                            <constraint firstItem="WIo-Mn-v0n" firstAttribute="leading" secondItem="7yA-qk-FWT" secondAttribute="leading" id="53D-YX-LoU"/>
+                            <constraint firstItem="WIo-Mn-v0n" firstAttribute="top" secondItem="7yA-qk-FWT" secondAttribute="top" id="8i4-V7-PgW"/>
+                            <constraint firstAttribute="trailing" secondItem="WIo-Mn-v0n" secondAttribute="trailing" id="idk-Js-TiE"/>
+                            <constraint firstItem="lsG-4s-HHR" firstAttribute="width" secondItem="7yA-qk-FWT" secondAttribute="width" id="oHv-KY-EIG"/>
+                            <constraint firstAttribute="bottom" secondItem="WIo-Mn-v0n" secondAttribute="bottom" id="st7-kg-xs2"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l0Y-dW-AKY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4409" y="1159"/>
+            <point key="canvasLocation" x="4254" y="1159"/>
         </scene>
         <!--Dining-->
         <scene sceneID="yVm-Up-7gX">
@@ -6163,75 +6259,6 @@ The cost of buses to and from the airport/train station will be borne by the vis
             </objects>
             <point key="canvasLocation" x="-4693" y="-631"/>
         </scene>
-        <!--Transportation-->
-        <scene sceneID="4RA-41-cb5">
-            <objects>
-                <viewController title="Transportation" id="vLG-1e-YQn" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="PMC-gf-Jkz"/>
-                        <viewControllerLayoutGuide type="bottom" id="7vc-Gw-SkG"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fpi-J7-CPS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To/From Shanghai:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVX-uY-8w8">
-                                <rect key="frame" x="16" y="16" width="343" height="25"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airport Transfers:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0p-Jr-I1b">
-                                <rect key="frame" x="16" y="247" width="343" height="24"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xk-f1-tQj">
-                                <rect key="frame" x="16" y="41" width="343" height="190"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="190" id="gnw-Ot-hZg"/>
-                                </constraints>
-                                <string key="text">Shanghai is served by two international airports with daily flights from many Chinese cities, most Asian capitals and many other American and European destinations. Shanghai is also a major hub for China’s high-speed rail network, with efficient service from Beijing, Hong Kong and many other cities.
-Schools are expected to make their own travel arrangements, but please feel free to contact us if you require assistance in obtaining the necessary entrance visas.</string>
-                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h62-Qf-6LV">
-                                <rect key="frame" x="16" y="271" width="343" height="225"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="225" id="Zg4-Vq-7rn"/>
-                                </constraints>
-                                <string key="text">The CISSMUN administrative staff will arrange a bus transfer (on arrival and/or departure) from Pudong or Hongqiao airport, or from any of the Shanghai Railway stations, for any school that requires it. Please fill out the Arrival/Departure form (available at https://www.cissmun.org/arrivaldeparture-form/) to communicate your numbers and specific travel details.
-The cost of buses to and from the airport/train station will be borne by the visiting schools, and will be included with the conference registration fees on your school’s CISSMUN invoice. That cost is RMB 900.00 or USD 130.00 each way.</string>
-                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="h62-Qf-6LV" firstAttribute="leading" secondItem="fpi-J7-CPS" secondAttribute="leadingMargin" id="6uA-OL-hKc"/>
-                            <constraint firstItem="NVX-uY-8w8" firstAttribute="top" secondItem="PMC-gf-Jkz" secondAttribute="bottom" constant="16" id="CRa-fD-ijl"/>
-                            <constraint firstItem="h62-Qf-6LV" firstAttribute="top" secondItem="q0p-Jr-I1b" secondAttribute="bottom" id="Dvn-lz-0ul"/>
-                            <constraint firstItem="NVX-uY-8w8" firstAttribute="leading" secondItem="fpi-J7-CPS" secondAttribute="leadingMargin" id="I4Q-IA-FrU"/>
-                            <constraint firstItem="q0p-Jr-I1b" firstAttribute="trailing" secondItem="fpi-J7-CPS" secondAttribute="trailingMargin" id="K7m-Nf-tjU"/>
-                            <constraint firstItem="q0p-Jr-I1b" firstAttribute="top" secondItem="0xk-f1-tQj" secondAttribute="bottom" constant="16" id="LxV-ru-Ajq"/>
-                            <constraint firstItem="0xk-f1-tQj" firstAttribute="leading" secondItem="fpi-J7-CPS" secondAttribute="leadingMargin" id="Qjk-a2-JVs"/>
-                            <constraint firstItem="h62-Qf-6LV" firstAttribute="trailing" secondItem="fpi-J7-CPS" secondAttribute="trailingMargin" id="WDk-hV-1IV"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="0xk-f1-tQj" secondAttribute="trailing" id="bD4-hf-jGq"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="NVX-uY-8w8" secondAttribute="trailing" id="g9f-1q-WiO"/>
-                            <constraint firstItem="0xk-f1-tQj" firstAttribute="top" secondItem="NVX-uY-8w8" secondAttribute="bottom" id="uxR-Cs-Gxf"/>
-                            <constraint firstItem="q0p-Jr-I1b" firstAttribute="leading" secondItem="fpi-J7-CPS" secondAttribute="leadingMargin" id="zUn-XS-nso"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sO6-58-UiW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="900" y="-414"/>
-        </scene>
         <!--Contact-->
         <scene sceneID="kBC-2i-NwW">
             <objects>
@@ -7197,6 +7224,100 @@ The cost of buses to and from the airport/train station will be borne by the vis
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hip-Kc-LfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1443" y="2375"/>
+        </scene>
+        <!--Transportation-->
+        <scene sceneID="TfR-6a-Sen">
+            <objects>
+                <viewController title="Transportation" id="QQA-7g-UMO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oZR-P8-p49"/>
+                        <viewControllerLayoutGuide type="bottom" id="qwB-yw-jzG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V1V-fK-srl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6b8-xS-8tN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BAv-uX-qF0">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="602"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To/From Shanghai:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMJ-fy-GTb">
+                                                <rect key="frame" x="16" y="16" width="343" height="25"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTA-Sr-JUX">
+                                                <rect key="frame" x="16" y="41" width="343" height="150"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="Bh4-aq-Jwo"/>
+                                                </constraints>
+                                                <string key="text">Shanghai is served by two international airports with daily flights from many Chinese cities, most Asian capitals and many other American and European destinations. Shanghai is also a major hub for China’s high-speed rail network, with efficient service from Beijing, Hong Kong and many other cities.
+Schools are expected to make their own travel arrangements, but please feel free to contact us if you require assistance in obtaining the necessary entrance visas.</string>
+                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airport Transfers:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZd-Mb-Bsk">
+                                                <rect key="frame" x="16" y="207" width="343" height="24"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9nJ-5v-2Wy">
+                                                <rect key="frame" x="16" y="231" width="343" height="225"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="225" id="6IN-pL-Z4k"/>
+                                                </constraints>
+                                                <string key="text">The CISSMUN administrative staff will arrange a bus transfer (on arrival and/or departure) from Pudong or Hongqiao airport, or from any of the Shanghai Railway stations, for any school that requires it. Please fill out the Arrival/Departure form (available at https://www.cissmun.org/arrivaldeparture-form/) to communicate your numbers and specific travel details.
+The cost of buses to and from the airport/train station will be borne by the visiting schools, and will be included with the conference registration fees on your school’s CISSMUN invoice. That cost is RMB 900.00 or USD 130.00 each way.</string>
+                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.97254901959999995" green="0.96078431369999995" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="dZd-Mb-Bsk" firstAttribute="leading" secondItem="BAv-uX-qF0" secondAttribute="leading" constant="16" id="2oT-ZH-GZF"/>
+                                            <constraint firstItem="RTA-Sr-JUX" firstAttribute="leading" secondItem="BAv-uX-qF0" secondAttribute="leading" constant="16" id="6by-dK-3Fj"/>
+                                            <constraint firstItem="9nJ-5v-2Wy" firstAttribute="top" secondItem="dZd-Mb-Bsk" secondAttribute="bottom" id="8o1-Hg-TfM"/>
+                                            <constraint firstAttribute="trailing" secondItem="FMJ-fy-GTb" secondAttribute="trailing" constant="16" id="9MP-PA-3bh"/>
+                                            <constraint firstAttribute="trailing" secondItem="9nJ-5v-2Wy" secondAttribute="trailing" constant="16" id="FGc-hC-d2k"/>
+                                            <constraint firstAttribute="trailing" secondItem="dZd-Mb-Bsk" secondAttribute="trailing" constant="16" id="QNh-SN-zJv"/>
+                                            <constraint firstAttribute="trailing" secondItem="RTA-Sr-JUX" secondAttribute="trailing" constant="16" id="Yfa-gW-dnC"/>
+                                            <constraint firstAttribute="height" constant="602" id="Yx5-XP-dIy"/>
+                                            <constraint firstItem="FMJ-fy-GTb" firstAttribute="top" secondItem="BAv-uX-qF0" secondAttribute="top" constant="16" id="dpl-lD-vea"/>
+                                            <constraint firstItem="dZd-Mb-Bsk" firstAttribute="top" secondItem="RTA-Sr-JUX" secondAttribute="bottom" constant="16" id="gwb-zH-Gdv"/>
+                                            <constraint firstItem="FMJ-fy-GTb" firstAttribute="leading" secondItem="BAv-uX-qF0" secondAttribute="leading" constant="16" id="h4Q-d0-62G"/>
+                                            <constraint firstItem="9nJ-5v-2Wy" firstAttribute="leading" secondItem="BAv-uX-qF0" secondAttribute="leading" constant="16" id="ipQ-Wl-NIU"/>
+                                            <constraint firstItem="RTA-Sr-JUX" firstAttribute="top" secondItem="FMJ-fy-GTb" secondAttribute="bottom" id="lvD-9c-qZa"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="BAv-uX-qF0" secondAttribute="bottom" id="3lV-rq-L5z"/>
+                                    <constraint firstItem="BAv-uX-qF0" firstAttribute="top" secondItem="6b8-xS-8tN" secondAttribute="top" id="GqV-bR-qOe"/>
+                                    <constraint firstAttribute="trailing" secondItem="BAv-uX-qF0" secondAttribute="trailing" id="sUg-F7-kZN"/>
+                                    <constraint firstItem="BAv-uX-qF0" firstAttribute="leading" secondItem="6b8-xS-8tN" secondAttribute="leading" id="yjx-3U-mRB"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6b8-xS-8tN" firstAttribute="leading" secondItem="V1V-fK-srl" secondAttribute="leading" id="2CO-7X-r6V"/>
+                            <constraint firstAttribute="trailing" secondItem="6b8-xS-8tN" secondAttribute="trailing" id="JH8-kF-bIY"/>
+                            <constraint firstAttribute="bottom" secondItem="6b8-xS-8tN" secondAttribute="bottom" id="fxn-9X-Jbi"/>
+                            <constraint firstItem="6b8-xS-8tN" firstAttribute="top" secondItem="V1V-fK-srl" secondAttribute="top" id="hY8-qe-9az"/>
+                            <constraint firstItem="BAv-uX-qF0" firstAttribute="width" secondItem="V1V-fK-srl" secondAttribute="width" id="i40-YP-Kel"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DOU-LM-A1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="729" y="-349"/>
         </scene>
     </scenes>
     <resources>

@@ -1096,7 +1096,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qMr-4f-uLX">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="2250"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gin" translatesAutoresizingMaskIntoConstraints="NO" id="Pc8-vZ-wcN">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="keynote" translatesAutoresizingMaskIntoConstraints="NO" id="Pc8-vZ-wcN">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KEYNOTE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAd-dq-ci0">
@@ -1679,6 +1679,7 @@
         <image name="icons8-Presentation Filled " width="25" height="25"/>
         <image name="icons8-Schedule " width="25" height="25"/>
         <image name="icons8-Schedule Filled " width="25" height="25"/>
+        <image name="keynote" width="1024" height="682"/>
         <image name="lavender_leeanne" width="121" height="121"/>
     </resources>
 </document>
