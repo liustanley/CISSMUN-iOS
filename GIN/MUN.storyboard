@@ -1554,15 +1554,15 @@
                                                             <constraint firstAttribute="width" secondItem="cdu-bQ-ffa" secondAttribute="height" multiplier="1:1" id="xmX-2o-WIP"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="752" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="M6m-T6-vAt">
-                                                        <rect key="frame" x="11.999999999999986" y="76" width="249.66666666666663" height="109.33333333333331"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="752" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="M6m-T6-vAt">
+                                                        <rect key="frame" x="11.999999999999986" y="76" width="249.66666666666663" height="102.66666666666669"/>
                                                         <string key="text">It is both an honor and a privilege to welcome you to the ninth annual session of Concordia International School Shanghai Model United Nations.</string>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="QjF-VW-z2R">
-                                                        <rect key="frame" x="12" y="193.33333333333331" width="366" height="194.66666666666669"/>
+                                                        <rect key="frame" x="12" y="186.66666666666669" width="366" height="201.33333333333331"/>
                                                         <string key="text">Whatever role you will play in this year’s event, whether chair, judge, delegate, member of the press team or anything else, I hope that the conference will leave you with a heightened understanding of the social and political challenges confronting the international community, and that you will come away more practiced in the arts of public speaking, negotiation and compromise. I look forward to your active participation in the ninth annual session of CISSMUN, and I wish you every success.</string>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
@@ -1616,14 +1616,14 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="oq5-0F-McL" userLabel="KHeader">
-                                                        <rect key="frame" x="11.999999999999986" y="76" width="233.66666666666663" height="109.33333333333331"/>
+                                                        <rect key="frame" x="11.999999999999986" y="76" width="233.66666666666663" height="102.66666666666669"/>
                                                         <string key="text">I am currently in 11th grade and I am passionate about leading a sustainable life and making choices that benefit the environment.</string>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="YoG-jp-dNg">
-                                                        <rect key="frame" x="12" y="185.33333333333337" width="366" height="147.66666666666663"/>
+                                                        <rect key="frame" x="12" y="178.66666666666663" width="366" height="154.33333333333337"/>
                                                         <string key="text">I have been in GIN for 4 years and have led it for 2 years now.  This year’s conference theme, “A Place to Stand,” resonates with me a lot because of personal experiences and beliefs. However, I know everybody has a different interpretation of this theme, so where do you stand in this world? I hope you discover answers to this question as you listen to the amazing keynote speakers and changemaker panels!</string>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
