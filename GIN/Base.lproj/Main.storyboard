@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -56,7 +56,7 @@
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="124" id="tDq-QI-MDY"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stanley Liu, Edward Huang, Tanya Lai, and Katrina Tsang" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNT-PI-vQl">
@@ -236,7 +236,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
         <!--Acknowledgements-->
         <scene sceneID="wrB-IZ-FFy">
             <objects>
-                <viewController title="Acknowledgements" id="3f4-IS-hGE" sceneMemberID="viewController">
+                <viewController title="Acknowledgements" id="3f4-IS-hGE" customClass="AcknowledgementsViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lMB-rP-Wmn"/>
                         <viewControllerLayoutGuide type="bottom" id="ptD-oa-uHf"/>
@@ -273,6 +273,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="Bund:" destination="3f4-IS-hGE" eventType="touchUpInside" id="Bzd-be-dkL"/>
                                     <action selector="Bund:" destination="ccF-0d-WmF" eventType="touchUpInside" id="Dva-ex-Ce9"/>
                                     <action selector="Button1:" destination="ccF-0d-WmF" eventType="touchUpInside" id="2EE-MU-Yst"/>
                                 </connections>
@@ -299,6 +300,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                 </state>
                                 <connections>
                                     <action selector="Button1:" destination="ccF-0d-WmF" eventType="touchUpInside" id="TVL-Q3-nbs"/>
+                                    <action selector="YuGarden:" destination="3f4-IS-hGE" eventType="touchUpInside" id="6bm-bu-2Cy"/>
                                     <action selector="YuGarden:" destination="ccF-0d-WmF" eventType="touchUpInside" id="X21-Ms-5cn"/>
                                 </connections>
                             </button>
@@ -326,6 +328,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                 </state>
                                 <connections>
                                     <action selector="Button1:" destination="ccF-0d-WmF" eventType="touchUpInside" id="NBY-Zd-NiM"/>
+                                    <action selector="Disney:" destination="3f4-IS-hGE" eventType="touchUpInside" id="Xl0-u5-uJ4"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alexander Synaptic - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTM-W2-XWo">
@@ -354,6 +357,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                 </state>
                                 <connections>
                                     <action selector="Button1:" destination="ccF-0d-WmF" eventType="touchUpInside" id="XdS-6C-fFE"/>
+                                    <action selector="JinganTemple:" destination="3f4-IS-hGE" eventType="touchUpInside" id="XeY-GY-rhW"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mikeric - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oti-t5-fZu">
@@ -384,6 +388,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                 </state>
                                 <connections>
                                     <action selector="Button1:" destination="ccF-0d-WmF" eventType="touchUpInside" id="n7G-FS-XF7"/>
+                                    <action selector="PearlTower:" destination="3f4-IS-hGE" eventType="touchUpInside" id="2ul-lc-oHx"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wang Xi - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHV-yq-FA5">
@@ -416,6 +421,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                 </state>
                                 <connections>
                                     <action selector="Button1:" destination="ccF-0d-WmF" eventType="touchUpInside" id="4ch-0T-xx8"/>
+                                    <action selector="ShanghaiTower:" destination="3f4-IS-hGE" eventType="touchUpInside" id="W8Y-zL-Rlv"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Icons:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FyS-r3-fSM">
@@ -1880,6 +1886,12 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Concordia Campus Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opS-r0-Vh4">
+                                <rect key="frame" x="24" y="24" width="327" height="33"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="4" translatesAutoresizingMaskIntoConstraints="NO" id="Kue-cV-4iS">
                                 <rect key="frame" x="0.5" y="128" width="375" height="450"/>
                                 <subviews>
@@ -1998,12 +2010,6 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                     <constraint firstItem="Uo2-tJ-3pP" firstAttribute="leading" secondItem="0yN-ay-cqc" secondAttribute="leading" id="rVr-If-ggX"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Concordia Campus Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opS-r0-Vh4">
-                                <rect key="frame" x="24" y="24" width="327" height="33"/>
-                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.94901960784313721" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
