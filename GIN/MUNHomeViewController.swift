@@ -14,7 +14,7 @@ class MUNHomeViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var scrollView: UIScrollView!
     
     let appVersion = 1.0
-    var updatedVersion = 1.0
+    var updatedVersion: Double = 0.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class MUNHomeViewController: UIViewController, UIScrollViewDelegate {
     }
     
     func getVersion() {
-        if let url = URL(string: "http://humanstxt.org/humans.txt") {
+        if let url = URL(string: "https://phantomore.com/appVersion.txt") {
             do {
                 updatedVersion = Double(try String(contentsOf: url, encoding: .utf8))!
                     print(updatedVersion)
@@ -47,7 +47,7 @@ class MUNHomeViewController: UIViewController, UIScrollViewDelegate {
     }
     
     func checkVersion() {
-        //getVersion()
+        getVersion()
         
         if (appVersion != updatedVersion)
         {
