@@ -13,6 +13,10 @@ var images = [ #imageLiteral(resourceName: "HS 1"),#imageLiteral(resourceName: "
 var text = ["1st Floor of the Upper Building","2nd Floor of the Upper Building","3rd Floor of the Upper Building","4th Floor of the Upper Building","5th Floor of the Upper Building","6th Floor of the Upper Building","1st Floor of the Intermediate Building","2nd Floor of the Intermediate Building","1st Floor of the Lower Building","2nd Floor of the Lower Building","3rd Floor of the Lower Building","4th Floor of the Lower Building","1st Floor of the Rittmann","2nd Floor of the Rittmann","3rd Floor of the Rittmann","4th Floor of the Rittmann","1st Floor of the Phoenix Center","2nd Floor of the Phoenix Center","Basement of the Upper Building"] //HS to MS to ES to RT to Phoenix Center  0-18
 var row = ""
 var rowNum = 0
+var numberone = 0
+var justfori = 0
+
+var cells = [UITableViewCell]();
 
 var roro = ["GA4, Wittenberg Hall (H316/H318)", "GA3, PC Lounge",
             "ECOSOC, HS Gym (H115)",
@@ -230,34 +234,51 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
         override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     
         if tableView == resultsController.tableView{
-             let cell = UITableViewCell()
+            //cells.removeAll()
+            let cell = UITableViewCell()
             cell.textLabel?.text = filtered[indexPath.row].roomName
             cell.textLabel?.font = UIFont(name: "Avenir", size: 15)
-
+            //cells.append(cell)
             return cell
         }
         else {
-             let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
+            //cells.removeAll()
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
             cell.textLabel?.text = roomies[indexPath.row].roomName
             cell.textLabel?.font = UIFont(name: "Avenir", size: 15)
+            //cells.append(cell)
             return cell
         }
         
             
     }
+    
     func isFiltering() -> Bool {
         return searchController.isActive
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        
+        justfori = 0
+        
         let indexPath = tableView.indexPathForSelectedRow //optional, to get from any UIButton for example
         
+        //let currentCell = tableView.cellForRow(at: indexPath!) as! UITableViewCell
         let currentCell = tableView.cellForRow(at: indexPath!) as! UITableViewCell
+        //row = currentCell.textLabel!.text!
         
-        row = currentCell.textLabel!.text!
         
-        rowNum =  roro.index(of: row)!
+        while justfori < roomies.count {
+            if( currentCell.textLabel!.text! == roomies[justfori].roomName ) { //Title of room == title of room
+                numberone = justfori                           //rowInt =
+            }
+            justfori += 1
+        }
+        
+       // rowNum = cells.index
+        //rowNum = cells.index(of: currentCell)!
+            
+            //roro.index(of: row)!
     
         if tableView == resultsController.tableView{
             DispatchQueue.main.async {
