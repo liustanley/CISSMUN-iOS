@@ -7,7 +7,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -1742,12 +1741,13 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czk-WX-4aW">
                                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="48.333333333333336"/>
                                                                 <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                                <accessibility key="accessibilityConfiguration" identifier="Cover Page"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                                 <state key="normal" title="   Cover Page">
                                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                                 <connections>
-                                                                    <segue destination="A1k-0N-aha" kind="show" id="YFP-KI-hZb"/>
+                                                                    <action selector="openPDF:" destination="eMz-Fv-PD9" eventType="touchUpInside" id="z4I-me-H1U"/>
                                                                 </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EF-3s-slf">
@@ -2012,130 +2012,6 @@
             </objects>
             <point key="canvasLocation" x="-520" y="-1174"/>
         </scene>
-        <!--Cover Page-->
-        <scene sceneID="2KA-VU-VXc">
-            <objects>
-                <viewController title="Cover Page" id="A1k-0N-aha" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="8aC-1A-flo"/>
-                        <viewControllerLayoutGuide type="bottom" id="Jc2-es-YS7"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="CWh-DK-wZu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VwL-Kt-Qc3">
-                                <rect key="frame" x="36" y="50" width="342" height="1"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1" id="Ono-w3-mJi"/>
-                                </constraints>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CISSMUN Ninth Annual Session" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="o97-1D-C0x">
-                                <rect key="frame" x="36" y="71" width="201" height="46.666666666666657"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Student Officer Manual" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="XX5-wh-0ak">
-                                <rect key="frame" x="36" y="117.66666666666666" width="201" height="70.333333333333343"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparentmun" translatesAutoresizingMaskIntoConstraints="NO" id="cZC-o8-991">
-                                <rect key="frame" x="245" y="67" width="125" height="125"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="1oC-rO-Xp4"/>
-                                    <constraint firstAttribute="height" constant="125" id="dgv-9i-Wcg"/>
-                                </constraints>
-                            </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DMK-ab-GVX">
-                                <rect key="frame" x="32" y="208" width="350" height="1"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1" id="32Y-5R-jtA"/>
-                                </constraints>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adapted from" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMX-BF-5eW">
-                                <rect key="frame" x="166.66666666666666" y="415.66666666666669" width="80.666666666666657" height="16.333333333333314"/>
-                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Fifth Annual Session of The Hague International Model United Nations (THIMUN) Singapore Student Officer Manual" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9S-ow-5be">
-                                <rect key="frame" x="28" y="432" width="358" height="33"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="VZC-wO-LSg"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adapted by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5I5-HL-jGb">
-                                <rect key="frame" x="173" y="490" width="68" height="17"/>
-                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cs1-fO-Hib">
-                                <rect key="frame" x="159" y="507" width="96" height="33"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="TcI-D9-QYL"/>
-                                </constraints>
-                                <string key="text">Hee Su Jang
-Secretary-General</string>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Annual Session of Concordia International School Shanghai Model United Nations (CISSMUN)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwZ-3G-09k">
-                                <rect key="frame" x="28" y="540" width="358" height="33"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="iut-8R-JtD"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.97254901960784312" green="0.96078431372549022" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="VwL-Kt-Qc3" firstAttribute="leading" secondItem="CWh-DK-wZu" secondAttribute="leadingMargin" constant="16" id="0Tz-M5-1qo"/>
-                            <constraint firstItem="DMK-ab-GVX" firstAttribute="leading" secondItem="CWh-DK-wZu" secondAttribute="leading" constant="32" id="3Ea-R3-EZ9"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="VwL-Kt-Qc3" secondAttribute="trailing" constant="16" id="6rC-Yi-Dvq"/>
-                            <constraint firstItem="cZC-o8-991" firstAttribute="top" secondItem="VwL-Kt-Qc3" secondAttribute="bottom" constant="16" id="9H0-yp-e5d"/>
-                            <constraint firstItem="b9S-ow-5be" firstAttribute="top" secondItem="XMX-BF-5eW" secondAttribute="bottom" id="BSR-Io-0ry"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="cZC-o8-991" secondAttribute="trailing" constant="24" id="BgY-g7-6Dt"/>
-                            <constraint firstItem="cZC-o8-991" firstAttribute="leading" secondItem="o97-1D-C0x" secondAttribute="trailing" constant="8" id="EWN-gm-BQj"/>
-                            <constraint firstItem="cZC-o8-991" firstAttribute="leading" secondItem="XX5-wh-0ak" secondAttribute="trailing" constant="8" id="IER-YS-Oj4"/>
-                            <constraint firstItem="o97-1D-C0x" firstAttribute="top" secondItem="VwL-Kt-Qc3" secondAttribute="bottom" constant="20" id="Kf5-kV-K4k"/>
-                            <constraint firstItem="o97-1D-C0x" firstAttribute="leading" secondItem="CWh-DK-wZu" secondAttribute="leadingMargin" constant="16" id="Mbn-3j-HnW"/>
-                            <constraint firstItem="DMK-ab-GVX" firstAttribute="top" secondItem="XX5-wh-0ak" secondAttribute="bottom" constant="20" id="NZL-gj-TDE"/>
-                            <constraint firstItem="5I5-HL-jGb" firstAttribute="top" secondItem="b9S-ow-5be" secondAttribute="bottom" constant="25" id="QWO-Kz-Xzc"/>
-                            <constraint firstItem="gwZ-3G-09k" firstAttribute="leading" secondItem="CWh-DK-wZu" secondAttribute="leadingMargin" constant="8" id="UDe-Tb-nB1"/>
-                            <constraint firstItem="Cs1-fO-Hib" firstAttribute="top" secondItem="5I5-HL-jGb" secondAttribute="bottom" id="V0Y-dX-lT3"/>
-                            <constraint firstAttribute="trailing" secondItem="DMK-ab-GVX" secondAttribute="trailing" constant="32" id="WfG-Is-PRA"/>
-                            <constraint firstItem="5I5-HL-jGb" firstAttribute="centerX" secondItem="CWh-DK-wZu" secondAttribute="centerX" id="Y9t-dU-TGd"/>
-                            <constraint firstItem="Jc2-es-YS7" firstAttribute="top" secondItem="gwZ-3G-09k" secondAttribute="bottom" constant="50" id="aar-Za-JVt"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="b9S-ow-5be" secondAttribute="trailing" constant="8" id="d1E-0H-TXR"/>
-                            <constraint firstItem="DMK-ab-GVX" firstAttribute="top" secondItem="cZC-o8-991" secondAttribute="bottom" constant="16" id="dbG-FU-P6y"/>
-                            <constraint firstItem="gwZ-3G-09k" firstAttribute="top" secondItem="Cs1-fO-Hib" secondAttribute="bottom" id="e7b-jQ-ryM"/>
-                            <constraint firstItem="VwL-Kt-Qc3" firstAttribute="top" secondItem="8aC-1A-flo" secondAttribute="bottom" constant="50" id="gRQ-gI-mbk"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gwZ-3G-09k" secondAttribute="trailing" constant="8" id="gaY-DP-O2M"/>
-                            <constraint firstItem="b9S-ow-5be" firstAttribute="leading" secondItem="CWh-DK-wZu" secondAttribute="leadingMargin" constant="8" id="gn4-JZ-tWx"/>
-                            <constraint firstItem="XX5-wh-0ak" firstAttribute="top" secondItem="o97-1D-C0x" secondAttribute="bottom" id="jxg-UM-CN8"/>
-                            <constraint firstItem="XX5-wh-0ak" firstAttribute="leading" secondItem="CWh-DK-wZu" secondAttribute="leadingMargin" constant="16" id="kmp-IN-vEg"/>
-                            <constraint firstItem="Cs1-fO-Hib" firstAttribute="centerX" secondItem="CWh-DK-wZu" secondAttribute="centerX" id="nAk-Gg-6zb"/>
-                            <constraint firstItem="XMX-BF-5eW" firstAttribute="centerX" secondItem="CWh-DK-wZu" secondAttribute="centerX" id="vch-gg-8Iu"/>
-                            <constraint firstItem="o97-1D-C0x" firstAttribute="leading" secondItem="CWh-DK-wZu" secondAttribute="leadingMargin" constant="16" id="xiB-Mb-0my"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LQt-9Q-EpL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="391" y="-1217"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="Crd-Jc-FmE">
             <objects>
@@ -2169,7 +2045,6 @@ Secretary-General</string>
         <image name="icons8-Schedule Filled " width="25" height="25"/>
         <image name="paulson_erik" width="121" height="121"/>
         <image name="procedure" width="2592" height="1728"/>
-        <image name="transparentmun" width="394" height="401"/>
         <image name="welcome" width="1000" height="707"/>
     </resources>
 </document>
