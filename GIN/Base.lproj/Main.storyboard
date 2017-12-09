@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -5673,7 +5673,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jh7-dI-Sm1" userLabel="Jing'an Temple">
                                                         <rect key="frame" x="0.0" y="571.5" width="320" height="143"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jing'an temple" translatesAutoresizingMaskIntoConstraints="NO" id="QAU-aa-cFk">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Carrefour" translatesAutoresizingMaskIntoConstraints="NO" id="QAU-aa-cFk">
                                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carrefour in Jinqiao (家乐福)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8T0-Bk-rCP">
@@ -7389,6 +7389,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
     </scenes>
     <resources>
         <image name="1354592945_Concordia" width="450" height="375"/>
+        <image name="Carrefour" width="3264" height="2448"/>
         <image name="ConcordiaLogo" width="458" height="456"/>
         <image name="ConcordiaMap" width="600" height="575"/>
         <image name="ES 1" width="842" height="596"/>
