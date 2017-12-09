@@ -5623,7 +5623,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sxi-7I-1Np" userLabel="Yu Garden">
                                                         <rect key="frame" x="0.0" y="428.5" width="320" height="143"/>
                                                         <subviews>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yu garden" translatesAutoresizingMaskIntoConstraints="NO" id="V6h-47-LT7">
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Century Park" translatesAutoresizingMaskIntoConstraints="NO" id="V6h-47-LT7">
                                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4d7-cj-Fh1">
@@ -7390,6 +7390,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
     <resources>
         <image name="1354592945_Concordia" width="450" height="375"/>
         <image name="Carrefour" width="3264" height="2448"/>
+        <image name="Century Park" width="1200" height="675"/>
         <image name="ConcordiaLogo" width="458" height="456"/>
         <image name="ConcordiaMap" width="600" height="575"/>
         <image name="ES 1" width="842" height="596"/>
