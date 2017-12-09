@@ -255,8 +255,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dorsett Hotel Shanghai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJV-5D-KGo">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="135.5" height="25.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJV-5D-KGo">
+                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -290,8 +290,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keynote #1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLx-8P-GL6">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="65" height="25.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLx-8P-GL6">
+                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -325,8 +325,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PC Commons / Café" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbp-Ba-gcM">
-                                                                                <rect key="frame" x="0.0" y="25.5" width="118.5" height="24.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbp-Ba-gcM">
+                                                                                <rect key="frame" x="0.0" y="25.5" width="0.0" height="24.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -360,8 +360,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Committees in Session" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXd-oe-0se">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="150.5" height="25.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXd-oe-0se">
+                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="25.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -395,8 +395,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PC Commons /ES Cafeteria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tst-iS-JjS">
-                                                                                <rect key="frame" x="0.0" y="25.5" width="159" height="24.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tst-iS-JjS">
+                                                                                <rect key="frame" x="0.0" y="25.5" width="0.0" height="24.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -430,8 +430,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Committees in Session" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fil-7C-VzC">
-                                                                                <rect key="frame" x="0.0" y="25" width="150.5" height="25"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fil-7C-VzC">
+                                                                                <rect key="frame" x="0.0" y="25" width="0.0" height="25"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -680,8 +680,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dorsett Hotel Shanghai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywc-gQ-Ami">
-                                                                                <rect key="frame" x="0.0" y="25" width="135.5" height="23.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywc-gQ-Ami">
+                                                                                <rect key="frame" x="0.0" y="25" width="0.0" height="23.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -715,8 +715,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keynote #1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ab0-7N-01k">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="65" height="23.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ab0-7N-01k">
+                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="23.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -750,8 +750,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PC Commons / Café" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKn-so-hJh">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="118.5" height="24"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKn-so-hJh">
+                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="24"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -785,8 +785,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Committees in Session" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aI-QC-P2V">
-                                                                                <rect key="frame" x="0.0" y="24" width="150.5" height="24"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aI-QC-P2V">
+                                                                                <rect key="frame" x="0.0" y="24" width="0.0" height="24"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -820,8 +820,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PC Commons /ES Cafeteria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTn-kF-mq5">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="159" height="24"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTn-kF-mq5">
+                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="24"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -855,8 +855,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Committees in Session" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mnv-0e-l5G">
-                                                                                <rect key="frame" x="0.0" y="24" width="150.5" height="24.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mnv-0e-l5G">
+                                                                                <rect key="frame" x="0.0" y="24" width="0.0" height="24.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -925,8 +925,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dorsett Hotel Shanghai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zi-pL-Yp2">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="135.5" height="24"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zi-pL-Yp2">
+                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="24"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -960,8 +960,8 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sfdasd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0C1-hE-AoE">
-                                                                                <rect key="frame" x="0.0" y="24" width="38" height="24"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0C1-hE-AoE">
+                                                                                <rect key="frame" x="0.0" y="24" width="0.0" height="24"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1106,18 +1106,18 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="SfH-Jm-7G3">
-                                                <rect key="frame" x="12" y="220" width="296" height="2018"/>
+                                                <rect key="frame" x="12" y="216" width="296" height="2022"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZUi-8Z-lHd" userLabel="Beah" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="296" height="400"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Human Rights Activist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="B6k-d9-Xk3">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Human Rights Activist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="B6k-d9-Xk3">
                                                                 <rect key="frame" x="12" y="41" width="145.5" height="20.5"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ishmael Beah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="2hf-IL-xwh">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Ishmael Beah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="2hf-IL-xwh">
                                                                 <rect key="frame" x="12" y="12" width="126" height="29"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="21"/>
                                                                 <nil key="textColor"/>
@@ -1129,15 +1129,18 @@
                                                                     <constraint firstAttribute="width" secondItem="d8Z-cY-IeX" secondAttribute="height" multiplier="1:1" id="AS2-eX-m1j"/>
                                                                 </constraints>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Sp1-dZ-8n4">
-                                                                <rect key="frame" x="12" y="69.5" width="152" height="122.5"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Sp1-dZ-8n4">
+                                                                <rect key="frame" x="12" y="69.5" width="152" height="150"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="150" id="qyn-hM-NK4"/>
+                                                                </constraints>
                                                                 <string key="text">Ishmael Beah, born in Sierra Leone, West Africa, is the New York Times bestselling author of A Long Way Gone, Memoirs of a Boy Soldier and Radiance of Tomorrow, A Novel both published by Farrar Straus &amp; Giroux.</string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="f6m-ea-Pkp">
-                                                                <rect key="frame" x="12" y="196" width="272" height="191.5"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="f6m-ea-Pkp">
+                                                                <rect key="frame" x="12" y="223.5" width="272" height="164"/>
                                                                 <string key="text">His memoir has been published in over 40 languages and was nominated for a Quill Award in the Best Debut Author category for 2007. Time Magazine named the book as one of the Top 10 Nonfiction books of 2007. His work has appeared in the New York Times, New York Times Magazine, Time magazine, International Herald Tribune, Globe &amp; Mail, Rutgers University Press, Vespertine Press, LIT, The Guardian, Parabola magazines and numerous academic journals. Mr. Beah’s keynote will focus on his experiences and his reflections on conflict, war, and healing for our world.   </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                 <nil key="textColor"/>
@@ -1347,7 +1350,7 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yKh-Ee-FCG" userLabel="Phuc" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="1564" width="296" height="454"/>
+                                                        <rect key="frame" x="0.0" y="1564" width="296" height="458"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photographer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="1cc-XB-YZK">
                                                                 <rect key="frame" x="12" y="41" width="93" height="20.5"/>
@@ -1368,14 +1371,14 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ajm-3W-LeP">
-                                                                <rect key="frame" x="12" y="70" width="152" height="183.5"/>
+                                                                <rect key="frame" x="12" y="70" width="152" height="187.5"/>
                                                                 <string key="text">For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred. </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="b13-NF-Fvh">
-                                                                <rect key="frame" x="12" y="257.5" width="272" height="184.5"/>
+                                                                <rect key="frame" x="12" y="261.5" width="272" height="184.5"/>
                                                                 <string key="text">The scars that covered 65 percent of her body were not only disfiguring – making her believe no one would ever love her – they hurt. A lot. For the past 20 years, Phuc has traveled the world telling her story of hope borne out of despair. Her passion for peaceful resolutions to conflict in our world is inspiring. Kim is the girl who was captured in a famous 1972 photograph that brought the world's attention to the horrors of the war in Vietnam. </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
@@ -1404,7 +1407,7 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="SfH-Jm-7G3" firstAttribute="top" secondItem="qMr-4f-uLX" secondAttribute="top" constant="220" id="7pA-Gw-fHf"/>
+                                            <constraint firstItem="SfH-Jm-7G3" firstAttribute="top" secondItem="qMr-4f-uLX" secondAttribute="top" constant="216" id="7pA-Gw-fHf"/>
                                             <constraint firstAttribute="trailing" secondItem="Pc8-vZ-wcN" secondAttribute="trailing" id="BLV-rU-On8"/>
                                             <constraint firstItem="DAd-dq-ci0" firstAttribute="bottom" secondItem="Pc8-vZ-wcN" secondAttribute="bottom" id="EWZ-WK-vBC"/>
                                             <constraint firstItem="DAd-dq-ci0" firstAttribute="leading" secondItem="Pc8-vZ-wcN" secondAttribute="leading" id="Fx1-pX-3OW"/>

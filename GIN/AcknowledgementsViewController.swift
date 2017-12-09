@@ -42,6 +42,9 @@ class AcknowledgementsViewController: UIViewController {
         UIApplication.shared.open(URL(string: "https://unsplash.com/photos/8BkzQUIGn-8")! as URL, options: [:], completionHandler: nil)
     }
     
+    @IBAction func Icons8(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://icons8.com")! as URL, options: [:], completionHandler: nil)
+    }
     
     
     

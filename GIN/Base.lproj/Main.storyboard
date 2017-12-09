@@ -33,14 +33,14 @@
                         <viewControllerLayoutGuide type="bottom" id="ciN-m3-32Y"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5Bu-UR-80R">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NKv-YA-mzp">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="536"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bx-de-RcF">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="603"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1354592945_Concordia" translatesAutoresizingMaskIntoConstraints="NO" id="dx9-xD-tG6">
                                                 <rect key="frame" x="60.5" y="0.0" width="200" height="167"/>
@@ -92,7 +92,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                             <constraint firstItem="dx9-xD-tG6" firstAttribute="centerX" secondItem="3bx-de-RcF" secondAttribute="centerX" id="W20-Zk-W8L"/>
                                             <constraint firstItem="dx9-xD-tG6" firstAttribute="top" secondItem="3bx-de-RcF" secondAttribute="top" id="XGt-TD-Ykx"/>
                                             <constraint firstItem="ODP-fQ-dzj" firstAttribute="top" secondItem="dx9-xD-tG6" secondAttribute="bottom" constant="-15" id="dQ3-d0-XwJ"/>
-                                            <constraint firstAttribute="height" constant="603" id="gNG-Kc-TRC"/>
+                                            <constraint firstAttribute="height" constant="450" id="gNG-Kc-TRC"/>
                                             <constraint firstItem="ZNT-PI-vQl" firstAttribute="top" secondItem="Noq-yq-bT6" secondAttribute="bottom" id="o2P-8i-LIg"/>
                                             <constraint firstItem="Noq-yq-bT6" firstAttribute="top" secondItem="ODP-fQ-dzj" secondAttribute="bottom" constant="10" id="qEq-Ot-MMg"/>
                                             <constraint firstItem="Noq-yq-bT6" firstAttribute="centerX" secondItem="3bx-de-RcF" secondAttribute="centerX" id="tAg-nq-an1"/>
@@ -118,6 +118,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="About" id="Mzy-Pz-ZZ5"/>
+                    <size key="freeformSize" width="320" height="600"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3A4-Dz-eaA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -252,7 +253,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="603"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pictures:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CY4-3s-u2O">
-                                                <rect key="frame" x="8" y="40" width="81" height="21"/>
+                                                <rect key="frame" x="16" y="16" width="81" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="EzG-IJ-0R4"/>
                                                 </constraints>
@@ -261,7 +262,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bernd Thaller - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsm-tP-5Zm">
-                                                <rect key="frame" x="8" y="71" width="96" height="21"/>
+                                                <rect key="frame" x="16" y="47" width="96" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="Goe-Vp-COQ"/>
                                                 </constraints>
@@ -270,7 +271,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bup-fB-6gY">
-                                                <rect key="frame" x="105" y="71" width="33" height="21"/>
+                                                <rect key="frame" x="113" y="47" width="33" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="VHy-7F-Vp9"/>
                                                 </constraints>
@@ -291,7 +292,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mojobaron - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wk3-4a-35A">
-                                                <rect key="frame" x="8" y="102" width="81" height="21"/>
+                                                <rect key="frame" x="16" y="78" width="81" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="3ke-zE-xbZ"/>
                                                     <constraint firstAttribute="height" constant="21" id="ZiW-vC-VFK"/>
@@ -301,7 +302,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yxy-Sb-W62">
-                                                <rect key="frame" x="90" y="102" width="66" height="21"/>
+                                                <rect key="frame" x="98" y="78" width="66" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="E1t-IP-4g0"/>
                                                     <constraint firstAttribute="height" constant="21" id="slN-bb-Whf"/>
@@ -323,7 +324,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thomas Kelley - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="InU-gI-Bfi">
-                                                <rect key="frame" x="8" y="133" width="103" height="21"/>
+                                                <rect key="frame" x="16" y="109" width="103" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="21i-87-FdV"/>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="HkJ-bB-6ve"/>
@@ -334,7 +335,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z3T-Yg-8OS">
-                                                <rect key="frame" x="112" y="133" width="42" height="21"/>
+                                                <rect key="frame" x="120" y="109" width="42" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="B8D-Rt-DgV"/>
                                                     <constraint firstAttribute="height" constant="21" id="RsB-vW-hOo"/>
@@ -356,7 +357,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alexander Synaptic - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBF-pg-VAi">
-                                                <rect key="frame" x="8" y="164" width="132" height="21"/>
+                                                <rect key="frame" x="16" y="140" width="132" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="Dhm-6W-dp4"/>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="Ilk-f4-Kdb"/>
@@ -368,7 +369,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Is-oh-O4I">
-                                                <rect key="frame" x="141" y="164" width="95" height="21"/>
+                                                <rect key="frame" x="149" y="140" width="95" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="EGL-dq-3F8"/>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="e9V-Yv-i0T"/>
@@ -391,7 +392,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mikeric - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGF-WF-Mxz">
-                                                <rect key="frame" x="8" y="195" width="57" height="21"/>
+                                                <rect key="frame" x="16" y="171" width="57" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="Elp-On-Esp"/>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="Kxt-53-CtP"/>
@@ -404,7 +405,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="csr-xa-yvv">
-                                                <rect key="frame" x="66" y="195" width="72" height="21"/>
+                                                <rect key="frame" x="74" y="171" width="72" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="08i-wT-lmE"/>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="LfP-Gf-ZrY"/>
@@ -428,7 +429,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wang Xi - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joR-vs-Hq9">
-                                                <rect key="frame" x="8" y="226" width="64" height="21"/>
+                                                <rect key="frame" x="16" y="202" width="64" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="83w-I3-PeH"/>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="HlE-ar-o0d"/>
@@ -442,7 +443,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2iY-dk-LTL">
-                                                <rect key="frame" x="73" y="226" width="99" height="21"/>
+                                                <rect key="frame" x="81" y="202" width="99" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="4rf-ls-lLD"/>
                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="F8C-GE-bPM"/>
@@ -466,8 +467,33 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                     <action selector="ShanghaiTower:" destination="3f4-IS-hGE" eventType="touchUpInside" id="hMg-12-zJh"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IlJ-Ee-8pZ">
+                                                <rect key="frame" x="71.5" y="276" width="40" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="COo-zW-Ptm"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="L8D-cr-vLi"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="U70-z9-ZFU"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="hRc-0w-pXa"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="kfu-md-8Gq"/>
+                                                    <constraint firstAttribute="height" constant="21" id="tRf-i8-xun"/>
+                                                </constraints>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Icons8">
+                                                            <attributes>
+                                                                <font key="NSFont" size="14" name="Avenir-Light"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="Icons8:" destination="3f4-IS-hGE" eventType="touchUpInside" id="7Cg-IB-ER7"/>
+                                                </connections>
+                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Icons:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWd-TD-MEW">
-                                                <rect key="frame" x="8" y="287" width="54" height="21"/>
+                                                <rect key="frame" x="16" y="247" width="54" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="fTW-ch-p5C"/>
                                                 </constraints>
@@ -475,38 +501,56 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Icons by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLb-To-gfb">
+                                                <rect key="frame" x="16" y="276" width="51.5" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="Sdm-U0-wxg"/>
+                                                    <constraint firstAttribute="height" constant="21" id="Vx3-Ik-w5b"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="W7u-mD-Zte"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Y7d-SB-zFn"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="llz-qp-gyB"/>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="wdW-H2-ShR"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="603" id="0Pn-pV-m37"/>
-                                            <constraint firstItem="CY4-3s-u2O" firstAttribute="top" secondItem="D7E-2y-ORy" secondAttribute="top" constant="40" id="2iJ-71-al1"/>
+                                            <constraint firstItem="CY4-3s-u2O" firstAttribute="top" secondItem="D7E-2y-ORy" secondAttribute="top" constant="16" id="2iJ-71-al1"/>
                                             <constraint firstItem="csr-xa-yvv" firstAttribute="top" secondItem="wBF-pg-VAi" secondAttribute="bottom" constant="10" id="41u-jn-0OL"/>
                                             <constraint firstItem="yxy-Sb-W62" firstAttribute="top" secondItem="Rsm-tP-5Zm" secondAttribute="bottom" constant="10" id="4lh-8S-7Ae"/>
                                             <constraint firstItem="Z3T-Yg-8OS" firstAttribute="leading" secondItem="InU-gI-Bfi" secondAttribute="trailing" constant="1" id="5gQ-Uj-5SQ"/>
-                                            <constraint firstItem="cWd-TD-MEW" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" id="Isx-1a-GEO"/>
+                                            <constraint firstItem="cWd-TD-MEW" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" constant="8" id="Isx-1a-GEO"/>
                                             <constraint firstItem="Z3T-Yg-8OS" firstAttribute="top" secondItem="yxy-Sb-W62" secondAttribute="bottom" constant="10" id="L47-ga-PZB"/>
                                             <constraint firstItem="joR-vs-Hq9" firstAttribute="top" secondItem="vGF-WF-Mxz" secondAttribute="bottom" constant="10" id="LM6-h9-bQ6"/>
                                             <constraint firstItem="9Is-oh-O4I" firstAttribute="leading" secondItem="wBF-pg-VAi" secondAttribute="trailing" constant="1" id="LPK-Op-R1J"/>
                                             <constraint firstItem="InU-gI-Bfi" firstAttribute="top" secondItem="wk3-4a-35A" secondAttribute="bottom" constant="10" id="M6R-hz-jT4"/>
-                                            <constraint firstItem="Rsm-tP-5Zm" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" id="N49-bG-G15"/>
+                                            <constraint firstItem="Rsm-tP-5Zm" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" constant="8" id="N49-bG-G15"/>
                                             <constraint firstItem="bup-fB-6gY" firstAttribute="top" secondItem="Rsm-tP-5Zm" secondAttribute="top" id="N4V-Se-McI"/>
+                                            <constraint firstItem="IlJ-Ee-8pZ" firstAttribute="leading" secondItem="XLb-To-gfb" secondAttribute="trailing" constant="4" id="OZc-c8-0K8"/>
+                                            <constraint firstItem="XLb-To-gfb" firstAttribute="top" secondItem="cWd-TD-MEW" secondAttribute="bottom" constant="8" id="ROf-um-Dyo"/>
                                             <constraint firstItem="bup-fB-6gY" firstAttribute="leading" secondItem="Rsm-tP-5Zm" secondAttribute="trailing" constant="1" id="RYB-7J-KF1"/>
-                                            <constraint firstItem="cWd-TD-MEW" firstAttribute="top" secondItem="joR-vs-Hq9" secondAttribute="bottom" constant="40" id="Rjc-b6-Lne"/>
+                                            <constraint firstItem="cWd-TD-MEW" firstAttribute="top" secondItem="joR-vs-Hq9" secondAttribute="bottom" constant="24" id="Rjc-b6-Lne"/>
                                             <constraint firstItem="2iY-dk-LTL" firstAttribute="leading" secondItem="joR-vs-Hq9" secondAttribute="trailing" constant="1" id="US2-ga-aKa"/>
-                                            <constraint firstItem="InU-gI-Bfi" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" id="XGG-H2-EAm"/>
+                                            <constraint firstItem="InU-gI-Bfi" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" constant="8" id="XGG-H2-EAm"/>
                                             <constraint firstItem="wk3-4a-35A" firstAttribute="top" secondItem="Rsm-tP-5Zm" secondAttribute="bottom" constant="10" id="Xge-S8-DbA"/>
+                                            <constraint firstItem="IlJ-Ee-8pZ" firstAttribute="top" secondItem="XLb-To-gfb" secondAttribute="top" id="Ysh-lS-bjv"/>
                                             <constraint firstItem="9Is-oh-O4I" firstAttribute="top" secondItem="Z3T-Yg-8OS" secondAttribute="bottom" constant="10" id="bgb-9o-C9k"/>
-                                            <constraint firstItem="wk3-4a-35A" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" id="cX3-cU-oAf"/>
-                                            <constraint firstItem="joR-vs-Hq9" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" id="dD1-lb-G4N"/>
-                                            <constraint firstItem="CY4-3s-u2O" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" id="fIo-m0-scR"/>
+                                            <constraint firstItem="wk3-4a-35A" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" constant="8" id="cX3-cU-oAf"/>
+                                            <constraint firstItem="joR-vs-Hq9" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" constant="8" id="dD1-lb-G4N"/>
+                                            <constraint firstItem="CY4-3s-u2O" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" constant="8" id="fIo-m0-scR"/>
                                             <constraint firstItem="Rsm-tP-5Zm" firstAttribute="top" secondItem="CY4-3s-u2O" secondAttribute="bottom" constant="10" id="hvz-eb-ReW"/>
                                             <constraint firstItem="2iY-dk-LTL" firstAttribute="top" secondItem="csr-xa-yvv" secondAttribute="bottom" constant="10" id="j0N-Nq-YzP"/>
-                                            <constraint firstItem="wBF-pg-VAi" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" id="kvl-U5-dpO"/>
+                                            <constraint firstItem="wBF-pg-VAi" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" constant="8" id="kvl-U5-dpO"/>
                                             <constraint firstItem="csr-xa-yvv" firstAttribute="leading" secondItem="vGF-WF-Mxz" secondAttribute="trailing" constant="1" id="nL0-Md-MAq"/>
                                             <constraint firstItem="vGF-WF-Mxz" firstAttribute="top" secondItem="wBF-pg-VAi" secondAttribute="bottom" constant="10" id="oN2-lS-MPU"/>
-                                            <constraint firstItem="vGF-WF-Mxz" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" id="ooz-pi-eh2"/>
+                                            <constraint firstItem="vGF-WF-Mxz" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leadingMargin" constant="8" id="ooz-pi-eh2"/>
                                             <constraint firstItem="wBF-pg-VAi" firstAttribute="top" secondItem="InU-gI-Bfi" secondAttribute="bottom" constant="10" id="pAo-aa-qeB"/>
                                             <constraint firstItem="yxy-Sb-W62" firstAttribute="leading" secondItem="wk3-4a-35A" secondAttribute="trailing" constant="1" id="qrK-nh-Ypa"/>
+                                            <constraint firstItem="XLb-To-gfb" firstAttribute="leading" secondItem="D7E-2y-ORy" secondAttribute="leading" constant="16" id="uC6-bB-tEQ"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -552,7 +596,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1850"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="JW0-ao-Ej2">
-                                                <rect key="frame" x="16" y="297" width="288" height="1537"/>
+                                                <rect key="frame" x="16" y="301" width="288" height="1533"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJL-n8-p1Y" userLabel="Emergency">
                                                         <rect key="frame" x="0.0" y="0.0" width="288" height="210"/>
@@ -897,7 +941,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Fl-s7-kko" userLabel="CISSMUN">
-                                                        <rect key="frame" x="0.0" y="432" width="288" height="1105"/>
+                                                        <rect key="frame" x="0.0" y="432" width="288" height="1101"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M7n-eM-x69">
                                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="30"/>
@@ -919,10 +963,10 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                 </constraints>
                                                             </view>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WBC-b4-okP">
-                                                                <rect key="frame" x="0.0" y="45" width="288" height="1060"/>
+                                                                <rect key="frame" x="0.0" y="45" width="288" height="1056"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zWr-Pj-Aev">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Katherine Hou" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vd-dw-29E">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="105" height="23.5"/>
@@ -931,13 +975,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secretary General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0g-rY-zGd">
-                                                                                <rect key="frame" x="0.0" y="22.5" width="103" height="23"/>
+                                                                                <rect key="frame" x="0.0" y="22.5" width="103" height="22.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="186-2198-4873" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="5Jt-jF-h09">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="51.5"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="51"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -961,16 +1005,16 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l2Y-Lo-58f">
-                                                                        <rect key="frame" x="0.0" y="53.5" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="53" width="288" height="45.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taylor Adams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpb-he-RzY">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="98" height="23"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="98" height="24"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deputy Secretary General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYZ-hK-8fF">
-                                                                                <rect key="frame" x="0.0" y="22" width="149" height="23.5"/>
+                                                                                <rect key="frame" x="0.0" y="23" width="149" height="22.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1000,16 +1044,16 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBm-wu-1ha">
-                                                                        <rect key="frame" x="0.0" y="107" width="288" height="45"/>
+                                                                        <rect key="frame" x="0.0" y="106.5" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anna Wei" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zec-bn-Lzw">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="69.5" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="69.5" height="24.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deputy Secretary General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bss-TI-lAG">
-                                                                                <rect key="frame" x="0.0" y="23" width="149" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="23.5" width="149" height="21.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1039,7 +1083,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lPr-eN-wXw">
-                                                                        <rect key="frame" x="0.0" y="160" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="159.5" width="288" height="45.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rebecca Foggin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ar-Mv-Fpf">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="116.5" height="24"/>
@@ -1078,22 +1122,22 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L5i-eF-j3y">
-                                                                        <rect key="frame" x="0.0" y="213.5" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="213" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kaitlyn Tsien" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghF-EH-Yry">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="90" height="24.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="90" height="23.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deputy Conference Manager" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ka-ac-tKI">
-                                                                                <rect key="frame" x="0.0" y="23.5" width="168.5" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.5" width="168.5" height="22.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="186-2178-2682" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="OnJ-Je-iKN">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="51.5"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="51"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1117,22 +1161,22 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AJN-Ea-ewp">
-                                                                        <rect key="frame" x="0.0" y="267" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="266" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jessica Chen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZd-vk-UdG">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="93.5" height="23"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="93.5" height="23.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Admin Co-Head" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVb-Tu-1mq">
-                                                                                <rect key="frame" x="0.0" y="22" width="94.5" height="23.5"/>
+                                                                                <rect key="frame" x="0.0" y="22.5" width="94.5" height="22.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="188-2120-5871" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="jRZ-mJ-Ngx">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="51.5"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="51"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1156,7 +1200,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jkb-sv-ij2">
-                                                                        <rect key="frame" x="0.0" y="320.5" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="319" width="288" height="45.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Corey Zhou" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1E-3i-Ms5">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="85" height="24"/>
@@ -1195,16 +1239,16 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6KS-CO-6u3">
-                                                                        <rect key="frame" x="0.0" y="374" width="288" height="45"/>
+                                                                        <rect key="frame" x="0.0" y="372.5" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blessy Pak" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKL-TM-Qfo">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76" height="24.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deputy Admin Leaders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcs-8e-kV7">
-                                                                                <rect key="frame" x="0.0" y="23" width="133" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="23.5" width="133" height="21.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1234,16 +1278,16 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uKI-c3-pMI">
-                                                                        <rect key="frame" x="0.0" y="427" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="425.5" width="288" height="45.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manfred Au" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rv0-al-SUL">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="86" height="24.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="86" height="23.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deputy Admin Leaders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Iy-kb-OkE">
-                                                                                <rect key="frame" x="0.0" y="23.5" width="133" height="22"/>
+                                                                                <rect key="frame" x="0.0" y="22.5" width="133" height="23"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1273,22 +1317,22 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9jY-9m-gCq">
-                                                                        <rect key="frame" x="0.0" y="480.5" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="479" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chloe Kim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUf-Vk-le5">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="75" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="75" height="23.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deputy Admin Leaders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E6m-J3-ytZ">
-                                                                                <rect key="frame" x="0.0" y="23" width="133" height="22.5"/>
+                                                                                <rect key="frame" x="0.0" y="22.5" width="133" height="22.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="131-6605-8028" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="jyF-w9-9ei">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="51.5"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="51"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1312,7 +1356,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tg6-gK-q0L">
-                                                                        <rect key="frame" x="0.0" y="534" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="532" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hannah Kim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkE-K6-SBw">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="87.5" height="23"/>
@@ -1321,13 +1365,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deputy Admin Leaders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oyw-3f-C4a">
-                                                                                <rect key="frame" x="0.0" y="22" width="133" height="23.5"/>
+                                                                                <rect key="frame" x="0.0" y="22" width="133" height="23"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="130-5250-8815" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="lYp-xQ-Eqj">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="51.5"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="51"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1351,16 +1395,16 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XZB-zB-Ysb">
-                                                                        <rect key="frame" x="0.0" y="587.5" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="585" width="288" height="45.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Katrina Tsang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mMl-hb-ZPl">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="97.5" height="23"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="97.5" height="24"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Director of Technology" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7g4-VA-crO">
-                                                                                <rect key="frame" x="0.0" y="22" width="132" height="23.5"/>
+                                                                                <rect key="frame" x="0.0" y="23" width="132" height="22.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1390,16 +1434,16 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ey1-sO-TKV">
-                                                                        <rect key="frame" x="0.0" y="641" width="288" height="45"/>
+                                                                        <rect key="frame" x="0.0" y="638.5" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tanya Lai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bb8-v2-rz6">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="66" height="23.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="66" height="24"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Head of Service and Outreach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gti-Ck-SAe">
-                                                                                <rect key="frame" x="0.0" y="22.5" width="174" height="22.5"/>
+                                                                                <rect key="frame" x="0.0" y="23" width="174" height="22"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1429,7 +1473,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kad-Dp-BBI">
-                                                                        <rect key="frame" x="0.0" y="694" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="691.5" width="288" height="45.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Henry Cheng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uad-ub-tar">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="96" height="24"/>
@@ -1468,7 +1512,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GnX-oO-S21">
-                                                                        <rect key="frame" x="0.0" y="747.5" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="745" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chloe Lim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6A-93-Dkf">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="73" height="24"/>
@@ -1477,13 +1521,13 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transportation Coordinator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nis-Up-hb1">
-                                                                                <rect key="frame" x="0.0" y="23" width="157.5" height="22.5"/>
+                                                                                <rect key="frame" x="0.0" y="23" width="157.5" height="22"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="188-0163-3282" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="OvT-jj-kza">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="51.5"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="51"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1507,22 +1551,22 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNo-P6-SW5">
-                                                                        <rect key="frame" x="0.0" y="801" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="798" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emily Wang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vrc-lW-Tyw">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="23.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Social Media Coordinator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ce-Br-0jn">
-                                                                                <rect key="frame" x="0.0" y="23" width="148" height="22.5"/>
+                                                                                <rect key="frame" x="0.0" y="22.5" width="148" height="22.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="131-2061-8085" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="tWn-he-d6m">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="51.5"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="51"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1546,7 +1590,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7XQ-tO-viR">
-                                                                        <rect key="frame" x="0.0" y="854.5" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="851" width="288" height="45.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kevin Jin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Oa-xG-FIr">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="65" height="23.5"/>
@@ -1585,16 +1629,16 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HRt-TQ-HaF">
-                                                                        <rect key="frame" x="0.0" y="908" width="288" height="45"/>
+                                                                        <rect key="frame" x="0.0" y="904.5" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garrett Lee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zUQ-dk-XAZ">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="84" height="23.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="84" height="24"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="President of GA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uj0-8q-xYf">
-                                                                                <rect key="frame" x="0.0" y="22.5" width="92" height="22.5"/>
+                                                                                <rect key="frame" x="0.0" y="23" width="92" height="22"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1624,7 +1668,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kEP-z1-lrL">
-                                                                        <rect key="frame" x="0.0" y="961" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="957.5" width="288" height="45.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nicole Zhong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e21-bL-sF3">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="98" height="24"/>
@@ -1663,22 +1707,22 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nao-25-mqz">
-                                                                        <rect key="frame" x="0.0" y="1014.5" width="288" height="45.5"/>
+                                                                        <rect key="frame" x="0.0" y="1011" width="288" height="45"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emersyn Lyon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ie5-3y-qKQ">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="101" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="101" height="23.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIGIL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ji-IE-rg2">
-                                                                                <rect key="frame" x="0.0" y="23" width="31.5" height="22.5"/>
+                                                                                <rect key="frame" x="0.0" y="22.5" width="31.5" height="22.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="130-2317-0070" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="LZI-za-Lc6">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="51.5"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="51"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1726,11 +1770,11 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="All comments or inquiries regarding our app can be sent to: stanley2018380@concordiashanghai.org." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="f0k-sb-E9R">
-                                                <rect key="frame" x="16" y="216" width="288" height="65"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="All comments or inquiries regarding our app can be sent to: stanley2018380@concordiashanghai.org." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="f0k-sb-E9R">
+                                                <rect key="frame" x="16" y="216" width="288" height="75"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="65" id="RrM-bg-RNL"/>
+                                                    <constraint firstAttribute="height" constant="75" id="RrM-bg-RNL"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1753,7 +1797,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                             <constraint firstItem="f0k-sb-E9R" firstAttribute="top" secondItem="VS0-4y-rFY" secondAttribute="bottom" priority="999" constant="16" id="cfb-QW-uxe"/>
                                             <constraint firstAttribute="trailing" secondItem="VS0-4y-rFY" secondAttribute="trailing" id="hlk-Pd-kcJ"/>
                                             <constraint firstItem="f0k-sb-E9R" firstAttribute="leading" secondItem="vrS-NI-dTc" secondAttribute="leading" constant="16" id="niY-Mf-XEt"/>
-                                            <constraint firstItem="JW0-ao-Ej2" firstAttribute="top" secondItem="f0k-sb-E9R" secondAttribute="bottom" constant="16" id="tFo-Nb-XGG"/>
+                                            <constraint firstItem="JW0-ao-Ej2" firstAttribute="top" secondItem="f0k-sb-E9R" secondAttribute="bottom" constant="10" id="tFo-Nb-XGG"/>
                                             <constraint firstItem="VS0-4y-rFY" firstAttribute="leading" secondItem="vrS-NI-dTc" secondAttribute="leading" id="thE-pH-rBd"/>
                                         </constraints>
                                     </view>
@@ -6123,7 +6167,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1550"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="7RM-Ek-igq">
-                                                <rect key="frame" x="16" y="297" width="288" height="1237"/>
+                                                <rect key="frame" x="16" y="301" width="288" height="1233"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="byz-ik-Zf6" userLabel="Emergency">
                                                         <rect key="frame" x="0.0" y="0.0" width="288" height="210"/>
@@ -6660,7 +6704,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k7C-ly-DkL" userLabel="GIN">
-                                                        <rect key="frame" x="0.0" y="698" width="288" height="539"/>
+                                                        <rect key="frame" x="0.0" y="698" width="288" height="535"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s0G-fP-B7q">
                                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="30"/>
@@ -6682,10 +6726,10 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                 </constraints>
                                                             </view>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="XVX-vL-1aD">
-                                                                <rect key="frame" x="0.0" y="45" width="288" height="494"/>
+                                                                <rect key="frame" x="0.0" y="45" width="288" height="490"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PSB-YB-VLs">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="55"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="54.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emerson Lyon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0f-MF-vnb">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="102.5" height="28.5"/>
@@ -6694,13 +6738,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plastic Reduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1q-Ho-PIN">
-                                                                                <rect key="frame" x="0.0" y="27.5" width="99" height="27.5"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="99" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="13023170070" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="9RF-fG-3Zz">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="61"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="60.5"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -6722,22 +6766,22 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yiM-za-Rcb">
-                                                                        <rect key="frame" x="0.0" y="63" width="288" height="54.5"/>
+                                                                        <rect key="frame" x="0.0" y="62.5" width="288" height="54"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Angela Qian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eky-aM-Tje">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="90" height="28.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="90" height="28"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Human Rights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dX7-uc-4fQ">
-                                                                                <rect key="frame" x="0.0" y="27.5" width="81" height="27"/>
+                                                                                <rect key="frame" x="0.0" y="27" width="81" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="15001802143" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="yQS-N1-joM">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="60.5"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="60"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -6759,7 +6803,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="72Z-QZ-Usq">
-                                                                        <rect key="frame" x="0.0" y="125.5" width="288" height="55"/>
+                                                                        <rect key="frame" x="0.0" y="124.5" width="288" height="54.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Julie Baik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SqN-qu-2KB">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="68.5" height="28.5"/>
@@ -6768,13 +6812,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Human Rights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qd-Qo-Jxz">
-                                                                                <rect key="frame" x="0.0" y="27.5" width="81" height="27.5"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="81" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="13611886343" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="CUW-xE-dlD">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="61"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="60.5"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -6796,22 +6840,22 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hSj-4q-HVq">
-                                                                        <rect key="frame" x="0.0" y="188.5" width="288" height="54.5"/>
+                                                                        <rect key="frame" x="0.0" y="187" width="288" height="54"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kyuwon Kim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7t-IO-ICL">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="90.5" height="28"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="90.5" height="27.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Human Rights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r6s-1q-XEK">
-                                                                                <rect key="frame" x="0.0" y="27" width="81" height="27.5"/>
+                                                                                <rect key="frame" x="0.0" y="26.5" width="81" height="27.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="18512105395" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="Npb-U7-vim">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="60.5"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="60"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -6833,7 +6877,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bBC-wC-7R8">
-                                                                        <rect key="frame" x="0.0" y="251" width="288" height="55"/>
+                                                                        <rect key="frame" x="0.0" y="249" width="288" height="54.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Katherine Xiao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwW-30-YEg">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="106.5" height="28"/>
@@ -6842,13 +6886,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Composting &amp; Food Waste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zvQ-3y-sIH">
-                                                                                <rect key="frame" x="0.0" y="27" width="157.5" height="28"/>
+                                                                                <rect key="frame" x="0.0" y="27" width="157.5" height="27.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="15000707817" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="cH1-LS-Pna">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="61"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="60.5"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -6870,22 +6914,22 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qTe-ZQ-41o">
-                                                                        <rect key="frame" x="0.0" y="314" width="288" height="54.5"/>
+                                                                        <rect key="frame" x="0.0" y="311.5" width="288" height="54"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Michelle Li" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1V-Qf-aJV">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="77.5" height="28.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="77.5" height="28"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Composting &amp; Food Waste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ME2-mJ-fYC">
-                                                                                <rect key="frame" x="0.0" y="27.5" width="157.5" height="27"/>
+                                                                                <rect key="frame" x="0.0" y="27" width="157.5" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="15000926393" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="nld-lV-2dn">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="60.5"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="60"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -6907,7 +6951,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ypu-5b-hVm">
-                                                                        <rect key="frame" x="0.0" y="376.5" width="288" height="55"/>
+                                                                        <rect key="frame" x="0.0" y="373.5" width="288" height="54.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Megan Li" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8JZ-js-iFD">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="67" height="28.5"/>
@@ -6916,13 +6960,13 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recycling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OX8-aw-JIC">
-                                                                                <rect key="frame" x="0.0" y="27.5" width="55" height="27.5"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="55" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="15921031393" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="TAc-L9-oe1">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="61"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="60.5"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -6944,22 +6988,22 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i0Z-Jg-8hu">
-                                                                        <rect key="frame" x="0.0" y="439.5" width="288" height="54.5"/>
+                                                                        <rect key="frame" x="0.0" y="436" width="288" height="54"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colin Callis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6c-Cf-68B">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="80" height="28.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80" height="28"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recycling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPx-kd-8Ud">
-                                                                                <rect key="frame" x="0.0" y="27.5" width="55" height="27"/>
+                                                                                <rect key="frame" x="0.0" y="27" width="55" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="18516328195" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="Dhb-9m-W8k">
-                                                                                <rect key="frame" x="143" y="-6" width="145" height="60.5"/>
+                                                                                <rect key="frame" x="143" y="-6" width="145" height="60"/>
                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -7009,11 +7053,11 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="All comments or inquiries regarding our app can be sent to: stanley2018380@concordiashanghai.org." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xCb-Br-AQD">
-                                                <rect key="frame" x="16" y="216" width="288" height="65"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="All comments or inquiries regarding our app can be sent to: stanley2018380@concordiashanghai.org." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xCb-Br-AQD">
+                                                <rect key="frame" x="16" y="216" width="288" height="75"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="65" id="xyz-IM-geL"/>
+                                                    <constraint firstAttribute="height" constant="75" id="xyz-IM-geL"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -7036,7 +7080,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
                                             <constraint firstItem="PfA-Fg-L08" firstAttribute="top" secondItem="C31-6L-SrZ" secondAttribute="top" id="gw1-nf-HS7"/>
                                             <constraint firstAttribute="trailing" secondItem="C31-6L-SrZ" secondAttribute="trailing" id="hdW-oc-vFd"/>
                                             <constraint firstAttribute="trailing" secondItem="xCb-Br-AQD" secondAttribute="trailing" constant="16" id="qsG-Di-cXJ"/>
-                                            <constraint firstItem="7RM-Ek-igq" firstAttribute="top" secondItem="xCb-Br-AQD" secondAttribute="bottom" constant="16" id="tuP-uM-er5"/>
+                                            <constraint firstItem="7RM-Ek-igq" firstAttribute="top" secondItem="xCb-Br-AQD" secondAttribute="bottom" constant="10" id="tuP-uM-er5"/>
                                             <constraint firstItem="xCb-Br-AQD" firstAttribute="top" secondItem="aqr-8p-z6D" secondAttribute="top" priority="999" constant="216" id="ufZ-dM-vGg"/>
                                         </constraints>
                                     </view>

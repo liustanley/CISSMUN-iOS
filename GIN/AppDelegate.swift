@@ -13,6 +13,9 @@ import UserNotifications
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    let appVersion = 1.0
+    var updatedVersion: Double = 0.0
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -32,9 +35,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Load user conference
         loadConference()
         
-        //registerForPushNotifications()
-        
         return true
+    }
+    
+    func getVersion() {
+        if let url = URL(string: "https://phantomore.com/appVersion.txt") {
+            do {
+                updatedVersion = Double(try String(contentsOf: url, encoding: .utf8))!
+                print(updatedVersion)
+            } catch {updatedVersion = appVersion}
+            
+        } else {
+            print("URL was bad")
+        }
+        
+    }
+    
+    func checkVersion(vc: UIViewController) {
+        getVersion()
+        
+        if (appVersion != updatedVersion)
+        {
+            let alert = UIAlertController(title: "New Version Available", message: "There is a newer version available for download! Please update the app by visiting the Apple Store.", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Update", style: UIAlertActionStyle.default, handler: { alertAction in
+                UIApplication.shared.open(NSURL(string : "https://itunes.apple.com/us/app/cissmun/id1323501359?ls=1&mt=8")! as URL, options: [:], completionHandler: nil)
+                alert.dismiss(animated: true, completion: nil)
+            }))
+            vc.present(alert, animated: true, completion: nil)
+            
+        }
     }
     
     func loadConference() {
@@ -56,6 +85,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = exampleViewController
         
         self.window?.makeKeyAndVisible()
+        
+        checkVersion(vc: exampleViewController)
+        
     }
     
     func registerForPushNotifications() {

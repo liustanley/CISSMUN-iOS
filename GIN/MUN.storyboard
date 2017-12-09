@@ -1609,22 +1609,22 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lavender_leeanne" translatesAutoresizingMaskIntoConstraints="NO" id="KSX-9v-4X7">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Katherine" translatesAutoresizingMaskIntoConstraints="NO" id="KSX-9v-4X7">
                                                         <rect key="frame" x="253.66666666666671" y="11.999999999999993" width="124.33333333333334" height="124.33333333333331"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="KSX-9v-4X7" secondAttribute="height" multiplier="1:1" id="OZP-oR-DGT"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="oq5-0F-McL" userLabel="KHeader">
-                                                        <rect key="frame" x="11.999999999999986" y="76" width="233.66666666666663" height="102.66666666666669"/>
-                                                        <string key="text">I am currently in 11th grade and I am passionate about leading a sustainable life and making choices that benefit the environment.</string>
+                                                        <rect key="frame" x="11.999999999999986" y="76" width="233.66666666666663" height="123"/>
+                                                        <string key="text">I have been involved with CISSMUN and MUN in general since 7th grade. Creating and being a part of a forum for confronting global issues is really important to me!</string>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="YoG-jp-dNg">
-                                                        <rect key="frame" x="12" y="178.66666666666663" width="366" height="154.33333333333337"/>
-                                                        <string key="text">I have been in GIN for 4 years and have led it for 2 years now.  This year’s conference theme, “A Place to Stand,” resonates with me a lot because of personal experiences and beliefs. However, I know everybody has a different interpretation of this theme, so where do you stand in this world? I hope you discover answers to this question as you listen to the amazing keynote speakers and changemaker panels!</string>
+                                                        <rect key="frame" x="12" y="199" width="366" height="134"/>
+                                                        <string key="text">CISSMUN and GIN working together during this conference will hopefully give us all a broader understanding of how important issues can be tackled. Ultimately, GIN and MUN are two sides of the same coin. Let's find a way to connect the ideas, and connect with each other, to collaborate! </string>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -2156,6 +2156,7 @@ Secretary-General</string>
         </scene>
     </scenes>
     <resources>
+        <image name="Katherine" width="300" height="300"/>
         <image name="icons8-Globe " width="25" height="25"/>
         <image name="icons8-Globe Filled " width="25" height="25"/>
         <image name="icons8-Home " width="25" height="25"/>
@@ -2166,7 +2167,6 @@ Secretary-General</string>
         <image name="icons8-More Filled " width="25" height="25"/>
         <image name="icons8-Schedule " width="25" height="25"/>
         <image name="icons8-Schedule Filled " width="25" height="25"/>
-        <image name="lavender_leeanne" width="121" height="121"/>
         <image name="paulson_erik" width="121" height="121"/>
         <image name="procedure" width="2592" height="1728"/>
         <image name="transparentmun" width="394" height="401"/>
