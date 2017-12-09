@@ -38,7 +38,7 @@ class MUNHomeViewController: UIViewController, UIScrollViewDelegate {
             do {
                 updatedVersion = Double(try String(contentsOf: url, encoding: .utf8))!
                     print(updatedVersion)
-            } catch {/* error handling here */}
+            } catch {updatedVersion = appVersion}
             
         } else {
             print("URL was bad")
