@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    let appVersion = 1.0
+    let appVersion = 1.1
     var updatedVersion: Double = 0.0
 
 
@@ -39,10 +39,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func getVersion() {
-        if let url = URL(string: "https://phantomore.com/appVersion.txt") {
+        if let url = URL(string: "http://hosted.concordiashanghai.org/appVersion.txt") {
             do {
                 updatedVersion = Double(try String(contentsOf: url, encoding: .utf8))!
-                print(updatedVersion)
             } catch {updatedVersion = appVersion}
             
         } else {
@@ -53,12 +52,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func checkVersion(vc: UIViewController) {
         getVersion()
-        
+            
         if (appVersion != updatedVersion)
         {
             let alert = UIAlertController(title: "New Version Available", message: "There is a newer version available for download! Please update the app by visiting the Apple Store.", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "Update", style: UIAlertActionStyle.default, handler: { alertAction in
-                UIApplication.shared.open(NSURL(string : "https://itunes.apple.com/us/app/cissmun/id1323501359?ls=1&mt=8")! as URL, options: [:], completionHandler: nil)
+                UIApplication.shared.open(URL(string : "https://itunes.apple.com/us/app/cissmun/id1323501359?ls=1&mt=8")!, options: [:], completionHandler: nil)
                 alert.dismiss(animated: true, completion: nil)
             }))
             vc.present(alert, animated: true, completion: nil)

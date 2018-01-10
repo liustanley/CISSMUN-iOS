@@ -16,6 +16,12 @@
 		9A168C551F2CE7CF001685AD /* DiningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A168C541F2CE7CF001685AD /* DiningViewController.swift */; };
 		9A3336681FC679BD005C4A24 /* MUNProcedureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3336671FC679BD005C4A24 /* MUNProcedureViewController.swift */; };
 		9A4378621F80002300375C34 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4378611F80002300375C34 /* UIViewExtensions.swift */; };
+		9A5FF90D2005A74900DB5E8E /* Appendix II- United Nations Charter.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF9072005A74800DB5E8E /* Appendix II- United Nations Charter.pdf */; };
+		9A5FF90E2005A74900DB5E8E /* CISSMUN Rules of Procedure.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF9082005A74800DB5E8E /* CISSMUN Rules of Procedure.pdf */; };
+		9A5FF90F2005A74900DB5E8E /* Appendix I- THIMUN Rules of Procedure.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF9092005A74800DB5E8E /* Appendix I- THIMUN Rules of Procedure.pdf */; };
+		9A5FF9102005A74900DB5E8E /* Chairing at CISSMUN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF90A2005A74900DB5E8E /* Chairing at CISSMUN.pdf */; };
+		9A5FF9112005A74900DB5E8E /* Student Officer Roster.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF90B2005A74900DB5E8E /* Student Officer Roster.pdf */; };
+		9A5FF9122005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF90C2005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf */; };
 		9A6C0EC01F2485A700094667 /* AttractionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C0EBF1F2485A700094667 /* AttractionsViewController.swift */; };
 		9A9B61341FD69BC2004772FF /* SpaghettiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9B61331FD69BC2004772FF /* SpaghettiViewController.swift */; };
 		9A9FC04C1ED5D165006E95A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FC04B1ED5D165006E95A1 /* AppDelegate.swift */; };
@@ -27,13 +33,7 @@
 		9AC54D2E1EE84B3700E87B88 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC54D2D1EE84B3700E87B88 /* MapViewController.swift */; };
 		9AC54D321EE84BB900E87B88 /* GINHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC54D311EE84BB900E87B88 /* GINHomeViewController.swift */; };
 		9ACDEE2C1FC6C160003BFE42 /* MUNPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDEE2B1FC6C160003BFE42 /* MUNPDFViewController.swift */; };
-		9AD06A451FDC433500E1296E /* Appendix II- United Nations Charter.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9AD06A3E1FDC433200E1296E /* Appendix II- United Nations Charter.pdf */; };
-		9AD06A461FDC433500E1296E /* Student Officer Roster.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9AD06A3F1FDC433300E1296E /* Student Officer Roster.pdf */; };
 		9AD06A471FDC433500E1296E /* Cover Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9AD06A401FDC433300E1296E /* Cover Page.pdf */; };
-		9AD06A481FDC433500E1296E /* CISSMUN Rules of Procedure.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9AD06A411FDC433300E1296E /* CISSMUN Rules of Procedure.pdf */; };
-		9AD06A491FDC433500E1296E /* Chairing at CISSMUN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9AD06A421FDC433400E1296E /* Chairing at CISSMUN.pdf */; };
-		9AD06A4A1FDC433500E1296E /* Preparatory Meeting Guidelines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9AD06A431FDC433400E1296E /* Preparatory Meeting Guidelines.pdf */; };
-		9AD06A4B1FDC433500E1296E /* Appendix I- THIMUN Rules of Procedure.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9AD06A441FDC433500E1296E /* Appendix I- THIMUN Rules of Procedure.pdf */; };
 		9AD5687A1EEAB911001D1584 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD568791EEAB911001D1584 /* WelcomeViewController.swift */; };
 		9AE0A3291EE92AAC0078144B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE0A3281EE92AAC0078144B /* SettingsTableViewController.swift */; };
 		9AE297EB1F599232000AF9C7 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE297EA1F599232000AF9C7 /* DropShadow.swift */; };
@@ -58,6 +58,12 @@
 		9A168C541F2CE7CF001685AD /* DiningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiningViewController.swift; sourceTree = "<group>"; };
 		9A3336671FC679BD005C4A24 /* MUNProcedureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUNProcedureViewController.swift; sourceTree = "<group>"; };
 		9A4378611F80002300375C34 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		9A5FF9072005A74800DB5E8E /* Appendix II- United Nations Charter.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Appendix II- United Nations Charter.pdf"; sourceTree = "<group>"; };
+		9A5FF9082005A74800DB5E8E /* CISSMUN Rules of Procedure.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CISSMUN Rules of Procedure.pdf"; sourceTree = "<group>"; };
+		9A5FF9092005A74800DB5E8E /* Appendix I- THIMUN Rules of Procedure.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Appendix I- THIMUN Rules of Procedure.pdf"; sourceTree = "<group>"; };
+		9A5FF90A2005A74900DB5E8E /* Chairing at CISSMUN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Chairing at CISSMUN.pdf"; sourceTree = "<group>"; };
+		9A5FF90B2005A74900DB5E8E /* Student Officer Roster.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Student Officer Roster.pdf"; sourceTree = "<group>"; };
+		9A5FF90C2005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Preparatory Meeting Guidelines.pdf"; sourceTree = "<group>"; };
 		9A6C0EBF1F2485A700094667 /* AttractionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionsViewController.swift; sourceTree = "<group>"; };
 		9A9B61331FD69BC2004772FF /* SpaghettiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaghettiViewController.swift; sourceTree = "<group>"; };
 		9A9FC0481ED5D165006E95A1 /* CISSMUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CISSMUN.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,15 +77,8 @@
 		9AC54D2D1EE84B3700E87B88 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9AC54D311EE84BB900E87B88 /* GINHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINHomeViewController.swift; sourceTree = "<group>"; };
 		9ACDEE2B1FC6C160003BFE42 /* MUNPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUNPDFViewController.swift; sourceTree = "<group>"; };
-		9AD06A3E1FDC433200E1296E /* Appendix II- United Nations Charter.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Appendix II- United Nations Charter.pdf"; sourceTree = "<group>"; };
-		9AD06A3F1FDC433300E1296E /* Student Officer Roster.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Student Officer Roster.pdf"; sourceTree = "<group>"; };
 		9AD06A401FDC433300E1296E /* Cover Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cover Page.pdf"; sourceTree = "<group>"; };
-		9AD06A411FDC433300E1296E /* CISSMUN Rules of Procedure.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CISSMUN Rules of Procedure.pdf"; sourceTree = "<group>"; };
-		9AD06A421FDC433400E1296E /* Chairing at CISSMUN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Chairing at CISSMUN.pdf"; sourceTree = "<group>"; };
-		9AD06A431FDC433400E1296E /* Preparatory Meeting Guidelines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Preparatory Meeting Guidelines.pdf"; sourceTree = "<group>"; };
-		9AD06A441FDC433500E1296E /* Appendix I- THIMUN Rules of Procedure.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Appendix I- THIMUN Rules of Procedure.pdf"; sourceTree = "<group>"; };
 		9AD568791EEAB911001D1584 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		9AD99F341F4FFBC500649D2C /* CISSMUN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CISSMUN.entitlements; sourceTree = SOURCE_ROOT; };
 		9AE0A3281EE92AAC0078144B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		9AE297EA1F599232000AF9C7 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 		9AFA21501EE9264C006E677E /* GINKeynoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GINKeynoteViewController.swift; sourceTree = "<group>"; };
@@ -135,13 +134,13 @@
 		9A6B51A41FC6B289005D71D5 /* PDFs */ = {
 			isa = PBXGroup;
 			children = (
-				9AD06A441FDC433500E1296E /* Appendix I- THIMUN Rules of Procedure.pdf */,
-				9AD06A3E1FDC433200E1296E /* Appendix II- United Nations Charter.pdf */,
-				9AD06A421FDC433400E1296E /* Chairing at CISSMUN.pdf */,
-				9AD06A411FDC433300E1296E /* CISSMUN Rules of Procedure.pdf */,
+				9A5FF9092005A74800DB5E8E /* Appendix I- THIMUN Rules of Procedure.pdf */,
+				9A5FF9072005A74800DB5E8E /* Appendix II- United Nations Charter.pdf */,
+				9A5FF90A2005A74900DB5E8E /* Chairing at CISSMUN.pdf */,
+				9A5FF9082005A74800DB5E8E /* CISSMUN Rules of Procedure.pdf */,
+				9A5FF90C2005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf */,
+				9A5FF90B2005A74900DB5E8E /* Student Officer Roster.pdf */,
 				9AD06A401FDC433300E1296E /* Cover Page.pdf */,
-				9AD06A431FDC433400E1296E /* Preparatory Meeting Guidelines.pdf */,
-				9AD06A3F1FDC433300E1296E /* Student Officer Roster.pdf */,
 			);
 			name = PDFs;
 			sourceTree = "<group>";
@@ -166,7 +165,6 @@
 		9A9FC04A1ED5D165006E95A1 /* CISSMUN */ = {
 			isa = PBXGroup;
 			children = (
-				9AD99F341F4FFBC500649D2C /* CISSMUN.entitlements */,
 				9A07ED4B1F127ABE00BDA478 /* Shared */,
 				9AC54D301EE84B7E00E87B88 /* GIN */,
 				9AC54D2F1EE84B7000E87B88 /* MUN */,
@@ -275,18 +273,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AD06A4A1FDC433500E1296E /* Preparatory Meeting Guidelines.pdf in Resources */,
-				9AD06A461FDC433500E1296E /* Student Officer Roster.pdf in Resources */,
+				9A5FF90F2005A74900DB5E8E /* Appendix I- THIMUN Rules of Procedure.pdf in Resources */,
+				9A5FF9122005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf in Resources */,
 				9A9FC0581ED5D165006E95A1 /* LaunchScreen.storyboard in Resources */,
+				9A5FF90E2005A74900DB5E8E /* CISSMUN Rules of Procedure.pdf in Resources */,
+				9A5FF90D2005A74900DB5E8E /* Appendix II- United Nations Charter.pdf in Resources */,
 				9AD06A471FDC433500E1296E /* Cover Page.pdf in Resources */,
 				9A07ED461F126D3500BDA478 /* MUN.storyboard in Resources */,
-				9AD06A481FDC433500E1296E /* CISSMUN Rules of Procedure.pdf in Resources */,
-				9AD06A4B1FDC433500E1296E /* Appendix I- THIMUN Rules of Procedure.pdf in Resources */,
 				9A9FC0551ED5D165006E95A1 /* Assets.xcassets in Resources */,
-				9AD06A451FDC433500E1296E /* Appendix II- United Nations Charter.pdf in Resources */,
+				9A5FF9112005A74900DB5E8E /* Student Officer Roster.pdf in Resources */,
 				9A9FC0531ED5D165006E95A1 /* Main.storyboard in Resources */,
 				9A07ED481F126D7C00BDA478 /* GIN.storyboard in Resources */,
-				9AD06A491FDC433500E1296E /* Chairing at CISSMUN.pdf in Resources */,
+				9A5FF9102005A74900DB5E8E /* Chairing at CISSMUN.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +456,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NB52NRZ5D5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GIN/Info.plist;
@@ -465,6 +465,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cissdev.cissmun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -474,6 +476,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NB52NRZ5D5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GIN/Info.plist;
@@ -481,6 +485,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cissdev.cissmun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

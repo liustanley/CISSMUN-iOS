@@ -331,7 +331,7 @@
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keynote #1: Melati and Isabel Wisjen" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7e-f0-kQT">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keynote #1: Melati and Isabel Wijsen" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7e-f0-kQT">
                                                                                 <rect key="frame" x="144" y="0.0" width="144" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
