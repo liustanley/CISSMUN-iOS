@@ -123,7 +123,7 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
         }
             
         else if ( UserDefaults.standard.object(forKey: "myConference") as? Bool == false) {
-            
+            //selected GIN
             roomies = [
                 Room(roomName:"Wittenberg Hall (H316/H318)", floorNumber: text[2], floorMap: "HS 3"),
                 Room(roomName:"PC Lounge", floorNumber: text[1], floorMap: "HS 2"),
@@ -179,9 +179,11 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
                 Room(roomName:"M209",floorNumber: text[7], floorMap: "MS 2"),
                 Room(roomName:"M210",floorNumber: text[7], floorMap: "MS 2"),
                 Room(roomName:"M211",floorNumber: text[7], floorMap: "MS 2"),
+                Room(roomName:"M216",floorNumber: text[7], floorMap: "MS 2"),
                 Room(roomName:"M223",floorNumber: text[7], floorMap: "MS 2"),
                 Room(roomName:"P133",floorNumber: text[16], floorMap: "PC 1"),
                 Room(roomName:"P134",floorNumber: text[16], floorMap: "PC 1"),
+                Room(roomName:"P224",floorNumber: text[17], floorMap: "PC 2"),
                 Room(roomName:"H118",floorNumber: text[0], floorMap: "HS 1"),
                 Room(roomName:"H216", floorNumber: text[1], floorMap: "HS 2"),
                 Room(roomName:"H306", floorNumber: text[2], floorMap: "HS 3"),
@@ -189,7 +191,9 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
                 Room(roomName:"H303", floorNumber: text[2], floorMap: "HS 3"),
                 Room(roomName:"H203", floorNumber: text[1], floorMap: "HS 2"),
                 Room(roomName:"H204", floorNumber: text[1], floorMap: "HS 2"),
-                Room(roomName:"H206", floorNumber: text[1], floorMap: "HS 2"), ]
+                Room(roomName:"H206", floorNumber: text[1], floorMap: "HS 2"),
+                Room(roomName:"H429", floorNumber: text[3], floorMap: "HS 4"),
+            ]
             
         }
 
