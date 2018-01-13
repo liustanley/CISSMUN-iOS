@@ -4349,7 +4349,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="736"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lsG-4s-HHR">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="550"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To/From Shanghai:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glp-My-dez">
                                                 <rect key="frame" x="16" y="16" width="288" height="25"/>
@@ -4358,50 +4358,109 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBH-uw-2HC">
-                                                <rect key="frame" x="16" y="41" width="288" height="200"/>
+                                                <rect key="frame" x="16" y="41" width="288" height="215"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="200" id="bI9-wX-hWA"/>
+                                                    <constraint firstAttribute="height" constant="215" id="bI9-wX-hWA"/>
                                                 </constraints>
                                                 <string key="text">Shanghai is served by two international airports with daily flights from many Chinese cities, most Asian capitals and many other American and European destinations. Shanghai is also a major hub for China’s high-speed rail network, with efficient service from Beijing, Hong Kong and many other cities.
+
 Schools are expected to make their own travel arrangements, but please feel free to contact us if you require assistance in obtaining the necessary entrance visas.</string>
                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airport Transfers:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJ4-BZ-9SQ">
-                                                <rect key="frame" x="16" y="257" width="288" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To/From Concordia:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJ4-BZ-9SQ">
+                                                <rect key="frame" x="16" y="272" width="288" height="24"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airport Transfers:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqG-nL-6e6">
+                                                <rect key="frame" x="16" y="418" width="288" height="23"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GjC-Nf-zoc">
-                                                <rect key="frame" x="16" y="281" width="288" height="230"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ypq-W6-R3q">
+                                                <rect key="frame" x="16" y="441" width="288" height="240"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="230" id="12C-oK-J5a"/>
+                                                    <constraint firstAttribute="height" constant="240" id="5IR-ri-lUw"/>
                                                 </constraints>
                                                 <string key="text">The CISSMUN administrative staff will arrange a bus transfer (on arrival and/or departure) from Pudong or Hongqiao airport, or from any of the Shanghai Railway stations, for any school that requires it. Please fill out the Arrival/Departure form (available at https://www.cissmun.org/arrivaldeparture-form/) to communicate your numbers and specific travel details.
+
 The cost of buses to and from the airport/train station will be borne by the visiting schools, and will be included with the conference registration fees on your school’s CISSMUN invoice. That cost is RMB 900.00 or USD 130.00 each way.</string>
                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                             </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Despite Shanghai's large size, it is easy to get to Concordia, no matter where you are. " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cRk-wd-NPc">
+                                                <rect key="frame" x="16" y="296" width="288" height="43"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="43" id="fis-xJ-faG"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mDk-pq-3Jl">
+                                                <rect key="frame" x="16" y="343" width="288" height="52"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="52" id="73F-9v-gk7"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulW-uA-s6r" userLabel="Additional Travel Details">
+                                                <rect key="frame" x="16" y="344" width="288" height="50"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="6Ee-y0-fQl"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                <state key="normal" title="   Additional Travel Details">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="Hle-eU-nVj" kind="push" id="F34-zr-L8s"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMG-sH-KW2">
+                                                <rect key="frame" x="275" y="357" width="13" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.97254901959999995" green="0.96078431369999995" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="gBH-uw-2HC" secondAttribute="trailing" constant="16" id="0bd-aK-LYA"/>
-                                            <constraint firstItem="wJ4-BZ-9SQ" firstAttribute="top" secondItem="gBH-uw-2HC" secondAttribute="bottom" constant="16" id="5zY-O1-5dB"/>
+                                            <constraint firstAttribute="trailing" secondItem="lqG-nL-6e6" secondAttribute="trailing" constant="16" id="3gb-gT-C0O"/>
+                                            <constraint firstItem="cRk-wd-NPc" firstAttribute="top" secondItem="wJ4-BZ-9SQ" secondAttribute="bottom" id="6Uh-Oe-QEc"/>
+                                            <constraint firstItem="ulW-uA-s6r" firstAttribute="centerY" secondItem="mDk-pq-3Jl" secondAttribute="centerY" id="7YZ-BG-qJg"/>
+                                            <constraint firstItem="mDk-pq-3Jl" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="9GO-nC-6Rd"/>
+                                            <constraint firstItem="lqG-nL-6e6" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="9M4-BZ-NdD"/>
                                             <constraint firstItem="gBH-uw-2HC" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="Dll-o1-8ri"/>
+                                            <constraint firstItem="ulW-uA-s6r" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="Em8-zK-eeX"/>
                                             <constraint firstItem="wJ4-BZ-9SQ" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="HT0-hD-8jb"/>
                                             <constraint firstItem="gBH-uw-2HC" firstAttribute="top" secondItem="glp-My-dez" secondAttribute="bottom" id="MV6-uh-8Fm"/>
                                             <constraint firstItem="glp-My-dez" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="Mnb-Wj-eDn"/>
-                                            <constraint firstAttribute="trailing" secondItem="GjC-Nf-zoc" secondAttribute="trailing" constant="16" id="Zcf-z5-ijJ"/>
+                                            <constraint firstItem="wJ4-BZ-9SQ" firstAttribute="top" secondItem="gBH-uw-2HC" secondAttribute="bottom" constant="16" id="Uva-KN-6PQ"/>
+                                            <constraint firstItem="ulW-uA-s6r" firstAttribute="centerX" secondItem="mDk-pq-3Jl" secondAttribute="centerX" id="Wzp-et-zvl"/>
+                                            <constraint firstAttribute="trailing" secondItem="mDk-pq-3Jl" secondAttribute="trailing" constant="16" id="Xgb-cD-A7C"/>
                                             <constraint firstAttribute="trailing" secondItem="wJ4-BZ-9SQ" secondAttribute="trailing" constant="16" id="ep0-bK-dGj"/>
-                                            <constraint firstItem="GjC-Nf-zoc" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="mHn-W8-8JY"/>
-                                            <constraint firstAttribute="height" constant="550" id="oxo-Rb-Agn"/>
+                                            <constraint firstAttribute="trailing" secondItem="ulW-uA-s6r" secondAttribute="trailing" constant="16" id="fhL-tg-MkD"/>
+                                            <constraint firstAttribute="trailing" secondItem="DMG-sH-KW2" secondAttribute="trailing" constant="32" id="g1F-4V-uDn"/>
+                                            <constraint firstAttribute="trailing" secondItem="cRk-wd-NPc" secondAttribute="trailing" constant="16" id="gSb-KB-anC"/>
+                                            <constraint firstItem="cRk-wd-NPc" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="hYb-2t-cfo"/>
+                                            <constraint firstItem="ypq-W6-R3q" firstAttribute="top" secondItem="lqG-nL-6e6" secondAttribute="bottom" id="kbW-rT-Brt"/>
+                                            <constraint firstItem="lqG-nL-6e6" firstAttribute="top" secondItem="mDk-pq-3Jl" secondAttribute="bottom" constant="23" id="ksp-kW-lC8"/>
+                                            <constraint firstItem="ulW-uA-s6r" firstAttribute="top" secondItem="cRk-wd-NPc" secondAttribute="bottom" constant="5" id="mfs-F5-5ED"/>
+                                            <constraint firstItem="DMG-sH-KW2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="20" symbolic="YES" id="nja-67-G8p"/>
+                                            <constraint firstItem="DMG-sH-KW2" firstAttribute="centerY" secondItem="ulW-uA-s6r" secondAttribute="centerY" id="oGM-m6-6OA"/>
+                                            <constraint firstAttribute="height" constant="700" id="oxo-Rb-Agn"/>
                                             <constraint firstItem="glp-My-dez" firstAttribute="top" secondItem="lsG-4s-HHR" secondAttribute="top" constant="16" id="sOL-ip-DJx"/>
                                             <constraint firstAttribute="trailing" secondItem="glp-My-dez" secondAttribute="trailing" constant="16" id="sxe-KD-cIH"/>
-                                            <constraint firstItem="GjC-Nf-zoc" firstAttribute="top" secondItem="wJ4-BZ-9SQ" secondAttribute="bottom" id="ufP-2j-aq1"/>
+                                            <constraint firstItem="ypq-W6-R3q" firstAttribute="leading" secondItem="lsG-4s-HHR" secondAttribute="leading" constant="16" id="vjb-8e-vWO"/>
+                                            <constraint firstAttribute="trailing" secondItem="ypq-W6-R3q" secondAttribute="trailing" constant="16" id="w5Q-x6-KAh"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -4426,7 +4485,26 @@ The cost of buses to and from the airport/train station will be borne by the vis
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l0Y-dW-AKY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4252.5" y="1158.75"/>
+            <point key="canvasLocation" x="4252.1739130434789" y="1157.608695652174"/>
+        </scene>
+        <!--Travel Details-->
+        <scene sceneID="l4i-2H-uhf">
+            <objects>
+                <viewController id="Hle-eU-nVj" customClass="TransportPDFViewController" customModule="CISSMUN" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dEU-E2-xeC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Erd-nT-oph"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p2T-eT-AbQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96899396179999997" green="0.95329660179999998" blue="0.93221032619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Travel Details" id="dUq-Zr-MJ2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tyb-et-TMQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5125" y="1158"/>
         </scene>
         <!--Dining-->
         <scene sceneID="yVm-Up-7gX">
@@ -7382,7 +7460,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="yu garden" width="2048" height="1365"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="DEr-0g-dSA"/>
+        <segue reference="bkX-Y6-ZTI"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
