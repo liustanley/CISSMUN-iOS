@@ -121,7 +121,7 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             Room(roomName:"GA1, PE Commons", floorNumber: text[18], floorMap: "HS B1"),
             
             Room(roomName:"CISSMUN Vigil 2 (H306)", floorNumber: text[2], floorMap: "HS 3"),
-            Room(roomName:"ICC 2, Business Office (H329/H330)", floorNumber: text[2], floorMap: "HS 3"),
+            Room(roomName:"ICC 2, Conference Room (H233)", floorNumber: text[1], floorMap: "HS 2"),
             ]
         }
             
