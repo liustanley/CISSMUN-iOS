@@ -14,7 +14,6 @@
         <array key="Avenir.ttc">
             <string>Avenir-Black</string>
             <string>Avenir-Book</string>
-            <string>Avenir-BookOblique</string>
             <string>Avenir-Heavy</string>
             <string>Avenir-Light</string>
             <string>Avenir-LightOblique</string>
@@ -1484,42 +1483,20 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fue-q3-mA4" userLabel="Lavender" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                <rect key="frame" x="12" y="216" width="296" height="335"/>
+                                                <rect key="frame" x="12" y="216" width="296" height="500"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIN Director" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="7bY-3G-19r">
-                                                        <rect key="frame" x="12" y="18" width="176" height="20"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="Dhz-ku-YcY"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="LeeAnne Lavender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="6CE-Xk-WXK">
-                                                        <rect key="frame" x="12" y="48" width="150.5" height="20"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="E8I-lz-fmS"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="18"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lavender_leeanne" translatesAutoresizingMaskIntoConstraints="NO" id="NPk-il-C8S">
-                                                        <rect key="frame" x="188" y="12" width="96" height="96"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" secondItem="NPk-il-C8S" secondAttribute="height" multiplier="1:1" id="deR-Fp-136"/>
-                                                        </constraints>
-                                                    </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="752" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="mWn-E1-biw">
-                                                        <rect key="frame" x="12" y="76" width="184" height="109.5"/>
-                                                        <string key="text">I am a high school English teacher and a Global Issues Network advisor, and I am passionate about making the world a better place!</string>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="eX1-sk-xQJ">
-                                                        <rect key="frame" x="12" y="189.5" width="272" height="133.5"/>
-                                                        <string key="text">I believe that if we all work together, we can achieve great things in regards to our planet and its people and that the future can be bright. I have been working with GIN for 11 years and have attended conferences worldwide, led 3 groups in different countries and hosted 2 conferences. Let's channel our energy to make some change!</string>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="eX1-sk-xQJ">
+                                                        <rect key="frame" x="12" y="12" width="272" height="476"/>
+                                                        <mutableString key="text">Welcome to GINAsia 2018! 
+
+The purpose of GIN, and of our regional conference this year, is to learn more about pressing global issues and to build a belief (in ourselves and our peers) that we CAN make a difference. We CAN be changemakers. We CAN care for our planet. We CAN protect people who need protection. We CAN be a voice for people who lack power and resources. 
+
+As we hear from inspiring keynote speakers and panelists, as we engage in workshops and simulations together, as we dialogue and brainstorm and share, let’s find ways to encourage each other and embrace the idea that, together, we CAN change the world. 
+
+GINAsia 2018: A Place to Stand. Let’s make our place to stand this weekend. Let’s use our place to stand as a platform for sowing more peace, love and kindness. Let’s care for our planet and let’s care for each other. Let’s make our world better. 
+
+Sincerely,
+The GINAsia 2018 Leadership Team</mutableString>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1527,82 +1504,30 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstItem="6CE-Xk-WXK" firstAttribute="leading" secondItem="fue-q3-mA4" secondAttribute="leading" constant="12" id="4MP-cZ-Bip"/>
-                                                    <constraint firstItem="6CE-Xk-WXK" firstAttribute="top" secondItem="7bY-3G-19r" secondAttribute="bottom" constant="10" id="6ZL-Oo-IcU"/>
-                                                    <constraint firstAttribute="height" constant="335" id="BfB-Pr-qou"/>
+                                                    <constraint firstAttribute="height" constant="500" id="BfB-Pr-qou"/>
                                                     <constraint firstAttribute="trailing" secondItem="eX1-sk-xQJ" secondAttribute="trailing" constant="12" id="HZc-1h-R4b"/>
-                                                    <constraint firstItem="NPk-il-C8S" firstAttribute="leading" secondItem="mWn-E1-biw" secondAttribute="trailing" constant="-8" id="IUt-4A-x1F"/>
-                                                    <constraint firstItem="NPk-il-C8S" firstAttribute="leading" secondItem="7bY-3G-19r" secondAttribute="trailing" id="Q4Y-h2-7vn"/>
-                                                    <constraint firstItem="7bY-3G-19r" firstAttribute="leading" secondItem="fue-q3-mA4" secondAttribute="leading" constant="12" id="SbY-i6-bez"/>
-                                                    <constraint firstItem="eX1-sk-xQJ" firstAttribute="top" secondItem="mWn-E1-biw" secondAttribute="bottom" constant="4" id="epm-j6-SPw"/>
-                                                    <constraint firstItem="mWn-E1-biw" firstAttribute="leading" secondItem="fue-q3-mA4" secondAttribute="leading" constant="12" id="g9w-oc-5xZ"/>
-                                                    <constraint firstItem="7bY-3G-19r" firstAttribute="top" secondItem="fue-q3-mA4" secondAttribute="top" constant="18" id="lW8-hb-06Q"/>
-                                                    <constraint firstAttribute="trailing" secondItem="NPk-il-C8S" secondAttribute="trailing" constant="12" id="ouw-yK-DSD"/>
                                                     <constraint firstItem="eX1-sk-xQJ" firstAttribute="leading" secondItem="fue-q3-mA4" secondAttribute="leading" constant="12" id="qpY-Pb-WPY"/>
                                                     <constraint firstAttribute="bottom" secondItem="eX1-sk-xQJ" secondAttribute="bottom" constant="12" id="sdA-TR-mkI"/>
-                                                    <constraint firstItem="NPk-il-C8S" firstAttribute="top" secondItem="fue-q3-mA4" secondAttribute="top" constant="12" id="tjv-Gk-lUp"/>
-                                                    <constraint firstItem="mWn-E1-biw" firstAttribute="top" secondItem="6CE-Xk-WXK" secondAttribute="bottom" constant="8" id="xfU-oq-rjo"/>
+                                                    <constraint firstItem="eX1-sk-xQJ" firstAttribute="top" secondItem="fue-q3-mA4" secondAttribute="top" constant="12" id="ufK-sI-hCu"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18r-xT-91t" userLabel="Karen" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
-                                                <rect key="frame" x="12" y="567" width="296" height="345"/>
+                                                <rect key="frame" x="12" y="725" width="296" height="190"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIN Student Head" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="6cv-pS-Y3d">
-                                                        <rect key="frame" x="12" y="18" width="176" height="20"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gin welcome" translatesAutoresizingMaskIntoConstraints="NO" id="bcp-x8-O0j">
+                                                        <rect key="frame" x="0.0" y="0.0" width="296" height="190"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="zea-Nb-yEb"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Karen Ma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="uHJ-rl-pk1">
-                                                        <rect key="frame" x="12" y="48" width="68.5" height="20"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="0LP-LJ-FAa"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="16"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Karen" translatesAutoresizingMaskIntoConstraints="NO" id="Sy9-Wc-qOS">
-                                                        <rect key="frame" x="188" y="12" width="96" height="96"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" secondItem="Sy9-Wc-qOS" secondAttribute="height" multiplier="1:1" id="KKp-1o-hAi"/>
+                                                            <constraint firstAttribute="height" constant="190" id="jYK-JU-Z03"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ybd-Rf-GY5" userLabel="KHeader">
-                                                        <rect key="frame" x="12" y="76" width="168" height="109.5"/>
-                                                        <string key="text">I am currently in 11th grade and I am passionate about leading a sustainable life and making choices that benefit the environment.</string>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="jDV-RJ-z7E">
-                                                        <rect key="frame" x="12" y="189.5" width="272" height="143.5"/>
-                                                        <string key="text">I have been in GIN for 4 years and have led it for 2 years now.  This year’s conference theme, “A Place to Stand,” resonates with me a lot because of personal experiences and beliefs. However, I know everybody has a different interpretation of this theme, so where do you stand in this world? I hope you discover answers to this question as you listen to the amazing keynote speakers and changemaker panels!</string>
-                                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstItem="jDV-RJ-z7E" firstAttribute="top" secondItem="ybd-Rf-GY5" secondAttribute="bottom" constant="4" id="0lf-w0-Kj2"/>
-                                                    <constraint firstAttribute="height" constant="345" id="6Sh-Q2-dkG"/>
-                                                    <constraint firstItem="uHJ-rl-pk1" firstAttribute="leading" secondItem="18r-xT-91t" secondAttribute="leading" constant="12" id="7kU-XY-Ry3"/>
-                                                    <constraint firstAttribute="trailing" secondItem="Sy9-Wc-qOS" secondAttribute="trailing" constant="12" id="BhQ-Hp-xUJ"/>
-                                                    <constraint firstItem="uHJ-rl-pk1" firstAttribute="top" secondItem="6cv-pS-Y3d" secondAttribute="bottom" constant="10" id="BlW-V2-WPo"/>
-                                                    <constraint firstItem="6cv-pS-Y3d" firstAttribute="leading" secondItem="18r-xT-91t" secondAttribute="leading" constant="12" id="TVl-AW-UpL"/>
-                                                    <constraint firstItem="ybd-Rf-GY5" firstAttribute="trailing" secondItem="Sy9-Wc-qOS" secondAttribute="leading" constant="-8" id="TsX-lv-Oya"/>
-                                                    <constraint firstItem="ybd-Rf-GY5" firstAttribute="leading" secondItem="18r-xT-91t" secondAttribute="leading" constant="12" id="X81-Ge-xRX"/>
-                                                    <constraint firstItem="jDV-RJ-z7E" firstAttribute="leading" secondItem="18r-xT-91t" secondAttribute="leading" constant="12" id="ZGl-A0-yjF"/>
-                                                    <constraint firstItem="6cv-pS-Y3d" firstAttribute="top" secondItem="18r-xT-91t" secondAttribute="top" constant="18" id="ZeH-mZ-scr"/>
-                                                    <constraint firstAttribute="bottom" secondItem="jDV-RJ-z7E" secondAttribute="bottom" constant="12" id="aUg-oU-iAm"/>
-                                                    <constraint firstItem="Sy9-Wc-qOS" firstAttribute="leading" secondItem="6cv-pS-Y3d" secondAttribute="trailing" id="h8z-sQ-LS5"/>
-                                                    <constraint firstItem="ybd-Rf-GY5" firstAttribute="top" secondItem="uHJ-rl-pk1" secondAttribute="bottom" constant="8" id="s95-Pz-mGo"/>
-                                                    <constraint firstAttribute="trailing" secondItem="jDV-RJ-z7E" secondAttribute="trailing" constant="12" id="tNa-VW-nga"/>
-                                                    <constraint firstItem="Sy9-Wc-qOS" firstAttribute="top" secondItem="18r-xT-91t" secondAttribute="top" constant="12" id="ymI-Sh-90n"/>
+                                                    <constraint firstAttribute="height" constant="190" id="6Sh-Q2-dkG"/>
+                                                    <constraint firstItem="bcp-x8-O0j" firstAttribute="leading" secondItem="18r-xT-91t" secondAttribute="leading" id="KIs-gY-zg7"/>
+                                                    <constraint firstItem="bcp-x8-O0j" firstAttribute="top" secondItem="18r-xT-91t" secondAttribute="top" id="lq7-pL-oCl"/>
+                                                    <constraint firstAttribute="trailing" secondItem="bcp-x8-O0j" secondAttribute="trailing" id="ujp-fZ-PMg"/>
+                                                    <constraint firstAttribute="bottom" secondItem="bcp-x8-O0j" secondAttribute="bottom" id="wxs-aU-mSb"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -1618,7 +1543,7 @@
                                             <constraint firstItem="2iE-H5-WQ5" firstAttribute="bottom" secondItem="ZeT-pl-cfa" secondAttribute="bottom" id="Ojh-S9-i5V"/>
                                             <constraint firstAttribute="bottom" secondItem="ZeT-pl-cfa" secondAttribute="bottom" priority="999" constant="750" id="S8B-Pd-bdH"/>
                                             <constraint firstItem="fue-q3-mA4" firstAttribute="top" secondItem="OBH-DX-87d" secondAttribute="top" constant="216" id="VQt-Aj-4yd"/>
-                                            <constraint firstItem="18r-xT-91t" firstAttribute="top" secondItem="fue-q3-mA4" secondAttribute="bottom" constant="16" id="Z8G-gz-WKT"/>
+                                            <constraint firstItem="18r-xT-91t" firstAttribute="top" secondItem="fue-q3-mA4" secondAttribute="bottom" constant="9" id="Z8G-gz-WKT"/>
                                             <constraint firstItem="18r-xT-91t" firstAttribute="leading" secondItem="OBH-DX-87d" secondAttribute="leading" constant="12" id="iQZ-9U-yhj"/>
                                             <constraint firstItem="fue-q3-mA4" firstAttribute="leading" secondItem="OBH-DX-87d" secondAttribute="leading" constant="12" id="icr-c4-laN"/>
                                             <constraint firstItem="2iE-H5-WQ5" firstAttribute="leading" secondItem="ZeT-pl-cfa" secondAttribute="leading" id="nKR-hw-cqY"/>
@@ -1640,8 +1565,6 @@
                             <constraint firstAttribute="trailing" secondItem="4bs-M4-7AU" secondAttribute="trailing" id="Iah-Y2-csz"/>
                             <constraint firstItem="4bs-M4-7AU" firstAttribute="leading" secondItem="cGU-V3-u8l" secondAttribute="leading" id="LGo-K4-Hrw"/>
                             <constraint firstItem="ZeT-pl-cfa" firstAttribute="top" secondItem="9rW-fy-Ggu" secondAttribute="bottom" id="LQC-wC-R9h"/>
-                            <constraint firstItem="NPk-il-C8S" firstAttribute="width" secondItem="cGU-V3-u8l" secondAttribute="width" multiplier="0.3" id="pFH-WQ-nrU"/>
-                            <constraint firstItem="Sy9-Wc-qOS" firstAttribute="width" secondItem="cGU-V3-u8l" secondAttribute="width" multiplier="0.3" id="rdo-Mn-Vxi"/>
                             <constraint firstAttribute="bottom" secondItem="4bs-M4-7AU" secondAttribute="bottom" id="wSp-Ph-LX3"/>
                             <constraint firstItem="OBH-DX-87d" firstAttribute="width" secondItem="cGU-V3-u8l" secondAttribute="width" id="yGF-sS-eIP"/>
                         </constraints>
@@ -1667,11 +1590,11 @@
         <image name="Beah" width="150" height="150"/>
         <image name="Bedard" width="150" height="150"/>
         <image name="Dalglish" width="150" height="150"/>
-        <image name="Karen" width="150" height="150"/>
         <image name="Melati 1" width="150" height="150"/>
         <image name="Melati 2" width="150" height="150"/>
         <image name="Phuc" width="150" height="150"/>
         <image name="gin" width="1000" height="665"/>
+        <image name="gin welcome" width="1500" height="1007"/>
         <image name="icons8-Home " width="25" height="25"/>
         <image name="icons8-Home Filled " width="25" height="25"/>
         <image name="icons8-Map Marker " width="25" height="25"/>
@@ -1683,6 +1606,5 @@
         <image name="icons8-Schedule " width="25" height="25"/>
         <image name="icons8-Schedule Filled " width="25" height="25"/>
         <image name="keynote" width="1024" height="682"/>
-        <image name="lavender_leeanne" width="121" height="121"/>
     </resources>
 </document>
