@@ -1576,13 +1576,17 @@
                     <navigationItem key="navigationItem" id="LHs-fi-D3R">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="85O-go-Bhq">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iw3-IT-v95">
-                                <rect key="frame" x="-23" y="-15" width="92" height="30"/>
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <connections>
+                                <action selector="toreupdate:" destination="QzD-Gx-8Oc" id="ZP0-G7-eFF"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="reupdate" destination="85O-go-Bhq" id="Ant-3S-Xb6"/>
                         <outlet property="webview" destination="sYQ-gp-isq" id="PZt-rT-ZUb"/>
                     </connections>
                 </viewController>
