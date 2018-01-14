@@ -2131,7 +2131,7 @@ The CISSMUN IX and GINAsia 2018 iOS Development Team</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Map" id="D3c-Zg-9cX">
-                        <barButtonItem key="rightBarButtonItem" image="icons8-Search-26" id="yD5-bf-zzb">
+                        <barButtonItem key="rightBarButtonItem" image="icons8-search-26 (1)" id="yD5-bf-zzb">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <segue destination="IQM-Sr-j9g" kind="show" id="oaM-xq-hk7"/>
@@ -7433,6 +7433,7 @@ The cost of buses to and from the airport/train station will be borne by the vis
         <image name="icons8-Star Empty" width="40" height="40"/>
         <image name="icons8-Star Filled" width="40" height="40"/>
         <image name="icons8-Star Half Empty" width="40" height="40"/>
+        <image name="icons8-search-26 (1)" width="26" height="26"/>
         <image name="jing'an temple" width="2048" height="1365"/>
         <image name="lost heaven" width="549" height="367"/>
         <image name="nypizza" width="1923" height="1080"/>
