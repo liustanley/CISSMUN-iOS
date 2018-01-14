@@ -1585,27 +1585,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gaZ-wk-QtP">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sYQ-gp-isq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="623"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="gaZ-wk-QtP" secondAttribute="bottom" id="AZ7-zq-SIt"/>
-                            <constraint firstItem="gaZ-wk-QtP" firstAttribute="leading" secondItem="TzU-t8-pXl" secondAttribute="leading" id="FDZ-CC-JnU"/>
-                            <constraint firstAttribute="trailing" secondItem="gaZ-wk-QtP" secondAttribute="trailing" id="QSi-dX-zwk"/>
-                            <constraint firstItem="gaZ-wk-QtP" firstAttribute="top" secondItem="oh1-M0-bqq" secondAttribute="bottom" id="oJv-nG-xvn"/>
+                            <constraint firstAttribute="trailing" secondItem="sYQ-gp-isq" secondAttribute="trailing" id="F9L-UB-5q5"/>
+                            <constraint firstItem="sYQ-gp-isq" firstAttribute="top" secondItem="oh1-M0-bqq" secondAttribute="bottom" id="VGe-3g-Vln"/>
+                            <constraint firstAttribute="bottom" secondItem="sYQ-gp-isq" secondAttribute="bottom" constant="49" id="cPh-Wc-Od6"/>
+                            <constraint firstItem="sYQ-gp-isq" firstAttribute="leading" secondItem="TzU-t8-pXl" secondAttribute="leading" id="hgA-0k-FmB"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LHs-fi-D3R"/>
                     <connections>
-                        <outlet property="webview" destination="gaZ-wk-QtP" id="uHy-px-xSg"/>
+                        <outlet property="webview" destination="sYQ-gp-isq" id="PZt-rT-ZUb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TMc-r7-erJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3219" y="-364"/>
+            <point key="canvasLocation" x="-3221" y="-365"/>
         </scene>
         <!--Procedure Navigational-->
         <scene sceneID="J1e-c6-haN">
