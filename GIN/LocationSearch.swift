@@ -95,14 +95,13 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             Room(roomName:"GA4, Wittenberg Hall (H316/H318)", floorNumber: text[2], floorMap: "HS 3"),
             Room(roomName:"GA3, PC Lounge", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"ECOSOC, HS Gym (H115)", floorNumber: text[0], floorMap: "HS 1"),
-            Room(roomName:"P228, Phoenix Café", floorNumber: text[1], floorMap: "HS 2"),
+            Room(roomName:"Phoenix Café (P228)", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"Approval Panel, HS Library (H227)", floorNumber: text[1], floorMap: "HS 2"),
-            Room(roomName:"H233, HS Conference Room", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"Environment, Augsburg Hall (H405/H406)", floorNumber: text[3], floorMap: "HS 4"),
             Room(roomName:"GA6, MS Gym (M116)", floorNumber: text[6], floorMap: "MS 1"),
             Room(roomName:"HRC, ES Library (E322)", floorNumber: text[10], floorMap: "ES 3"),
             
-            Room(roomName:"E122, ES Cafeteria", floorNumber: text[8], floorMap: "ES 1"),
+            Room(roomName:"ES Cafeteria (E122)", floorNumber: text[8], floorMap: "ES 1"),
             Room(roomName:"SC, Orchestra Room (R302)", floorNumber: text[14], floorMap: "R 3"),
             Room(roomName:"Cafeteria", floorNumber: text[16], floorMap: "PC 1"),
             Room(roomName:"ICJ (H216)", floorNumber: text[1], floorMap: "HS 2"),
@@ -111,17 +110,17 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             Room(roomName:"Advisory Panel, Health Room (H127)", floorNumber: text[0], floorMap: "HS 1"),
             Room(roomName:"Rittmann Theatre (R101)", floorNumber: text[12], floorMap: "R 1"),
             Room(roomName:"CISSMUN Vigil 1 (H305)", floorNumber: text[2], floorMap: "HS 3"),
+            Room(roomName:"CISSMUN Vigil 2 (H306)", floorNumber: text[2], floorMap: "HS 3"),
             Room(roomName:"Spec Conf (H404)", floorNumber: text[3], floorMap: "HS 4"),
             Room(roomName:"UNPFII (H403)", floorNumber: text[3], floorMap: "HS 4"),
-            Room(roomName:"ICC 1, New Luther (P201)", floorNumber: text[17], floorMap: "PC 2"),
             Room(roomName:"Printing (H205)", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"Keynotes, Phoenix Center Gym (P106)", floorNumber: text[16], floorMap: "PC 1"),
-            Room(roomName:"H205", floorNumber: text[1], floorMap: "HS 2"),
-            Room(roomName:"Disarmament, Motor Skills Room",floorNumber: text[8], floorMap: "ES 1"),
+            Room(roomName:"Disarmament, Motor Skills Room (Room)",floorNumber: text[8], floorMap: "ES 1"),
+            //we really need to find out this MSR's room number
             Room(roomName:"GA1, PE Commons", floorNumber: text[18], floorMap: "HS B1"),
-            
-            Room(roomName:"CISSMUN Vigil 2 (H306)", floorNumber: text[2], floorMap: "HS 3"),
+            Room(roomName:"ICC 1, New Luther (P201)", floorNumber: text[17], floorMap: "PC 2"),
             Room(roomName:"ICC 2, Conference Room (H233)", floorNumber: text[1], floorMap: "HS 2"),
+              Room(roomName:"ICC 3, Business Hub Board Room (H329/H330)", floorNumber: text[1], floorMap: "HS 2")
             ]
         }
             

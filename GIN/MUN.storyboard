@@ -1586,7 +1586,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sYQ-gp-isq">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -1598,7 +1598,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="sYQ-gp-isq" secondAttribute="trailing" id="F9L-UB-5q5"/>
                             <constraint firstItem="sYQ-gp-isq" firstAttribute="top" secondItem="oh1-M0-bqq" secondAttribute="bottom" id="VGe-3g-Vln"/>
-                            <constraint firstAttribute="bottom" secondItem="sYQ-gp-isq" secondAttribute="bottom" constant="49" id="cPh-Wc-Od6"/>
+                            <constraint firstAttribute="bottom" secondItem="sYQ-gp-isq" secondAttribute="bottom" id="cPh-Wc-Od6"/>
                             <constraint firstItem="sYQ-gp-isq" firstAttribute="leading" secondItem="TzU-t8-pXl" secondAttribute="leading" id="hgA-0k-FmB"/>
                         </constraints>
                     </view>
