@@ -127,8 +127,8 @@
 		9A07ED4B1F127ABE00BDA478 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				7D8BF01E2009BBA3003874F4 /* ShanghaiViewController.swift */,
 				9A9FC0511ED5D165006E95A1 /* Main.storyboard */,
+				7D8BF01E2009BBA3003874F4 /* ShanghaiViewController.swift */,
 				7D51007C2009FF2400AA7104 /* TransportPDFViewController.swift */,
 				7D8BF0202009BBB4003874F4 /* SaturdayPDFViewController.swift */,
 				7D8BF01B2009BB84003874F4 /* PDFs */,

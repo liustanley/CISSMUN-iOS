@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -91,7 +90,6 @@
         <!--Home-->
         <scene sceneID="ZSD-Xl-bwt">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Mmh-dY-O1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zFM-Cb-Sfd" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="icons8-Home " selectedImage="icons8-Home Filled " id="4J1-Bj-imc"/>
                     <toolbarItems/>
@@ -104,6 +102,7 @@
                         <segue destination="v3u-rJ-h76" kind="relationship" relationship="rootViewController" id="maI-Hf-sEv"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mmh-dY-O1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2340" y="198"/>
         </scene>
@@ -1486,18 +1485,22 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fue-q3-mA4" userLabel="Lavender" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
                                                 <rect key="frame" x="12" y="216" width="296" height="500"/>
                                                 <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Welcome to GINAsia 2018!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HU-kl-sNX">
+                                                        <rect key="frame" x="0.0" y="12" width="296" height="25"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="eX1-sk-xQJ">
-                                                        <rect key="frame" x="12" y="12" width="272" height="476"/>
-                                                        <string key="text">Welcome to GINAsia 2018! 
-
-The purpose of GIN, and of our regional conference this year, is to learn more about pressing global issues and to build a belief (in ourselves and our peers) that we CAN make a difference. We CAN be changemakers. We CAN care for our planet. We CAN protect people who need protection. We CAN be a voice for people who lack power and resources. 
+                                                        <rect key="frame" x="14" y="41" width="268" height="447"/>
+                                                        <mutableString key="text">The purpose of GIN, and of our regional conference this year, is to learn more about pressing global issues and to build a belief (in ourselves and our peers) that we CAN make a difference. We CAN be changemakers. We CAN care for our planet. We CAN protect people who need protection. We CAN be a voice for people who lack power and resources. 
 
 As we hear from inspiring keynote speakers and panelists, as we engage in workshops and simulations together, as we dialogue and brainstorm and share, let’s find ways to encourage each other and embrace the idea that, together, we CAN change the world. 
 
 GINAsia 2018: A Place to Stand. Let’s make our place to stand this weekend. Let’s use our place to stand as a platform for sowing more peace, love and kindness. Let’s care for our planet and let’s care for each other. Let’s make our world better. 
 
 Sincerely,
-The GINAsia 2018 Leadership Team</string>
+The GINAsia 2018 Leadership Team</mutableString>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1506,10 +1509,13 @@ The GINAsia 2018 Leadership Team</string>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="500" id="BfB-Pr-qou"/>
-                                                    <constraint firstAttribute="trailing" secondItem="eX1-sk-xQJ" secondAttribute="trailing" constant="12" id="HZc-1h-R4b"/>
-                                                    <constraint firstItem="eX1-sk-xQJ" firstAttribute="leading" secondItem="fue-q3-mA4" secondAttribute="leading" constant="12" id="qpY-Pb-WPY"/>
+                                                    <constraint firstAttribute="trailing" secondItem="eX1-sk-xQJ" secondAttribute="trailing" constant="14" id="HZc-1h-R4b"/>
+                                                    <constraint firstAttribute="trailing" secondItem="8HU-kl-sNX" secondAttribute="trailing" id="LSh-AM-XiT"/>
+                                                    <constraint firstItem="8HU-kl-sNX" firstAttribute="leading" secondItem="fue-q3-mA4" secondAttribute="leading" id="PVc-Fc-vgA"/>
+                                                    <constraint firstItem="eX1-sk-xQJ" firstAttribute="top" secondItem="8HU-kl-sNX" secondAttribute="bottom" constant="4" id="fnQ-jQ-tqf"/>
+                                                    <constraint firstItem="8HU-kl-sNX" firstAttribute="top" secondItem="fue-q3-mA4" secondAttribute="top" constant="12" id="gsz-t6-KBi"/>
+                                                    <constraint firstItem="eX1-sk-xQJ" firstAttribute="leading" secondItem="fue-q3-mA4" secondAttribute="leading" constant="14" id="qpY-Pb-WPY"/>
                                                     <constraint firstAttribute="bottom" secondItem="eX1-sk-xQJ" secondAttribute="bottom" constant="12" id="sdA-TR-mkI"/>
-                                                    <constraint firstItem="eX1-sk-xQJ" firstAttribute="top" secondItem="fue-q3-mA4" secondAttribute="top" constant="12" id="ufK-sI-hCu"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="18r-xT-91t" userLabel="Karen" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
@@ -1605,10 +1611,10 @@ The GINAsia 2018 Leadership Team</string>
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="925"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gin" translatesAutoresizingMaskIntoConstraints="NO" id="9TY-Fn-ald">
-                                                <rect key="frame" x="0.0" y="7180" width="320" height="0.0"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0zr-sv-BPw">
-                                                <rect key="frame" x="0.0" y="7180" width="320" height="0.0"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
