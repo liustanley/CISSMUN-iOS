@@ -85,7 +85,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window?.makeKeyAndVisible()
         
-        checkVersion(vc: exampleViewController)
+        //checkVersion(vc: exampleViewController)
         
     }
     
