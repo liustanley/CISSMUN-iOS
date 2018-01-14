@@ -11,11 +11,13 @@ import WebKit
 
 class LiveUpdateViewController: UIViewController {
     
-    @IBOutlet weak var reupdate: UIBarButtonItem!
+    //@IBOutlet weak var reupdate: UIBarButtonItem!
     @IBAction func toreupdate(_ sender: Any) {
+        
         let url1 = URL(string:"https://docs.google.com/spreadsheets/d/e/2PACX-1vQzmqAdyzfpoehjGQsvA2Xw1Y4tL1g4-2g80pgeQi-31tAU7oAVUnawwbm9c39vVPSZztutYlXSM2sb/pubhtml?gid=1126656288&single=true")
         let request = URLRequest(url:url1!)
         webview.load(request)
+        
     }
     
     @IBOutlet weak var webview: WKWebView!

@@ -1574,11 +1574,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LHs-fi-D3R">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="85O-go-Bhq">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iw3-IT-v95">
-                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" style="plain" id="85O-go-Bhq">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iw3-IT-v95">
+                                <rect key="frame" x="354" y="2" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="icons8-refresh-26"/>
                             </button>
                             <connections>
                                 <action selector="toreupdate:" destination="QzD-Gx-8Oc" id="ZP0-G7-eFF"/>
@@ -2158,6 +2158,7 @@
         <image name="icons8-More Filled " width="25" height="25"/>
         <image name="icons8-Schedule " width="25" height="25"/>
         <image name="icons8-Schedule Filled " width="25" height="25"/>
+        <image name="icons8-refresh-26" width="26" height="26"/>
         <image name="paulson_erik" width="121" height="121"/>
         <image name="procedure" width="2592" height="1728"/>
         <image name="welcome" width="1000" height="707"/>
