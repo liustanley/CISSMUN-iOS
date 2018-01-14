@@ -106,7 +106,7 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             Room(roomName:"Cafeteria", floorNumber: text[16], floorMap: "PC 1"),
             Room(roomName:"ICJ (H216)", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"UNCSW, Jade/Pearl (P230/P231)", floorNumber: text[17], floorMap: "PC 2"),
-            Room(roomName:"Secretariat/Hive, Kitchen (P132)", floorNumber: text[16], floorMap: "PC 1"),
+            Room(roomName:"Secretariat/Hive, SMS Maker Room (H218)", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"Advisory Panel, Health Room (H127)", floorNumber: text[0], floorMap: "HS 1"),
             Room(roomName:"Rittmann Theatre (R101)", floorNumber: text[12], floorMap: "R 1"),
             Room(roomName:"CISSMUN Vigil 1 (H305)", floorNumber: text[2], floorMap: "HS 3"),
@@ -208,6 +208,8 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
         searchController.dimsBackgroundDuringPresentation = false
         definesPresentationContext = true
         searchController.hidesNavigationBarDuringPresentation = false
+        //searchController.navigationBar.translucent = NO;
+        //self.navigationController.navigationBar.translucent = NO;
         //searchController.searchBar.barTintColor = UIColor.black 248 245 241
         
     }

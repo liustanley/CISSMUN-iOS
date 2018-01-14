@@ -1573,7 +1573,15 @@
                             <constraint firstItem="sYQ-gp-isq" firstAttribute="leading" secondItem="TzU-t8-pXl" secondAttribute="leading" id="hgA-0k-FmB"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="LHs-fi-D3R"/>
+                    <navigationItem key="navigationItem" id="LHs-fi-D3R">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="85O-go-Bhq">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iw3-IT-v95">
+                                <rect key="frame" x="-23" y="-15" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="webview" destination="sYQ-gp-isq" id="PZt-rT-ZUb"/>
                     </connections>
