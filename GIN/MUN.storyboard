@@ -1570,19 +1570,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LHs-fi-D3R">
-                        <barButtonItem key="rightBarButtonItem" title="Item" style="plain" id="85O-go-Bhq">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iw3-IT-v95">
-                                <rect key="frame" x="354" y="2" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="icons8-refresh-26"/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="icons8-refresh-26" id="17f-kM-R5h">
                             <connections>
-                                <action selector="toreupdate:" destination="QzD-Gx-8Oc" id="ZP0-G7-eFF"/>
+                                <action selector="refreshaction:" destination="QzD-Gx-8Oc" id="KeY-0g-v1y"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="reupdate" destination="85O-go-Bhq" id="Ant-3S-Xb6"/>
+                        <outlet property="refresh" destination="17f-kM-R5h" id="plh-MC-fJc"/>
                         <outlet property="webview" destination="Uhk-Zi-LuJ" id="GL7-8b-gj7"/>
                     </connections>
                 </viewController>
