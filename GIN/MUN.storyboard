@@ -1556,21 +1556,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sYQ-gp-isq">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uhk-Zi-LuJ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="623"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="sYQ-gp-isq" secondAttribute="trailing" id="F9L-UB-5q5"/>
-                            <constraint firstItem="sYQ-gp-isq" firstAttribute="top" secondItem="oh1-M0-bqq" secondAttribute="bottom" id="VGe-3g-Vln"/>
-                            <constraint firstAttribute="bottom" secondItem="sYQ-gp-isq" secondAttribute="bottom" id="cPh-Wc-Od6"/>
-                            <constraint firstItem="sYQ-gp-isq" firstAttribute="leading" secondItem="TzU-t8-pXl" secondAttribute="leading" id="hgA-0k-FmB"/>
+                            <constraint firstAttribute="trailing" secondItem="Uhk-Zi-LuJ" secondAttribute="trailing" id="MPU-FL-LqV"/>
+                            <constraint firstItem="Uhk-Zi-LuJ" firstAttribute="top" secondItem="oh1-M0-bqq" secondAttribute="bottom" id="Shq-pt-eVG"/>
+                            <constraint firstItem="Uhk-Zi-LuJ" firstAttribute="leading" secondItem="TzU-t8-pXl" secondAttribute="leading" id="rnI-LQ-IpN"/>
+                            <constraint firstItem="Zv2-K6-anw" firstAttribute="top" secondItem="Uhk-Zi-LuJ" secondAttribute="bottom" id="xQt-SA-b6v"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LHs-fi-D3R">
@@ -1587,7 +1583,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="reupdate" destination="85O-go-Bhq" id="Ant-3S-Xb6"/>
-                        <outlet property="webview" destination="sYQ-gp-isq" id="PZt-rT-ZUb"/>
+                        <outlet property="webview" destination="Uhk-Zi-LuJ" id="GL7-8b-gj7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TMc-r7-erJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
