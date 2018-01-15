@@ -1247,8 +1247,8 @@
                                                                     <constraint firstItem="PuB-bJ-0yx" firstAttribute="leading" secondItem="EAc-c1-BDl" secondAttribute="leading" id="vwm-L7-7LE"/>
                                                                 </constraints>
                                                             </view>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teenagers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="hJ9-Ti-Ld5">
-                                                                <rect key="frame" x="12" y="69.5" width="110" height="20.5"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Youth Activists &amp; Environmentalists" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="hJ9-Ti-Ld5">
+                                                                <rect key="frame" x="12" y="69.5" width="110" height="41"/>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -1260,7 +1260,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="BTn-JM-hbD">
-                                                                <rect key="frame" x="12" y="98" width="162" height="113.5"/>
+                                                                <rect key="frame" x="12" y="118.5" width="162" height="93"/>
                                                                 <string key="text">Two teenage sisters have taken a stand against pollution in Bali – and they’ve convinced the government to ban plastic bags by the year 2018. </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                 <nil key="textColor"/>
@@ -1351,8 +1351,11 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yKh-Ee-FCG" userLabel="Phuc" customClass="DropShadow" customModule="CISSMUN" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="1564" width="296" height="458"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photographer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="1cc-XB-YZK">
-                                                                <rect key="frame" x="12" y="41" width="93" height="20.5"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peace and Conflict Activist" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="1cc-XB-YZK">
+                                                                <rect key="frame" x="12" y="41" width="160" height="41"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="160" id="RHJ-iQ-dny"/>
+                                                                </constraints>
                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -1370,7 +1373,7 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ajm-3W-LeP">
-                                                                <rect key="frame" x="12" y="70" width="152" height="187.5"/>
+                                                                <rect key="frame" x="12" y="90.5" width="152" height="167"/>
                                                                 <string key="text">For the first decade after she was burned by napalm bombs mistakenly dropped on the south Vietnamese temple where she and her family had taken refuge, Kim Phuc was angry, bitter and full of hatred. </string>
                                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
                                                                 <nil key="textColor"/>
@@ -1493,14 +1496,14 @@
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="eX1-sk-xQJ">
                                                         <rect key="frame" x="14" y="41" width="268" height="447"/>
-                                                        <mutableString key="text">The purpose of GIN, and of our regional conference this year, is to learn more about pressing global issues and to build a belief (in ourselves and our peers) that we CAN make a difference. We CAN be changemakers. We CAN care for our planet. We CAN protect people who need protection. We CAN be a voice for people who lack power and resources. 
+                                                        <string key="text">The purpose of GIN, and of our regional conference this year, is to learn more about pressing global issues and to build a belief (in ourselves and our peers) that we CAN make a difference. We CAN be changemakers. We CAN care for our planet. We CAN protect people who need protection. We CAN be a voice for people who lack power and resources. 
 
 As we hear from inspiring keynote speakers and panelists, as we engage in workshops and simulations together, as we dialogue and brainstorm and share, let’s find ways to encourage each other and embrace the idea that, together, we CAN change the world. 
 
 GINAsia 2018: A Place to Stand. Let’s make our place to stand this weekend. Let’s use our place to stand as a platform for sowing more peace, love and kindness. Let’s care for our planet and let’s care for each other. Let’s make our world better. 
 
 Sincerely,
-The GINAsia 2018 Leadership Team</mutableString>
+The GINAsia 2018 Leadership Team</string>
                                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>

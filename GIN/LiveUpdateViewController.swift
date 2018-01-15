@@ -15,7 +15,7 @@ class LiveUpdateViewController: UIViewController {
     
     @IBAction func refreshaction(_ sender: Any) {
     
-        let url1 = URL(string:"https://docs.google.com/spreadsheets/d/e/2PACX-1vQzmqAdyzfpoehjGQsvA2Xw1Y4tL1g4-2g80pgeQi-31tAU7oAVUnawwbm9c39vVPSZztutYlXSM2sb/pubhtml?gid=1126656288&single=true")
+        let url1 = URL(string:"https://docs.google.com/spreadsheets/d/1oL2QfSbLGm1bQ7Bm1quooJ63o1PzPTNOhNLcsGVMTdI/edit?ts=5a5a4fad")
         let request = URLRequest(url:url1!)
         //webview.load(request)
         webview.loadRequest(request)
@@ -31,7 +31,7 @@ class LiveUpdateViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url1 = URL(string:"https://docs.google.com/spreadsheets/d/e/2PACX-1vQzmqAdyzfpoehjGQsvA2Xw1Y4tL1g4-2g80pgeQi-31tAU7oAVUnawwbm9c39vVPSZztutYlXSM2sb/pubhtml?gid=1126656288&single=true")
+        let url1 = URL(string:"https://docs.google.com/spreadsheets/d/1oL2QfSbLGm1bQ7Bm1quooJ63o1PzPTNOhNLcsGVMTdI/edit?ts=5a5a4fad")
         let request = URLRequest(url:url1!)
         //webview.load(request)
         webview.loadRequest(request)

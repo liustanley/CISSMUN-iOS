@@ -171,8 +171,8 @@
                                                                 </constraints>
                                                                 <string key="text">Click on the button below to view a live-updating spreadsheet that shows current topics and speakers of each committee. 
 
-***You must be connected to the school wi-fi OR be using a vpn to access this page. The screen will stay blank for a bit depending on your connection speed, so please wait.***</string>
-                                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="13"/>
+***You must be connected to the school wi-fi OR be using a vpn to access this page. The screen will stay blank for a bit depending on network latency. There is a reload button in the top right corner***</string>
+                                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
