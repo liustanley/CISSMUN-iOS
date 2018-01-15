@@ -10,7 +10,6 @@
 		7D4501BB1F5FE32500432283 /* LocationSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4501BA1F5FE32500432283 /* LocationSearch.swift */; };
 		7D51007B2009F5D400AA7104 /* Travel Details.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7D51007A2009F5D400AA7104 /* Travel Details.pdf */; };
 		7D51007D2009FF2400AA7104 /* TransportPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D51007C2009FF2400AA7104 /* TransportPDFViewController.swift */; };
-		7D61C980200CC5EB00E1B281 /* Saturday Night Excursion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7D61C97F200CC5EB00E1B281 /* Saturday Night Excursion.pdf */; };
 		7D8168191FBB58D000DCC4BC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8168181FBB58D000DCC4BC /* DetailViewController.swift */; };
 		7D81681B1FBB59AA00DCC4BC /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D81681A1FBB59AA00DCC4BC /* Room.swift */; };
 		7D8BF01F2009BBA3003874F4 /* ShanghaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8BF01E2009BBA3003874F4 /* ShanghaiViewController.swift */; };
@@ -29,6 +28,7 @@
 		9A5FF9112005A74900DB5E8E /* Student Officer Roster.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF90B2005A74900DB5E8E /* Student Officer Roster.pdf */; };
 		9A5FF9122005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF90C2005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf */; };
 		9A6C0EC01F2485A700094667 /* AttractionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C0EBF1F2485A700094667 /* AttractionsViewController.swift */; };
+		9A94E671200CCE6C007627E6 /* Saturday Night Excursion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A94E670200CCE6C007627E6 /* Saturday Night Excursion.pdf */; };
 		9A9B61341FD69BC2004772FF /* SpaghettiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9B61331FD69BC2004772FF /* SpaghettiViewController.swift */; };
 		9A9FC04C1ED5D165006E95A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FC04B1ED5D165006E95A1 /* AppDelegate.swift */; };
 		9A9FC04E1ED5D165006E95A1 /* MUNScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FC04D1ED5D165006E95A1 /* MUNScheduleViewController.swift */; };
@@ -58,7 +58,6 @@
 		7D4501BA1F5FE32500432283 /* LocationSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearch.swift; sourceTree = "<group>"; };
 		7D51007A2009F5D400AA7104 /* Travel Details.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Travel Details.pdf"; sourceTree = "<group>"; };
 		7D51007C2009FF2400AA7104 /* TransportPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportPDFViewController.swift; sourceTree = "<group>"; };
-		7D61C97F200CC5EB00E1B281 /* Saturday Night Excursion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Saturday Night Excursion.pdf"; path = "../../../CISSMUN Designs/Saturday_Night_App_Stuff/Saturday Night Excursion.pdf"; sourceTree = "<group>"; };
 		7D8168181FBB58D000DCC4BC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7D81681A1FBB59AA00DCC4BC /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		7D8BF01E2009BBA3003874F4 /* ShanghaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShanghaiViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +76,7 @@
 		9A5FF90B2005A74900DB5E8E /* Student Officer Roster.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Student Officer Roster.pdf"; sourceTree = "<group>"; };
 		9A5FF90C2005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Preparatory Meeting Guidelines.pdf"; sourceTree = "<group>"; };
 		9A6C0EBF1F2485A700094667 /* AttractionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionsViewController.swift; sourceTree = "<group>"; };
+		9A94E670200CCE6C007627E6 /* Saturday Night Excursion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Saturday Night Excursion.pdf"; sourceTree = "<group>"; };
 		9A9B61331FD69BC2004772FF /* SpaghettiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaghettiViewController.swift; sourceTree = "<group>"; };
 		9A9FC0481ED5D165006E95A1 /* CISSMUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CISSMUN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9FC04B1ED5D165006E95A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				7D51007A2009F5D400AA7104 /* Travel Details.pdf */,
-				7D61C97F200CC5EB00E1B281 /* Saturday Night Excursion.pdf */,
+				9A94E670200CCE6C007627E6 /* Saturday Night Excursion.pdf */,
 			);
 			name = PDFs;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 				9A9FC0531ED5D165006E95A1 /* Main.storyboard in Resources */,
 				9A07ED481F126D7C00BDA478 /* GIN.storyboard in Resources */,
 				9A5FF9102005A74900DB5E8E /* Chairing at CISSMUN.pdf in Resources */,
-				7D61C980200CC5EB00E1B281 /* Saturday Night Excursion.pdf in Resources */,
+				9A94E671200CCE6C007627E6 /* Saturday Night Excursion.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,7 +493,7 @@
 				DEVELOPMENT_TEAM = NB52NRZ5D5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GIN/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cissdev.cissmun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,7 +513,7 @@
 				DEVELOPMENT_TEAM = NB52NRZ5D5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GIN/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cissdev.cissmun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
