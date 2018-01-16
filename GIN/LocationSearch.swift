@@ -101,9 +101,9 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             Room(roomName:"GA6, MS Gym (M116)", floorNumber: text[6], floorMap: "MS 1"),
             Room(roomName:"HRC, ES Library (E322)", floorNumber: text[10], floorMap: "ES 3"),
             
-            Room(roomName:"ES Cafeteria (E122)", floorNumber: text[8], floorMap: "ES 1"),
+           // Room(roomName:"Eleme Cafeteria (E122)", floorNumber: text[8], floorMap: "ES 1"),
             Room(roomName:"SC, Orchestra Room (R302)", floorNumber: text[14], floorMap: "R 3"),
-            Room(roomName:"Cafeteria", floorNumber: text[16], floorMap: "PC 1"),
+            Room(roomName:"PC Cafeteria", floorNumber: text[16], floorMap: "PC 1"),
             Room(roomName:"ICJ (H216)", floorNumber: text[1], floorMap: "HS 2"),
             Room(roomName:"UNCSW, Jade/Pearl (P230/P231)", floorNumber: text[17], floorMap: "PC 2"),
             Room(roomName:"Secretariat/Hive, SMS Maker Room (H218)", floorNumber: text[1], floorMap: "HS 2"),
@@ -114,7 +114,7 @@ class LocationSearch: UITableViewController, UISearchResultsUpdating{
             Room(roomName:"Spec Conf (H404)", floorNumber: text[3], floorMap: "HS 4"),
             Room(roomName:"UNPFII (H403)", floorNumber: text[3], floorMap: "HS 4"),
             Room(roomName:"Printing (H205)", floorNumber: text[1], floorMap: "HS 2"),
-            Room(roomName:"Keynotes, Phoenix Center Gym (P106)", floorNumber: text[16], floorMap: "PC 1"),
+            Room(roomName:"Keynotes, PC Gym (P106)", floorNumber: text[16], floorMap: "PC 1"),
             Room(roomName:"Disarmament, Motor Skills Room (Room)",floorNumber: text[8], floorMap: "ES 1"),
             //we really need to find out this MSR's room number
             Room(roomName:"GA1, PE Commons", floorNumber: text[18], floorMap: "HS B1"),
