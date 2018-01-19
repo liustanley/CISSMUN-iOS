@@ -10,6 +10,7 @@
 		7D4501BB1F5FE32500432283 /* LocationSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4501BA1F5FE32500432283 /* LocationSearch.swift */; };
 		7D51007B2009F5D400AA7104 /* Travel Details.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7D51007A2009F5D400AA7104 /* Travel Details.pdf */; };
 		7D51007D2009FF2400AA7104 /* TransportPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D51007C2009FF2400AA7104 /* TransportPDFViewController.swift */; };
+		7D5C60E32011BF1C005C451B /* Student Officer Roster.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C60E22011BF1C005C451B /* Student Officer Roster.pdf */; };
 		7D8168191FBB58D000DCC4BC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8168181FBB58D000DCC4BC /* DetailViewController.swift */; };
 		7D81681B1FBB59AA00DCC4BC /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D81681A1FBB59AA00DCC4BC /* Room.swift */; };
 		7D8BF01F2009BBA3003874F4 /* ShanghaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8BF01E2009BBA3003874F4 /* ShanghaiViewController.swift */; };
@@ -25,7 +26,6 @@
 		9A5FF90E2005A74900DB5E8E /* CISSMUN Rules of Procedure.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF9082005A74800DB5E8E /* CISSMUN Rules of Procedure.pdf */; };
 		9A5FF90F2005A74900DB5E8E /* Appendix I- THIMUN Rules of Procedure.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF9092005A74800DB5E8E /* Appendix I- THIMUN Rules of Procedure.pdf */; };
 		9A5FF9102005A74900DB5E8E /* Chairing at CISSMUN.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF90A2005A74900DB5E8E /* Chairing at CISSMUN.pdf */; };
-		9A5FF9112005A74900DB5E8E /* Student Officer Roster.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF90B2005A74900DB5E8E /* Student Officer Roster.pdf */; };
 		9A5FF9122005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A5FF90C2005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf */; };
 		9A6C0EC01F2485A700094667 /* AttractionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C0EBF1F2485A700094667 /* AttractionsViewController.swift */; };
 		9A94E671200CCE6C007627E6 /* Saturday Night Excursion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A94E670200CCE6C007627E6 /* Saturday Night Excursion.pdf */; };
@@ -58,6 +58,7 @@
 		7D4501BA1F5FE32500432283 /* LocationSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearch.swift; sourceTree = "<group>"; };
 		7D51007A2009F5D400AA7104 /* Travel Details.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Travel Details.pdf"; sourceTree = "<group>"; };
 		7D51007C2009FF2400AA7104 /* TransportPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportPDFViewController.swift; sourceTree = "<group>"; };
+		7D5C60E22011BF1C005C451B /* Student Officer Roster.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Student Officer Roster.pdf"; path = "../../../Student Officer Roster.pdf"; sourceTree = "<group>"; };
 		7D8168181FBB58D000DCC4BC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7D81681A1FBB59AA00DCC4BC /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		7D8BF01E2009BBA3003874F4 /* ShanghaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShanghaiViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +74,6 @@
 		9A5FF9082005A74800DB5E8E /* CISSMUN Rules of Procedure.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CISSMUN Rules of Procedure.pdf"; sourceTree = "<group>"; };
 		9A5FF9092005A74800DB5E8E /* Appendix I- THIMUN Rules of Procedure.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Appendix I- THIMUN Rules of Procedure.pdf"; sourceTree = "<group>"; };
 		9A5FF90A2005A74900DB5E8E /* Chairing at CISSMUN.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Chairing at CISSMUN.pdf"; sourceTree = "<group>"; };
-		9A5FF90B2005A74900DB5E8E /* Student Officer Roster.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Student Officer Roster.pdf"; sourceTree = "<group>"; };
 		9A5FF90C2005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Preparatory Meeting Guidelines.pdf"; sourceTree = "<group>"; };
 		9A6C0EBF1F2485A700094667 /* AttractionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionsViewController.swift; sourceTree = "<group>"; };
 		9A94E670200CCE6C007627E6 /* Saturday Night Excursion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Saturday Night Excursion.pdf"; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 				9A5FF90A2005A74900DB5E8E /* Chairing at CISSMUN.pdf */,
 				9A5FF9082005A74800DB5E8E /* CISSMUN Rules of Procedure.pdf */,
 				9A5FF90C2005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf */,
-				9A5FF90B2005A74900DB5E8E /* Student Officer Roster.pdf */,
+				7D5C60E22011BF1C005C451B /* Student Officer Roster.pdf */,
 				9AD06A401FDC433300E1296E /* Cover Page.pdf */,
 			);
 			name = PDFs;
@@ -304,10 +304,10 @@
 				9A9FC0581ED5D165006E95A1 /* LaunchScreen.storyboard in Resources */,
 				9A5FF90E2005A74900DB5E8E /* CISSMUN Rules of Procedure.pdf in Resources */,
 				9A5FF90D2005A74900DB5E8E /* Appendix II- United Nations Charter.pdf in Resources */,
+				7D5C60E32011BF1C005C451B /* Student Officer Roster.pdf in Resources */,
 				9AD06A471FDC433500E1296E /* Cover Page.pdf in Resources */,
 				9A07ED461F126D3500BDA478 /* MUN.storyboard in Resources */,
 				9A9FC0551ED5D165006E95A1 /* Assets.xcassets in Resources */,
-				9A5FF9112005A74900DB5E8E /* Student Officer Roster.pdf in Resources */,
 				7D51007B2009F5D400AA7104 /* Travel Details.pdf in Resources */,
 				9A9FC0531ED5D165006E95A1 /* Main.storyboard in Resources */,
 				9A07ED481F126D7C00BDA478 /* GIN.storyboard in Resources */,
