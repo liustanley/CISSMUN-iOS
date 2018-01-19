@@ -247,16 +247,16 @@
                                                                 <rect key="frame" x="0.0" y="40" width="288" height="620"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j0J-6S-Hf6">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="55.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Llx-MD-TBf">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="61.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="61.5" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJV-5D-KGo">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="0.0" height="28"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -282,22 +282,22 @@
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oHW-Kg-EtZ">
-                                                                        <rect key="frame" x="0.0" y="57" width="288" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="62.5" width="288" height="56"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:30 - 8:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVU-1N-NHV">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLx-8P-GL6">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="0.0" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opening Ceremony" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkX-Oe-DAR">
-                                                                                <rect key="frame" x="144" y="0.0" width="144" height="16.5"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opening Ceremony (PC gym)" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkX-Oe-DAR">
+                                                                                <rect key="frame" x="144" y="0.0" width="144" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -317,21 +317,21 @@
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="maP-p4-lOn">
-                                                                        <rect key="frame" x="0.0" y="114" width="288" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="125.5" width="288" height="55.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:45 - 9:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4y-ZN-H3t">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="26.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="29.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbp-Ba-gcM">
-                                                                                <rect key="frame" x="0.0" y="25.5" width="0.0" height="24.5"/>
+                                                                                <rect key="frame" x="0.0" y="28.5" width="0.0" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keynote #1: Melati and Isabel Wijsen" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7e-f0-kQT">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keynote #1: Melati and Isabel Wijsen (PC gym)" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7e-f0-kQT">
                                                                                 <rect key="frame" x="144" y="0.0" width="144" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
@@ -352,16 +352,16 @@
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XhD-ow-kYR">
-                                                                        <rect key="frame" x="0.0" y="171" width="288" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="188" width="288" height="56"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:45 - 10:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAj-0z-7N2">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXd-oe-0se">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="0.0" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -387,16 +387,16 @@
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hQl-lB-pWH">
-                                                                        <rect key="frame" x="0.0" y="228" width="288" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="251" width="288" height="55.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:15 - 11:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXn-ea-dz3">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="94.5" height="26.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="94.5" height="29"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tst-iS-JjS">
-                                                                                <rect key="frame" x="0.0" y="25.5" width="0.0" height="24.5"/>
+                                                                                <rect key="frame" x="0.0" y="28" width="0.0" height="27.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -422,16 +422,16 @@
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u8U-kk-2oG">
-                                                                        <rect key="frame" x="0.0" y="285" width="288" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="313.5" width="288" height="55.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:30 - 12:15 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTC-xZ-W17">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="122.5" height="26"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="122.5" height="29"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fil-7C-VzC">
-                                                                                <rect key="frame" x="0.0" y="25" width="0.0" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="28" width="0.0" height="27.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -457,16 +457,16 @@
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yMA-ib-IbP">
-                                                                        <rect key="frame" x="0.0" y="342" width="288" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="376" width="288" height="56"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:15 - 1:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LY9-95-rdF">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JK-4J-7cS">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="0.0" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -494,16 +494,16 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A7N-mz-Nsl">
-                                                                        <rect key="frame" x="0.0" y="399" width="288" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="439" width="288" height="55.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:30 - 2:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsy-27-Mj8">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Yj-kd-ZbK">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="0.0" height="28"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -529,16 +529,16 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZKV-t4-9WA">
-                                                                        <rect key="frame" x="0.0" y="456" width="288" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="501.5" width="288" height="56"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:45 - 3:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBi-1L-l1c">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="26"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="29"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2UF-fI-qf0">
-                                                                                <rect key="frame" x="0.0" y="25" width="0.0" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="28" width="0.0" height="28"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -564,22 +564,22 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pIf-nn-rgJ">
-                                                                        <rect key="frame" x="0.0" y="513" width="288" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="564.5" width="288" height="55.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:45 - 5:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qMY-gY-kq0">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="26"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ae3-jz-O8H">
-                                                                                <rect key="frame" x="0.0" y="25" width="0.0" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="0.0" height="28"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entertainment and Keynote #2: Kim Phuc" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJB-re-cgf">
-                                                                                <rect key="frame" x="144" y="0.0" width="144" height="33"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entertainment and Keynote #2: Kim Phuc (PC gym)" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJB-re-cgf">
+                                                                                <rect key="frame" x="144" y="0.0" width="144" height="49.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -596,41 +596,6 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                             <constraint firstItem="Ae3-jz-O8H" firstAttribute="leading" secondItem="pIf-nn-rgJ" secondAttribute="leading" id="kIV-ZM-xra"/>
                                                                             <constraint firstItem="Ae3-jz-O8H" firstAttribute="height" secondItem="pIf-nn-rgJ" secondAttribute="height" multiplier="0.5" id="pFb-wn-MYY"/>
                                                                             <constraint firstAttribute="trailing" secondItem="hJB-re-cgf" secondAttribute="trailing" id="tNH-lC-bid"/>
-                                                                        </constraints>
-                                                                    </view>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IFu-x2-QQ4">
-                                                                        <rect key="frame" x="0.0" y="570" width="288" height="50"/>
-                                                                        <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J50-5c-wSI">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="26"/>
-                                                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
-                                                                                <nil key="textColor"/>
-                                                                                <nil key="highlightedColor"/>
-                                                                            </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9a-hd-ew1">
-                                                                                <rect key="frame" x="0.0" y="25" width="0.0" height="25"/>
-                                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
-                                                                                <nil key="textColor"/>
-                                                                                <nil key="highlightedColor"/>
-                                                                            </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bus Departures (Buses available to city center, details TBA)" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htY-Dr-fN1">
-                                                                                <rect key="frame" x="144" y="0.0" width="144" height="49.5"/>
-                                                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
-                                                                                <nil key="textColor"/>
-                                                                                <nil key="highlightedColor"/>
-                                                                            </label>
-                                                                        </subviews>
-                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                                        <constraints>
-                                                                            <constraint firstAttribute="trailing" secondItem="htY-Dr-fN1" secondAttribute="trailing" id="2Tg-I8-jJH"/>
-                                                                            <constraint firstItem="J50-5c-wSI" firstAttribute="height" secondItem="IFu-x2-QQ4" secondAttribute="height" multiplier="0.5" constant="1" id="Den-vc-U6e"/>
-                                                                            <constraint firstItem="X9a-hd-ew1" firstAttribute="leading" secondItem="IFu-x2-QQ4" secondAttribute="leading" id="Dsd-gc-GSD"/>
-                                                                            <constraint firstItem="J50-5c-wSI" firstAttribute="leading" secondItem="IFu-x2-QQ4" secondAttribute="leading" id="UCp-a8-MKw"/>
-                                                                            <constraint firstItem="htY-Dr-fN1" firstAttribute="width" secondItem="IFu-x2-QQ4" secondAttribute="width" multiplier="0.5" id="VNZ-IP-18g"/>
-                                                                            <constraint firstAttribute="bottom" secondItem="X9a-hd-ew1" secondAttribute="bottom" id="eAw-jX-gAC"/>
-                                                                            <constraint firstItem="J50-5c-wSI" firstAttribute="top" secondItem="IFu-x2-QQ4" secondAttribute="top" id="egK-ed-sWI"/>
-                                                                            <constraint firstItem="X9a-hd-ew1" firstAttribute="height" secondItem="IFu-x2-QQ4" secondAttribute="height" multiplier="0.5" id="jus-i4-rhP"/>
-                                                                            <constraint firstItem="htY-Dr-fN1" firstAttribute="top" secondItem="IFu-x2-QQ4" secondAttribute="top" id="oaF-aN-AQR"/>
                                                                         </constraints>
                                                                     </view>
                                                                 </subviews>
@@ -674,21 +639,21 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                 <rect key="frame" x="0.0" y="40" width="288" height="555"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c9h-wJ-BX6">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="48.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="54.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:00 - 9:15 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdR-zj-0ap">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="106.5" height="26"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="106.5" height="29"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywc-gQ-Ami">
-                                                                                <rect key="frame" x="0.0" y="25" width="0.0" height="23.5"/>
+                                                                                <rect key="frame" x="0.0" y="28" width="0.0" height="26.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entertainment &amp; Keynote #3: Ishmael Beah" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfr-WM-rzb">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entertainment &amp; Keynote #3: Ishmael Beah (PC gym)" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfr-WM-rzb">
                                                                                 <rect key="frame" x="144" y="0.0" width="144" height="33"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
                                                                                 <nil key="textColor"/>
@@ -709,16 +674,16 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V6X-DD-QCd">
-                                                                        <rect key="frame" x="0.0" y="56.5" width="288" height="48"/>
+                                                                        <rect key="frame" x="0.0" y="62.5" width="288" height="54.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:30 - 10:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggo-9z-Yrs">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="29"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ab0-7N-01k">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="23.5"/>
+                                                                                <rect key="frame" x="0.0" y="28" width="0.0" height="26.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -744,16 +709,16 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0i5-4V-EAz">
-                                                                        <rect key="frame" x="0.0" y="112.5" width="288" height="48.5"/>
+                                                                        <rect key="frame" x="0.0" y="125" width="288" height="54.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:15 - 10:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qG8-EH-Ldk">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="94.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="94.5" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKn-so-hJh">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="0.0" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -779,16 +744,16 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9G7-aS-3AI">
-                                                                        <rect key="frame" x="0.0" y="169" width="288" height="48"/>
+                                                                        <rect key="frame" x="0.0" y="187.5" width="288" height="54.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:45 - 11:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzo-Mm-N8M">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="94.5" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="94.5" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aI-QC-P2V">
-                                                                                <rect key="frame" x="0.0" y="24" width="0.0" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="0.0" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -814,16 +779,16 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bgG-WC-xYk">
-                                                                        <rect key="frame" x="0.0" y="225" width="288" height="48.5"/>
+                                                                        <rect key="frame" x="0.0" y="250" width="288" height="55"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:45 -1:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fo0-Sf-0zu">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="109.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="109.5" height="29"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTn-kF-mq5">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="28" width="0.0" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -849,16 +814,16 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h2x-Kd-zll">
-                                                                        <rect key="frame" x="0.0" y="281.5" width="288" height="48.5"/>
+                                                                        <rect key="frame" x="0.0" y="313" width="288" height="54.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:00 - 2:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHn-ip-SzE">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="28"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mnv-0e-l5G">
-                                                                                <rect key="frame" x="0.0" y="24" width="0.0" height="24.5"/>
+                                                                                <rect key="frame" x="0.0" y="27" width="0.0" height="27.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -884,16 +849,16 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNe-2x-hm7">
-                                                                        <rect key="frame" x="0.0" y="338" width="288" height="48"/>
+                                                                        <rect key="frame" x="0.0" y="375.5" width="288" height="54.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:15 - 3:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9D-6v-rky">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbm-aI-oTf">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="23.5"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="0.0" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -919,16 +884,16 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tCv-9Z-3sp">
-                                                                        <rect key="frame" x="0.0" y="394" width="288" height="48.5"/>
+                                                                        <rect key="frame" x="0.0" y="438" width="288" height="54.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:15 - 3:45" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEF-S9-3V5">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="25.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="28.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zi-pL-Yp2">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="27.5" width="0.0" height="27"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -954,16 +919,16 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MIe-We-bZP">
-                                                                        <rect key="frame" x="0.0" y="450.5" width="288" height="48"/>
+                                                                        <rect key="frame" x="0.0" y="500.5" width="288" height="54.5"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4:00 - 5:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zz-yA-Q0O">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="25"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="28"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0C1-hE-AoE">
-                                                                                <rect key="frame" x="0.0" y="24" width="0.0" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="27" width="0.0" height="27.5"/>
                                                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -986,41 +951,6 @@ Second lunch ORANGE: 12:50-1:30</string>
                                                                             <constraint firstItem="aur-GB-2TU" firstAttribute="width" secondItem="MIe-We-bZP" secondAttribute="width" multiplier="0.5" id="fVn-YU-Rtq"/>
                                                                             <constraint firstAttribute="trailing" secondItem="aur-GB-2TU" secondAttribute="trailing" id="fra-FN-uiS"/>
                                                                             <constraint firstAttribute="bottom" secondItem="0C1-hE-AoE" secondAttribute="bottom" id="tak-M1-Cft"/>
-                                                                        </constraints>
-                                                                    </view>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2x3-F7-CJR">
-                                                                        <rect key="frame" x="0.0" y="506.5" width="288" height="48.5"/>
-                                                                        <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIv-gk-Vdf">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="25.5"/>
-                                                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
-                                                                                <nil key="textColor"/>
-                                                                                <nil key="highlightedColor"/>
-                                                                            </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVf-cd-WKx">
-                                                                                <rect key="frame" x="0.0" y="24.5" width="0.0" height="24"/>
-                                                                                <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
-                                                                                <nil key="textColor"/>
-                                                                                <nil key="highlightedColor"/>
-                                                                            </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bus Departure" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoD-3k-ElS">
-                                                                                <rect key="frame" x="144" y="0.0" width="144" height="16.5"/>
-                                                                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
-                                                                                <nil key="textColor"/>
-                                                                                <nil key="highlightedColor"/>
-                                                                            </label>
-                                                                        </subviews>
-                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                                        <constraints>
-                                                                            <constraint firstItem="zIv-gk-Vdf" firstAttribute="leading" secondItem="2x3-F7-CJR" secondAttribute="leading" id="GYa-5F-BvP"/>
-                                                                            <constraint firstItem="zIv-gk-Vdf" firstAttribute="height" secondItem="2x3-F7-CJR" secondAttribute="height" multiplier="0.5" constant="1" id="IWe-Xu-okk"/>
-                                                                            <constraint firstItem="vVf-cd-WKx" firstAttribute="leading" secondItem="2x3-F7-CJR" secondAttribute="leading" id="JzB-Ea-UMH"/>
-                                                                            <constraint firstItem="eoD-3k-ElS" firstAttribute="top" secondItem="2x3-F7-CJR" secondAttribute="top" id="KxT-FR-DL9"/>
-                                                                            <constraint firstItem="vVf-cd-WKx" firstAttribute="height" secondItem="2x3-F7-CJR" secondAttribute="height" multiplier="0.5" id="SEc-E2-k93"/>
-                                                                            <constraint firstAttribute="bottom" secondItem="vVf-cd-WKx" secondAttribute="bottom" id="VjQ-sA-UNp"/>
-                                                                            <constraint firstItem="eoD-3k-ElS" firstAttribute="width" secondItem="2x3-F7-CJR" secondAttribute="width" multiplier="0.5" id="ZiP-VW-9ey"/>
-                                                                            <constraint firstAttribute="trailing" secondItem="eoD-3k-ElS" secondAttribute="trailing" id="ukA-q7-srx"/>
-                                                                            <constraint firstItem="zIv-gk-Vdf" firstAttribute="top" secondItem="2x3-F7-CJR" secondAttribute="top" id="xhH-Gz-1e7"/>
                                                                         </constraints>
                                                                     </view>
                                                                 </subviews>
