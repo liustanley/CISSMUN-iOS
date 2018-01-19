@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D3A8D082011CA3C0089A1D7 /* Student Officer Roster.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3A8D072011CA3C0089A1D7 /* Student Officer Roster.pdf */; };
+		7D3A8D0A2011CD7E0089A1D7 /* Student Officer Roster.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3A8D092011CD7E0089A1D7 /* Student Officer Roster.pdf */; };
 		7D4501BB1F5FE32500432283 /* LocationSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4501BA1F5FE32500432283 /* LocationSearch.swift */; };
 		7D51007B2009F5D400AA7104 /* Travel Details.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7D51007A2009F5D400AA7104 /* Travel Details.pdf */; };
 		7D51007D2009FF2400AA7104 /* TransportPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D51007C2009FF2400AA7104 /* TransportPDFViewController.swift */; };
@@ -55,7 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7D3A8D072011CA3C0089A1D7 /* Student Officer Roster.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Student Officer Roster.pdf"; path = "../../../Student Officer Roster.pdf"; sourceTree = "<group>"; };
+		7D3A8D092011CD7E0089A1D7 /* Student Officer Roster.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Student Officer Roster.pdf"; path = "../../../Student Officer Roster.pdf"; sourceTree = "<group>"; };
 		7D4501BA1F5FE32500432283 /* LocationSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearch.swift; sourceTree = "<group>"; };
 		7D51007A2009F5D400AA7104 /* Travel Details.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Travel Details.pdf"; sourceTree = "<group>"; };
 		7D51007C2009FF2400AA7104 /* TransportPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportPDFViewController.swift; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 				9A5FF90A2005A74900DB5E8E /* Chairing at CISSMUN.pdf */,
 				9A5FF9082005A74800DB5E8E /* CISSMUN Rules of Procedure.pdf */,
 				9A5FF90C2005A74900DB5E8E /* Preparatory Meeting Guidelines.pdf */,
-				7D3A8D072011CA3C0089A1D7 /* Student Officer Roster.pdf */,
+				7D3A8D092011CD7E0089A1D7 /* Student Officer Roster.pdf */,
 				9AD06A401FDC433300E1296E /* Cover Page.pdf */,
 			);
 			name = PDFs;
@@ -304,7 +304,7 @@
 				9A9FC0581ED5D165006E95A1 /* LaunchScreen.storyboard in Resources */,
 				9A5FF90E2005A74900DB5E8E /* CISSMUN Rules of Procedure.pdf in Resources */,
 				9A5FF90D2005A74900DB5E8E /* Appendix II- United Nations Charter.pdf in Resources */,
-				7D3A8D082011CA3C0089A1D7 /* Student Officer Roster.pdf in Resources */,
+				7D3A8D0A2011CD7E0089A1D7 /* Student Officer Roster.pdf in Resources */,
 				9AD06A471FDC433500E1296E /* Cover Page.pdf in Resources */,
 				9A07ED461F126D3500BDA478 /* MUN.storyboard in Resources */,
 				9A9FC0551ED5D165006E95A1 /* Assets.xcassets in Resources */,
